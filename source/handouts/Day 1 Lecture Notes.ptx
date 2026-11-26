@@ -266,5 +266,22 @@
         </statement>
       </example>
     </paragraphs>
+    <figure xml:id="fig-reciprocal-transform">
+  <caption>Graph of <m>f(x) = \frac{1}{x}</m></caption>
+  <image width="50%">
+    <shortdescription>
+      Coordinate grid showing the two branches of the reciprocal function y equals 1 over x in the first and third quadrants, with dashed asymptotes along both axes.
+    </shortdescription>
+    <latex-image>
+      \begin{tikzpicture}
+        \draw[help lines, color=gray!30] (-3.9,-3.9) grid (3.9,3.9);
+        \draw[->, thick] (-4,0) -- (4,0) node[right] {$x$};
+        \draw[->, thick] (0,-4) -- (0,4) node[above] {$y$};
+        \draw[domain=0.25:3.8, smooth, variable=\x, blue, very thick] plot ({\x}, {1/\x});
+        \draw[domain=-3.8:-0.25, smooth, variable=\x, blue, very thick] plot ({\x}, {1/\x});
+      \end{tikzpicture}
+    </latex-image>
+  </image>
+</figure>
   </page>
 </handout>
