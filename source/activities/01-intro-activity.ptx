@@ -2,12 +2,12 @@
 
 <!-- When creating a new activity, make a copy of this file with appropriate name -->
 <worksheet xml:id="activity-01-intro-activity">
-  <title>Introduction Activity</title>
+  <title>Section 1.1</title>
 
   <!-- Optional introduction -->
   <introduction>
     <p>
-      This is the introduction to the activity.
+      Worksheet for Studio
     </p>
   </introduction>
 
@@ -15,7 +15,7 @@
   <exercise workspace="2in">
     <statement>
       <p>
-        This is the first exercise.
+        Given <md>f(x)=x^2+\frac{1}{2}</md>. Find the equation of the secant line 
       </p>
     </statement>
   </exercise>
