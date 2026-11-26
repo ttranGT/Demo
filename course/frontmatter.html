@@ -19,6 +19,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="_static/pretext/fonts/material-symbols-outlined.css">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<style>
+@counter-style ptx-marker-1 { system: extends lower-roman; prefix: ''; suffix: ') '; }
+@counter-style ptx-marker-2 { system: extends lower-alpha; prefix: ''; suffix: ') '; }
+@counter-style ptx-marker-3 { system: extends decimal; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-4 { system: extends upper-alpha; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-5 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+</style>
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
 startMathJax({
 hasWebworkReps: false,
@@ -30,11 +37,11 @@ lang: "en-US",
 </script><script defer data-pretext-mathjax="true" onerror="this.dataset.loadFailed = 'true';" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
-<meta name="twitter:title" content="Course Name (change me)">
-<meta property="og:title" content="Course Name (change me)">
-<meta property="book:title" content="Course Name (change me)">
-<meta name="twitter:description" content="MATH xxx Semester 20xx">
-<meta property="og:description" content="MATH xxx Semester 20xx">
+<meta name="twitter:title" content="Differential Calculus">
+<meta property="og:title" content="Differential Calculus">
+<meta property="book:title" content="Differential Calculus">
+<meta name="twitter:description" content="MATH 1551 Spring 2027">
+<meta property="og:description" content="MATH 1551 Spring 2027">
 <meta name="twitter:card" content="summary">
 <script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.56"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.56"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
@@ -71,8 +78,8 @@ eBookConfig.enable_chatcodes =  false;
 </head>
 <body class="pretext book ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
-<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">Course Name (change me)</span> <span class="subtitle">MATH xxx Semester 20xx</span></a></div>
-<p class="byline">Instructor Lastname</p>
+<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">Differential Calculus</span> <span class="subtitle">MATH 1551 Spring 2027</span></a></div>
+<p class="byline">Thomas Tran</p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
 <div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
@@ -162,24 +169,33 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="notes-week-02.html#notes-week-02-4" class="internal"><span class="title">Friday</span></a></div></li>
 </ul>
 </li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="day-1-notes.html" class="internal"><span class="title">Day 1: Syllabus, Important Facts, and a Review of Functions</span></a></div>
+<ul id="ptx-toc-group-day-1-notes" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="day-1-notes.html#subsec-functions-domain-range" class="internal"><span class="title">Functions, Domain, and Range</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="day-1-notes.html#subsec-function-transformations" class="internal"><span class="title">(Self-Review) Function Transformations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="day-1-notes.html#subsec-function-composition" class="internal"><span class="title">Function Composition</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="activities.html" class="internal"><span class="title">In-Class Activities</span></a></div>
 <ul id="ptx-toc-group-activities" class="structural toc-item-list">
 <li class="toc-item toc-introduction"><div class="toc-title-box"><a href="activities-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-01-intro-activity.html" class="internal"><span class="title">Introduction Activity</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="activity-01-intro-activity.html" class="internal"><span class="title">Section 1.1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-1.html" class="internal"><span class="title">Worksheet 1: Sections 1.1, 1.2, 2.1 - Review of Functions, Rates of Change, Secant and Tangent Lines</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="handouts.html" class="internal"><span class="title">Handouts</span></a></div></li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="homework.html" class="internal"><span class="title">Homework</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="frontmatter" id="frontmatter"><h1 class="heading">
-<span class="title">Course Name (change me)</span><span class="subtitle">MATH xxx Semester 20xx</span>
+<span class="title">Differential Calculus</span><span class="subtitle">MATH 1551 Spring 2027</span>
 </h1>
 <div class="author">
-<div class="author-name">Instructor Lastname</div>
-<div class="author-info">Mathematical Sciences<br>University of Templates</div>
+<div class="author-name">Thomas Tran</div>
+<div class="author-info">The School of Math<br>Georgia Institute of Technology</div>
 </div>
 <div class="date">Last Updated: November 26, 2026</div>
 <nav class="summary-links"><ul></ul></nav><div class="autopermalink" aria-hidden="true" data-description="Front Matter"><a tabindex="-1" href="#frontmatter" title="Copy heading and permalink for Front Matter" aria-label="Copy heading and permalink for Front Matter">🔗</a></div></section></div>
