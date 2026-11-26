@@ -1,0 +1,427 @@
+<TODO type="unknown-block-type"> <!--todo: unknown block type "html"--> <pre>&lt;p&gt; </pre> </TODO>
+    \documentclass{article}
+</p>
+\pagenumbering{roman}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+ \geometry{
+ letterpaper,
+ % total={170mm,257mm},
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ }
+ \usepackage{graphicx}
+ \usepackage{titling}
+ \usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{verbatim}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage{float}
+%\usepackage[margin=1in, left = 1.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{matrix,arrows}
+\usepackage{tikz-cd}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{bbding}
+\usepackage{cite}
+\usepackage{mathtools}
+\usepackage{pdfpages}
+
+\usepackage[capitalise]{cleveref}
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lema}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conjecture}[thm]{Conjecture}
+\newtheorem{prob}{Problem}
+%\newtheorem{question}{Question}[section]
+\newtheorem{ex}[thm]{Example}
+\newtheorem{rmk}[thm]{Remark}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{qu}[thm]{Question}
+\newtheorem{ans}[thm]{Answer}
+\newtheorem{note}[thm]{Note}
+\newtheorem{hw}{Homework}
+
+\newcommand{\qedsymbol}{\openbox}
+%\renewcommand{\baselinestretch}{1.5}
+
+\newcommand{\Mod}[1]{\ \left(\mathrm{mod}\ #1\right)}
+\newcommand{\rk}{\textrm{rk}}
+\newcommand{\limx}{\lim_{x\rightarrow\infty}}
+\newcommand{\qed}{\hfill\qedsymbol}
+\newcommand{\vsp}{\vspace{1em}}
+\newcommand{\pf}{\textit{\underline{Pf:}} }
+\newcommand{\soln}{\textit{\underline{Soln:}} }
+
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\FF}{\mathbb{F}}
+\newcommand{\TT}{\mathbb{T}}
+\newcommand{\M}{\overline{M}}
+\newcommand{\fpn}{\mathbb{F}_{p^n}}
+\newcommand{\fp}{\mathbb{F}_{p}}
+
+\newcommand{\stuff}{{\color{white}nothing so there's a new line}}
+
+\newcommand{\sn}{(s_n)}
+\newcommand{\tn}{(t_n)}
+\newcommand{\an}{(a_n)}
+\newcommand{\bn}{(b_n)}
+\newcommand{\cn}{(c_n)}
+
+\newcommand{\suman}{\sum_{n=1}^\infty a_n}
+\newcommand{\sumbn}{\sum_{n=1}^\infty b_n}
+\newcommand{\psa}{\sum_{n=0}^\infty a_n x^n}
+\newcommand{\nosum}{\sum_{n=0}^\infty }
+\newcommand{\onesum}{\sum_{n=1}^\infty }
+\newcommand{\inv}{^{-1}}
+\newcommand{\vecv}[1]{\vec{v_{#1}}}
+\newcommand{\<}{\langle}
+\renewcommand{\>}{\rangle}
+\newcommand{\ul}[1]{\underline{\hspace{#1in}}}
+\newcommand{\lmx}[1]{\displaystyle\lim_{x\rightarrow #1}}
+
+ \title{Worksheet 1: Sections 1.1, 1.2, 2.1 - Review of Functions, Rates of Change, Secant and Tangent
+Lines
+}
+\author{MATH 1551 - Worksheets}
+\date{Fall 2024}
+ 
+ \usepackage{fancyhdr}
+\fancypagestyle{plain}{%  the preset of fancyhdr 
+    \fancyhf{} % clear all header and footer fields
+
+    % \fancyfoot[L]{\thedate}
+    \fancyhead[L]{\theauthor}
+    \fancyhead[R]{Worksheet 1}
+  
+}
+\pagestyle{plain}
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 1em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \@title \par}%
+    \vskip 1em%
+    %{\large \@date}%
+  \end{center}%
+  \par
+  \vskip 1em}
+\makeatother
+
+\usepackage{lipsum}  
+\usepackage{cmbright}
+%\pagestyle{empty}
+\pagestyle{fancy}
+\begin{document}
+
+\maketitle
+
+For reference as you go:
+
+
+
+\begin{itemize}
+
+\item [a)] The worksheet has two pages and includes six problems, some of which, labeled with (\textbf{AP}), are intended as additional practice outside of class.\medskip
+\item[b)] The point-slope equation of a line with slope $m$ passing through the point $(x_1,y_1)$ is given by 
+$$y-y_1 = m(x-x_1).$$
+\iffalse 
+\item Some useful identities:
+    \begin{align*}
+        a^2-b^2&=(a-b)(a+b) \\ \\
+        (a-b)(a+b)&=a^2-b^2 \\ \\
+        (a+b)^2&=a^2+2ab+b^2 \\ \\
+        a^2+2ab+b^2 &= (a+b)^2 \\ \\
+         (a-b)^2&=a^2-2ab+b^2 \\ \\
+        a^2-2ab+b^2 &= (a-b)^2 \\ \\
+        a(b+c)&=ab+bc \\ \\
+        ab+bc&=a(b+c) \\ \\
+    \end{align*}
+    \item Factoring quadratics:
+    \begin{align*}
+    ax^2+bx+c = a(x-x_1)(x-x_2),
+\end{align*}
+where 
+\begin{align*}
+    x_1 = \frac{-b+\sqrt{b^2-4ac}}{2a}, \\ \\
+    x_2 = \frac{-b-\sqrt{b^2-4ac}}{2a}. 
+\end{align*}
+\fi 
+\item[c)] Completing the square:
+\begin{align*}
+    ax^2+bx+c = a(x+k)^2+h,
+\end{align*}
+    \begin{align*}
+ \mbox{ where } \qquad   k= \frac{b}{2a} \qquad \mbox { and } \qquad 
+    h=c-\frac{b^2}{4a}.
+\end{align*}
+    
+\item [d)] Absolute value function:
+$$f(x)=|x|=\begin{cases}
+x\quad \textrm{ if }x \geq 0 \\ \\
+-x\quad \textrm{ if } x < 0
+\end{cases}$$
+
+\item [e)] Some algebraic identities: 
+\begin{align*}
+    a^2-b^2&=(a-b)(a+b) \\ \\
+    (a-b)(a+b) &=a^2-b^2
+\end{align*}
+\end{itemize}
+
+\noindent\rule{\textwidth}{.5pt}
+%\vfill
+\begin{enumerate}
+\iffalse 
+\item Simplify each expression as far as possible, or state that the 
+expression cannot be simplified.
+
+\begin{enumerate}
+    \item $\displaystyle {{x}\over{x+2}}$ \medskip
+    \item $\displaystyle {{x^3-4x}\over{x+2}}$ \medskip
+    \item $\displaystyle{{x^2+2x}\over{x^3-x^2-6x}}$ \medskip
+    \item $\sqrt{x^2-2x+1}$  \medskip
+    \item $\sqrt{x^2-1}$ \medskip
+    \item $\sqrt{a^2 + b^2}$ \medskip
+    \item $\sqrt{x^2}$ \medskip
+\end{enumerate}
+
+\item Let $f(x) = 3x^2 - 2x + 1$.  Find $f(2+h)$. \medskip
+
+\fi
+%\item Find the domain of the function $\displaystyle f(x) = \sqrt{ {{x+2}\over{x-3}} }$. \medskip
+
+%\item Find the range of the function $y=x^2 - 6x + 5$ \medskip
+
+
+
+%\item Let $\displaystyle f(x)=1+{{1}\over{x}}$ and $\displaystyle g(x)={{x}\over{2+x}}$.  \medskip
+
+%Find the functions $f+g$, $fg$, $\displaystyle {{f}\over{g}}$, $g \circ f$, $f \circ g$, $g \circ g$, $f \circ f$ and determine the domain of each function.
+
+   \item Find the domain and range of each of the following functions:
+    \begin{multicols}{2}
+    \begin{enumerate}
+        \item (\textbf{AP}) $f(x)=x^3+3$  \medskip
+        \item $g(x)=x^2 - 6x + 5$ \medskip
+        \item (\textbf{AP}) $h(x)=2\sqrt{x+1}+1$ \medskip
+        \item $k(x)=|x-2|-3$ \medskip
+        \item (\textbf{AP}) $l(x)=-2\cos(x-\pi)$ \medskip
+        \item $\displaystyle m(x)=\frac{\sin^2(2x)}{2}$ \medskip
+        \item $\displaystyle y=\frac{2-x}{|3x-6|}$ \medskip
+        \item (\textbf{AP}) $\displaystyle y=\frac{2}{\sqrt[4]{t}}$ \medskip
+        \item (\textbf{AP}) $y=\ln(s-5)$ \medskip
+        \item $y= -e^s+2$ 
+    \end{enumerate}
+    \end{multicols}\vsp 
+
+\item Suppose that $f(x)=\sqrt{2x-1}$ and $g(x)=x^2+1$. Find $(f\circ g)(x)$, $(g \circ f)(x)$, and their domains. \vsp 
+    \item For each of the following functions and intervals, find the difference quotient $$\frac{y_2-y_1}{x_2-x_1}.$$
+    \begin{enumerate}
+        \item $f(x) = \ln(x)+5$ on $[1,9]$. Simplify your answer, if possible. \medskip
+        \item \textbf(\textbf{AP}) $g(x) = 4x^2-e^x$ on $[x,a]$, where $a > x$. \qquad \textit{(Note: No need to simplify your answer)} \medskip
+        \item $k(x) = \sqrt{x-4}$ on $[x,x+h]$, where $h > 0$. \qquad \textit{(Note: No need to simplify your answer)} \medskip
+    \end{enumerate}\vsp 
+
+%\newpage 
+    \item You may use Desmos to recall the graph of $\displaystyle f(x)=\frac{1}{x}$. Using what you know about reflecting, shifting, and stretching, match the transformations of $f(x)$ shown below with their equations. 
+    \begin{align*}
+         (a) \quad \displaystyle y=\frac{-3}{x}\qquad \qquad \qquad \qquad
+        (b) \quad \displaystyle y=\frac{1}{x+1}-1 \qquad \qquad \qquad  \qquad
+        (c) \quad \displaystyle y=2\left(\frac{1}{x+1}+1\right)
+    \end{align*}
+    \iffalse 
+    \begin{enumerate}
+        \item $\displaystyle y=\frac{-3}{x}$ \medskip
+        \item $\displaystyle y=\frac{1}{x+1}-1$ \medskip
+        \item $\displaystyle y=2\left(\frac{1}{x+1}+1\right)$ \medskip
+    \end{enumerate}
+    \fi
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.4]{WS1.PNG}
+    \end{figure}\vsp 
+
+\item  The graph of a function $f(x)$ %f(x)=-x^3+3x$ 
+is shown in the figure. By inspecting the graph, fill in the bubble next to the correct ordering of the quantities $A$ through $E$. 
+
+ \begin{minipage}[t]{0.6\textwidth}
+        \vspace{0pt}
+         \begin{itemize}
+         \item [A.] The slope of the tangent line to the graph of $f(x)$ at $x=1$ \medskip
+      \item [B.] The slope of the secant line between $x=0$ and $x=1$ \medskip
+      \item [C.] The instantaneous rate of change of $f(x)$ at $x=-2$ \medskip
+      \item [D.] The average rate of change of $f(x)$ over the interval $[-1,2]$ 
+\medskip
+\item [E.] $\displaystyle \frac{f(2)-f(-2)}{4}$
+    \end{itemize}
+    \item[] \textit{Answer:} 
+        
+    \end{minipage}%
+    %\hfill
+    \begin{minipage}[t]{0.4\textwidth}
+\vspace{0pt}
+        
+      
+        \includegraphics[scale=.2]{fa24quiz1pic1.png}
+ 
+    \end{minipage} 
+    \vsp 
+    \item Find the equation of the secant line through the points on $g(x)=e^{x-1}-x-1$ where $x=1$ and $x=2$. \vsp 
+\iffalse 
+    
+    \item 
+    The graph of a function $f(x)=-x^3+3x$ is shown in the figure.
+  \begin{center}
+       \includegraphics[scale=0.2]{fa24quiz1pic1.png}
+  \end{center}
+  
+    By inspecting the graph, fill in the bubble next to the correct ordering of the quantities $A$ through $D$. 
+  \begin{itemize}
+      \item [A.] The slope of the tangent line to the graph of $f(x)$ at $x=1$ \medskip
+      \item [B.] The slope of the secant line between $x=0$ and $x=1$ \medskip
+      \item [C.] The instantaneous rate of change of $f(x)$ at $x=-2$ \medskip
+      \item [D.] The average rate of change of $f(x)$ over the interval $[-1,2]$ \medskip
+  \end{itemize}
+  \fi 
+  \iffalse 
+  \noindent\rule{\textwidth}{.5pt}
+  
+\textit{Extra Problems:} 
+\begin{enumerate}
+   
+\item Use Desmos to graph the piecewise function: $f(x)=\begin{cases}
+{\displaystyle \frac{1}{x+2}}\quad \textrm{ if }x > 0 \\ \\
+|2x+1| \quad \textrm{ if } -2 \le x \le 0
+\\ \\
+\sqrt{5-x} \quad \textrm{ if } x < -2
+\end{cases}$
+
+Find the domain and range of $f(x)$. \medskip
+
+\item Suppose we are interested in the instantaneous velocity of a rocket whose height is modeled by the function $y=98-2(t+4)^2$ at the instant where $t=2$ seconds. Find the average velocity of the rocket over a reasonable interval in order to approximate the instantaneous velocity. How accurate do you think your approximation is? Why? 
+
+\end{enumerate}
+
+\fi 
+\iffalse 
+%\item For each of the following functions, identify any asymptotes, the intervals on which the function is increasing/decreasing, and intervals of concavity, along with anything else you think may be helpful (like $x-$ or $y-$ intercepts). Use that information to sketch a graph of the function. 
+   % \begin{enumerate}
+      %  \item $f(x)=\frac{e^x}{x}$\vsp 
+     %   \item $g(x)=x^5-x$\vsp 
+     %   \item $h(x)=\tan^2(x)$
+   % \end{enumerate}\vsp 
+
+
+%\item Consider the Mean Value Theorem (MVT) (writing it down carefully now will help you in the next few problems too).
+%\begin{enumerate}
+   % \item Given a function $f(x)$ and a closed interval $[a,b],$ two conditions must be met in order for the MVT to apply. \medskip
+   % \begin{enumerate}
+      %  \item What is the first condition? \medskip
+      %  \item What is the second condition? \medskip
+   % \end{enumerate}
+
+   % \item Now  consider Rolle's Theorem.
+    %\begin{enumerate}
+      %  \item Rolle's Theorem requires a third condition to be met in addition to the conditions of the MVT. What is it? \medskip
+      %  \item Explain how Rolle's Theorem is related to the MVT.
+   % \end{enumerate}
+%\end{enumerate}\vsp 
+
+\item Consider the following scenario, and decide whether you should use Rolle's Theorem or  the MVT to solve the problem, or whether neither applies. 
+
+        \emph{You ride a snowboard along a hill shaped like a cosine wave, as pictured below. If you ride from $x=0$ to $x=2\pi$, argue that there must be a point where your snowboard is perfectly level.}
+        \begin{figure}[h]
+            \centering
+\includegraphics[scale=0.25]{WS10pic1.png}
+        \end{figure}
+
+
+\item Decide whether the MVT applies to each of the following functions $f(x)$ over the specified interval $I$. Be sure to justify your answer! 
+
+If the MVT does apply, find the point(s) guaranteed by the theorem, that is, the point(s) $c$ where $$f'(c)=\frac{f(b)-f(a)}{b-a}.$$
+
+\begin{multicols}{2}
+\begin{enumerate}
+    \item $\displaystyle f(x)=\frac{1}{x}$, $I=[-1,1]$\medskip
+    
+    \item $\displaystyle  f(x)=\frac{1}{x}$, $I=[1,2]$\medskip
+
+    \item $\displaystyle  f(x)=2\,e^x-2x^{1/3}$, $I=[-1,1]$ \medskip
+    
+    \item $\displaystyle  f(x)=|x|$, $I=[-1,1]$ \medskip
+    
+    \item $\displaystyle f(x)=|x|$, $I=[1,2]$\medskip
+
+    \item $\displaystyle  f(x)=\sin\left(x/2\right)$, $I=[0,\pi]$ \medskip
+\end{enumerate}
+\end{multicols}
+\vsp 
+
+\item Decide whether each of the following statements is true or false. 
+
+\emph{Remember: a logical statement is only true if it is ALWAYS true; if it is ever false, the implication is false.}
+
+\begin{enumerate}
+    \item If $f(x)$ is NOT continuous over $[a,b],$ then there is no value $x=c$ where $\displaystyle f'(c)=\frac{f(b)-f(a)}{b-a}.$ \vsp
+
+    \item If $f(x)$ is differentiable over $[a,b],$ then there is at least one value $x=c$ where $\displaystyle f'(c)=\frac{f(b)-f(a)}{b-a}.$ \vsp
+    
+    \item If $f(x)$ is continuous on $[a,b]$ and differentiable on $(a,b),$ then there is exactly one  value $x=c$ where $\displaystyle f'(c)=\frac{f(b)-f(a)}{b-a}.$ \vsp
+    
+    \item If $f(x)$ is continuous over $[a,b],$ $f(x)$ takes on every value between $a$ and $b$ as $x$ moves from $a$ to $b$. \vsp
+    
+    \item If $f(x)$ is continuous over $[a,b],$ $f(x)$ takes on every value between $f(a)$ and $f(b)$ as $x$ moves from $a$ to $b$. \vsp
+    
+    \item If $f(x)$ is continuous over $[a,b]$ but not differentiable over $(a,b),$ then $f(x)$ may not take on every value between
+$f(a)$ and $f(b)$ as $x$ moves from $a$ to $b$.
+\end{enumerate}
+\vsp
+
+
+
+\item Compute the following antiderivatives.
+
+\begin{multicols}{3}
+    \begin{enumerate}
+        \item $\displaystyle \int x(x^2+5) \,dx$\vsp 
+        
+        \item $\displaystyle \int \left(\frac{u}{\sqrt[3]{u}} - \frac{2}{u} \right)\,du$\vsp 
+        
+        \item $\displaystyle \int (3e^{5u}-u^e) \,du$\vsp 
+        
+      %  \item $\displaystyle \int \frac{\pi}{7x} \,dx$\vsp 
+        
+       % \item $\displaystyle \int (3e^\pi+ey+\pi^y) dy$\vsp 
+        
+        \item $\displaystyle \int \left( \sin(2x)+\frac{3}{\sqrt{1-4x^2}} \right) \,dx$\vsp 
+        
+        \item $\displaystyle \int (4^x\cdot 3^x+\pi) \,dx$\vsp 
+        
+        \item $\displaystyle \int \csc(3x)\cot(3x) \,dx$
+    \end{enumerate}
+\end{multicols} 
+
+
+\fi
+\end{enumerate}
+\end{document}

@@ -16,6 +16,22 @@
     <statement>
       <p>
         Given <md>f(x)=x^2+\frac{1}{2}</md>. Find the equation of the secant line 
+        <figure xml:id="newton">
+        <caption>This is my test figure</caption>
+        <image source="pictures/Newton 3.png">
+          <shortdescription>This is my alt texdt. Decorative</shortdescription>
+          
+        </image>
+        </figure>
+      </p><exercise>
+  <statement>
+    <p>
+      Suppose that <m>f(x)=\sqrt{2x-1}</m> and <m>g(x)=x^2+1</m>. Find <m>(f\circ g)(x)</m>, <m>(g \circ f)(x)</m>, and their domains.
+    </p>
+  </statement>
+</exercise>
+      <p>
+        
       </p>
     </statement>
   </exercise>

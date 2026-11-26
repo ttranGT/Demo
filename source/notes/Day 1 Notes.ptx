@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="day-1-notes">
+  <title>Day 1: Syllabus, Important Facts, and a Review of Functions</title>
+
+  <introduction>
+    <p>
+      Welcome to Differential Calculus! Each day, we'll provide you with these partially filled in notes, which you can complete as you listen in lecture. This helps you make sure you don't miss writing down the most important things, and cuts down on the amount of writing you need to do so you can listen too.
+    </p>
+    <p>
+      You can print these notes if you'd like to write on paper, or if you have a tablet feel free to write on them digitally as well. Additionally, completed lecture notes will be posted after the class. Please let us know if you have constructive feedback about making them better!
+    </p>
+    <p>
+      Let's start with some basic facts about the course that you should know<mdash/>they'll help you as you have questions throughout the semester. Some have multiple correct answers! This is to help you make a plan:
+    </p>
+
+    <p>My instructor's name is <fillin characters="25"/>.</p>
+    <p>My instructor's email address is <fillin characters="25"/>.</p>
+    <p>If I have questions about the course policies, I should look<ellipsis/></p>
+    <p>If I have questions about the schedule, I should look<ellipsis/></p>
+    <p>When I have questions about the homework or course material, I should<ellipsis/></p>
+    <p>If I have a question and I'm not sure where to look, I should start by<ellipsis/></p>
+    <p>One goal I have for this semester is<ellipsis/></p>
+    <p>One thing I'm going to do to help myself achieve that goal is<ellipsis/></p>
+
+    <p>
+      One thing people often don't realize is that it can be really helpful to do math <em>in community</em>. We all bring valuable ideas and perspectives to the class! We want to actively practice appreciating each others' input this semester.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-functions-domain-range">
+    <title>Functions, Domain, and Range</title>
+
+    <definition xml:id="def-function">
+      <statement>
+        <p>
+          A <em>function</em> <m>f</m> from a set <m>D</m> to a set <m>Y</m> is a rule that assigns a <fillin characters="12"/> element <m>f(x)</m> in <m>Y</m> to each element <m>x</m> in <m>D</m>.
+        </p>
+      </statement>
+    </definition>
+
+    <image source="pic1-2.png" width="40%">
+      <shortdescription>Mapping diagram illustrating a function assigning elements from domain D to codomain Y.</shortdescription>
+    </image>
+
+    <ul>
+      <li>
+        <p>Some common ways to describe functions: a corresponding diagram, a table, or an equation.</p>
+      </li>
+      <li>
+        <p>
+          One nice way to check graphically that something is a function is the <fillin characters="8"/> line test, which says that:
+        </p>
+        <p>
+          A curve is the graph of a function if no vertical line intersects it more than <fillin characters="8"/>.
+        </p>
+        <image source="pic3.png" width="45%">
+          <shortdescription>Graphs illustrating the vertical line test for functions.</shortdescription>
+        </image>
+      </li>
+    </ul>
+
+    <definition xml:id="def-domain-range">
+      <statement>
+        <ol marker="i)">
+          <li>
+            <p>The <fillin characters="10"/> of a function is the set of its <fillin characters="10"/> <m>x</m>.</p>
+          </li>
+          <li>
+            <p>The <fillin characters="10"/> of a function is the set of its <fillin characters="10"/> <m>y</m> or <m>f(x)</m>.</p>
+          </li>
+        </ol>
+      </statement>
+    </definition>
+
+    <p>
+      A strategy for finding the <em>domain</em> of a function is to look for <fillin characters="14"/>!
+    </p>
+    <p>Common ones include:</p>
+    <ol>
+      <li><p><fillin characters="30"/></p></li>
+      <li><p><fillin characters="30"/></p></li>
+      <li><p><fillin characters="30"/></p></li>
+    </ol>
+
+    <example>
+      <statement>
+        <p>
+          Find the domains of <m>f(x)=\ln(x+1)</m> and <m>g(x) = \dfrac{1}{\sqrt{4-x^2}}</m>.
+        </p>
+      </statement>
+    </example>
+
+    <p>
+      Ranges can be a little trickier. It helps to look at <fillin characters="8"/>, so knowing the common ones (polynomial, power, exponential, logarithmic, trigonometric, and absolute value functions) is helpful.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          For each of the following equations, sketch a graph and decide whether the equation is a function. If it is, find its domain and range. (You might use a graphing calculator like <url href="https://www.desmos.com/calculator" visual="desmos.com/calculator">Desmos.com</url>).
+        </p>
+        <ol marker="a)" cols="2">
+          <li><p><m>y=x^2</m></p></li>
+          <li><p><m>x=y^2</m></p></li>
+          <li><p><m>y=\sin(x)</m></p></li>
+          <li><p><m>y=\cos(x)</m></p></li>
+          <li><p><m>y=e^x</m></p></li>
+          <li><p><m>y=\ln(x)</m></p></li>
+          <li>
+            <p>
+              <m>y=\begin{cases}\sqrt{x} \amp \text{if } x\geq 0\\ x \amp \text{if } x\lt 0\end{cases}</m>
+              Remember, this is called a piecewise function!
+            </p>
+          </li>
+          <li><p><m>y=|x|</m></p></li>
+        </ol>
+      </statement>
+    </example>
+  </subsection>
+
+  <subsection xml:id="subsec-function-transformations">
+    <title>(Self-Review) Function Transformations</title>
+
+    <p>
+      We can stretch functions and move them around in the coordinate plane by making changes to their equations.
+    </p>
+
+    <p><term>Shift Formulas:</term> Given the graph of <m>y=f(x)</m>. Then,</p>
+    <sidebyside widths="48% 48%" valign="top">
+      <stack>
+        <p>Vertical Shifts: <m>y=f(x)+k</m></p>
+        <ul>
+          <li><p><m>k \gt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>k</m> units.</p></li>
+          <li><p><m>k \lt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>k</m> units.</p></li>
+        </ul>
+      </stack>
+      <stack>
+        <p>Horizontal Shifts: <m>y=f(x+h)</m></p>
+        <ul>
+          <li><p><m>h \gt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>h</m> units.</p></li>
+          <li><p><m>h \lt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>h</m> units.</p></li>
+        </ul>
+      </stack>
+    </sidebyside>
+
+    <p><term>Vertical Scaling Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c \gt 1</m>, the graph is scaled:</p>
+    <ul>
+      <li>
+        <p><m>y=c \cdot f(x)</m>: <fillin characters="10"/> the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
+      </li>
+      <li>
+        <p><m>y=\dfrac{1}{c} \cdot f(x)</m>: <fillin characters="10"/> the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
+      </li>
+    </ul>
+
+    <p><term>Horizontal Scaling Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c \gt 1</m>, the graph is scaled:</p>
+    <ul>
+      <li>
+        <p><m>y=f(cx)</m>: Compresses the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
+      </li>
+      <li>
+        <p><m>y=f\left(\dfrac{x}{c}\right)</m>: Stretches the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
+      </li>
+    </ul>
+
+    <p><term>Reflecting Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c = -1</m>, the graph is reflected:</p>
+    <ul>
+      <li>
+        <p><m>y=-f(x)</m>: Reflects the graph of <m>f</m> across the <fillin characters="5"/>-axis.</p>
+      </li>
+      <li>
+        <p><m>y=f(-x)</m>: Reflects the graph of <m>f</m> across the <fillin characters="5"/>-axis.</p>
+      </li>
+    </ul>
+
+    <exercise>
+      <statement>
+        <p>
+          Let <m>a</m> be a positive constant and <m>c \gt 1</m>. Match the descriptive and algebraic changes below (you might find it helpful to look at some of the equations above in a graphing calculator like <url href="https://www.desmos.com/calculator" visual="desmos.com/calculator">Desmos.com</url>).
+        </p>
+        <sidebyside widths="52% 44%" valign="top">
+          <ol marker="1.">
+            <li><p>Shift <m>f(x)</m> <m>a</m> units to the right</p></li>
+            <li><p>Stretch <m>f(x)</m> vertically by a factor of <m>c</m></p></li>
+            <li><p>Reflect <m>f(x)</m> across the <m>x</m>-axis</p></li>
+            <li><p>Reflect <m>f(x)</m> across the <m>y</m>-axis</p></li>
+            <li><p>Shift <m>f(x)</m> <m>a</m> units upwards</p></li>
+            <li><p>Stretch <m>f(x)</m> horizontally by a factor of <m>c</m></p></li>
+          </ol>
+          <ol marker="A.">
+            <li><p><m>f(x)</m> becomes <m>f(-x)</m></p></li>
+            <li><p><m>f(x)</m> becomes <m>c\cdot f(x)</m></p></li>
+            <li><p><m>f(x)</m> becomes <m>f\left(\dfrac{x}{c}\right)</m></p></li>
+            <li><p><m>f(x)</m> becomes <m>-f(x)</m></p></li>
+            <li><p><m>f(x)</m> becomes <m>f(x)+a</m></p></li>
+            <li><p><m>f(x)</m> becomes <m>f(x-a)</m></p></li>
+          </ol>
+        </sidebyside>
+      </statement>
+    </exercise>
+  </subsection>
+
+  <subsection xml:id="subsec-function-composition">
+    <title>Function Composition</title>
+
+    <p>
+      In addition to function transformations and basic arithmetic operations (addition, subtraction, multiplication, and division), functions can also be combined using composition.
+    </p>
+
+    <definition xml:id="def-composition">
+      <statement>
+        <p>
+          If <m>f</m> and <m>g</m> are functions, the <fillin characters="10"/> function <m>f \circ g</m> (<q><m>f</m> composed with <m>g</m></q>) is defined by
+          <me>(f \circ g)(x) = f(<fillin characters="5"/>).</me>
+        </p>
+      </statement>
+    </definition>
+
+    <sidebyside widths="40% 50%" valign="middle">
+      <image source="pic12.png">
+        <shortdescription>Machine diagram representing function composition f(g(x)).</shortdescription>
+      </image>
+      <image source="pic13.png">
+        <shortdescription>Arrow diagram illustrating domain mapping under composition of g followed by f.</shortdescription>
+      </image>
+    </sidebyside>
+
+    <ul>
+      <li>
+        <p>
+          The domain of <m>f \circ g</m> consists of all values of <m>x</m> in the <fillin characters="14"/> for which <fillin characters="5"/> lies in the <fillin characters="14"/>.
+        </p>
+      </li>
+    </ul>
+
+    <example>
+      <statement>
+        <p>
+          If <m>f(x)=\sqrt{x}</m> and <m>g(x)=x+1</m>, find the following composite functions and their domains.
+        </p>
+        <ol marker="a)" cols="2">
+          <li><p><m>(f \circ g)(x)</m></p></li>
+          <li><p>(Exercise) <m>(g \circ f)(x)</m></p></li>
+        </ol>
+      </statement>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          If <m>k(x)=x^2</m> and <m>h(x)=\sqrt{x}</m>, find <m>k \circ h</m> and its domain.
+        </p>
+      </statement>
+    </example>
+  </subsection>
+</section>

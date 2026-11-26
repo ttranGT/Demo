@@ -33,6 +33,7 @@
 
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
+      <xi:include href="./notes/Day 1 Notes.ptx"/>
       <!-- etc. -->
 
     </chapter>
@@ -49,6 +50,7 @@
 
       <!-- Remove the example and replace with your own activities -->
       <xi:include href="./activities/01-intro-activity.ptx"/>
+      <xi:include href="./activities/worksheet1.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
