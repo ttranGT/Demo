@@ -178,6 +178,7 @@
     <li><p><m>y=|x|</m></p></li>
   </ol>
 
+ <page>
   <sidebyside widths="47% 47%" margins="1% 1%">
     <!-- Left Column: Graphs 1-4 -->
     <stack>
@@ -186,6 +187,7 @@
         <shortdescription>
           Graph of an upward-opening parabola with vertex at the origin (0,0) passing through (-1,1), (1,1), (-2,4), and (2,4).
         </shortdescription>
+       
         <latex-image>
           \begin{tikzpicture}[scale=0.42]
             \draw[very thin, gray!30] (-3,-1) grid (3,4);
@@ -328,7 +330,10 @@
       </image>
     </stack>
   </sidebyside>
+  </page>
 </paragraphs>
+
+
 
 <paragraphs xml:id="checkpoint-sketch-piecewise">
   <title>Checkpoint</title>

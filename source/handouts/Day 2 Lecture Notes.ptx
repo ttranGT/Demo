@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-2-notes">
+  <title>Day 1: Syllabus, Important Facts, and a Review of Functions</title>
+
+  <page>
+    <introduction>
+      <p>
+        Welcome to Differential Calculus! Each day, we'll provide you with these partially filled in notes, which you can complete as you listen in lecture. This helps you make sure you don't miss writing down the most important things, and cuts down on the amount of writing you need to do so you can listen too.
+      </p>
+      <p>
+        You can print these notes if you'd like to write on paper, or if you have a tablet feel free to write on them digitally as well. Additionally, completed lecture notes will be posted after the class. Please let us know if you have constructive feedback about making them better!
+      </p>
+      <p>
+        Let's start with some basic facts about the course that you should know<mdash/>they'll help you as you have questions throughout the semester. Some have multiple correct answers! This is to help you make a plan:
+      </p>
+    </introduction>
+
+    
+    <p>
+      One thing people often don't realize is that it can be really helpful to do math <em>in community</em>. We all bring valuable ideas and perspectives to the class! We want to actively practice appreciating each others' input this semester.
+    </p>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-functions-domain-range">
+      <title>Functions, Domain, and Range</title>
+
+      <paragraphs xml:id="def-function">
+  <title>Definition</title>
+  <p>
+    A <em>function</em> <m>f</m> from a set <m>D</m> to a set <m>Y</m> is a rule that assigns a <fillin characters="8"/> element <m>f(x)</m> in <m>Y</m> to each element <m>x</m> in <m>D</m>.
+  </p>
+</paragraphs>
+
+
+
+<sidebyside width="45%">
+  <image source="pictures/pic1-2.png">
+    <shortdescription>
+      Arrow diagram of a function mapping four elements in set D to three elements in set Y, with two elements in D mapping to f(a) and x mapping to f(x).
+    </shortdescription>
+    <description>
+      <p>
+        Two irregular shaded regions represent two sets side by side. The left region is labeled <m>D = \text{domain set}</m> and contains four red dots, two of which are labeled <m>x</m> and <m>a</m>. The right region is labeled <m>Y = \text{set containing the range}</m> and contains three blue dots, two of which are labeled <m>f(a)</m> and <m>f(x)</m>.
+      </p>
+      <p>
+        Curved red arrows point from each element in <m>D</m> to an element in <m>Y</m>:
+      </p>
+      <ul>
+        <li><p>The dot labeled <m>x</m> maps to the dot labeled <m>f(x)</m>.</p></li>
+        <li><p>A second unlabeled dot in <m>D</m> maps to the middle unlabeled dot in <m>Y</m>.</p></li>
+        <li><p>Both the dot labeled <m>a</m> and a fourth unlabeled dot in <m>D</m> map to the same dot labeled <m>f(a)</m>, illustrating that two distinct inputs in the domain can share the same output in a function.</p></li>
+      </ul>
+    </description>
+  </image>
+</sidebyside>
+
+<ul>
+  <li>
+    <p>Some common ways to describe functions: a corresponding diagram, a table, or an equation.</p>
+  </li>
+</ul>
+
+<sidebyside widths="30% 35%" valign="middle">
+  <image source="pictures/sec11page1.png">
+    <shortdescription>
+      Mapping diagram illustrating a function as an input-output correspondence between two sets.
+    </shortdescription>
+  </image>
+  <stack>
+    <p>
+      <md>
+        <mrow>f(x) \amp = 2x-1</mrow>
+        <mrow>y \amp = x^2+x-2</mrow>
+        <mrow>g(t) \amp = \sqrt{t^3-8}</mrow>
+      </md>
+    </p>
+  </stack>
+</sidebyside>
+
+<sidebyside widths="60%" valign="middle">
+  <image source="pictures/sec11page2.png">
+    <shortdescription>
+      Table of input and output values representing a function.
+    </shortdescription>
+  </image>
+</sidebyside>
+
+<ul>
+  <li>
+    <p>
+      One nice way to check graphically that something is a function is the <fillin characters="30"/> test, which says that:
+    </p>
+    <p>
+      A curve is the graph of a function if no vertical line intersects it more than <fillin characters="12"/>.
+    </p>
+    <image source="pictures/pic3.png" width="60%">
+      <shortdescription>
+        Coordinate graphs comparing a curve intersected once by a vertical line against a curve intersected twice.
+      </shortdescription>
+      <description>
+        <p>
+          Two coordinate graphs illustrate the vertical line test: one shows a function where every vertical line crosses the graph at most once, and the other shows a non-function (such as a circle or sideways parabola) where a vertical line crosses the graph at two points.
+        </p>
+      </description>
+    </image>
+  </li>
+</ul>
+
+
+<paragraphs xml:id="checkpoint-circle">
+  <title>Checkpoint</title>
+  <ol marker="a)">
+    <li workspace="0.75in">
+      <p>How would you describe the circle algebraically?</p>
+    </li>
+    <li workspace="0.75in">
+      <p>How would you describe the upper half of the circle algebraically?</p>
+    </li>
+  </ol>
+</paragraphs>
+
+<paragraphs xml:id="def-domain-range">
+  <title>Definition</title>
+  <ol marker="i)">
+    <li>
+      <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>x</m>.</p>
+    </li>
+    <li>
+      <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>y</m> or <m>f(x)</m>.</p>
+    </li>
+  </ol>
+</paragraphs>
+
+      <p>
+        A strategy for finding the <em>domain</em> of a function is to look for <fillin characters="14"/>!
+      </p>
+      <p>Common ones include:</p>
+      <ol>
+        <li><p><fillin characters="35"/></p></li>
+        <li><p><fillin characters="35"/></p></li>
+        <li><p><fillin characters="35"/></p></li>
+      </ol>
+
+
+     <paragraphs xml:id="checkpoint-domain-functions">
+  <title>Checkpoint</title>
+  <p workspace="1in">
+    Find the domains of <m>f(x)=\ln(x+1)</m> and <m>g(x) = \dfrac{1}{\sqrt{4-x^2}}</m>.
+  </p>
+</paragraphs>
+  </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-ranges-and-graphs">
+      <title>Ranges and Common Graphs</title>
+
+      <p>
+        Ranges can be a little trickier. It helps to look at <fillin characters="15"/>, so knowing the common ones (polynomial, power, exponential, logarithmic, trigonometric, and absolute value functions) is helpful.
+      </p>
+
+
+     <paragraphs xml:id="checkpoint-match-graphs">
+  <title>Checkpoint</title>
+  <p>
+    Match each graph below with its corresponding function from the bank, and state its domain and range.
+  </p>
+
+  <ol marker="a)" cols="4">
+    <li><p><m>y=x^2</m></p></li>
+    <li><p><m>y=x^3</m></p></li>
+    <li><p><m>y=\sqrt{x}</m></p></li>
+    <li><p><m>y=\sin(x)</m></p></li>
+    <li><p><m>y=\cos(x)</m></p></li>
+    <li><p><m>y=e^x</m></p></li>
+    <li><p><m>y=\ln(x)</m></p></li>
+    <li><p><m>y=|x|</m></p></li>
+  </ol>
+
+ <page>
+  <sidebyside widths="47% 47%" margins="1% 1%">
+    <!-- Left Column: Graphs 1-4 -->
+    <stack>
+      <p><strong>Graph 1:</strong> <fillin characters="4"/> | D: <fillin characters="6"/> | R: <fillin characters="6"/></p>
+      <image>
+        <shortdescription>
+          Graph of an upward-opening parabola with vertex at the origin (0,0) passing through (-1,1), (1,1), (-2,4), and (2,4).
+        </shortdescription>
+       
+        <latex-image>
+          \begin{tikzpicture}[scale=0.42]
+            \draw[very thin, gray!30] (-3,-1) grid (3,4);
+            \draw[->, thick] (-3.3,0) -- (3.3,0) node[right, font=\scriptsize] {$x$};
+            \draw[->, thick] (0,-1.3) -- (0,4.4) node[above, font=\scriptsize] {$y$};
+            \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+            \foreach \y in {1,2,3,4} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+            \draw[very thick, blue!80!black, domain=-2:2, samples=60] plot (\x, {\x*\x});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p><strong>Graph 2:</strong> <fillin characters="4"/> | D: <fillin characters="6"/> | R: <fillin characters="6"/></p>
+      <image>
+        <shortdescription>
+          Graph of a smooth periodic wave passing through the origin (0,0), peaking at (pi/2, 1), crossing zero at (pi, 0), and reaching a minimum at (-pi/2, -1).
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.42]
+            \draw[very thin, gray!30] (-3.5,-1.5) grid (3.5,1.5);
+            \draw[->, thick] (-3.8,0) -- (3.8,0) node[right, font=\scriptsize] {$x$};
+            \draw[->, thick] (0,-1.9) -- (0,1.9) node[above, font=\scriptsize] {$y$};
+            \draw (1.57,0.12) -- (1.57,-0.12) node[below, font=\tiny] {$\frac{\pi}{2}$};
+            \draw (3.14,0.12) -- (3.14,-0.12) node[below, font=\tiny] {$\pi$};
+            \draw (-1.57,0.12) -- (-1.57,-0.12) node[below, font=\tiny] {$-\frac{\pi}{2}$};
+            \draw (-3.14,0.12) -- (-3.14,-0.12) node[below, font=\tiny] {$-\pi$};
+            \foreach \y in {-1,1} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+            \draw[very thick, blue!80!black, domain=-3.5:3.5, samples=80] plot (\x, {sin(\x r)});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p><strong>Graph 3:</strong> <fillin characters="4"/> | D: <fillin characters="6"/> | R: <fillin characters="6"/></p>
+      <image>
+        <shortdescription>
+          Graph of an increasing curve staying entirely to the right of the y-axis, passing through (1,0) and (e,1), with a vertical asymptote along the negative y-axis.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.42]
+            \draw[very thin, gray!30] (-1,-3) grid (4,2);
+            \draw[->, thick] (-1.3,0) -- (4.4,0) node[right, font=\scriptsize] {$x$};
+            \draw[->, thick] (0,-3.3) -- (0,2.4) node[above, font=\scriptsize] {$y$};
+            \foreach \x in {1,2,3,4} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+            \foreach \y in {-2,-1,1,2} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+            \draw[very thick, blue!80!black, domain=0.06:4, samples=80] plot (\x, {ln(\x)});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p><strong>Graph 4:</strong> <fillin characters="4"/> | D: <fillin characters="6"/> | R: <fillin characters="6"/></p>
+      <image>
+        <shortdescription>
+          Graph of a V-shaped curve with a sharp corner at the origin (0,0), consisting of two rays of slope -1 for negative x and slope 1 for positive x.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.42]
+            \draw[very thin, gray!30] (-3,-1) grid (3,4);
+            \draw[->, thick] (-3.3,0) -- (3.3,0) node[right, font=\scriptsize] {$x$};
+            \draw[->, thick] (0,-1.3) -- (0,4.4) node[above, font=\scriptsize] {$y$};
+            \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+            \foreach \y in {1,2,3,4} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+            \draw[very thick, blue!80!black, domain=-3:3, samples=60] plot (\x, {abs(\x)});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </stack>
+
+    <!-- Right Column: Graphs 5-8 -->
+    <stack>
+      <p><strong>Graph 5:</strong> <fillin characters="4"/> | D: <fillin characters="6"/> | R: <fillin characters="6"/></p>
+      <image>
+        <shortdescription>
+          Graph of an increasing exponential curve staying entirely above the x-axis, passing through (0,1) and (1,e), with a horizontal asymptote along the negative x-axis.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.42]
+            \draw[very thin, gray!30] (-3,-1) grid (2,4);
+            \draw[->, thick] (-3.3,0) -- (2.4,0) node[right, font=\scriptsize] {$x$};
+            \draw[->, thick] (0,-1.3) -- (0,4.4) node[above, font=\scriptsize] {$y$};
+            \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+            \foreach \y in {1,2,3,4} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+            \draw[very thick, blue!80!black, domain=-3:1.4, samples=80] plot (\x, {exp(\x)});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p><strong>Graph 6:</strong> <fillin characters="4"/> | D: <fillin characters="6"/> | R: <fillin characters="6"/></p>
+      <image>
+        <shortdescription>
+          Graph of a smooth periodic wave peaking at (0,1), crossing zero at (-pi/2, 0) and (pi/2, 0), and reaching a minimum at (-pi, -1) and (pi, -1).
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.42]
+            \draw[very thin, gray!30] (-3.5,-1.5) grid (3.5,1.5);
+            \draw[->, thick] (-3.8,0) -- (3.8,0) node[right, font=\scriptsize] {$x$};
+            \draw[->, thick] (0,-1.9) -- (0,1.9) node[above, font=\scriptsize] {$y$};
+            \draw (1.57,0.12) -- (1.57,-0.12) node[below, font=\tiny] {$\frac{\pi}{2}$};
+            \draw (3.14,0.12) -- (3.14,-0.12) node[below, font=\tiny] {$\pi$};
+            \draw (-1.57,0.12) -- (-1.57,-0.12) node[below, font=\tiny] {$-\frac{\pi}{2}$};
+            \draw (-3.14,0.12) -- (-3.14,-0.12) node[below, font=\tiny] {$-\pi$};
+            \foreach \y in {-1,1} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+            \draw[very thick, blue!80!black, domain=-3.5:3.5, samples=80] plot (\x, {cos(\x r)});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p><strong>Graph 7:</strong> <fillin characters="4"/> | D: <fillin characters="6"/> | R: <fillin characters="6"/></p>
+      <image>
+        <shortdescription>
+          Graph of a concave-down increasing curve starting at a solid endpoint at the origin (0,0) and passing through (1,1) and (4,2) in the first quadrant.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.42]
+            \draw[very thin, gray!30] (-1,-1) grid (5,3);
+            \draw[->, thick] (-1.3,0) -- (5.4,0) node[right, font=\scriptsize] {$x$};
+            \draw[->, thick] (0,-1.3) -- (0,3.4) node[above, font=\scriptsize] {$y$};
+            \foreach \x in {1,2,3,4,5} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+            \foreach \y in {1,2,3} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+            \draw[very thick, blue!80!black, domain=0:5, samples=80] plot (\x, {sqrt(\x)});
+            \fill[blue!80!black] (0,0) circle (3pt);
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+
+      <p><strong>Graph 8:</strong> <fillin characters="4"/> | D: <fillin characters="6"/> | R: <fillin characters="6"/></p>
+      <image>
+        <shortdescription>
+          Graph of an S-shaped cubic curve passing through (-1,-1), the origin (0,0) with a horizontal inflection point, and (1,1), decreasing into quadrant three and increasing into quadrant one.
+        </shortdescription>
+        <latex-image>
+          \begin{tikzpicture}[scale=0.42]
+            \draw[very thin, gray!30] (-2,-2.5) grid (2,2.5);
+            \draw[->, thick] (-2.3,0) -- (2.3,0) node[right, font=\scriptsize] {$x$};
+            \draw[->, thick] (0,-2.8) -- (0,2.8) node[above, font=\scriptsize] {$y$};
+            \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+            \foreach \y in {-2,-1,1,2} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+            \draw[very thick, blue!80!black, domain=-1.36:1.36, samples=80] plot (\x, {\x*\x*\x});
+          \end{tikzpicture}
+        </latex-image>
+      </image>
+    </stack>
+  </sidebyside>
+  </page>
+</paragraphs>
+
+
+
+<paragraphs xml:id="checkpoint-sketch-piecewise">
+  <title>Checkpoint</title>
+  <p>
+    Sketch the graph of the piecewise function below on the provided coordinate plane, and find its domain and range. (Remember, this is called a piecewise function!)
+  </p>
+  <sidebyside widths="48% 46%" valign="middle">
+    <stack>
+      <p>
+        <me>y=\begin{cases}\sqrt{x} \amp \text{if } x\geq 0\\ -x \amp \text{if } x\lt 0\end{cases}</me>
+      </p>
+      <p>Domain: <fillin characters="18"/></p>
+      <p>Range: <fillin characters="18"/></p>
+    </stack>
+    <image>
+      <shortdescription>
+        Blank Cartesian coordinate grid with x-axis from -4 to 5 and y-axis from -4 to 3, labeled with integer tick marks.
+      </shortdescription>
+      <latex-image>
+        \begin{tikzpicture}[scale=0.65]
+          \draw[very thin, gray!35] (-4,-4) grid (5,3);
+          \draw[->, thick] (-4.3,0) -- (5.4,0) node[right] {$x$};
+          \draw[->, thick] (0,-4.3) -- (0,3.4) node[above] {$y$};
+          \foreach \x in {-4,-3,-2,-1,1,2,3,4,5}
+            \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+          \foreach \y in {-4,-3,-2,-1,1,2,3}
+            \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+  </sidebyside>
+</paragraphs>      
+
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-function-transformations">
+      <title>(Self-Review) Function Transformations</title>
+
+      <p>
+        We can stretch functions and move them around in the coordinate plane by making changes to their equations.
+      </p>
+
+      <p><term>Shift Formulas:</term> Given the graph of <m>y=f(x)</m>. Then,</p>
+      <sidebyside widths="48% 48%" valign="top">
+        <stack>
+          <p>Vertical Shifts: <m>y=f(x)+k</m></p>
+          <ul>
+            <li><p><m>k \gt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>k</m> units.</p></li>
+            <li><p><m>k \lt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>k</m> units.</p></li>
+          </ul>
+        </stack>
+        <stack>
+          <p>Horizontal Shifts: <m>y=f(x+h)</m></p>
+          <ul>
+            <li><p><m>h \gt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>h</m> units.</p></li>
+            <li><p><m>h \lt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>h</m> units.</p></li>
+          </ul>
+        </stack>
+      </sidebyside>
+
+      <p><term>Vertical Scaling Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c \gt 1</m>, the graph is scaled:</p>
+      <ul>
+        <li>
+          <p><m>y=c \cdot f(x)</m>: <fillin characters="10"/> the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
+        </li>
+        <li>
+          <p><m>y=\dfrac{1}{c} \cdot f(x)</m>: <fillin characters="10"/> the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
+        </li>
+      </ul>
+
+      <p><term>Horizontal Scaling Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c \gt 1</m>, the graph is scaled:</p>
+      <ul>
+        <li>
+          <p><m>y=f(cx)</m>: Compresses the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
+        </li>
+        <li>
+          <p><m>y=f\left(\dfrac{x}{c}\right)</m>: Stretches the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
+        </li>
+      </ul>
+
+      <p><term>Reflecting Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c = -1</m>, the graph is reflected:</p>
+      <ul>
+        <li>
+          <p><m>y=-f(x)</m>: Reflects the graph of <m>f</m> across the <fillin characters="5"/>-axis.</p>
+        </li>
+        <li>
+          <p><m>y=f(-x)</m>: Reflects the graph of <m>f</m> across the <fillin characters="5"/>-axis.</p>
+        </li>
+      </ul>
+
+      <paragraphs xml:id="checkpoint-function-transformations">
+  <title>Checkpoint</title>
+  <p>
+    Let <m>a</m> be a positive constant and <m>c \gt 1</m>. Match the descriptive and algebraic changes below (you might find it helpful to look at some of the equations above in a graphing calculator like <url href="https://www.desmos.com/calculator" visual="desmos.com/calculator">Desmos.com</url>).
+  </p>
+  <sidebyside widths="52% 44%" valign="top">
+    <ol marker="1.">
+      <li><p>Shift <m>f(x)</m> <m>a</m> units to the right</p></li>
+      <li><p>Stretch <m>f(x)</m> vertically by a factor of <m>c</m></p></li>
+      <li><p>Reflect <m>f(x)</m> across the <m>x</m>-axis</p></li>
+      <li><p>Reflect <m>f(x)</m> across the <m>y</m>-axis</p></li>
+      <li><p>Shift <m>f(x)</m> <m>a</m> units upwards</p></li>
+      <li><p>Stretch <m>f(x)</m> horizontally by a factor of <m>c</m></p></li>
+    </ol>
+    <ol marker="A.">
+      <li><p><m>f(x)</m> becomes <m>f(-x)</m></p></li>
+      <li><p><m>f(x)</m> becomes <m>c\cdot f(x)</m></p></li>
+      <li><p><m>f(x)</m> becomes <m>f\left(\dfrac{x}{c}\right)</m></p></li>
+      <li><p><m>f(x)</m> becomes <m>-f(x)</m></p></li>
+      <li><p><m>f(x)</m> becomes <m>f(x)+a</m></p></li>
+      <li><p><m>f(x)</m> becomes <m>f(x-a)</m></p></li>
+    </ol>
+  </sidebyside>
+</paragraphs>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-function-composition">
+      <title>Function Composition</title>
+
+      <p>
+        In addition to function transformations and basic arithmetic operations (addition, subtraction, multiplication, and division), functions can also be combined using composition.
+      </p>
+
+      <paragraphs xml:id="def-composition">
+  <title>Definition</title>
+  <p>
+    If <m>f</m> and <m>g</m> are functions, the <fillin characters="20"/> function <m>f \circ g</m> (<q><m>f</m> composed with <m>g</m></q>) is defined by
+    <m>(f \circ g)(x) = </m> <fillin characters="15"/>.
+  </p>
+</paragraphs>
+
+      <sidebyside widths="40% 50%" valign="middle">
+        <image source="pictures/pic12.png">
+          <shortdescription>Machine diagram representing function composition f(g(x)).</shortdescription>
+        </image>
+        <image source="pictures/pic13.png">
+          <shortdescription>Arrow diagram illustrating domain mapping under composition of g followed by f.</shortdescription>
+        </image>
+      </sidebyside>
+
+      <ul>
+        <li>
+          <p>
+            The domain of <m>f \circ g</m> consists of all values of <m>x</m> in the <fillin characters="30"/> for which <fillin characters="10"/> lies in the <fillin characters="30"/>.
+          </p>
+        </li>
+      </ul>
+
+      <paragraphs xml:id="checkpoint-composite-functions-1">
+  <title>Checkpoint</title>
+  <p>
+    If <m>f(x)=\sqrt{x}</m> and <m>g(x)=x+1</m>, find the following composite functions and their domains.
+  </p>
+  <ol marker="a)" cols="2">
+    <li workspace="1.5in"><p><m>(f \circ g)(x)</m></p></li>
+    <li workspace="1.5in"><p><m>(g \circ f)(x)</m></p></li>
+  </ol>
+</paragraphs>
+
+<paragraphs xml:id="checkpoint-composite-functions-2">
+  <title>Checkpoint</title>
+  <p workspace="1.5in">
+    If <m>k(x)=x^2</m> and <m>h(x)=\sqrt{x}</m>, find <m>k \circ h</m> and its domain.
+  </p>
+</paragraphs>
+
+    </paragraphs>
+   
+  </page>
+</handout>
