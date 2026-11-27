@@ -64,6 +64,8 @@
       <xi:include href="./handouts/Day 3 Lecture Notes.ptx"/>
       <xi:include href="./handouts/Day 4 Lecture Notes.ptx"/>
       <xi:include href="./handouts/Day 5 Lecture Notes.ptx"/>
+      <xi:include href="./handouts/Day 6 Lecture Notes.ptx"/>
+      <xi:include href="./handouts/Day 7 Lecture Notes.ptx"/>
     </chapter>
 
     <chapter xml:id="homework">

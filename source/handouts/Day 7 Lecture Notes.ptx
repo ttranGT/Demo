@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-7-notes">
+  <title>Day 7: Section 2.5b: Discontinuities and the Intermediate Value Theorem</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We learned a fact takeaway from the Sandwich Theorem, and the idea of continuity<mdash/>continuous functions are really nice, especially for finding limits!
+    </p>
+    <p>
+      <term>Today:</term> Continuing our discussion of continuity, we want to explore the ways in which a function can fail to be continuous and how to detect them. We'll also talk about another theorem that continuity helps us with.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="p-recall-continuity">
+      <title>Recall</title>
+      <p>
+        A function <m>f(x)</m> is <em>continuous</em> at the point <m>x=a</m> if and only if (exactly when):
+      </p>
+      <ol marker="1.">
+        <li>
+          <p><fillin characters="20"/> exists</p>
+        </li>
+        <li>
+          <p>AND <fillin characters="15"/> is defined</p>
+        </li>
+        <li>
+          <p>AND <fillin characters="20"/> <m>=</m> <fillin characters="15"/></p>
+        </li>
+      </ol>
+      <p>
+        There are 4 ways that a function can be <em>discontinuous</em>, 3 that are common and one that's really rare.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-removable-discontinuity">
+      <title>1 - Removable Discontinuity</title>
+      <p>
+        A <em>removable</em> discontinuity is one that can be <q><fillin characters="12"/></q> algebraically.
+      </p>
+      <p>
+        Graphically, it looks like a <fillin characters="8"/> <em>in an otherwise nice function</em> (see the left figure). The missing point may or may not be defined elsewhere. Now, draw a second figure on the right by modifying the figure on the left, while keeping the removable discontinuity.
+      </p>
+
+      <sidebyside widths="42% 42%" margins="4% 4%" valign="top">
+        <image source="pictures/Removable.png">
+          <shortdescription>
+            Graph of a continuous curve with a single open hole showing a removable discontinuity.
+          </shortdescription>
+        </image>
+        <image source="pictures/blank.png">
+          <shortdescription>
+            Blank coordinate grid for sketching a modified graph with a removable discontinuity.
+          </shortdescription>
+        </image>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-removable-discontinuity">
+      <title>Problem 1</title>
+      <p>
+        We observe that the function <m>\displaystyle f(x)=\frac{(x+4)}{(x+4)(x-1)}</m> is not continuous at <m>x=-4</m> because <fillin characters="8"/> is <fillin characters="20"/>. So there is a <fillin characters="18"/> here, but notice that <m>\displaystyle \lim_{x \to -4} f(x)</m> still <fillin characters="10"/>. In fact, <m>\displaystyle \lim_{x \to -4} f(x) =</m> <fillin characters="10"/>. So, <m>x=-4</m> is a <fillin characters="20"/> discontinuity.
+      </p>
+ </paragraphs>
+
+ <paragraphs xml:id="checkpoint-how-to-remove-a-removable-discontinuity">
+      <title>How do we remove a removable discontinuity?</title>
+
+      <p>
+        Since the limit exists, you can <q>remove</q> the removable discontinuity entirely just by filling in that single missing point with a <fillin characters="15"/> definition:
+        <me>g(x) = \begin{cases}
+        \dfrac{x+4}{(x+4)(x-1)} \amp \text{if } x \neq -4 \\[10pt]
+        \underline{\hspace{0.75in}} \amp \text{if } x = -4
+        \end{cases}</me>
+      </p>
+      <p>
+        Let's see what this function looks like on a graph: <url href="https://www.desmos.com/calculator/jcwt3vkbk1" visual="desmos.com/calculator/jcwt3vkbk1">Desmos Example</url>.
+      </p>
+
+      <paragraphs xml:id="recap-removable-discontinuity">
+      <title>Recap</title>
+
+      <p>
+        So removable discontinuities can be recognized geometrically as places where we can fill in a single point to remove the discontinuity. That is, these are places where <m>\displaystyle \lim_{x \to a} f(x)</m> <fillin characters="10"/> but <m>f(a)</m> is <fillin characters="14"/> or is <fillin characters="14"/> to the limit.
+      </p>
+    </paragraphs>
+
+
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-infinite-discontinuity">
+      <title>2 - Infinite Discontinuity</title>
+      <p>
+        Looking at our last problem <url href="https://www.desmos.com/calculator/jcwt3vkbk1" visual="desmos.com/calculator/jcwt3vkbk1">Desmos Example</url>, do you see another spot that looks like a discontinuity?
+      </p>
+      <p>
+        As we lift our pencil, <em>vertical asymptotes</em> also represent <fillin characters="20"/>!
+      </p>
+      <p>
+        Vertical asymptotes occur at values of <m>x</m> where at least one one-sided limit is <fillin characters="10"/>. We call them <em><fillin characters="14"/> discontinuities</em>.
+      </p>
+      <p>
+        In order to claim we have a vertical asymptote, we must show that the limit is <fillin characters="10"/> from either the right-hand or left-hand side!
+      </p>
+      <p>
+        In the previous checkpoint, <m>\displaystyle f(x)=\frac{(x+4)}{(x+4)(x-1)}</m> has an infinite discontinuity at <m>x =</m> <fillin characters="6"/> due to a vertical asymptote at <m>x =</m> <fillin characters="6"/>. That is,
+        <md>
+          <mrow>\lim_{x \to 1^-} f(x) \amp = \lim_{x \to 1^-} \frac{(x+4)}{(x+4)(x-1)} = \ldots \hspace{3cm},</mrow>
+          <mrow>\text{and } \lim_{x \to 1^+} f(x) \amp = \ldots.</mrow>
+        </md>
+      </p>
+      <p>
+        Vertical asymptotes result in discontinuities because infinite limits <fillin characters="14"/>. What's another way a limit could fail to exist?
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-jump-discontinuity">
+      <title>3 - Jump Discontinuity</title>
+      <p>
+        A <em>jump</em> discontinuity occurs at a value <m>x=a</m> where <m>\displaystyle \lim_{x \to a} f(x)</m> fails to exist because one-sided limits, <m>\displaystyle \lim_{x \to a^+} f(x)</m> and <m>\displaystyle \lim_{x \to a^-} f(x)</m>, <fillin characters="20"/> but are <fillin characters="20"/>, i.e., <m>\displaystyle \lim_{x \to a^+} f(x) = L_1</m> <fillin characters="4"/> <m>\displaystyle \lim_{x \to a^-} f(x) = L_2</m>, where <m>L_1</m> and <m>L_2</m> are real numbers (see the left figure). This can happen whether or not <m>f(a)</m> is defined, or what it is.
+      </p>
+      <p>
+        Now, draw a second and third figure on the right by modifying the figure on the left.
+      </p>
+
+      <sidebyside widths="30% 30% 30%" margins="2% 2%" valign="top">
+        <image source="pictures/Jump.png">
+          <shortdescription>Left graph illustrating a jump discontinuity with different left-hand and right-hand limits at x = a.</shortdescription>
+        </image>
+        <image source="pictures/Jump.png">
+          <shortdescription>Middle graph template for modifying the jump discontinuity at x = a.</shortdescription>
+        </image>
+        <image source="pictures/Jump.png">
+          <shortdescription>Right graph template for modifying the jump discontinuity at x = a.</shortdescription>
+        </image>
+      </sidebyside>
+
+      <p>
+        Jump discontinuities happen most often in <fillin characters="14"/> functions.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-jump-discontinuities">
+      <title>Checkpoint</title>
+      <p workspace="1.8in">
+        <em>Find all jump discontinuities in the function</em>
+        <me>f(x)=\begin{cases}-x \amp \text{if } x \lt 0\\ \sqrt{x} \amp \text{if } 0 \leq x \lt 2\\ 8-x^2 \amp \text{if } x \gt 2\end{cases}.</me>
+        How many discontinuities do you think we have in this function? Let's sanity check with a graph: <url href="https://www.desmos.com/calculator/tnzc0sq0np" visual="desmos.com/calculator/tnzc0sq0np">Desmos</url>.
+        Based on our graph, it looks like we have <fillin characters="6"/> discontinuity. Let's use limits to prove this is true:
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="checkpoint-jump-discontinuities-cont">
+      <title>Checkpoint (cont.)</title>
+      <p workspace="2.2in">
+        <em>Find all jump discontinuities in the function</em>
+        <me>f(x)=\begin{cases}-x \amp \text{if } x \lt 0\\ \sqrt{x} \amp \text{if } 0 \leq x \lt 2\\ 8-x^2 \amp \text{if } x \gt 2\end{cases}.</me>
+        How many discontinuities do you think we have in this function? Let's sanity check with a graph: <url href="https://www.desmos.com/calculator/tnzc0sq0np" visual="desmos.com/calculator/tnzc0sq0np">Desmos</url>.
+        Based on our graph, it looks like we have <fillin characters="6"/> discontinuity. Let's use limits to prove this is true:
+      </p>
+      <p>
+        So to find a jump discontinuity, we show that we have one-sided limits that <fillin characters="8"/> but <fillin characters="12"/>. We look for these discontinuities at the <m>x</m>-values where piecewise functions change the way they're defined.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-wild-oscillation-discontinuity">
+      <title>4 - Wild Oscillation Discontinuity</title>
+      <p>
+        The last type of discontinuity is rare, and you probably won't come across another example. Let's look at the graph of <m>\displaystyle f(x)=\sin\left(\frac{1}{x}\right)</m>.
+      </p>
+
+      <sidebyside widths="48% 48%" valign="top">
+        <image source="pictures/pic52.png">
+          <shortdescription>
+            Graph of the Topologist's Sine Curve f(x) = sin(1/x) oscillating infinitely rapidly between -1 and 1 as x approaches 0.
+          </shortdescription>
+        </image>
+        <stack>
+          <ul>
+            <li>
+              <p>
+                This function is called the <em>Topologist's Sine Curve</em> (<url href="https://www.desmos.com/calculator/kwhj7klkji" visual="desmos.com/calculator/kwhj7klkji">Desmos</url>) and is a really good pathological example that can help us check whether facts are always true.
+              </p>
+            </li>
+            <li>
+              <p>What is <m>\displaystyle \lim_{x \to 0} \sin\left(\frac{1}{x}\right)</m>?</p>
+            </li>
+            <li>
+              <p>
+                This limit <fillin characters="10"/> since <m>f</m> is simultaneously getting infinitely close to every <m>y</m>-value between <m>-1</m> and <m>1</m>. We call such behavior a <em>wild oscillation discontinuity</em>.
+              </p>
+            </li>
+            <li>
+              <p>
+                We <fillin characters="10"/> expect you to find and identify many of these, but we do want you to know they exist.
+              </p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+
+      <p>
+        <term>Notes:</term>
+      </p>
+      <ul>
+        <li><p>That concludes our study of discontinuities.</p></li>
+        <li>
+          <p>
+            When a problem asks to <q><strong>find and classify</strong></q> discontinuities, you must <em>identify the point(s) of discontinuity with justification and state their type using limits</em>.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="checkpoint-ivt-intro">
+      <title>Checkpoint</title>
+      <p>
+        Our last topic for the day is the <em>Intermediate Value Theorem</em>. This is a theorem that tells us something really powerful about the way continuous functions behave. Answer the following:
+      </p>
+      <ol marker="(a)">
+        <li workspace="0.8in">
+          <p>Can you draw a function that</p>
+          <ol marker="i)">
+            <li><p>Goes through the points <m>(-1,-1)</m> and <m>(1,1)</m>.</p></li>
+            <li><p>Never crosses the <m>x</m>-axis?</p></li>
+          </ol>
+        </li>
+        <li workspace="0.8in">
+          <p>Can you draw a <em>continuous</em> function on <m>[-1,1]</m> that does all of these things?</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="thm-intermediate-value">
+      <title>The Intermediate Value Theorem (IVT)</title>
+      <p>
+        We can write down this fact in general:
+      </p>
+      <p>
+        If <m>f(x)</m> is a <term>continuous</term> function on a <term>closed</term> interval <m>[a,b]</m>, then <m>f(x)</m> attains <term>every</term> value between <m>f(a)</m> and <m>f(b)</m> somewhere on the interval <m>[a,b]</m>.
+      </p>
+      <ul>
+        <li>
+          <p>
+            In other words, you can not <term>continuously</term> move from one point to another in the <m>x</m> direction without also going through every <m>y</m>-value between your <term>starting</term> <m>y</m>-value and your <term>ending</term> <m>y</m>-value.
+          </p>
+        </li>
+        <li>
+          <p>
+            It is exactly like physical movement. If you start a drive at an elevation of <m>2{,}000</m> feet (i.e., <m>f(a)</m>), dip down into a lower valley, climb over a <m>6{,}800</m>-foot peak, and finally stop at a <m>6{,}000</m>-foot pass (i.e., <m>f(b)</m>), you can not magically skip the <m>3{,}000</m>-foot mark (i.e., <m>y_0</m>). You had to pass through it at some exact moment in time (i.e., <m>c</m>).
+          </p>
+        </li>
+      </ul>
+
+      <sidebyside widths="50% 45%" valign="top">
+        <image source="pictures/pic6.png">
+          <shortdescription>
+            Graph illustrating the Intermediate Value Theorem where a continuous curve from (a, f(a)) to (b, f(b)) intersects the horizontal line y = y_0 at least once at x = c.
+          </shortdescription>
+        </image>
+        <stack>
+          <ul>
+            <li>
+              <p>
+                Algebraically, by applying the Intermediate Value Theorem, the equation <m>f(x) = y_0</m> has at least one solution on <m>[a,b]</m> <strong>if</strong> <m>f(a) \leq y_0 \leq f(b)</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                That is, the IVT is helpful because it can prove that a function has to hit a <strong>certain</strong> <m>y</m> value without forcing us to actually find the point where that happens.
+              </p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-ivt-root">
+      <title>Checkpoint</title>
+      <p workspace="1.8in">
+        Show that <m>f(x)=x^3-4x-2</m> has a root on the interval <m>[0,3]</m>.
+      </p>
+      <p>
+        <em>Recall: A root of a function <m>f(x)</m> is a number <m>x</m> that makes the value of <m>f</m> equal to <m>0</m>. In other words, it is a solution to the equation <m>f(x)=0</m>.</em>
+      </p>
+    </paragraphs>
+  </page>
+</handout>

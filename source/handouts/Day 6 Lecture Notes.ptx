@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-6-notes">
+  <title>Day 6: The Sandwich Theorem (cont.) and Introduction to Continuity (Section 2.5a)</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We learned how to connect asymptotes with limits and how to evaluate limits at infinity. We also addressed a few loose ends and strange situations using the Sandwich Theorem.
+    </p>
+    <p>
+      <term>Today:</term> We'll wrap up a fact takeaway from the Sandwich Theorem before transitioning from evaluating limits to exploring the powerful things they enable. Then, we'll begin discussing what it means for a function to be continuous.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="thm-sandwich-recall">
+      <title>The Sandwich (or Squeeze) Theorem</title>
+      <p>
+        We recall <em>the Sandwich Theorem (or Squeeze Theorem):</em>
+      </p>
+
+      <sidebyside widths="38% 58%" valign="top">
+        <image source="pictures/sec26fa24pic4.png">
+          <shortdescription>
+            Diagram illustrating the Sandwich Theorem with f(x) trapped between upper function h(x) and lower function g(x), all meeting at L.
+          </shortdescription>
+        </image>
+        <stack>
+          <p>
+            Suppose <m>g(x) \leq</m> <fillin characters="6"/> <m>\leq h(x)</m> on some interval containing <m>c</m> (except possibly at <m>c</m> itself). If
+          </p>
+          <p>
+            <m>\displaystyle \lim_{x \to c} g(x)</m> <fillin characters="4"/> <m>\displaystyle \lim_{x \to c} h(x)</m> <fillin characters="4"/> <m>L</m>,
+          </p>
+          <p>
+            then we must have <m>\displaystyle \lim_{x \to c} f(x) =</m> <fillin characters="6"/> also.
+          </p>
+          <p>
+            <em>Note:</em> In the theorem, <m>c</m> can be finite or infinite.
+          </p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-sandwich-exercise">
+      <title>Checkpoint (Exercise)</title>
+      <sidebyside widths="40% 56%" valign="top">
+        <image source="pictures/sec25afa24pic1.png">
+          <shortdescription>
+            Graph showing a function u(x) bounded between two functions that meet at x = 0.
+          </shortdescription>
+        </image>
+        <stack>
+          <p workspace="1in">
+            Given the figure on the left, find <m>\displaystyle \lim_{x \to 0} u(x)</m>.
+          </p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="fact-sin-theta-over-theta">
+      <title>A Consequence of the Sandwich Theorem</title>
+      <p>
+        Applying the Sandwich Theorem, we have the following useful <em>fact</em>:
+      </p>
+
+      <sidebyside widths="40% 56%" valign="middle">
+        <p>
+          <m>\displaystyle \lim_{\theta \to 0} \frac{\sin(\theta)}{\theta} =</m> <fillin characters="6"/>.
+        </p>
+        <image source="pictures/sec26fa24pic5.png">
+          <shortdescription>
+            Unit circle geometric diagram illustrating the inequality used to prove the limit of sin(theta)/theta as theta approaches 0.
+          </shortdescription>
+        </image>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-sin-2x">
+      <title>Problem 1</title>
+      <p workspace="1.8in">
+        Find <m>\displaystyle \lim_{x \to 0} \frac{\sin(2x)}{x}</m>.
+      </p>
+      <p>
+        That's the end of evaluating limits<mdash/>we have all the building blocks we need to evaluate lots of things at this point.
+      </p>
+      <p>
+        We can start exploring how limits enable us to do many powerful things<mdash/>in some ways, limits are the machinery that actually makes calculus work.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-recall-limits-continuity">
+      <title>Recall</title>
+      <p>
+        Before moving on from limits, let's revisit the relationship between one- and two-sided limits and what limits can—and cannot—tell us about functions.   </p>
+      <p>
+        <term>Recall:</term> The two-sided limit <m>\displaystyle \lim_{x \to a} f(x)</m> <fillin characters="12"/> if and only if (exactly when):
+      </p>
+      <ol marker="1.">
+        <li>
+          <p>The right-hand limit <m>\displaystyle \lim_{x \to a^+} f(x)</m> <fillin characters="12"/></p>
+        </li>
+        <li>
+          <p>AND The left-hand limit <m>\displaystyle \lim_{x \to a^-} f(x)</m> <fillin characters="12"/></p>
+        </li>
+        <li>
+          <p>AND <m>\displaystyle \lim_{x \to a^+} f(x)</m> <fillin characters="6"/> <m>\displaystyle \lim_{x \to a^-} f(x)</m></p>
+        </li>
+      </ol>
+      <p>
+        We also recall that the existence of <m>\displaystyle \lim_{x \to a} f(x)</m> can <fillin characters="10"/> tell us what <m>f(a)</m> is, or whether this is even a point that exists. Let's look at some possibilities.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-match-continuity-graphs">
+      <title>Problem 2</title>
+      <p>
+        Match each of the following conditions to a graph that satisfies it:
+      </p>
+
+      <ol marker="(a)" cols="2">
+        <li><p><m>\displaystyle \lim_{x \to a} f(x)</m> and <m>f(a)</m> both exist and are equal</p></li>
+        <li><p><m>\displaystyle \lim_{x \to a} f(x)</m> and <m>f(a)</m> both exist but are not equal</p></li>
+        <li><p><m>\displaystyle \lim_{x \to a} f(x)</m> exists but <m>f(a)</m> is undefined</p></li>
+        <li><p><m>\displaystyle \lim_{x \to a} f(x)</m> does not exist but <m>f(a)</m> is defined</p></li>
+      </ol>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image source="pictures/continuity3.png">
+            <shortdescription>Figure 1: Graph of a function at x = a illustrating one of the four limit and function value cases.</shortdescription>
+          </image>
+          <p><strong>Figure 1:</strong> <fillin characters="6"/></p>
+
+          <image source="pictures/continuity1.png">
+            <shortdescription>Figure 3: Graph of a function at x = a illustrating one of the four limit and function value cases.</shortdescription>
+          </image>
+          <p><strong>Figure 3:</strong> <fillin characters="6"/></p>
+        </stack>
+
+        <stack>
+          <image source="pictures/continuity4.png">
+            <shortdescription>Figure 2: Graph of a function at x = a illustrating one of the four limit and function value cases.</shortdescription>
+          </image>
+          <p><strong>Figure 2:</strong> <fillin characters="6"/></p>
+
+          <image source="pictures/continuity2.png">
+            <shortdescription>Figure 4: Graph of a function at x = a illustrating one of the four limit and function value cases.</shortdescription>
+          </image>
+          <p><strong>Figure 4:</strong> <fillin characters="6"/></p>
+        </stack>
+      </sidebyside>
+
+      <p workspace="0.6in">
+        Of the functions above, which do you like best? Why? Which one is it easiest to find limits for?
+      </p>
+      <p>
+        You probably said the <fillin characters="10"/> function<mdash/>what we've discovered here is the idea of <fillin characters="25"/>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="def-continuity-at-point">
+      <title>Definition</title>
+      <p>
+        A function <m>f(x)</m> is <em>continuous</em> at the point <m>x=a</m> if and only if (exactly when):
+      </p>
+      <ol marker="1.">
+        <li>
+          <p>The limit <fillin characters="20"/> exists</p>
+        </li>
+        <li>
+          <p>AND The value <fillin characters="15"/> is defined</p>
+        </li>
+        <li>
+          <p>AND <fillin characters="20"/> <m>=</m> <fillin characters="15"/>.</p>
+        </li>
+      </ol>
+      <p>
+        <term>Notes:</term>
+      </p>
+      <ul>
+        <li>
+          <p>To prove that <m>f</m> is continuous at <m>x=a</m>, we need to check that <fillin characters="14"/> conditions above are met.</p>
+        </li>
+        <li>
+          <p>To show <m>f</m> is <em>not</em> continuous at <m>x=a</m>, we need to check that <fillin characters="10"/> of the conditions is <em>not</em> met.</p>
+        </li>
+        <li>
+          <p>If <m>f(x)</m> is continuous at every point <m>x=a</m> in its domain, we say simply that <m>f</m> is <fillin characters="20"/>.</p>
+        </li>
+        <li>
+          <p>Intuitively, a continuous function is one you can sketch <fillin characters="15"/> lifting your pencil off the paper.</p>
+        </li>
+      </ul>
+      <p>
+        Let's work together to practice using this definition:
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-rational-continuity">
+      <title>Problem 3</title>
+      <p workspace="2.2in">
+        Show that <m>f(t)=\dfrac{4}{t-5}</m> is continuous at <m>t=9</m>. Is this function continuous <em>everywhere</em> (i.e., at every point on the number line), or is there any point at which the function is not continuous?
+      </p>
+      <p>
+        For many functions (like this one), there may be some points where the function is continuous and others where it's not. There are some families of functions that are really nice and are continuous everywhere!
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="fact-continuous-families">
+      <title>Continuous Functions</title>
+      <p>
+        The following functions are continuous at every point in their <fillin characters="16"/>:
+      </p>
+      <ul>
+        <li><p>Polynomials</p></li>
+        <li><p>Exponential Functions</p></li>
+        <li><p>Logarithmic Functions</p></li>
+        <li><p>Trig Functions (the 6 basic ones<mdash/>the domain is an important qualifier here!)</p></li>
+        <li><p>Sums, differences, products, and compositions of continuous functions.</p></li>
+        <li><p>Quotients of continuous functions wherever the denominator is not <fillin characters="6"/>.</p></li>
+      </ul>
+      <p>
+        We care about continuity because if we know a function is <fillin characters="20"/>, finding a limit is as simple as using <fillin characters="25"/><mdash/>just plug in the point!
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-piecewise-continuity-constant">
+      <title>Problem 4</title>
+      <p workspace="2.5in">
+        Let <m>a</m> be a constant. Find the value of <m>a</m> that makes the following function continuous on <m>(-\infty, \infty)</m>.
+        <me>f(x)=\begin{cases}x^2\,2^x-e^x+2 \amp \text{if } x \lt 0\\ a\,\cos(x)-\ln(x+1) \amp \text{if } x \geq 0\end{cases}</me>
+        <em>Hint: It suffices to find the value of <m>a</m> that makes <m>f(x)</m> continuous at <m>x=0</m>.</em>
+      </p>
+      <p>
+        Next time we'll think about what it means for a function to be <em>discontinuous</em>, and whether there's anything we can learn from that. We'll also talk about another theorem that continuity helps us with.
+      </p>
+    </paragraphs>
+  </page>
+</handout>
