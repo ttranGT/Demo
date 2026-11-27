@@ -250,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Handout",
   "number": "",
   "title": "Day 4 - Sections 2.4 and 2.6a: One-Sided and Infinite Limits",
-  "body": " Day 4 - Sections 2.4 and 2.6a: One-Sided and Infinite Limits    Last Time: We learned how to find limits of relatively nice functions, using graphs and algebra.   Today: We'll learn about one-sided limits, when limits exist, and how to deal with infinity.     Checkpoint (Warm Up)  The graph of a function is shown below. Find the following limits. If you aren't sure what the answer should be, discuss with a neighbor.    Graph of a piecewise function f(x) showing continuous behavior near x = 2 and a jump discontinuity at x = 0.              The first limit above should be straightforward, but the other is a new situation we want to learn about today.  The issue we see with part 2) of the problem above is also a really important one. What do we do with a limit when it approaches different values from the left and right?    Definition  A limit is a limit that only considers the case or .     is the limit of as approaches from the . It is called the limit.     is the limit of as approaches from the . It is called the limit.     Note: We recall that for , where is a real number, the values of must get infinitely close to as approaches from left-hand and right-hand sides.  For this reason, the ordinary limit is called a limit.    Fact  Now, the definitions of two-sided and one-sided limits, together with the warm-up problem, lead us to an important fact:  The two-sided limit exists if and only if (exactly when):    The exists    AND The exists    AND      That is, any time our one-sided limits match, the two-sided limit .      One-Sided Limits of Piecewise Functions  One common place where one-sided limits appear is in functions. In such cases, we evaluate the limit using the of the function that corresponds to the appropriate side of as approaches . For example:    Checkpoint  Given that find , , and .    Checkpoint  Next, let's examine the following problem and explore the interaction between infinite and one-sided limits a bit. Consider the function below. Find each limit.    Graph of a function f(x) exhibiting a jump discontinuity at x = 1, vertical asymptotes at x = -1 and x = 5, with opposite infinite behaviors at x = -1 and matching infinite behavior at x = 5.                          So we see that of the 3 two-sided limits above exist, but the amount of information we can give about them varies, and our final answer is always as informative as possible.  We can guess from the graph that  .  But what does it mean for a limit to be ?  We say that if becomes arbitrarily and \/ as approaches .      Fact  But wait... is not a ! Our definition says that a limit exists only if it's equal to . That means we have an important distinction to make here:   Infinite limits  .  That is, saying is just a  way of saying that DNE and we always want to be as specific as possible!    Finding Infinite Limits Algebraically  We'll spend the rest of the day looking at how we can find limits of this type algebraically they're easy to recognize on a graph, but we want to be able to do both.  Let's consider the following limit. First, we can use direct substitution to observe that and then applying to simplify:    Q: What do we do with something that looks like ?   A: Answers like this are a sign that we have an limit!  As we saw in parts (4 to 6) and (7 to 9) of the previous checkpoint, this means that:    If the one-sided limits are both , the corresponding two-sided limit is .    If the one-sided limits are both , the corresponding two-sided limit is .    If the one-sided limits are infinite with signs (or only one is infinite), the corresponding two-sided limit .    Thus our approach in this case will be to evaluate limits and see what we can learn.  So let's keep going, looking at the one-sided limits of to see what we can learn:  Thus, the limit  . And so  .      Big Idea of the Day  Whenever    limits are involved,    or you encounter a limit that you are sure how to evaluate algebraically,    then looking at the limits at that point can be a very helpful strategy.    Notation Warning    When finding a limit, be sure to use around that involve undefined notations (e.g., , , , , or in the denominator) in any intermediate substitution , before arriving at the final answer for the limit.    Points will be deducted on quizzes and midterms for incorrect or improper use of mathematical notation.    Here are some examples:         "
+  "body": " Day 4 - Sections 2.4 and 2.6a: One-Sided and Infinite Limits    Last Time: We learned how to find limits of relatively nice functions, using graphs and algebra.   Today: We'll learn about one-sided limits, when limits exist, and how to deal with infinity.     Problem 1 (Warm Up)  The graph of a function is shown below. Find the following limits. If you aren't sure what the answer should be, discuss with a neighbor.    Graph of a piecewise function f(x) showing continuous behavior near x = 2 and a jump discontinuity at x = 0.              The first limit above should be straightforward, but the other is a new situation we want to learn about today.  The issue we see with part 2) of the problem above is also a really important one. What do we do with a limit when it approaches different values from the left and right?    Definition  A limit is a limit that only considers the case or .     is the limit of as approaches from the . It is called the limit.     is the limit of as approaches from the . It is called the limit.     Note: We recall that for , where is a real number, the values of must get infinitely close to as approaches from left-hand and right-hand sides.  For this reason, the ordinary limit is called a limit.    Fact  Now, the definitions of two-sided and one-sided limits, together with the warm-up problem, lead us to an important fact:  The two-sided limit exists if and only if (exactly when):    The exists    AND The exists    AND      That is, any time our one-sided limits match, the two-sided limit .      One-Sided Limits of Piecewise Functions  One common place where one-sided limits appear is in functions. In such cases, we evaluate the limit using the of the function that corresponds to the appropriate side (left or right) of as approaches . For example:    Problem 2  Given that find , , and .    Problem 3  Next, let's examine the following problem and explore the interaction between infinite and one-sided limits a bit. Consider the function below. Find each limit.    Graph of a function f(x) exhibiting a jump discontinuity at x = 1, vertical asymptotes at x = -1 and x = 5, with opposite infinite behaviors at x = -1 and matching infinite behavior at x = 5.                          So we see that of the 3 two-sided limits above exist, but the amount of information we can give about them varies, and our final answer is always as informative as possible.  We can guess from the graph that  .  But what does it mean for a limit to be ?  We say that if becomes arbitrarily and \/ as approaches .      Infinite Limits  But wait... is not a ! Our definition says that a limit exists only if it's equal to . That means we have an important distinction to make here:   Infinite limits  .  That is, saying is just a  way of saying that DNE and we always want to be as specific as possible!    Finding Infinite Limits Algebraically  We'll spend the rest of the day looking at how we can find limits of this type algebraically they're easy to recognize on a graph, but we want to be able to do both.  Let's consider the following limit. First, we can use direct substitution to observe that and then applying to simplify:    Q: What do we do with something that looks like ?   A: Answers like this are a sign that we have an limit!  As we saw in parts (4 to 6) and (7 to 9) of the previous checkpoint, this means that infinite limits have 3 possible outcomes:    If the one-sided limits are both , the corresponding two-sided limit is .    If the one-sided limits are both , the corresponding two-sided limit is .    If the one-sided limits are infinite with signs (or only one is infinite), the corresponding two-sided limit .    Thus our approach in this case will be to evaluate limits and see what we can learn.  So let's keep going, looking at the one-sided limits of to see what we can learn:  Thus, the limit  . And so  .      Big Idea of the Day  Whenever    limits are involved,    or you encounter a limit that you are sure how to evaluate algebraically,    then looking at the limits at that point can be a very helpful strategy.    Notation Warning    When finding a limit, be sure to use around that involve undefined notations (e.g., , , , , or in the denominator) in any intermediate substitution , before arriving at the final answer for the limit.    Points will be deducted on quizzes and midterms for incorrect or improper use of mathematical notation.    Here are some examples:         "
 },
 {
   "id": "day-4-notes-2-1",
@@ -274,6 +274,105 @@ var ptx_lunr_docs = [
   "id": "def-one-sided-limits-4",
   "level": "2",
   "url": "day-4-notes.html#def-one-sided-limits-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "day-5-notes",
+  "level": "1",
+  "url": "day-5-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 5: Limits and Asymptotes (Section 2.6b) and the Sandwich Theorem",
+  "body": " Day 5: Limits and Asymptotes (Section 2.6b) and the Sandwich Theorem    Last Time: We learned about one-sided and infinite limits, and how to determine when limits exist.   Today: We want to find the relationships between limits and asymptotes, and learn how to deal with a few last strange cases.     Vertical Asymptotes  We saw last time (Day 4) that when we have a vertical asymptote, we also get an limit. This relationship is actually closer than that we can use limits to prove the existence of vertical asymptotes.    Definition  A line is a asymptote of the graph of a function if either     or       Checkpoint  Find all vertical asymptotes of the function . Be sure to justify your answers using limits.    Step 1: Note that an infinite limit could occur when .    Step 2: We can now use limits to verify vertical asymptotes.    So we see that finding places where the of a rational function is gives us a good start on values we should check for asymptotes, but we really need to use to prove that we actually have one.  Let's shift gears a little here: we have a decent understanding now of how to evaluate limits that end up being equal to  but what about limits at infinity? That is, how do we think about things of the form   The trick here is that just like vertical asymptotes capture what's going on when our function gets arbitrarily large (positive or negative) in the direction, asymptotes are really giving us information about what happens to as becomes arbitrarily large (positive or negative).      Definition  A line is a asymptote of the graph of a function if either     or      Note: To find all possible horizontal asymptotes of , we compute both and .   Example:     Graph illustrating a function approaching a horizontal asymptote as x approaches positive or negative infinity.    Again, this idea is hopefully intuitive based on a graph, but how do we discover what's going on by looking at a function algebraically? Here are 2 sets of limits that help us find horizontal asymptotes:    Checkpoint  Find all horizontal asymptotes of by computing the following limits:     (a)       (b)   (exercise!)    Graph of y = 1\/x showing both branches approaching y = 0 as x approaches positive and negative infinity.   A Hint for this problem: Recall the graph of .      Strategy  Let's write down generally the strategy that we used above:     Strategy: If direct substitution yields an indeterminate form of , we should divide term in the numerator and denominator by the term (in absolute value) that appears in the function.     A 2nd Option: Using the term (in absolute value) that appears in the is also a perfectly valid option you'll just get a different looking (but equivalent) answer.         Checkpoint  Find all horizontal asymptotes of . Recall that:  .     (a)  (Exercise) Consider   Hint: Let's use the 2nd option.     (b) Consider   Hint: How the exponential function behaves as approaches negative infinity.     Recap: Whenever we find asymptotes, we look for limits that are equal to ( asymptotes) or limits at infinity ( asymptotes).    Checkpoint  Let's consider the following problem to get thinking about limits again. Find all horizontal asymptotes of the function .    Recall that:     oscillates between  and  with a period of .      ,  , , etc.      Graph of y = cos(x) oscillating periodically between y = -1 and y = 1 with period 2 pi.    First, look at (a graph might help you may use Desmos):  So there is horizontal asymptote in the negative -direction.  This shows another way a limit fails to exist: If our function oscillates getting infinitely close to a single number, the limit .      Two Interesting Phenomena of Limits     Graph of a function oscillating with unbounded amplitude so it never approaches a single number.    Oscillating WITHOUT getting infinitely close to a single number  The limit DNE.      Graph of a damped oscillating function whose amplitude shrinks toward zero as x increases.    Oscillating and infinitely close to a single number  The limit .     Now to make sure we have all horizontal asymptotes, we also check . Intuitively, we want to prove that this limit should be , but need a careful way to do so.  Here's a good way to deal with limits that involve oscillations that are controlled:    The Sandwich (or Squeeze) Theorem    Diagram illustrating the Sandwich Theorem with f(x) trapped between upper function h(x) and lower function g(x), all meeting at L.    Suppose   on some interval containing (except possibly at itself). If       ,  then we must have  also.   Note: In the theorem, can be finite or infinite.    This theorem will help us finish our problem. We'll look again at :    "
+},
+{
+  "id": "day-5-notes-2-1",
+  "level": "2",
+  "url": "day-5-notes.html#day-5-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-5-notes-2-2",
+  "level": "2",
+  "url": "day-5-notes.html#day-5-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "checkpoint-vertical-asymptotes-3-1-1",
+  "level": "2",
+  "url": "day-5-notes.html#checkpoint-vertical-asymptotes-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 1: "
+},
+{
+  "id": "checkpoint-vertical-asymptotes-3-2-1",
+  "level": "2",
+  "url": "day-5-notes.html#checkpoint-vertical-asymptotes-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 2: "
+},
+{
+  "id": "def-horizontal-asymptote-4",
+  "level": "2",
+  "url": "day-5-notes.html#def-horizontal-asymptote-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "def-horizontal-asymptote-5",
+  "level": "2",
+  "url": "day-5-notes.html#def-horizontal-asymptote-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example: "
+},
+{
+  "id": "p-horizontal-asymptote-strategy-3-1-1",
+  "level": "2",
+  "url": "day-5-notes.html#p-horizontal-asymptote-strategy-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Strategy: "
+},
+{
+  "id": "p-horizontal-asymptote-strategy-3-2-1",
+  "level": "2",
+  "url": "day-5-notes.html#p-horizontal-asymptote-strategy-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A 2nd Option: "
+},
+{
+  "id": "checkpoint-exponential-horizontal-asymptotes-4",
+  "level": "2",
+  "url": "day-5-notes.html#checkpoint-exponential-horizontal-asymptotes-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Recap: "
+},
+{
+  "id": "thm-sandwich-theorem-2-2-4",
+  "level": "2",
+  "url": "day-5-notes.html#thm-sandwich-theorem-2-2-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
