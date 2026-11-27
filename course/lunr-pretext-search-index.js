@@ -514,6 +514,321 @@ var ptx_lunr_docs = [
   "body": "Today: "
 },
 {
+  "id": "day-8-notes",
+  "level": "1",
+  "url": "day-8-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 8: Sections 3.1 and 3.2: The Derivative at a Point and the Derivative as a Function",
+  "body": " Day 8: Sections 3.1 and 3.2: The Derivative at a Point and the Derivative as a Function    Previously: So far we've learned about rates of change, how to find limits, and what we can learn about functions by exploring continuity, including discontinuity and the Intermediate Value Theorem.   Today: We want to revisit our questions from the beginning of the semester with the new tools limits give us.     Recall  We recall that:    The average rate of change (AROC) of over the interval is given by     We can not find an rate of change by using the formula for the AROC.    We can find an AROC over a small interval this gives us an of the instantaneous rate of change.    Now, limits and AROC together let us calculate instantaneous rates of change!     Definition: The Limit Definition of the Derivative  The instantaneous rate of change of at the point is given by    Notes:     The quantity is called the of at  .    We need to memorize this important definition frequent use will make it stick naturally.    The second version of the derivative is equivalent to the first one just make the substitution  . In most cases you can use whichever version you prefer but they often give you different algebra to do, so sometimes one ends up being a little easier.    Let's use the derivative to solve our problem.    Problem 1  Assume that a cyclist's position is given by . Write an expression for the cyclist's instantaneous velocity at using limits, and identify the algebraic technique that can be used to evaluate this limit.   Note: We leave the details as an exercise, as they provide good practice with the algebraic manipulation tool we covered in the Day 3 lecture.       Interpretations of the Derivative  You might notice we're using a few terms interchangeably let's write down something really important:    IS   IS    Right away, derivatives give us a few new ways to talk about functions and describe what they're doing.  Recall that the slope of a secant line tells us whether the line is increasing or decreasing:   If the slope is , the line is increasing, i.e., rising as we move from left to right.  If the slope is , the line is decreasing, i.e., descending as we move from left to right.   The slope of a tangent line does the same thing!   If is , then is at .  If is , then is at .   Algebraically, assume that :   If is , then   .  If is , then   .   Notice that a function might be increasing in some places and decreasing in others but looking at derivatives can tell us what's happening.    Problem 2  Here's another example.    Use Desmos, if necessary, to sketch the graph of the function and add a tangent line at . Do you think is positive or negative?    Find the instantaneous rate of change of at , where .   Reminder:  .        Problem 2 (cont.)   (c) Evaluate using part (b). Does your answer match your guess from part (a)?   (d) What happens to the tangent line to the curve at the point as changes? You may use Desmos and part (b) to help answer the question.   As approaches infinity or negative infinity, the tangent line gets close to the asymptote .  As approaches from the right or from the left, the tangent line gets close to the asymptote .  Otherwise, the tangent line exists with slope .   As we notice in Problem 2 parts (b d), we can describe using and even find infinitely derivatives all at once. That is, we want to write the derivative of as a .    Definition: The Derivative Function  The derivative of a function with respect to the variable is the  , given by   Finding derivatives of functions is powerful rather than choosing a single point and computing the derivative each time, we can find the derivative function once and then evaluate it at as many points as we like.    Problem 3  Find given that .  So we know how to find derivatives, but since they rely on limits, they don't exist. Moreover, since derivatives are , they are defined only on their . Let's explore!   If the limit that defines does not exist, or if the derivative function is not defined at , we say that is  at .  Similarly, if the limit that defines exists, or if is in the domain of the derivative function , we say that is at .  If is differentiable for all values of , we simply say that is .       Problem 4    Continuing with Problem 3, is differentiable at ? Why or why not?    Find for , or explain why it does not exist.   Reminder:  .  If does not exist, fill in the following blanks:   The derivative function is at .  That is, the function is at .      (Exercise) Find for , or explain why it does not exist.   Reminder:  .  If does not exist, fill in the following blanks:   The derivative function is at .  That is, the function is at .         Preview  Let's graph these functions to see if we can figure out what the problems are: Desmos .    Graph of f(x) = sqrt(x) starting at the origin with a vertical tangent at x = 0.    Graph of g(x) = |x| showing a sharp V-shaped corner at the origin.    Graph of k(x) = x^(1\/3) passing through the origin with a vertical tangent line.    So we can see that when we have or , the derivative doesn't exist.  This should make some sense, since the derivative at a point is the of the tangent line at that point we can't label this quantity in either of those cases.    Problem 5  Identify the 8 values of where the following function is not differentiable:    Graph of a piecewise function containing 8 points of nondifferentiability including corners, cusps, vertical tangents, and discontinuities.      Summary: When a Function Is Not Differentiable  When (at least) one of the following things is true, is not differentiable at :     Graph illustrating a corner at x = a where left-hand and right-hand secant slopes approach different finite values.   1. a , where the one-sided derivatives differ.     Graph illustrating a cusp at x = a where secant slopes approach infinity from one side and negative infinity from the other.   2. a , where the slope of approaches from one side and from the other.       Graph illustrating a vertical tangent at x = a where secant slopes approach negative infinity from both sides.   3. a , where the slope of approaches or from both sides (here, ).     Two graphs illustrating jump and removable discontinuities at x = a.   4. a : (two examples: jump (left) and removable (right) discontinuities).      Differentiability Implies Continuity   If is  at , then is  at .  If is at , then is at .  If is continuous at , then is necessarily differentiable at .     Increasing \/ Decreasing Functions  We can now use the derivative function to study the behavior of the graph of .   If is at every point on , then is on .  If is at every point on , then is on .     Graph of the cubic function f(x) = x^3 - 12x - 5 showing increasing intervals before x = -2 and after x = 2, and a decreasing interval between -2 and 2.      A function that is increasing or decreasing on an interval is said to be monotonic on the interval.    For example, the function is monotonic on three separate intervals: It is increasing on and , and decreasing on .        "
+},
+{
+  "id": "day-8-notes-2-1",
+  "level": "2",
+  "url": "day-8-notes.html#day-8-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Previously: "
+},
+{
+  "id": "day-8-notes-2-2",
+  "level": "2",
+  "url": "day-8-notes.html#day-8-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "def-derivative-at-point-3",
+  "level": "2",
+  "url": "day-8-notes.html#def-derivative-at-point-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Notes: "
+},
+{
+  "id": "day-9-notes",
+  "level": "1",
+  "url": "day-9-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 9: Sections 3.3a, 3.6: Derivative Rules, Part I",
+  "body": " Day 9: Sections 3.3a, 3.6: Derivative Rules, Part I    Last Time: We learned how to find the derivative as a function, explored the concepts of differentiability and non-differentiability, and understood how the derivative function helps us analyze the behavior of a function.   Today: We want to spot patterns when finding derivatives! Some function families follow consistent rules, so learning these patterns saves effort compared to using the limit definition every time.     Notes    All the rules we're going to talk about today can be proved using the limit definition of the derivative. For example, we could prove the power rule by using the limit definition to differentiate the generic function (see the link below). For the sake of time, we won't do that but you should know that this careful limit framework is the thing that makes all of our rules work.    There are going to be lots of rules to memorize today (and more next time) you may find it helpful to organize them into a condensed cheat sheet to use as a quick reference guide while you're studying.    Let's start with the following table of derivatives. Do you see a pattern?                        The Power Rule and Constant Rule   The Power Rule:   , where is .  If you're happy to believe this rule holds based on our observations, that's great; if you want to see an actual proof of why it's true, there's a good one in Paul's Online Math Notes .  There is a special case of this rule that's particularly important because it tells us how to differentiate constants:   The Constant Rule:   for any constant .  This is true because  . Alternatively, the graph of the constant function is a line, which has a slope of .    The Constant Multiple Rule and Sum Rule  So now we know how to differentiate constants by themselves but what if they show up as coefficients? And what if we have multiple terms added together? The following two rules make these cases really easy to deal with.   The Constant Multiple Rule:     The Sum Rule:     Note: This works for subtraction too, since .      Problem 1  The constant multiple and sum\/subtraction rules basically work together to tell us that when we want to differentiate a complicated function, we can go one term at a time and any coefficients that show up can just be preserved as coefficients of our answer. These first 4 rules together tell us how to differentiate polynomials!    Find given that .    (Exercise) Find given that .      The Exponent Rule  So we know how to take the derivatives of power functions (things that look like ). What if we swap them to get an exponential function, i.e., ?   Remember: An exponential function is one of the form , like , , etc. Some exponent properties we need to remember:    The Exponent Rule: For any ,   There's a special case of this one we care about a lot too:       Problem 2  At this point, we have the tools we need to differentiate many functions and simple combinations of functions. What we have left are the things we get through more complicated ways of combining functions. We'll start with one today and finish next time.   Reminder: A composite function is a function of the form .  Identify the inner function and the outer function for each of the following composite functions.   (a)   (b)   (c)      The Chain Rule  Suppose and are both differentiable functions. Then   In Leibniz notation, if is a function of and is a function of , we can write that , where is evaluated at .    Problem 3  Let .    Find using the Chain Rule.    (Exercise) Find without using the Chain Rule. Hint: Expand the square.      Problem 4  Find the derivative of .      Problem 5 (Preview)  Find , where , by applying the Chain Rule twice.    The Chain Rule for Three Nested Functions  From Problem 5, we also have:   The Chain Rule for three nested functions:    Fill in the following blanks: where     "
+},
+{
+  "id": "day-9-notes-2-1",
+  "level": "2",
+  "url": "day-9-notes.html#day-9-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-9-notes-2-2",
+  "level": "2",
+  "url": "day-9-notes.html#day-9-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "rule-power-and-constant-2",
+  "level": "2",
+  "url": "day-9-notes.html#rule-power-and-constant-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Power Rule: "
+},
+{
+  "id": "rule-power-and-constant-5",
+  "level": "2",
+  "url": "day-9-notes.html#rule-power-and-constant-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Constant Rule: "
+},
+{
+  "id": "rule-constant-multiple-and-sum-3",
+  "level": "2",
+  "url": "day-9-notes.html#rule-constant-multiple-and-sum-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Constant Multiple Rule: "
+},
+{
+  "id": "rule-constant-multiple-and-sum-4",
+  "level": "2",
+  "url": "day-9-notes.html#rule-constant-multiple-and-sum-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Sum Rule: "
+},
+{
+  "id": "rule-constant-multiple-and-sum-5",
+  "level": "2",
+  "url": "day-9-notes.html#rule-constant-multiple-and-sum-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "rule-exponent-4",
+  "level": "2",
+  "url": "day-9-notes.html#rule-exponent-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Exponent Rule: "
+},
+{
+  "id": "rule-chain-rule-three-nested-3",
+  "level": "2",
+  "url": "day-9-notes.html#rule-chain-rule-three-nested-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Chain Rule for three nested functions: "
+},
+{
+  "id": "day-10-notes",
+  "level": "1",
+  "url": "day-10-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 10: Sections 3.3b and 4.1a: Derivative Rules (Part II) and Introduction to Absolute and Local Extrema",
+  "body": " Day 10: Sections 3.3b and 4.1a: Derivative Rules (Part II) and Introduction to Absolute and Local Extrema    Last Time: We started looking at some derivative rules to help us take derivatives without the limit definition. In particular, we talked about the following rules:   The Power Rule:   . The Constant Rule:   .   The Constant Multiple Rule:   .   The Sum\/Subtraction Rule:   .   The Exponent Rule:   . Particularly,  .   The Chain Rule: Suppose and are both differentiable functions. Then  .  By applying the Chain Rule twice, we obtain    Today: We want to talk about our other two big rules, the Product Rule and the Quotient Rule, and do some more practice using rules in combination. We will also begin exploring applications of derivatives, starting with absolute and local extrema.     The Product Rule  We want to know how to differentiate products of functions, i.e., functions like .  Recall that products represent areas; suppose our functions and give the side lengths of the inner rectangle below:    Geometric area diagram showing a rectangle of side lengths f and g expanded by delta f and delta g to illustrate the Product Rule.     The Product Rule:     .    Problem 1  Find , given that .      The Quotient Rule  The Product Rule also tells us how to deal with quotients of functions! Suppose we want to find when . We don't know how to do this, but we do know how to find the derivative of :  Now we can rearrange our terms to solve for !   The Quotient Rule: Where , we have  .    Problem 2  Find .    Differentiation Strategy  To finish up the day, let's spend some time talking about strategy and doing a few more examples. Here are some strategy points to remember:    Always start by identifying of the function you want to differentiate. Is it a product? Composition? Quotient? Are there multiple things happening? Making a plan will give you a direction.    While differentiating, always work from the !    Stay really organized. Color code, put things in boxes, take derivatives of of the function before plugging them into the , whatever works for you! Just make sure your work is clear to anyone who looks at it.    Make sure all are correctly placed, as they affect the meaning of the expression. Penalties apply to quizzes and exams.        Problem 3  Now we can practice the Derivative Rules we've studied with the following functions. For each function, identify the rules to apply, in order. Feel free to work out the details and double-check against the provided answers.       Two big rules: and    Answer:  .       Two big rules: and    Answer:  .     (Exercise)    Two big rules: and    Answer:  .     (Exercise)    Two big rules: and    Answer:  .     Note: To find the derivative of , we have options here! We can also use the Product Rule and Chain Rule only, without using the Quotient Rule.      Preview and Definition: Absolute \/ Global Extrema   (Preview) Next, we explore how derivatives can be used to determine the absolute\/local maxima\/minima of a function.  We use the word extremum to refer to a maximum or minimum without specifying which it is.  Latin lesson of the day: For the words maximum,  minimum, and extremum, the ending -um is singular and the ending -a (for example, minima ) is plural.   Definition: A function has an absolute\/global maximum (minimum) value at if is the largest (smallest) value of anywhere .  That is,     has an absolute\/global imum value at if   for all in the (given) of  .  Graphically, this is the point on the graph over its (given) .     has an absolute\/global imum value at if   for all in the (given) of  .  Graphically, this is the point on the graph over its (given) .      Problem 4   Note: This problem has three parts. For each part, two of the graphs are assigned as exercises.    For each graph, does have an absolute minimum and an absolute maximum on ? If so, where?    Series of four graphs on the interval from a to b showing different endpoint behaviors, interior peaks, valleys, and discontinuities for analyzing extrema.      For each graph, does have an absolute minimum and an absolute maximum on ? If so, where?    Series of four graphs on the open interval (a, b) showing different endpoint behaviors, interior peaks, valleys, and discontinuities for analyzing extrema.        Notes    Finding the absolute maximum or minimum of a function can be a difficult task, especially algebraically.    Recall that only tell us about the behavior of a function at a point , so we use them alone to find the absolute\/global extrema of a function.    However, are very useful in finding extrema, so this is often a great way to start.        Definition: Local Extrema   Definition: A local maximum (minimum) point is a point which is at least as ( ) as the points .  That is,     has a local maximum value at if    for in some small open containing  (or a interval, if is an endpoint of a closed or half-open interval domain).  Graphically, this corresponds to the point inside a tall, narrow that contains the point (or has it on its boundary).     has a local minimum value at if    for in some small open containing  (or a interval, if is an endpoint of a closed or half-open interval domain).  Graphically, this corresponds to the point inside a tall, narrow that contains the point (or has it on its boundary).     Note: Absolute\/global extrema are also local extrema, but the reverse is not necessarily true.    Problem 4 (cont.)   iii) For each graph, mark the points that are local maxima and local minima on the interval .    Series of four graphs on the interval [a, b] for marking all local maxima and local minima.      "
+},
+{
+  "id": "day-10-notes-2-1",
+  "level": "2",
+  "url": "day-10-notes.html#day-10-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-10-notes-2-2",
+  "level": "2",
+  "url": "day-10-notes.html#day-10-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Power Rule: The Constant Rule: "
+},
+{
+  "id": "day-10-notes-2-3",
+  "level": "2",
+  "url": "day-10-notes.html#day-10-notes-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Constant Multiple Rule: "
+},
+{
+  "id": "day-10-notes-2-4",
+  "level": "2",
+  "url": "day-10-notes.html#day-10-notes-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Sum\/Subtraction Rule: "
+},
+{
+  "id": "day-10-notes-2-5",
+  "level": "2",
+  "url": "day-10-notes.html#day-10-notes-2-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Exponent Rule: "
+},
+{
+  "id": "day-10-notes-2-6",
+  "level": "2",
+  "url": "day-10-notes.html#day-10-notes-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Chain Rule: "
+},
+{
+  "id": "day-10-notes-2-8",
+  "level": "2",
+  "url": "day-10-notes.html#day-10-notes-2-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "rule-product-rule-5",
+  "level": "2",
+  "url": "day-10-notes.html#rule-product-rule-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Product Rule: "
+},
+{
+  "id": "rule-quotient-rule-4",
+  "level": "2",
+  "url": "day-10-notes.html#rule-quotient-rule-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Quotient Rule: "
+},
+{
+  "id": "def-absolute-extrema-2",
+  "level": "2",
+  "url": "day-10-notes.html#def-absolute-extrema-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "(Preview) "
+},
+{
+  "id": "def-absolute-extrema-5",
+  "level": "2",
+  "url": "day-10-notes.html#def-absolute-extrema-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Definition: "
+},
+{
+  "id": "def-local-extrema-2",
+  "level": "2",
+  "url": "day-10-notes.html#def-local-extrema-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Definition: "
+},
+{
+  "id": "def-local-extrema-5",
+  "level": "2",
+  "url": "day-10-notes.html#def-local-extrema-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "day-11-notes",
+  "level": "1",
+  "url": "day-11-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 11: Sections 4.3 and 4.4a: Absolute\/Local Extrema of Functions",
+  "body": " Day 11: Sections 4.3 and 4.4a: Absolute\/Local Extrema of Functions    Last Time: We finished learning about our derivative rules and started practicing combining them. We also studied absolute\/local extrema geometrically.   Today: We explore how derivatives can be used to determine the absolute\/local maxima\/minima of a function algebraically.     Definition: Critical Points  Often the first step is to check critical points.   Definition: Critical points are points in the of where or where .   Notes: The only places, in the domain of , where the function can possibly have a(n) value (local or absolute), if they exist, are at:    points    OR at the .      Problem 1  Let's look at the cubic function .    Find all critical points of .  Step 1: Find .  Step 2: Solve .  Step 3: Determine where .  Step 4: Understand the , which may be given.  Step 5: Conclude the .    Make a sign chart for and use this to decide whether each of the critical points you found is a local minimum, a local maximum, or neither. Recall that the values of are closely related to whether the function is increasing or decreasing.        First Derivative Test  The process we just did in Problem 1(b) is called the Derivative Test to decide whether a critical point is a local minimum, a local maximum, or neither . Let's study it here:   First Derivative Test: Suppose that is a of a continuous function , and that is differentiable at every point in some interval containing except possibly at itself.  Moving across this interval from left to right:   Case 1: If changes sign from negative to positive at , has a  at .   Case 2: If changes sign from positive to negative at , has a  at .   Case 3: If goes from positive to positive or negative to negative, has   at .    Problem 1 - Revisit  Next we will see what the second derivative can tell you about local extrema. Let's look at the cubic function .    Find all critical points of . Answer: Applying the 5-step strategy, has critical points at and .     Make a sign chart for and use this to decide whether each of the critical points you found is a local minimum, a local maximum, or neither. Answer: Using testing points on and increasing\/decreasing properties of ,     Sign chart for the first derivative f'(x) of f(x) = x^3 + 3x^2 + 1 showing critical points at x = -2 and x = 0 with positive, negative, and positive intervals.      Now, determine the signs of and . What do these signs indicate about the concavity of the function at those points?        Problem 2  Let and . The graphs of and are shown below.    Graph of f(x) = x^5 passing through the origin with a horizontal inflection point at x = 0.    Graph of g(x) = x^4 showing a U-shaped curve with a global and local minimum at the origin (0, 0).      From the graphs, we observe the following:   has   at , while  has   at .     Additionally,   b-i) What is ? ?  b-ii) What is ? ?       Second Derivative Test  Let's summarize what we have learned about the Derivative Test from Problems 1(c) and 2.   Second Derivative Test: Suppose is continuous on an open interval that contains .   Case 1: If  and  , has a  at .   Case 2: If  and  , has a  at .   Case 3: If  and  , the test is . That is, at , may have , , or .      Problem 3  Let . Find all critical points of , and determine whether each critical point is a local minimum, local maximum, or neither by using the Second Derivative Test.  Recall the 5-step strategy for finding critical points:  Step 1: Find .  Step 2: Solve .  Step 3: Determine where .  Step 4: Understand the , which may be given.  Step 5: Conclude the .  Next, we apply the Second Derivative Test to determine local extrema, as requested.    Problem 4  Let . Find all critical points of , and determine whether each critical point is a local minimum, local maximum, or neither.  Recall the 5-step strategy for finding critical points:  Step 1: Find .  Step 2: Solve .  Step 3: Determine where .  Step 4: Understand the , which may be given.  Step 5: Conclude the .  Now, which test should be used to determine local extrema in this case?    "
+},
+{
+  "id": "day-11-notes-2-1",
+  "level": "2",
+  "url": "day-11-notes.html#day-11-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-11-notes-2-2",
+  "level": "2",
+  "url": "day-11-notes.html#day-11-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "def-critical-points-3",
+  "level": "2",
+  "url": "day-11-notes.html#def-critical-points-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Definition: "
+},
+{
+  "id": "def-critical-points-4",
+  "level": "2",
+  "url": "day-11-notes.html#def-critical-points-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Notes: "
+},
+{
+  "id": "thm-first-derivative-test-3",
+  "level": "2",
+  "url": "day-11-notes.html#thm-first-derivative-test-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "First Derivative Test: "
+},
+{
+  "id": "thm-second-derivative-test-3",
+  "level": "2",
+  "url": "day-11-notes.html#thm-second-derivative-test-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Second Derivative Test: "
+},
+{
   "id": "homework",
   "level": "1",
   "url": "homework.html",
