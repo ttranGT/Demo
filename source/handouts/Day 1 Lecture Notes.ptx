@@ -3,7 +3,7 @@
   <title>Day 1: Syllabus, Important Facts, and a Review of Functions</title>
 
   <introduction>
-  <p workspace="0.5in">
+  <p >
   Welcome to Differential Calculus! Each day, we'll provide you with partially filled-in notes to complete during lecture. This ensures you don't miss key concepts and cuts down on writing so you can focus on following along.
 </p>
     <p>
@@ -17,7 +17,7 @@
   <page>
     <paragraphs xml:id="p-math-in-community">
       <title>Math in Community</title>
-     <p workspace="0.5in">
+     <p >
         One thing people often don't realize is that it can be really helpful to do math <em>in community</em>. We all bring valuable ideas and perspectives to the class! We want to actively practice appreciating each others' input this semester.
       </p>
     </paragraphs>
