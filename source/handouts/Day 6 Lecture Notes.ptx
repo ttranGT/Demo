@@ -91,11 +91,11 @@
 
   <page>
     <paragraphs xml:id="p-recall-limits-continuity">
-      <title>Recall</title>
+      <title>Continuity</title>
       <p>
         Before moving on from limits, let's revisit the relationship between one- and two-sided limits and what limits can—and cannot—tell us about functions.   </p>
       <p>
-        <term>Recall:</term> The two-sided limit <m>\displaystyle \lim_{x \to a} f(x)</m> <fillin characters="12"/> if and only if (exactly when):
+        We recall that the two-sided limit <m>\displaystyle \lim_{x \to a} f(x)</m> <fillin characters="12"/> if and only if (exactly when):
       </p>
       <ol marker="1.">
         <li>
