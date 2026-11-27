@@ -69,11 +69,13 @@
     </shortdescription>
   </image>
   <stack>
-    <md>
-      <mrow>f(x) \amp = 2x-1</mrow>
-      <mrow>y \amp = x^2+x-2</mrow>
-      <mrow>g(t) \amp = \sqrt{t^3-8}</mrow>
-    </md>
+    <p>
+      <md>
+        <mrow>f(x) \amp = 2x-1</mrow>
+        <mrow>y \amp = x^2+x-2</mrow>
+        <mrow>g(t) \amp = \sqrt{t^3-8}</mrow>
+      </md>
+    </p>
   </stack>
 </sidebyside>
 
