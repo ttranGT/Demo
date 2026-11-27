@@ -1,6 +1,429 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
+  "id": "homepage-math-1551",
+  "level": "1",
+  "url": "homepage-math-1551.html",
+  "type": "Section",
+  "number": "",
+  "title": "Welcome to MATH 1551!",
+  "body": " Welcome to MATH 1551!   We're looking forward to working with you this semester. On this page, you can find lots of useful facts please save everyone an email by looking here first if you have a question. If you don't find the answer you need, reach out to your instructor.    Helpful Links     Syllabus: Contains all the policies and overview of the course, as well as some important dates and logistics and a tentative course schedule.     Lecture and Studio Materials: Contains a lot of this material, as well as notes for each lecture and studio worksheets and answers. Note that the textbook\/MyMathLab package is NOT required for the course it's just an optional extra help.      WeBWork Homework Page: Contains a link to the online homework for ALL MATH 1551 students, regardless of their lecture sections. See the Homework section below for homework FAQ, and Piazza for a message board where you can chat with your classmates about problems.     Core IMPACTS: Contains the required standard USG and GT syllabus information for the course. The module will serve to remind students that the course is designed to fulfill part of their general education, and of the purpose and rationale of the Core IMPACTS curriculum.     1551 Student Advice: We have compiled a list of advice and reflections on the course from past students on Canvas.      Office Hours   Instructor Office Hours  Your instructor has office hours every week, where you can come by (no appointment required!) and ask questions about the course, both mathematical and logistical. You can even drop by to talk about your homework or review what's happening in class and it's okay if you don't have specific questions too, we're always happy to help however we can. This is one of the best ways to get more help with the course you can find the schedule below:     Sections A\/C: Prof. Matteo Raffaelli ( raffaelli@math.gatech.edu ) Fridays 2:30 – 4:30 pm in Groseclose 226     Section F: Prof. Pranav Chinmay ( pchinmay6@gatech.edu ) Monday\/Wednesday 10:00 – 11:00 am in Clough 248     Section H: Prof. Fei Peng ( fpeng33@gatech.edu ) Wednesdays 2:00 – 4:00 pm in Clough 248     Sections K\/M: Prof. Maya Thompson ( mayathompson@gatech.edu ) Mondays 10:00 am – 12:00 pm in Clough 248     Sections G\/HP: Prof. Thomas Tran ( thomas.tran@math.gatech.edu ) Drop-in: Mondays and Wednesdays, 2:00 – 3:00 pm in Skiles 229 (or schedule an appointment via email; MS Teams available if needed)    Please refer to the Canvas homepage link for TA and PLUS Leader contact information, along with their office hour and PLUS study session schedules.    TAs Office Hours  One-on-one and small group tutoring sessions with our UTAs will start in the second week of the course. The UTAs will hold a 30-minute drop-in session for the students in their studio section, followed by a 30-minute bookable appointment. If no one books them, then they will continue with drop-in office hours. Appointments can be booked with them or other UTAs via UTA Tutoring on Canvas.  To find out more information about other tutoring services offered on campus, please see the Additional Tutoring and Academic Support section below.     Common Course Questions   Q: When should I come to office hours?   A: Anytime you have a question or something you want to talk about! We would especially like you to ask for help (from us or one of your other resources) in the following circumstances, as they're early indications that the course may not be going in a good direction for you:   You're confused about something we did in lecture.  You don't understand how to do some of the homework (after giving it an honest attempt).  You received a quiz or exam grade that's lower than the final grade you hope to earn.  There is something going on in your life that has the potential to severely impact your class performance we don't need to know the details, but we have much more ability to help you if you reach out before you're behind or have done poorly on assessments.   Reaching out early can keep your challenges from compounding, and can make you much more successful in this course.    Q: How do I prepare for exams?   A: To prepare for exams, students are expected to thoroughly review the course materials, including lecture notes, WeBWork solutions, quiz solutions, practice problems from non-studio weeks, and studio worksheets (with available answer keys and hints), before working through problems from past exams.    Q: How do I receive feedback on my quizzes and exams?   A: Quizzes and exams will be graded electronically and returned to you via Gradescope. Once in Gradescope, you can see which rubric items were applied to your submission and which points you earned by clicking the question number in the column on the right to expand.    Q: I'm going to miss a class or assignment. What should I do?   A: That depends on what you're going to miss and why:     Lecture: Lecture attendance is not mandatory but strongly encouraged.     Studio\/Quiz: Studio attendance is required (because these sessions are REALLY helpful!). There are 11 studio meetings throughout the semester. Students are allowed to miss up to three studios, regardless of the reason; in other words, the three lowest quiz scores will be dropped. If you have extenuating circumstances that require additional absences beyond this generous buffer, please reach out individually to your instructor or the course coordinator. Absences not discussed by 1 week after the absence may not be excused, even if they were for a good reason.     Exam: Please fill out the Exam Makeup Request Form (linked on Canvas) by the Wednesday before the exam for a planned absence, and as soon as possible (no later than noon the following Monday) otherwise. There will be common makeup exams from 11:00 am to 12:15 pm each Tuesday following an exam for students who must miss the exam for an excused reason. Note that you may not be allowed to make up an exam if you fail to provide timely notification and documentation of your excused absence.      Q: How is my grade calculated?   A: This is written clearly in the syllabus please look there for calculations and all related policies.  Canvas will NOT show your current\/projected total grade at any point, since there's no way to program it to take the better of two options as described in the syllabus while also accounting for the WeBWork extra points. However, you can calculate your current grade by following the instructions to enter your current\/projected assignment grades into the 1551 Grade Approximator.xlsx spreadsheet on Canvas.   Please note: This calculator is to be used for estimation purposes only, and the calculator and its outputs should not be taken as a guarantee that you will receive a particular grade in the course. You will need to download the calculator in order to use it. Canvas does NOT accurately reflect quiz or midterm or final exam averages, because any missed assignments are recorded as 0, and Canvas includes these in the calculation.    Q: Is there extra credit? Do we drop (quizzes, exams, etc.) in this course? How can I improve my grade?   A: There is NO extra credit in this course beyond the weekly review sessions and the CIOS incentive offered in the syllabus, either individual or collective. We drop 3 studio participation quizzes.  There are no retakes or opportunities to change your grade on a correctly graded assignment (though we do encourage you to learn from your mistakes). If there are circumstances in your life that you feel will affect an upcoming quiz or exam, please reach out to your instructor beforehand we want to help, but can't do so if you go ahead and take the assessment.  The best way to improve your grade is by developing your study skills, strengthening your understanding of the concepts, and preparing effectively for exams. We are here to support you please seek help whenever you need it.    Q: When\/where is our exam?   A: This semester, we will have 3 common exams during the exam period on Friday evenings, from 5:00 pm to 6:15 pm. You can find the dates in our calendar, and should note them at the beginning of the semester so you can plan accordingly and notify your instructor as soon as possible if you will be absent (see above).  Note that there will be no studio on exam days. Please check your final exam schedule carefully, and let us know about any conflicts with at least 2 weeks' notice. We will provide you with reminders that exams are coming up, but it is ultimately your responsibility to keep informed about the course schedule and prepare for your exams.   Note: Students with extended time accommodations should refer to the question below: Q: I have accommodations for this course. How do I use them?     Q: Can I use a calculator?   A: For quizzes and exams, no. We will write problems where numbers work out nicely though, so don't worry about it. You may run into some messier numbers on your WeBWork homework or studio worksheets, so using a calculator there is just fine (just make sure you're learning the process too so you won't be lost without it on the exams).  Please note that WeBWork does not accept decimal answers. Keep your answers as they are (i.e., in rational form, as roots, etc.).    Q: I have accommodations for this course. How do I use them?   A: First, please reach out to your instructor as soon as possible in order to set up a plan and discuss what help you may need from us.     For studio participation quizzes: You can ask your TA if they're willing to stay a few minutes (typically at most 5 minutes) after class to provide you your full allotment of time. Please note you must make this request in advance, and your TA is not required to accommodate you. If the TA is unavailable to accommodate your request or if you have any questions, please contact your instructor.     For midterm exams:    Please schedule your midterm exam with extended time at the Testing Center on the same day as the class exam and at a time as close as possible to the scheduled exam time. For example, for Friday exams, if you have a 1.5X time accommodation, you should plan to begin at 2:45 pm.  If that is not feasible, please contact your instructor to obtain approval to schedule your exams on the Friday of the exam week, during the Testing Center's business hours, at a time that best fits your schedule. Please let the Testing Center know that we have approved this flexible timing.  If you need to take a makeup exam, you must first obtain permission from your instructor or the course coordinator. Makeup exams should be scheduled at the Testing Center on Tuesday, the designated day for common makeup exams, beginning as close to 11:00 am as possible.  ODS Policy:  Students must schedule exams (tests, quizzes, and midterms) at least five business days in advance. Requests must be submitted through AIM. Please note: weekends are not included in business days.  Important: Due to the 5 business day notice policy, you may want to schedule both the regular Friday and the makeup Tuesday exams as a precaution. After completing the regular exam, please cancel the Tuesday exam no later than the following Monday.      For the final exam:    Please schedule your final exam at the Testing Center as soon as possible.  ODS Policy:  Students must schedule final exams through AIM at least 30 business days in advance. The available blocks for scheduling final exams are 8 a.m., 11:30 a.m., and 2:45 p.m. Students may not schedule final exams that will occur during reading periods.      Please note:    You must take care to abide by the testing center's policies and scheduling deadlines in order to use their services (see Office of Disability Services Scheduling ).  When scheduling at the testing center, you should schedule under your lecture section (i.e., G or M) and NOT your studio section (e.g., G01 or M02). This allows our coordinator to correctly send work to the testing center for you to complete.   If you have any other questions or concerns, or need help navigating this process, please reach out to your instructor or the course coordinator.     Homework   Q: Where do we complete homework this semester?   A: We will use the WeBWork system to do our graded online homework just click the link on the Canvas homepage. You don't need to submit this homework or tell us you've completed it WeBWork automatically saves your best question scores and will update that grade in Canvas, though this syncing may not happen quickly so please don't panic. Just keep an eye on your grade in WeBWork weekly, and we'll ask you at the end of the semester to double check that everything looks okay.  If you encounter any technical errors while working on WeBWork, please contact your instructor immediately for guidance. Issues reported after the deadline have passed will not be considered for any reason. Please note that WeBWork does not accept decimal answers. Keep your answers as they are (i.e., in rational form, as roots, etc.).    Q: How can I get help on my homework?   A: You have lots of options! In person, you can stop by your instructor's office hours, book one-on-one or small group tutoring sessions with TAs, ask a friend, or post questions on Piazza.   For Piazza: Be sure to ask as specific a question as possible (e.g., Please do this problem for me is not really a question, and you should include your own thoughts). If applicable, attach a screenshot of your work. Please also scroll through to see if someone has already answered your question before you post!    Q: Can I have a homework extension?   A: No. Homework deadlines are there to keep you on schedule, and you will always have several days between covering the content of a homework set and it being due. These deadlines are firm in all individual circumstances. We offer a number of homework extra points, as detailed in the syllabus, so it is still possible to achieve a perfect score even if you do not fully complete a small number of assignments.  However, if you notice that homework you did has not saved in WeBWork (and this persists for 20 minutes or more), please contact your instructor or the course coordinator immediately.    Q: Are there more practice problems I can do?   A: Always! It's often effective to search for problems on the topic we're working on since Calculus is widely studied. Some specific resources we like are:     Examples and exercises from the textbook: An older version of the textbook is available under Day 1 in the Lecture and Studio Materials section.     Paul's Online Math Notes: This site is essentially a free textbook, with brief explanations and some good practice problems with nice solutions.     Optional MyMathLab Course: We also have set up an optional MyMathLab course, titled Differential Calculus - MATH-1551 - A\/C\/F\/G\/H\/HP\/K\/M , which includes an electronic copy of our textbook and some more problems in an online homework system find more information on the MyMathLab Information page on Canvas.       Help and Resources   Additional Tutoring and Academic Support     Precalculus & Algebra Review: You may find that you're a little uncertain you're prepared for this course, or that some of the background is giving you trouble in this case, check out our Precalc & Algebra Review Help page on Canvas for more careful suggestions.     The Math Lab: Staffed by graduate students in the Math program including some of your TAs! They offer free drop-in tutoring in Clough 280; see the posted hours and schedule at math.gatech.edu\/tutors-and-labs . Anyone who is listed as a 1551 tutor can help you, and anyone who isn't probably can too.     1-to-1 Tutoring & Knack: 1-to-1 Tutoring is a Tech-wide service offering free private tutoring by appointment through Tutoring & Academic Support. You can also access free in-person and online tutoring through the Tech Knack site at joinknack.com\/school\/georgia-institute-of-technology .     PLUS (Peer-Led Undergraduate Study) Sessions: A great way to enhance your study time a peer leader will prepare some extra problems for you to work through with your peers to solidify your understanding of concepts and meet people to form other study groups. Keep your eyes open for announcements about the schedule for our course.     OMED Academic Support: Offers free drop-in tutoring as well as other general academic services through OMED Educational Services.     Office of Undergraduate Education (OUE) & Academic Advising: Offers the First-Year Student Success talk series, general tutoring through Tutoring & Academic Support, and academic advising appointments through Advising & Transition.      Mental Health and Personal Resources  You are a student, but first and foremost you are a valuable person, and we want to make sure you and your needs are taken care of. There are some resources listed below; if you are having trouble finding or navigating any resource you need, please reach out to your instructor or the Dean of Students and we'll be happy to help you. Please take the time to be well!     Office of the Dean of Students: Can help you find and navigate resources on campus and coordinate extended absences or extenuating circumstances with your professors. Stop by the second floor of the Smithgall Student Services Building (the Flag Building), call (404) 894-2565 during business hours, or fill out the help request form online anytime.     Center for Mental Health Care & Resources (Counseling Center): Available to help you navigate mental health and counseling issues, offering short-term individual counseling, group counseling, couples counseling, testing and assessment, referral services, and crisis intervention. Stop by the first floor of the Smithgall Student Services Building (the Flag Building), suite 102B, or call CARE at (404) 894-3498 during business hours.     After-Hours Counseling & Emergencies: If you need to speak to a counselor after hours or on a weekend, call (404) 894-2575 or (404) 894-3498 and select the option to speak to the after-hours counselor. If you're experiencing a serious or life-threatening emergency, contact GT Police at (404) 894-2500.     QPR (Question, Persuade, Refer) Training: Support yourself, your classmates, and your cohort by learning more at mentalhealth.gatech.edu\/outreach-programs\/qpr-training .     Stamps Health Services: Offers primary care, pharmacy, women's health, psychiatry, immunization and allergy, health promotion, and nutrition services. Call (404) 894-1420 or visit the Stamps Health Services website.     GT Student Resources: Check out the GT Student Resources tab on Canvas for a more complete list of resources.      "
+},
+{
+  "id": "homepage-helpful-links-2-1-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-helpful-links-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Syllabus: "
+},
+{
+  "id": "homepage-helpful-links-2-2-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-helpful-links-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Lecture and Studio Materials: "
+},
+{
+  "id": "homepage-helpful-links-2-3-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-helpful-links-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "WeBWork Homework Page: "
+},
+{
+  "id": "homepage-helpful-links-2-4-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-helpful-links-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Core IMPACTS: "
+},
+{
+  "id": "homepage-helpful-links-2-5-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-helpful-links-2-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1551 Student Advice: "
+},
+{
+  "id": "homepage-instructor-office-hours-3-1-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-instructor-office-hours-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections A\/C: "
+},
+{
+  "id": "homepage-instructor-office-hours-3-2-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-instructor-office-hours-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Section F: "
+},
+{
+  "id": "homepage-instructor-office-hours-3-3-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-instructor-office-hours-3-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Section H: "
+},
+{
+  "id": "homepage-instructor-office-hours-3-4-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-instructor-office-hours-3-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections K\/M: "
+},
+{
+  "id": "homepage-instructor-office-hours-3-5-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-instructor-office-hours-3-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections G\/HP: "
+},
+{
+  "id": "faq-office-hours-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-office-hours-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-exam-prep-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-exam-prep-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-feedback-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-feedback-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-missed-class-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-missed-class-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-missed-class-3-1-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-missed-class-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Lecture: "
+},
+{
+  "id": "faq-missed-class-3-2-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-missed-class-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Studio\/Quiz: "
+},
+{
+  "id": "faq-missed-class-3-3-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-missed-class-3-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Exam: "
+},
+{
+  "id": "faq-grade-calculation-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-grade-calculation-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-grade-calculation-3",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-grade-calculation-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1551 Grade Approximator.xlsx "
+},
+{
+  "id": "faq-extra-credit-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-extra-credit-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-exam-time-location-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-exam-time-location-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-calculators-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-calculators-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-accommodations-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-accommodations-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-accommodations-3-1-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-accommodations-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "For studio participation quizzes: "
+},
+{
+  "id": "faq-accommodations-3-2-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-accommodations-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "For midterm exams: "
+},
+{
+  "id": "faq-accommodations-3-3-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-accommodations-3-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "For the final exam: "
+},
+{
+  "id": "faq-accommodations-4",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-accommodations-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Please note: "
+},
+{
+  "id": "faq-webwork-location-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-webwork-location-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-homework-help-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-homework-help-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-homework-extension-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-homework-extension-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-more-practice-2",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-more-practice-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "A: "
+},
+{
+  "id": "faq-more-practice-3-1-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-more-practice-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Examples and exercises from the textbook: "
+},
+{
+  "id": "faq-more-practice-3-2-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-more-practice-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Paul's Online Math Notes: "
+},
+{
+  "id": "faq-more-practice-3-3-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#faq-more-practice-3-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Optional MyMathLab Course: "
+},
+{
+  "id": "homepage-tutoring-support-2-1-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-tutoring-support-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Precalculus & Algebra Review: "
+},
+{
+  "id": "homepage-tutoring-support-2-2-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-tutoring-support-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Math Lab: "
+},
+{
+  "id": "homepage-tutoring-support-2-3-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-tutoring-support-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1-to-1 Tutoring & Knack: "
+},
+{
+  "id": "homepage-tutoring-support-2-4-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-tutoring-support-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "PLUS (Peer-Led Undergraduate Study) Sessions: "
+},
+{
+  "id": "homepage-tutoring-support-2-5-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-tutoring-support-2-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "OMED Academic Support: "
+},
+{
+  "id": "homepage-tutoring-support-2-6-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-tutoring-support-2-6-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Office of Undergraduate Education (OUE) & Academic Advising: "
+},
+{
+  "id": "homepage-mental-health-3-1-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-mental-health-3-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Office of the Dean of Students: "
+},
+{
+  "id": "homepage-mental-health-3-2-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-mental-health-3-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Center for Mental Health Care & Resources (Counseling Center): "
+},
+{
+  "id": "homepage-mental-health-3-3-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-mental-health-3-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "After-Hours Counseling & Emergencies: "
+},
+{
+  "id": "homepage-mental-health-3-4-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-mental-health-3-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "QPR (Question, Persuade, Refer) Training: "
+},
+{
+  "id": "homepage-mental-health-3-5-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-mental-health-3-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Stamps Health Services: "
+},
+{
+  "id": "homepage-mental-health-3-6-1",
+  "level": "2",
+  "url": "homepage-math-1551.html#homepage-mental-health-3-6-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "GT Student Resources: "
+},
+{
   "id": "syllabus-fall-2026",
   "level": "1",
   "url": "syllabus-fall-2026.html",

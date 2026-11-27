@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Welcome to MATH 1551!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="_static/pretext/fonts/material-symbols-outlined.css">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<style>
+@counter-style ptx-marker-1 { system: extends lower-alpha; prefix: ''; suffix: ') '; }
+@counter-style ptx-marker-2 { system: extends lower-alpha; prefix: '('; suffix: ') '; }
+@counter-style ptx-marker-3 { system: extends upper-alpha; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-4 { system: extends lower-roman; prefix: ''; suffix: ') '; }
+@counter-style ptx-marker-5 { system: extends upper-alpha; prefix: '('; suffix: ') '; }
+@counter-style ptx-marker-6 { system: extends decimal; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-7 { system: extends decimal; prefix: ''; suffix: ') '; }
+@counter-style ptx-marker-8 { system: extends lower-roman; prefix: '('; suffix: ') '; }
+@counter-style ptx-marker-9 { system: extends upper-alpha; prefix: ''; suffix: ') '; }
+</style>
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer data-pretext-mathjax="true" onerror="this.dataset.loadFailed = 'true';" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Differential Calculus">
+<meta property="og:title" content="Differential Calculus">
+<meta property="book:title" content="Differential Calculus">
+<meta name="twitter:description" content="MATH 1551 - Spring 2027">
+<meta property="og:description" content="MATH 1551 - Spring 2027">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.56"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.56"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.4.4';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.f8f1b0356e390ae7.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.c97e392d8ab1b208.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.52ceae47a9e6e8ed.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">Differential Calculus</span> <span class="subtitle">MATH 1551 - Spring 2027</span></a></div>
+<p class="byline">Thomas Tran</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-embed-button" class="ptx-embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><dialog class="ptx-dialog ptx-embed-popup" id="ptx-embed-popup"><div class="ptx-embed-popup-controls">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<button class="ptx-embed-close-button button" id="ptx-embed-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-embed-code-container">
+<textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="course-documents.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="course-documents.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="syllabus-fall-2026.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-course-documents">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="homepage-math-1551.html" class="internal"><span class="title">Welcome to MATH 1551!</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-homepage-math-1551">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="homepage-math-1551.html#homepage-helpful-links" class="internal"><span class="title">Helpful Links</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="homepage-math-1551.html#homepage-office-hours" class="internal"><span class="title">Office Hours</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="homepage-math-1551.html#homepage-common-questions" class="internal"><span class="title">Common Course Questions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="homepage-math-1551.html#homepage-homework" class="internal"><span class="title">Homework</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="homepage-math-1551.html#homepage-help-resources" class="internal"><span class="title">Help and Resources</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="syllabus-fall-2026.html" class="internal"><span class="title">MATH 1551 Syllabus (Fall 2026)</span></a></div>
+<ul id="ptx-toc-group-syllabus-fall-2026" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus-fall-2026.html#syllabus-instructor-info" class="internal"><span class="title">Instructor Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus-fall-2026.html#syllabus-general-info" class="internal"><span class="title">General Course Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus-fall-2026.html#syllabus-grading-policy" class="internal"><span class="title">Grading Policy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus-fall-2026.html#syllabus-course-policies" class="internal"><span class="title">Course Policies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus-fall-2026.html#syllabus-campus-resources" class="internal"><span class="title">Campus Resources for Students</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus-fall-2026.html#syllabus-course-schedule" class="internal"><span class="title">Tentative Course Schedule and Assessments</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="activities.html" class="internal"><span class="title">Worksheets &amp; Practice Exercises</span></a></div>
+<ul id="ptx-toc-group-activities" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="activities-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-1.html" class="internal"><span class="title">Worksheet 1: Sections 1.1, 1.2, 2.1 - Review of Functions, Rates of Change, Secant and Tangent Lines</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-2.html" class="internal"><span class="title">Worksheet 2: Sections 2.2, 2.4, 2.6a - Limit of a Function, One-Sided and Infinite Limits</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-3.html" class="internal"><span class="title">Worksheet 3: Limits and Asymptotes (Section 2.6b) and the Sandwich Theorem</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-4.html" class="internal"><span class="title">Worksheet 4: Continuity, Discontinuity, and the Intermediate Value Theorem - Sections 2.5a and 2.5b</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-5.html" class="internal"><span class="title">Worksheet 5: Sections 3.2b, 3.3ab, 3.6, and 4.1a - Derivative Functions, Derivative Rules, and Global/Local Extrema (Geometrically)</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-6.html" class="internal"><span class="title">Worksheet 6: Sections 4.1a, 4.3, and 4.4a - Absolute/Local Extrema</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-7.html" class="internal"><span class="title">Worksheet 7: Sections 4.4a, 4.1b, and 4.6 - Local/Absolute Extrema (Part II) and Optimization</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-8.html" class="internal"><span class="title">Worksheet 8: Sections 4.7, 1.3, 3.4, and 3.5 - Newton’s Method, Derivatives of Trig Functions, and Derivatives as Rates of Change</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-9.html" class="internal"><span class="title">Worksheet 9 - Sections 3.7 and 3.10: Implicit Differentiation and Related Rates</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-10.html" class="internal"><span class="title">Worksheet 10 - Sections 1.6, 3.8, 3.9, and 4.4b: Logarithmic Differentiation, Derivatives of Inverse Trigonometric Functions, and Curve Sketching (Part I)</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="worksheet-11.html" class="internal"><span class="title">Worksheet 11: Sections 4.2b and 4.8: Mean Value Theorem and Antiderivatives</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="handouts.html" class="internal"><span class="title">Guided Lecture Notes</span></a></div>
+<ul id="ptx-toc-group-handouts" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="handouts-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-1-notes.html" class="internal"><span class="title">Day 1: Syllabus, Important Facts, and a Review of Functions</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-2-notes.html" class="internal"><span class="title">Day 2: Section 2.1 - Rates of Change, Secant and Tangent Lines</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-3-notes.html" class="internal"><span class="title">Day 3: Section 2.2 - Limit of a Function</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-4-notes.html" class="internal"><span class="title">Day 4 - Sections 2.4 and 2.6a: One-Sided and Infinite Limits</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-5-notes.html" class="internal"><span class="title">Day 5: Limits and Asymptotes (Section 2.6b) and the Sandwich Theorem</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-6-notes.html" class="internal"><span class="title">Day 6: The Sandwich Theorem (cont.) and Introduction to Continuity (Section 2.5a)</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-7-notes.html" class="internal"><span class="title">Day 7: Section 2.5b: Discontinuities and the Intermediate Value Theorem</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-8-notes.html" class="internal"><span class="title">Day 8: Sections 3.1 and 3.2: The Derivative at a Point and the Derivative as a Function</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-9-notes.html" class="internal"><span class="title">Day 9: Sections 3.3a, 3.6: Derivative Rules, Part I</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-10-notes.html" class="internal"><span class="title">Day 10: Sections 3.3b and 4.1a: Derivative Rules (Part II) and Introduction to Absolute and Local Extrema</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-11-notes.html" class="internal"><span class="title">Day 11: Sections 4.3 and 4.4a: Absolute/Local Extrema of Functions</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-12-13-notes.html" class="internal"><span class="title">Days 12 &amp; 13: Sections 4.1b and 4.6 - Extreme Value Theorem, Closed Interval Method, and Introduction to Optimization Problems</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-14-notes.html" class="internal"><span class="title">Day 14: Section 3.11: Linear Approximation</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-15-notes.html" class="internal"><span class="title">Day 15: Sections 4.7 and 3.4a: Newton’s Method and Derivatives as Rates of Change (Part 1)</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-16-notes.html" class="internal"><span class="title">Day 16: Sections 1.3, 3.4b, 3.5: Derivatives of Trigonometric Functions and Derivatives as Rates of Change</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-17-notes.html" class="internal"><span class="title">Day 17: Section 3.7: Implicit Differentiation</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-18-notes.html" class="internal"><span class="title">Day 18: Section 3.10: Related Rates</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-19-notes.html" class="internal"><span class="title">Day 19: Sections 3.8, 1.6, and 3.9: Logarithmic Differentiation and Derivatives of Inverse Trigonometric Functions (Preview)</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20-notes.html" class="internal"><span class="title">Day 20: Section 4.4b: Curve Sketching (Part I)</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-21-notes.html" class="internal"><span class="title">Day 21: Curve Sketching (Part II)</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-22-notes.html" class="internal"><span class="title">Days 22 &amp; 23a: Section 4.2: Rolle’s Theorem and Mean Value Theorem</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-23-notes.html" class="internal"><span class="title">Days 23b &amp; 24: Section 4.8: Antiderivatives</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="homework.html" class="internal"><span class="title">Homework</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="homepage-math-1551">
+<h1 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Welcome to MATH 1551!</span>
+</h1>
+<section class="introduction" id="homepage-math-1551-2">
+<div class="para" id="homepage-math-1551-2-1">We’re looking forward to working with you this semester. On this page, you can find lots of useful facts—please save everyone an email by looking here first if you have a question. If you don’t find the answer you need, reach out to your instructor.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-math-1551-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="homepage-helpful-links">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Helpful Links</span>
+</h2>
+<ul class="disc" id="homepage-helpful-links-2">
+<li id="homepage-helpful-links-2-1">
+<div class="para" id="homepage-helpful-links-2-1-1">
+<dfn class="terminology">Syllabus:</dfn> Contains all the policies and overview of the course, as well as some important dates and logistics and a tentative course schedule.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-helpful-links-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-helpful-links-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-helpful-links-2-2">
+<div class="para" id="homepage-helpful-links-2-2-1">
+<dfn class="terminology">Lecture and Studio Materials:</dfn> Contains a lot of this material, as well as notes for each lecture and studio worksheets and answers. <em class="emphasis">Note that the textbook/MyMathLab package is NOT required for the course—it’s just an optional extra help.</em><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-helpful-links-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-helpful-links-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-helpful-links-2-3">
+<div class="para" id="homepage-helpful-links-2-3-1">
+<dfn class="terminology">WeBWork Homework Page:</dfn> Contains a link to the online homework for ALL MATH 1551 students, regardless of their lecture sections. See the Homework section below for homework FAQ, and Piazza for a message board where you can chat with your classmates about problems.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-helpful-links-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-helpful-links-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-helpful-links-2-4">
+<div class="para" id="homepage-helpful-links-2-4-1">
+<dfn class="terminology">Core IMPACTS:</dfn> Contains the required standard USG and GT syllabus information for the course. The module will serve to remind students that the course is designed to fulfill part of their general education, and of the purpose and rationale of the Core IMPACTS curriculum.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-helpful-links-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-helpful-links-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-helpful-links-2-5">
+<div class="para" id="homepage-helpful-links-2-5-1">
+<dfn class="terminology">1551 Student Advice:</dfn> We have compiled a list of advice and reflections on the course from past students on Canvas.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-helpful-links-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-helpful-links-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Helpful Links"><a tabindex="-1" href="#homepage-helpful-links" title="Copy heading and permalink for Subsection: Helpful Links" aria-label="Copy heading and permalink for Subsection: Helpful Links">🔗</a></div>
+</section>
+<section class="subsection" id="homepage-office-hours">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Office Hours</span>
+</h2>
+<section class="paragraphs" id="homepage-instructor-office-hours"><h3 class="heading"><span class="title">Instructor Office Hours.</span></h3>
+<div class="para" id="homepage-instructor-office-hours-2">Your instructor has office hours every week, where you can come by (no appointment required!) and ask questions about the course, both mathematical and logistical. You can even drop by to talk about your homework or review what’s happening in class—and it’s okay if you don’t have specific questions too, we’re always happy to help however we can. This is one of the best ways to get more help with the course—you can find the schedule below:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-instructor-office-hours-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="homepage-instructor-office-hours-3">
+<li id="homepage-instructor-office-hours-3-1">
+<div class="para" id="homepage-instructor-office-hours-3-1-1">
+<dfn class="terminology">Sections A/C:</dfn> Prof. Matteo Raffaelli (<a class="external" href="mailto:raffaelli@math.gatech.edu" target="_blank">raffaelli@math.gatech.edu</a>) — Fridays 2:30 – 4:30 pm in Groseclose 226<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-instructor-office-hours-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-instructor-office-hours-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-instructor-office-hours-3-2">
+<div class="para" id="homepage-instructor-office-hours-3-2-1">
+<dfn class="terminology">Section F:</dfn> Prof. Pranav Chinmay (<a class="external" href="mailto:pchinmay6@gatech.edu" target="_blank">pchinmay6@gatech.edu</a>) — Monday/Wednesday 10:00 – 11:00 am in Clough 248<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-instructor-office-hours-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-instructor-office-hours-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-instructor-office-hours-3-3">
+<div class="para" id="homepage-instructor-office-hours-3-3-1">
+<dfn class="terminology">Section H:</dfn> Prof. Fei Peng (<a class="external" href="mailto:fpeng33@gatech.edu" target="_blank">fpeng33@gatech.edu</a>) — Wednesdays 2:00 – 4:00 pm in Clough 248<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-instructor-office-hours-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-instructor-office-hours-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-instructor-office-hours-3-4">
+<div class="para" id="homepage-instructor-office-hours-3-4-1">
+<dfn class="terminology">Sections K/M:</dfn> Prof. Maya Thompson (<a class="external" href="mailto:mayathompson@gatech.edu" target="_blank">mayathompson@gatech.edu</a>) — Mondays 10:00 am – 12:00 pm in Clough 248<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-instructor-office-hours-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-instructor-office-hours-3-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-instructor-office-hours-3-5">
+<div class="para" id="homepage-instructor-office-hours-3-5-1">
+<dfn class="terminology">Sections G/HP:</dfn> Prof. Thomas Tran (<a class="external" href="mailto:thomas.tran@math.gatech.edu" target="_blank">thomas.tran@math.gatech.edu</a>) — Drop-in: Mondays and Wednesdays, 2:00 – 3:00 pm in Skiles 229 (or schedule an appointment via email; MS Teams available if needed)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-instructor-office-hours-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-instructor-office-hours-3-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="homepage-instructor-office-hours-4">Please refer to the Canvas homepage link for TA and PLUS Leader contact information, along with their office hour and PLUS study session schedules.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-instructor-office-hours-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Instructor Office Hours"><a tabindex="-1" href="#homepage-instructor-office-hours" title="Copy heading and permalink for Paragraphs: Instructor Office Hours" aria-label="Copy heading and permalink for Paragraphs: Instructor Office Hours">🔗</a></div>
+</section>
+<section class="paragraphs" id="homepage-ta-office-hours"><h3 class="heading"><span class="title">TAs Office Hours.</span></h3>
+<div class="para" id="homepage-ta-office-hours-2">One-on-one and small group tutoring sessions with our UTAs will start in the second week of the course. The UTAs will hold a 30-minute drop-in session for the students in their studio section, followed by a 30-minute bookable appointment. If no one books them, then they will continue with drop-in office hours. Appointments can be booked with them or other UTAs via UTA Tutoring on Canvas.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-ta-office-hours-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="homepage-ta-office-hours-3">To find out more information about other tutoring services offered on campus, please see the Additional Tutoring and Academic Support section below.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-ta-office-hours-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: TAs Office Hours"><a tabindex="-1" href="#homepage-ta-office-hours" title="Copy heading and permalink for Paragraphs: TAs Office Hours" aria-label="Copy heading and permalink for Paragraphs: TAs Office Hours">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Subsection: Office Hours"><a tabindex="-1" href="#homepage-office-hours" title="Copy heading and permalink for Subsection: Office Hours" aria-label="Copy heading and permalink for Subsection: Office Hours">🔗</a></div>
+</section>
+<section class="subsection" id="homepage-common-questions">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Common Course Questions</span>
+</h2>
+<section class="paragraphs" id="faq-office-hours"><h3 class="heading"><span class="title">Q: When should I come to office hours?</span></h3>
+<div class="para" id="faq-office-hours-2">
+<dfn class="terminology">A:</dfn> Anytime you have a question or something you want to talk about! We would especially like you to ask for help (from us or one of your other resources) in the following circumstances, as they’re early indications that the course may not be going in a good direction for you:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-office-hours-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="faq-office-hours-3">
+<li id="faq-office-hours-3-1">
+<div class="para" id="faq-office-hours-3-1-1">You’re confused about something we did in lecture.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-office-hours-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-office-hours-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-office-hours-3-2">
+<div class="para" id="faq-office-hours-3-2-1">You don’t understand how to do some of the homework (after giving it an honest attempt).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-office-hours-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-office-hours-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-office-hours-3-3">
+<div class="para" id="faq-office-hours-3-3-1">You received a quiz or exam grade that’s lower than the final grade you hope to earn.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-office-hours-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-office-hours-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-office-hours-3-4">
+<div class="para" id="faq-office-hours-3-4-1">There is something going on in your life that has the potential to severely impact your class performance—we don’t need to know the details, but we have much more ability to help you if you reach out before you’re behind or have done poorly on assessments.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-office-hours-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-office-hours-3-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="faq-office-hours-4">Reaching out early can keep your challenges from compounding, and can make you much more successful in this course.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-office-hours-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: When should I come to office hours?"><a tabindex="-1" href="#faq-office-hours" title="Copy heading and permalink for Paragraphs: Q: When should I come to office hours?" aria-label="Copy heading and permalink for Paragraphs: Q: When should I come to office hours?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-exam-prep"><h3 class="heading"><span class="title">Q: How do I prepare for exams?</span></h3>
+<div class="para" id="faq-exam-prep-2">
+<dfn class="terminology">A:</dfn> To prepare for exams, students are expected to thoroughly review the course materials, including lecture notes, WeBWork solutions, quiz solutions, practice problems from non-studio weeks, and studio worksheets (with available answer keys and hints), before working through problems from past exams.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-exam-prep-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: How do I prepare for exams?"><a tabindex="-1" href="#faq-exam-prep" title="Copy heading and permalink for Paragraphs: Q: How do I prepare for exams?" aria-label="Copy heading and permalink for Paragraphs: Q: How do I prepare for exams?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-feedback"><h3 class="heading"><span class="title">Q: How do I receive feedback on my quizzes and exams?</span></h3>
+<div class="para" id="faq-feedback-2">
+<dfn class="terminology">A:</dfn> Quizzes and exams will be graded electronically and returned to you via Gradescope. Once in Gradescope, you can see which rubric items were applied to your submission and which points you earned by clicking the question number in the column on the right to expand.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-feedback-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: How do I receive feedback on my quizzes and exams?"><a tabindex="-1" href="#faq-feedback" title="Copy heading and permalink for Paragraphs: Q: How do I receive feedback on my quizzes and exams?" aria-label="Copy heading and permalink for Paragraphs: Q: How do I receive feedback on my quizzes and exams?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-missed-class"><h3 class="heading"><span class="title">Q: I’m going to miss a class or assignment. What should I do?</span></h3>
+<div class="para" id="faq-missed-class-2">
+<dfn class="terminology">A:</dfn> That depends on what you’re going to miss and why:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-missed-class-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="faq-missed-class-3">
+<li id="faq-missed-class-3-1">
+<div class="para" id="faq-missed-class-3-1-1">
+<dfn class="terminology">Lecture:</dfn> Lecture attendance is not mandatory but strongly encouraged.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-missed-class-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-missed-class-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-missed-class-3-2">
+<div class="para" id="faq-missed-class-3-2-1">
+<dfn class="terminology">Studio/Quiz:</dfn> Studio attendance is required (because these sessions are REALLY helpful!). There are 11 studio meetings throughout the semester. Students are allowed to miss up to three studios, regardless of the reason; in other words, the three lowest quiz scores will be dropped. If you have extenuating circumstances that require additional absences beyond this generous buffer, please reach out individually to your instructor or the course coordinator. Absences not discussed by 1 week after the absence may not be excused, even if they were for a good reason.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-missed-class-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-missed-class-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-missed-class-3-3">
+<div class="para" id="faq-missed-class-3-3-1">
+<dfn class="terminology">Exam:</dfn> Please fill out the Exam Makeup Request Form (linked on Canvas) by the Wednesday before the exam for a planned absence, and as soon as possible (no later than noon the following Monday) otherwise. There will be common makeup exams from 11:00 am to 12:15 pm each Tuesday following an exam for students who must miss the exam for an excused reason. Note that you may not be allowed to make up an exam if you fail to provide timely notification and documentation of your excused absence.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-missed-class-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-missed-class-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: I’m going to miss a class or assignment. What should I do?"><a tabindex="-1" href="#faq-missed-class" title="Copy heading and permalink for Paragraphs: Q: I’m going to miss a class or assignment. What should I do?" aria-label="Copy heading and permalink for Paragraphs: Q: I’m going to miss a class or assignment. What should I do?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-grade-calculation"><h3 class="heading"><span class="title">Q: How is my grade calculated?</span></h3>
+<div class="para" id="faq-grade-calculation-2">
+<dfn class="terminology">A:</dfn> This is written clearly in the syllabus—please look there for calculations and all related policies.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-grade-calculation-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-grade-calculation-3">Canvas will NOT show your current/projected total grade at any point, since there’s no way to program it to take the better of two options as described in the syllabus while also accounting for the WeBWork extra points. However, you can calculate your current grade by following the instructions to enter your current/projected assignment grades into the <dfn class="terminology">1551 Grade Approximator.xlsx</dfn> spreadsheet on Canvas.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-grade-calculation-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-grade-calculation-4">
+<em class="emphasis">Please note:</em> This calculator is to be used for estimation purposes only, and the calculator and its outputs should not be taken as a guarantee that you will receive a particular grade in the course. You will need to download the calculator in order to use it. Canvas does NOT accurately reflect quiz or midterm or final exam averages, because any missed assignments are recorded as “0,” and Canvas includes these in the calculation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-grade-calculation-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: How is my grade calculated?"><a tabindex="-1" href="#faq-grade-calculation" title="Copy heading and permalink for Paragraphs: Q: How is my grade calculated?" aria-label="Copy heading and permalink for Paragraphs: Q: How is my grade calculated?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-extra-credit"><h3 class="heading"><span class="title">Q: Is there extra credit? Do we drop (quizzes, exams, etc.) in this course? How can I improve my grade?</span></h3>
+<div class="para" id="faq-extra-credit-2">
+<dfn class="terminology">A:</dfn> There is NO extra credit in this course beyond the weekly review sessions and the CIOS incentive offered in the syllabus, either individual or collective. We drop 3 studio participation quizzes.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-extra-credit-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-extra-credit-3">There are no retakes or opportunities to change your grade on a correctly graded assignment (though we do encourage you to learn from your mistakes). If there are circumstances in your life that you feel will affect an upcoming quiz or exam, please reach out to your instructor beforehand—we want to help, but can’t do so if you go ahead and take the assessment.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-extra-credit-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-extra-credit-4">The best way to improve your grade is by developing your study skills, strengthening your understanding of the concepts, and preparing effectively for exams. We are here to support you—please seek help whenever you need it.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-extra-credit-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: Is there extra credit? Do we drop (quizzes, exams, etc.) in this course? How can I improve my grade?"><a tabindex="-1" href="#faq-extra-credit" title="Copy heading and permalink for Paragraphs: Q: Is there extra credit? Do we drop (quizzes, exams, etc.) in this course? How can I improve my grade?" aria-label="Copy heading and permalink for Paragraphs: Q: Is there extra credit? Do we drop (quizzes, exams, etc.) in this course? How can I improve my grade?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-exam-time-location"><h3 class="heading"><span class="title">Q: When/where is our exam?</span></h3>
+<div class="para" id="faq-exam-time-location-2">
+<dfn class="terminology">A:</dfn> This semester, we will have 3 common exams during the exam period on Friday evenings, from 5:00 pm to 6:15 pm. You can find the dates in our calendar, and should note them at the beginning of the semester so you can plan accordingly and notify your instructor as soon as possible if you will be absent (see above).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-exam-time-location-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-exam-time-location-3">Note that there will be no studio on exam days. Please check your final exam schedule carefully, and let us know about any conflicts with at least 2 weeks’ notice. We will provide you with reminders that exams are coming up, but it is ultimately your responsibility to keep informed about the course schedule and prepare for your exams.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-exam-time-location-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-exam-time-location-4">
+<em class="emphasis">Note:</em> Students with extended time accommodations should refer to the question below: “Q: I have accommodations for this course. How do I use them?”<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-exam-time-location-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: When/where is our exam?"><a tabindex="-1" href="#faq-exam-time-location" title="Copy heading and permalink for Paragraphs: Q: When/where is our exam?" aria-label="Copy heading and permalink for Paragraphs: Q: When/where is our exam?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-calculators"><h3 class="heading"><span class="title">Q: Can I use a calculator?</span></h3>
+<div class="para" id="faq-calculators-2">
+<dfn class="terminology">A:</dfn> For quizzes and exams, no. We will write problems where numbers work out nicely though, so don’t worry about it. You may run into some messier numbers on your WeBWork homework or studio worksheets, so using a calculator there is just fine (just make sure you’re learning the process too so you won’t be lost without it on the exams).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-calculators-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-calculators-3">Please note that WeBWork does <em class="emphasis">not</em> accept decimal answers. Keep your answers as they are (i.e., in rational form, as roots, etc.).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-calculators-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: Can I use a calculator?"><a tabindex="-1" href="#faq-calculators" title="Copy heading and permalink for Paragraphs: Q: Can I use a calculator?" aria-label="Copy heading and permalink for Paragraphs: Q: Can I use a calculator?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-accommodations"><h3 class="heading"><span class="title">Q: I have accommodations for this course. How do I use them?</span></h3>
+<div class="para" id="faq-accommodations-2">
+<dfn class="terminology">A:</dfn> First, please reach out to your instructor as soon as possible in order to set up a plan and discuss what help you may need from us.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="faq-accommodations-3">
+<li id="faq-accommodations-3-1">
+<div class="para" id="faq-accommodations-3-1-1">
+<dfn class="terminology">For studio participation quizzes:</dfn> You can ask your TA if they’re willing to stay a few minutes (typically at most 5 minutes) after class to provide you your full allotment of time. Please note you must make this request in advance, and your TA is not required to accommodate you. If the TA is unavailable to accommodate your request or if you have any questions, please contact your instructor.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-accommodations-3-2">
+<div class="para" id="faq-accommodations-3-2-1">
+<dfn class="terminology">For midterm exams:</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="circle" id="faq-accommodations-3-2-2">
+<li id="faq-accommodations-3-2-2-1">
+<div class="para" id="faq-accommodations-3-2-2-1-1">Please schedule your midterm exam with extended time at the Testing Center on the same day as the class exam and at a time as close as possible to the scheduled exam time. For example, for Friday exams, if you have a 1.5X time accommodation, you should plan to begin at 2:45 pm.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-accommodations-3-2-2-2">
+<div class="para" id="faq-accommodations-3-2-2-2-1">If that is not feasible, please contact your instructor to obtain approval to schedule your exams on the Friday of the exam week, during the Testing Center’s business hours, at a time that best fits your schedule. Please let the Testing Center know that we have approved this flexible timing.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-accommodations-3-2-2-3">
+<div class="para" id="faq-accommodations-3-2-2-3-1">If you need to take a makeup exam, you must first obtain permission from your instructor or the course coordinator. Makeup exams should be scheduled at the Testing Center on Tuesday, the designated day for common makeup exams, beginning as close to 11:00 am as possible.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-accommodations-3-2-2-4">
+<div class="para" id="faq-accommodations-3-2-2-4-1">
+<em class="emphasis">ODS Policy:</em> “Students must schedule exams (tests, quizzes, and midterms) at least five business days in advance. Requests must be submitted through AIM. Please note: weekends are not included in business days.”<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-2-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-2-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-accommodations-3-2-2-5">
+<div class="para" id="faq-accommodations-3-2-2-5-1">
+<em class="emphasis">Important:</em> Due to the 5 business day notice policy, you may want to schedule both the regular Friday and the makeup Tuesday exams as a precaution. After completing the regular exam, please cancel the Tuesday exam no later than the following Monday.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-2-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-2-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-accommodations-3-3">
+<div class="para" id="faq-accommodations-3-3-1">
+<dfn class="terminology">For the final exam:</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="circle" id="faq-accommodations-3-3-2">
+<li id="faq-accommodations-3-3-2-1">
+<div class="para" id="faq-accommodations-3-3-2-1-1">Please schedule your final exam at the Testing Center as soon as possible.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-3-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-accommodations-3-3-2-2">
+<div class="para" id="faq-accommodations-3-3-2-2-1">
+<em class="emphasis">ODS Policy:</em> “Students must schedule final exams through AIM at least 30 business days in advance. The available blocks for scheduling final exams are 8 a.m., 11:30 a.m., and 2:45 p.m. Students may not schedule final exams that will occur during reading periods.”<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-3-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-3-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-accommodations-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="faq-accommodations-4">
+<dfn class="terminology">Please note:</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="faq-accommodations-5">
+<li id="faq-accommodations-5-1">
+<div class="para" id="faq-accommodations-5-1-1">You must take care to abide by the testing center’s policies and scheduling deadlines in order to use their services (see <a class="external" href="https://disabilityservices.gatech.edu" target="_blank">Office of Disability Services Scheduling</a>).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 1"><a tabindex="-1" href="#faq-accommodations-5-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="faq-accommodations-5-2">
+<div class="para" id="faq-accommodations-5-2-1">When scheduling at the testing center, you should schedule under your lecture section (i.e., G or M) and NOT your studio section (e.g., G01 or M02). This allows our coordinator to correctly send work to the testing center for you to complete.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item 2"><a tabindex="-1" href="#faq-accommodations-5-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+</ol>
+<div class="para" id="faq-accommodations-6">If you have any other questions or concerns, or need help navigating this process, please reach out to your instructor or the course coordinator.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-accommodations-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: I have accommodations for this course. How do I use them?"><a tabindex="-1" href="#faq-accommodations" title="Copy heading and permalink for Paragraphs: Q: I have accommodations for this course. How do I use them?" aria-label="Copy heading and permalink for Paragraphs: Q: I have accommodations for this course. How do I use them?">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Subsection: Common Course Questions"><a tabindex="-1" href="#homepage-common-questions" title="Copy heading and permalink for Subsection: Common Course Questions" aria-label="Copy heading and permalink for Subsection: Common Course Questions">🔗</a></div>
+</section>
+<section class="subsection" id="homepage-homework">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Homework</span>
+</h2>
+<section class="paragraphs" id="faq-webwork-location"><h3 class="heading"><span class="title">Q: Where do we complete homework this semester?</span></h3>
+<div class="para" id="faq-webwork-location-2">
+<dfn class="terminology">A:</dfn> We will use the WeBWork system to do our graded online homework—just click the link on the Canvas homepage. You don’t need to “submit” this homework or tell us you’ve completed it—WeBWork automatically saves your best question scores and will update that grade in Canvas, though this syncing may not happen quickly so please don’t panic. Just keep an eye on your grade in WeBWork weekly, and we’ll ask you at the end of the semester to double check that everything looks okay.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-webwork-location-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-webwork-location-3">If you encounter any technical errors while working on WeBWork, please contact your instructor immediately for guidance. Issues reported after the deadline have passed will not be considered for any reason. Please note that WeBWork does <em class="emphasis">not</em> accept decimal answers. Keep your answers as they are (i.e., in rational form, as roots, etc.).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-webwork-location-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: Where do we complete homework this semester?"><a tabindex="-1" href="#faq-webwork-location" title="Copy heading and permalink for Paragraphs: Q: Where do we complete homework this semester?" aria-label="Copy heading and permalink for Paragraphs: Q: Where do we complete homework this semester?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-homework-help"><h3 class="heading"><span class="title">Q: How can I get help on my homework?</span></h3>
+<div class="para" id="faq-homework-help-2">
+<dfn class="terminology">A:</dfn> You have lots of options! In person, you can stop by your instructor’s office hours, book one-on-one or small group tutoring sessions with TAs, ask a friend, or post questions on Piazza.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-homework-help-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-homework-help-3">
+<em class="emphasis">For Piazza:</em> Be sure to ask as specific a question as possible (e.g., “Please do this problem for me” is not really a question, and you should include your own thoughts). If applicable, attach a screenshot of your work. Please also scroll through to see if someone has already answered your question before you post!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-homework-help-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: How can I get help on my homework?"><a tabindex="-1" href="#faq-homework-help" title="Copy heading and permalink for Paragraphs: Q: How can I get help on my homework?" aria-label="Copy heading and permalink for Paragraphs: Q: How can I get help on my homework?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-homework-extension"><h3 class="heading"><span class="title">Q: Can I have a homework extension?</span></h3>
+<div class="para" id="faq-homework-extension-2">
+<dfn class="terminology">A:</dfn> No. Homework deadlines are there to keep you on schedule, and you will always have several days between covering the content of a homework set and it being due. These deadlines are firm in all individual circumstances. We offer a number of homework extra points, as detailed in the syllabus, so it is still possible to achieve a perfect score even if you do not fully complete a small number of assignments.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-homework-extension-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="faq-homework-extension-3">However, if you notice that homework you did has not saved in WeBWork (and this persists for 20 minutes or more), please contact your instructor or the course coordinator immediately.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-homework-extension-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: Can I have a homework extension?"><a tabindex="-1" href="#faq-homework-extension" title="Copy heading and permalink for Paragraphs: Q: Can I have a homework extension?" aria-label="Copy heading and permalink for Paragraphs: Q: Can I have a homework extension?">🔗</a></div>
+</section>
+<section class="paragraphs" id="faq-more-practice"><h3 class="heading"><span class="title">Q: Are there more practice problems I can do?</span></h3>
+<div class="para" id="faq-more-practice-2">
+<dfn class="terminology">A:</dfn> Always! It’s often effective to search for problems on the topic we’re working on since Calculus is widely studied. Some specific resources we like are:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-more-practice-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="faq-more-practice-3">
+<li id="faq-more-practice-3-1">
+<div class="para" id="faq-more-practice-3-1-1">
+<dfn class="terminology">Examples and exercises from the textbook:</dfn> An older version of the textbook is available under Day 1 in the “Lecture and Studio Materials” section.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-more-practice-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-more-practice-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-more-practice-3-2">
+<div class="para" id="faq-more-practice-3-2-1">
+<dfn class="terminology">Paul’s Online Math Notes:</dfn> This site is essentially a free textbook, with brief explanations and some good practice problems with nice solutions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-more-practice-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-more-practice-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="faq-more-practice-3-3">
+<div class="para" id="faq-more-practice-3-3-1">
+<dfn class="terminology">Optional MyMathLab Course:</dfn> We also have set up an optional MyMathLab course, titled “Differential Calculus - MATH-1551 - A/C/F/G/H/HP/K/M”, which includes an electronic copy of our textbook and some more problems in an online homework system—find more information on the MyMathLab Information page on Canvas.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#faq-more-practice-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#faq-more-practice-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Q: Are there more practice problems I can do?"><a tabindex="-1" href="#faq-more-practice" title="Copy heading and permalink for Paragraphs: Q: Are there more practice problems I can do?" aria-label="Copy heading and permalink for Paragraphs: Q: Are there more practice problems I can do?">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Subsection: Homework"><a tabindex="-1" href="#homepage-homework" title="Copy heading and permalink for Subsection: Homework" aria-label="Copy heading and permalink for Subsection: Homework">🔗</a></div>
+</section>
+<section class="subsection" id="homepage-help-resources">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Help and Resources</span>
+</h2>
+<section class="paragraphs" id="homepage-tutoring-support"><h3 class="heading"><span class="title">Additional Tutoring and Academic Support.</span></h3>
+<ul class="disc" id="homepage-tutoring-support-2">
+<li id="homepage-tutoring-support-2-1">
+<div class="para" id="homepage-tutoring-support-2-1-1">
+<dfn class="terminology">Precalculus &amp; Algebra Review:</dfn> You may find that you’re a little uncertain you’re prepared for this course, or that some of the background is giving you trouble—in this case, check out our Precalc &amp; Algebra Review Help page on Canvas for more careful suggestions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-tutoring-support-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-tutoring-support-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-tutoring-support-2-2">
+<div class="para" id="homepage-tutoring-support-2-2-1">
+<dfn class="terminology">The Math Lab:</dfn> Staffed by graduate students in the Math program—including some of your TAs! They offer free drop-in tutoring in Clough 280; see the posted hours and schedule at <a class="external" href="https://www.math.gatech.edu/tutors-and-labs" target="_blank">math.gatech.edu/tutors-and-labs</a>. Anyone who is listed as a 1551 tutor can help you, and anyone who isn’t probably can too.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-tutoring-support-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-tutoring-support-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-tutoring-support-2-3">
+<div class="para" id="homepage-tutoring-support-2-3-1">
+<dfn class="terminology">1-to-1 Tutoring &amp; Knack:</dfn> 1-to-1 Tutoring is a Tech-wide service offering free private tutoring by appointment through Tutoring &amp; Academic Support. You can also access free in-person and online tutoring through the Tech Knack site at <a class="external" href="https://www.joinknack.com/school/georgia-institute-of-technology" target="_blank">joinknack.com/school/georgia-institute-of-technology</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-tutoring-support-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-tutoring-support-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-tutoring-support-2-4">
+<div class="para" id="homepage-tutoring-support-2-4-1">
+<dfn class="terminology">PLUS (Peer-Led Undergraduate Study) Sessions:</dfn> A great way to enhance your study time—a peer leader will prepare some extra problems for you to work through with your peers to solidify your understanding of concepts and meet people to form other study groups. Keep your eyes open for announcements about the schedule for our course.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-tutoring-support-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-tutoring-support-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-tutoring-support-2-5">
+<div class="para" id="homepage-tutoring-support-2-5-1">
+<dfn class="terminology">OMED Academic Support:</dfn> Offers free drop-in tutoring as well as other general academic services through OMED Educational Services.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-tutoring-support-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-tutoring-support-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-tutoring-support-2-6">
+<div class="para" id="homepage-tutoring-support-2-6-1">
+<dfn class="terminology">Office of Undergraduate Education (OUE) &amp; Academic Advising:</dfn> Offers the “First-Year Student Success” talk series, general tutoring through Tutoring &amp; Academic Support, and academic advising appointments through Advising &amp; Transition.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-tutoring-support-2-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-tutoring-support-2-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Additional Tutoring and Academic Support"><a tabindex="-1" href="#homepage-tutoring-support" title="Copy heading and permalink for Paragraphs: Additional Tutoring and Academic Support" aria-label="Copy heading and permalink for Paragraphs: Additional Tutoring and Academic Support">🔗</a></div>
+</section>
+<section class="paragraphs" id="homepage-mental-health"><h3 class="heading"><span class="title">Mental Health and Personal Resources.</span></h3>
+<div class="para" id="homepage-mental-health-2">You are a student, but first and foremost you are a valuable person, and we want to make sure you and your needs are taken care of. There are some resources listed below; if you are having trouble finding or navigating any resource you need, please reach out to your instructor or the Dean of Students and we’ll be happy to help you. Please take the time to be well!<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-mental-health-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="homepage-mental-health-3">
+<li id="homepage-mental-health-3-1">
+<div class="para" id="homepage-mental-health-3-1-1">
+<dfn class="terminology">Office of the Dean of Students:</dfn> Can help you find and navigate resources on campus and coordinate extended absences or extenuating circumstances with your professors. Stop by the second floor of the Smithgall Student Services Building (the Flag Building), call (404) 894-2565 during business hours, or fill out the help request form online anytime.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-mental-health-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-mental-health-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-mental-health-3-2">
+<div class="para" id="homepage-mental-health-3-2-1">
+<dfn class="terminology">Center for Mental Health Care &amp; Resources (Counseling Center):</dfn> Available to help you navigate mental health and counseling issues, offering short-term individual counseling, group counseling, couples counseling, testing and assessment, referral services, and crisis intervention. Stop by the first floor of the Smithgall Student Services Building (the Flag Building), suite 102B, or call CARE at (404) 894-3498 during business hours.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-mental-health-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-mental-health-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-mental-health-3-3">
+<div class="para" id="homepage-mental-health-3-3-1">
+<dfn class="terminology">After-Hours Counseling &amp; Emergencies:</dfn> If you need to speak to a counselor after hours or on a weekend, call (404) 894-2575 or (404) 894-3498 and select the option to speak to the after-hours counselor. If you’re experiencing a serious or life-threatening emergency, contact GT Police at (404) 894-2500.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-mental-health-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-mental-health-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-mental-health-3-4">
+<div class="para" id="homepage-mental-health-3-4-1">
+<dfn class="terminology">QPR (Question, Persuade, Refer) Training:</dfn> Support yourself, your classmates, and your cohort by learning more at <a class="external" href="https://mentalhealth.gatech.edu/outreach-programs/qpr-training" target="_blank">mentalhealth.gatech.edu/outreach-programs/qpr-training</a>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-mental-health-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-mental-health-3-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-mental-health-3-5">
+<div class="para" id="homepage-mental-health-3-5-1">
+<dfn class="terminology">Stamps Health Services:</dfn> Offers primary care, pharmacy, women’s health, psychiatry, immunization and allergy, health promotion, and nutrition services. Call (404) 894-1420 or visit the Stamps Health Services website.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-mental-health-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-mental-health-3-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="homepage-mental-health-3-6">
+<div class="para" id="homepage-mental-health-3-6-1">
+<dfn class="terminology">GT Student Resources:</dfn> Check out the “GT Student Resources” tab on Canvas for a more complete list of resources.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#homepage-mental-health-3-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#homepage-mental-health-3-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Mental Health and Personal Resources"><a tabindex="-1" href="#homepage-mental-health" title="Copy heading and permalink for Paragraphs: Mental Health and Personal Resources" aria-label="Copy heading and permalink for Paragraphs: Mental Health and Personal Resources">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Subsection: Help and Resources"><a tabindex="-1" href="#homepage-help-resources" title="Copy heading and permalink for Subsection: Help and Resources" aria-label="Copy heading and permalink for Subsection: Help and Resources">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section: Welcome to MATH 1551!"><a tabindex="-1" href="#homepage-math-1551" title="Copy heading and permalink for Section: Welcome to MATH 1551!" aria-label="Copy heading and permalink for Section: Welcome to MATH 1551!">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="course-documents.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="syllabus-fall-2026.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" alt="Runestone Academy logo" src="data:image/png;base64,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"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" alt="MathJax logo" src="data:image/png;base64,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"></a>
+</div>
+</body>
+</html>
