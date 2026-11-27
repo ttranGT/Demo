@@ -13,31 +13,41 @@
 
   <page>
     <paragraphs xml:id="checkpoint-cyclist-velocity">
-      <title>Checkpoint</title>
+      <title>Problem 1</title>
       <p>
         The following table shows the position <m>s</m> (in meters) of a cyclist as a function of time <m>t</m> (in seconds).
       </p>
 
       <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
-        <row>
-          <cell><m>t</m> (seconds)</cell>
-          <cell>0</cell>
-          <cell>1</cell>
-          <cell>2</cell>
-          <cell>3</cell>
-          <cell>4</cell>
-          <cell>5</cell>
-        </row>
-        <row>
-          <cell><m>s</m> (meters)</cell>
-          <cell>0</cell>
-          <cell>1.5</cell>
-          <cell>5.1</cell>
-          <cell>10.5</cell>
-          <cell>17.7</cell>
-          <cell>25.8</cell>
-        </row>
-      </tabular>
+  <row header="yes" bottom="medium">
+    <cell><m>t</m> (seconds)</cell>
+    <cell><m>s</m> (meters)</cell>
+  </row>
+  <row>
+    <cell>0</cell>
+    <cell>0</cell>
+  </row>
+  <row>
+    <cell>1</cell>
+    <cell>1.5</cell>
+  </row>
+  <row>
+    <cell>2</cell>
+    <cell>5.1</cell>
+  </row>
+  <row>
+    <cell>3</cell>
+    <cell>10.5</cell>
+  </row>
+  <row>
+    <cell>4</cell>
+    <cell>17.7</cell>
+  </row>
+  <row>
+    <cell>5</cell>
+    <cell>25.8</cell>
+  </row>
+</tabular>
 
       <ol marker="a)">
         <li workspace="1.2in">
@@ -67,17 +77,17 @@
         <li>
           <p>
             The average rate of change (AROC) of <m>s(t)</m> over the interval <m>[t_1,t_2]</m> is given by
-            <me>\text{AROC} = <fillin characters="20"/></me>
+            <me>\text{AROC} = \underline{\hspace{2in}}</me>
           </p>
         </li>
         <li>
           <p>
-            We can <strong>not</strong> find an <fillin characters="18"/> rate of change by using the formula for the average rate of change.
+            We can <strong>not</strong> find an <fillin characters="28"/> rate of change by using the formula for the average rate of change.
           </p>
         </li>
         <li>
           <p>
-            We <strong>can</strong> find an average rate of change over a small interval<mdash/>this gives us an <fillin characters="15"/> of the instantaneous rate of change.
+            We <strong>can</strong> find an average rate of change over a small interval<mdash/>this gives us an <fillin characters="20"/> of the instantaneous rate of change.
           </p>
         </li>
       </ol>
@@ -101,7 +111,7 @@
           <ul>
             <li>
               <p>
-                Graphically, when we calculate average velocity over a time interval, we're really finding the average rate of change as we move from <fillin characters="12"/> on the function to <fillin characters="12"/>.
+                Graphically, when we calculate average velocity over a time interval, we're really finding the average rate of change as we move from <fillin characters="12"/> on the position function to <fillin characters="12"/>.
               </p>
             </li>
             <li>
@@ -119,14 +129,11 @@
       </p>
       <p>
         We've really discovered an important relationship here:
-      </p>
-    </paragraphs>
-
-    <paragraphs xml:id="fact-secant-aroc">
-      <title>Fact</title>
-      <p>
+        <p>
         The <fillin characters="10"/> of a secant line is the <fillin characters="10"/> <fillin characters="18"/> of the function over the interval defined by our points.
       </p>
+      </p>
+   
       <p>
         In our example above, we were looking at the average rate of change of position, which is just another way of saying average velocity. It's a nice example!
       </p>
@@ -144,10 +151,10 @@
       <p>Notes:</p>
       <ul>
         <li>
-          <p>This fraction (in either form) is often referred to as the <fillin characters="25"/>.</p>
+          <p>This fraction (in either form) is often referred to as the <fillin characters="45"/>.</p>
         </li>
         <li>
-          <p>We can get the second form of the difference quotient by making the substitution <m>h = </m> <fillin characters="10"/> (note that we need to be sure <m>h \neq 0</m>).</p>
+          <p>We can get the second form of the difference quotient by making the substitution <m>h = </m> <fillin characters="15"/> (note that we need to be sure <m>h \neq 0</m>).</p>
         </li>
       </ul>
     </paragraphs>
@@ -158,7 +165,7 @@
         The last thing we need to complete our picture of mathematically representing rates of change is the idea of a <em>tangent line</em>.
       </p>
       <p>
-        The tangent line to <m>f(x)</m> at <m>x=x_1</m> is the line that <fillin characters="10"/> the graph of <m>f(x)</m> at the point <m>(x_1,f(x_1))</m>.
+        The tangent line to <m>f(x)</m> at <m>x=x_1</m> is the line that <fillin characters="20"/> the graph of <m>f(x)</m> at the point <m>(x_1,f(x_1))</m>.
       </p>
       <p>We care about tangent lines because:</p>
       <ul>
@@ -169,7 +176,12 @@
         </li>
         <li>
           <p>
-            That is, the <fillin characters="8"/> of a tangent line to a function at <m>x=x_1</m> represents the function's <fillin characters="15"/> <fillin characters="20"/> at <m>x=x_1</m>.
+            Recall that the <fillin characters="10"/> of a secant line is the <fillin characters="15"/> rate of change of the function over the interval defined by the points.
+          </p>
+        </li>
+        <li>
+          <p>
+            Therefore, the <fillin characters="10"/> of a tangent line to a function at <m>x=x_1</m> represents the function's <fillin characters="25"/> rate of change at <m>x=x_1</m>.
           </p>
         </li>
       </ul>
@@ -178,7 +190,7 @@
 
   <page>
     <paragraphs xml:id="checkpoint-parabola-slopes">
-      <title>Checkpoint (Think - Pair - Share)</title>
+      <title>Problem 2</title>
       <p>
         Consider the parabola <m>f(x)</m>. Use sketches to order the following quantities from smallest to largest:
       </p>
@@ -211,7 +223,7 @@
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-bridge-exercise">
-      <title>Checkpoint (Exercise)</title>
+      <title>Problem 3(Exercise)</title>
       <p workspace="1.5in">
         Suppose you take 2 hours to cross a 1 mile long bridge. How fast do you have to return if you want your average round-trip velocity to be 1 mph?
       </p>
