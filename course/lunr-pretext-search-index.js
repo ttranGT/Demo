@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "MATH 1551 Syllabus (Fall 2026)",
-  "body": " MATH 1551 Syllabus (Fall 2026)    Course: Differential Calculus, Sections A\/C\/F\/G\/H\/HP\/K\/M (2 Credits)   Term: Fall 2026    Instructor Information   Course Coordinator: Thomas Tran, thomas.tran@math.gatech.edu        Section(s)  Name  Email    A\/C  Prof. Matteo Raffaelli  raffaelli@math.gatech.edu    F  Prof. Pranav Chinmay  to be updated    H  Prof. Fei Peng  fpeng33@gatech.edu    K\/M  Prof. Maya Thompson  mthompson367@gatech.edu    G\/HP  Prof. Thomas Tran  thomas.tran@math.gatech.edu      General Course Information   Description  Differential calculus including applications and the underlying theory of limits for functions and sequences.    Course Learning Outcomes   Make sense of mathematical expressions and graphs involving functions and their derivatives.  Compute mathematical quantities using differential calculus and interpret their meaning.  Analyze mathematical statements and expressions.  Write and communicate your mathematical reasoning effectively.  Apply calculus concepts to solve real-world problems such as optimization and related rates problems.     Required Course Materials  Thomas, Calculus: Early Transcendentals , 15th ed. We will discuss topics in chapters 1 to 4. This particular textbook is the one we will follow, but it is not required that you have a copy. Any calculus textbook will be a good reference.    Pre- &\/or Co-Requisites   Prerequisites: Math SAT Score of 660 or ACT 28 or MATH 1113 Precalculus with a grade of C or better  Or Corequisite: MATH 1499      Grading Policy  Letter grades will be determined based on the following intervals. You will be guaranteed a minimum of the following scale:   A: 90% and above  B: 80% to less than 90%  C: 70% to less than 80%  D: 60% to less than 70%  F: below 60%   Students should not expect any changes to these intervals, and changes (if any) to these intervals will only be made after the final exam. Percentage grades are not necessarily rounded to the nearest integer before conversion to letter grades. For example, 89.999% is converted to a B, 79.9999% is converted to a C, and so on.  If any changes to the grade cutoffs are made, they will be in your favor (i.e., the cutoff for an A may be lowered to an 89.5, but will not be raised above 90), and will not be announced per course policy. Such changes will apply to all students uniformly. Individual grade bumps will not be considered under any circumstances please do not submit such requests to your instructor or the coordinator.  Your final average will be computed using whichever of the following two options gives you the higher grade:       Component  Option 1  Option 2    WeBWork  10%  10%    Studio Participation Quizzes  5%  5%    Best Two Midterms  40%  40%    Lowest Midterm  20%  0%    Final Exam  25%  45%     Description of Graded Components     WeBWork Homework: Earning 90% of the total homework points will result in 100% credit for the homework portion of the course grade. Students can earn up to 105% as your final homework score (by earning at least 95% of the total homework points).     Studio Participation Quizzes: These 5-minute open-notes quizzes are administered during studios. Students are allowed to miss up to three studios, regardless of the reason, including any quizzes given during those sessions. In other words, the three lowest quiz scores will be dropped. If students have extenuating circumstances that require additional absences beyond this buffer, please reach out individually to your instructor or the course coordinator.     Exams: We will have three 75-minute exams during the term, which will all take place on select Fridays during the common exam time at 5 pm. Students will receive more information about testing locations closer to exam time; please be advised that most exams will not be in the normal classroom. The exams will include both multiple-choice and free-response problems. To prepare for exams, students are expected to thoroughly review course materials, including lecture notes, WeBWork solutions, quiz solutions, and practice problems from non-studio weeks and studio worksheets, both with available answer keys and hints, before working through problems from past exams.     Final Exam: The final exam will cover all course materials and will consist entirely of multiple-choice questions.    Students must be physically present on the Georgia Tech campus to take all quizzes, midterm, and final exams; no virtual exams will be given. No books, notes, calculators, cell phones, or other aids or electronic devices are allowed during quizzes, exams, or any other proctored assessment, unless students have accommodations allowing a basic four-function calculator and\/or a formula sheet, approved by the course instructor or the course coordinator.    Extra Credit Opportunities    Surveys administered via Canvas after midterm exams gather your feedback on your study progress, exam preparation, and any additional support you may need to succeed in the course. You may earn up to 1% for completing all three midterm surveys.    We really value your input and feedback on this course, as part of your active role in your education. If at least 70% of each lecture section fills out the CIOS survey by 5 pm on TBD, an extra-credit reflection question worth 3% of the final exam will be added.       Course Policies   Attendance and\/or Participation  When signing up for MATH 1551, you signed up for a specific lecture and studio. You must attend the lecture section you signed up for, as the rooms are at capacity. Lecture attendance is not mandatory but is strongly encouraged, as we have observed a significant difference in exam performance between students who regularly attend class and those who do not.  In addition to lectures, you also signed up for a Friday Studio. Studio attendance is required. You must attend the studio section you signed up for; otherwise, no attendance points will be given, and your quiz will not be graded. You should not expect to be allowed to take the quiz if you have not been present for the entire studio session.    Academic Integrity  Georgia Tech aims to cultivate a community based on trust, academic integrity, and honor. Students are expected to act according to the highest ethical standards. Review Georgia Tech's Honor Code and the Student Code of Conduct. Any student suspected of cheating or plagiarism on a quiz, exam, or assignment will be reported to the Office of Student Integrity, who will investigate the incident and identify the appropriate penalty for violations.    Core IMPACTS  This is a Core IMPACTS course that is part of the STEM area. Core IMPACTS refers to the core curriculum, which provides students with essential knowledge in foundational academic areas. This course will help master course content, and support students' broad academic and career goals.     Orienting Question: How do I ask scientific questions or use data, mathematics, or technology to understand the universe?     Learning Outcome: Students will use the scientific method and laboratory procedures or mathematical and computational methods to analyze data, solve problems, and explain natural phenomena.     Career-Ready Competencies: Inquiry and Analysis, Problem-Solving, and Teamwork.      Accommodations for Students with Disabilities  If you are a student with learning needs that require special accommodation, contact the Office of Disability Services (404-894-2563) as soon as possible to make an appointment to discuss your special needs and to obtain an accommodations letter. Please also e-mail me as soon as possible in order to set up a time to discuss your learning needs.    Student-Faculty Expectations Agreement  At Georgia Tech, we believe that it is important to strive for an atmosphere of mutual respect, acknowledgement, and responsibility between faculty members and the student body. The Student-Faculty Expectations articulate some basic expectations that you can have of me and that I have of you. In the end, simple respect for knowledge, hard work, and cordial interactions will help build the environment we seek. Therefore, I encourage you to remain committed to the ideals of Georgia Tech while in this class.    Collaboration, Group Work, and Use of Generative AI  You are welcome to collaborate with other students on solving homework problems; in fact, we encourage you to do so. Talking with others gives you a chance to consider issues you might not have thought of yourself and often improves your understanding. However, it is important that you understand the homework yourself by the end, or quizzes and exams will be of extreme difficulty. Of course, it is always unacceptable to copy a solution from any source or to look up answers online.  Please make use of the Piazza forum on the Canvas site in a positive and constructive manner to ask questions about the course material. This way, your questions will benefit the entire class, and not just yourself. Comments on Piazza are moderated, anonymous to peers, and not anonymous to instructors. Please look through recently posted questions before adding your own it may have been answered.    Extensions, Late Assignments, & Re-Scheduled\/Missed Exams  A make-up assessment will be offered only in the event of an excused absence. In such cases, students must notify their instructor or the course coordinator (not the TA) as soon as possible, regardless of the availability of supporting documentation.     WeBWork: All students are strongly encouraged to do their homework in advance. Due to the flexibility already given by the extended window students will have to complete these assignments and the extra problems available beyond the number required, there will be no extensions or makeups on the online homework for any reason.     Studio Participation Quizzes: Students are allowed to miss up to three studios, regardless of the reason. In other words, the three lowest quiz scores will be dropped. If you have extenuating circumstances that require additional absences beyond this buffer, please reach out individually to your instructor or the course coordinator.     Exams: Students who miss an exam for an excused absence should take a make-up exam at the scheduled time, Tuesdays at 11:00 am following the Friday exams, with the location TBD. In the extraordinary circumstance that a student must miss both the exam and the make-up, they must consult their instructor or the course coordinator to arrange an alternate solution. This may involve scheduling another time to take the make-up exam, provided it occurs on or before the make-up date and before grades are posted, and they submit the necessary supporting documentation.    If a student needs to miss multiple assessments and multiple make-up dates for non-academic reasons, they should instead discuss the possibilities of an incomplete or course withdrawal with their instructor or the course coordinator and academic advisor. Every student must take at least two of the exams and the final, with no exceptions.  Students must notify their instructor or the course coordinator (not the TA) of an excused absence within 3 days, including weekends, from the date of the missed exams or studios. For make-up exams, students must notify their instructor or the course coordinator at least 24 hours in advance if they are going to miss the scheduled exam. Failure to do so may result in receiving a grade of zero on the missed assessment.  Any make-ups must be completed before the corresponding exam has been graded and returned to other students or the solutions have been posted on Canvas. It is solely the student's responsibility to inform their instructor or the course coordinator (not the TA) of their absence in a timely manner as mentioned above. No exceptions will be considered in any case. All makeup exams will be given at a common time at 11 am on the Tuesday following the exam.  Per department policy, there will be no retakes of any assessment. Any student who has received a copy of the assessment, even if they have not fully completed it, is no longer eligible to take a makeup exam.    Inclement Weather and Digital Learning Days  In cases where campus may be physically closed due to events such as inclement weather, a digital learning day may replace in-person classes. Should this event occur on a class day, then class will either be streamed live, or a recording will be posted for students to watch asynchronously. No studio participation will be counted on a digital learning day, and the studio participation quiz will be rescheduled. The instructor reserves the right to consider many possible modes for rescheduling a missed assessment, including possible changes to the weightings of assignments if the assessment cannot be rescheduled.    Student Use of Mobile Devices in the Classroom  Put away all cellphones and other electronic devices (as they can be very distracting!), except for tablets used solely for taking notes. If a computer is needed for notetaking, students must notify and obtain permission from their instructor in advance.    Additional Course Policies  Please review the Common Course Questions section posted on our Canvas homepage.     Attendance and Engagement: You are expected to come prepared and actively participate in every lecture and studio. In the event of an absence, you are responsible for all missed materials, assignments, and any additional announcements or schedule changes given in class. Class disruptions of any kind will not be tolerated and may result in your removal from the classroom. Please adhere to the following class rules:   Come to class on time and stay for the entire class period. Do not leave until dismissed. If you need to leave early, please notify the instructor in advance.  Ensure your discussions with fellow classmates are mathematical and occur only when you're asked to collaborate. It is unacceptable to carry on a conversation while your instructor is lecturing.  Put away any reading materials unrelated to the course.      Netiquette: Netiquette is the etiquette of online behavior. In all means of online communication, you will need to follow the same rules of behavior as you would in a face-to-face course when communicating with the other students, teaching assistants, and instructors in the class. Negative personal comments are strictly prohibited. Unprofessional, abusive, or accusatory comments are not allowed on class websites, including but not limited to Piazza. Students may post anonymously to other classmates on our Piazza page; however, instructors always have student identifying information. We reserve the right to remove student comments when necessary and report inappropriate behavior to the Dean's office as a violation of the student code of conduct.     Excused Absences: Reasons for which an absence may be excused are:   An athletic or university-sponsored event or religious holidays or institute-approved absences: You should provide official documentation to your instructor at least one week in advance of the quiz or exam.  An ongoing or serious medical or family emergency: You should provide official documentation as soon as you are able through the Dean of Students office. Please do not submit sensitive information to your instructor; instead, notify them of your situation as soon as possible.  Illness: We understand that there are illnesses that inhibit your cognitive function but may not necessitate a visit to the doctor and we appreciate you taking care not to spread them to your classmates. If you are ill the day of an assessment, please contact your instructor by the end of that day, if possible, to discuss the possibility of a makeup.   Please note that personal travel is not a valid reason for missing an assessment, so please plan any personal travel days around our scheduled exam dates. Instructors reserve the right in any situation to ask for documentation of any illness or absence, especially for repeated absences. Students are expected to obtain an excused letter from the Dean of Students office.     Calculators: While you may need a scientific calculator for help with some of the homework problems, the use of calculators is not allowed on in-class assessments, unless you have accommodations allowing a basic four-function calculator.     Announcements: You are responsible for obtaining any announcements or materials placed on our Canvas website.     Regrading of Work: Grades become final once the regrade request deadline has passed. If a problem on your paper has been graded in error, you must submit a regrade request through Gradescope no more than one week after the papers have been returned via Gradescope. Please note the following:   Please check the solutions before you submit a regrade request; if your work is incorrect, you may not be eligible for a regrade.  A regrade request should only be submitted if we made an error in the grading, which means you have done something CORRECT on your paper that has been marked as incorrect.  Regrades are NOT to be used to randomly ask for more partial credit or to argue with our grading rubric. Students who abuse this policy will have one point deducted from the assessment grade for each violation.  Papers submitted for regrades could be adjusted up or down, as we will need to regrade the entire problem.  If you only wish to know what you missed, or if you are not sure whether or not your work may qualify for a regrade, please see your instructor before submitting a regrade request. Please keep your comments cordial and professional. We reserve the right to submit rude comments to the Dean's office as violations of the student code of conduct.      Missing\/Incorrect Grades: The one-week policy to ask for regrades applies to every score you may see in the gradebook, even if it was not graded via Gradescope. On Canvas, if your grade is not reported, that means we do not have a submission from you for that assignment. If your submission score is listed as 0 or is not posted on Canvas, you will also have one week after scores are posted or papers have been returned to report a missing grade. After that time, hard copies of the papers may be shredded, and any unreported submissions will be scored as a 0 . It is every student's obligation to check Canvas regularly and report grading errors promptly to their instructor or the course coordinator. A missed studio participation quiz will be recorded as a 0 for tracking purposes toward the three allowed absences. However, these studio absence zeros will be dropped when calculating the final quiz average.     Statement of Intent for Inclusivity: As members of the Georgia Tech community, we are committed to creating a learning environment in which all our students feel safe and included. Because we are individuals with varying needs, we are reliant on your feedback to achieve this goal. To that end, we invite you to engage in dialogue with us about the things we can stop, start, and continue doing to make our classroom an environment in which every student feels valued and can engage actively in our learning community.     Recordings of Class Sessions and Required Permissions: Classes may not be recorded by students without the express consent of the instructor unless it is pursuant to an accommodation granted by the Office of Disability Services. Class recordings, lectures, presentations, and other materials posted on Canvas are for the sole purpose of educating the students currently enrolled in the course. Students may not record or share the materials or recordings, including screen capturing or automated bots, unless the instructor gives permission. For classes where participation is voluntary, students who participate with their camera engaged or utilize a profile image are agreeing to have their video or image recorded. For classes requiring class participation, if students are identifiable by their names, facial images, voices, and\/or comments, written consent must be obtained before sharing the recording with persons outside of currently enrolled students in the class.     Please note: Items on the syllabus and course schedule are subject to change. Any changes to the syllabus and\/or course schedule will be relayed to the students in class and through Canvas announcements.     Campus Resources for Students   MATH 1551 Tutoring and Academic Support     Instructors' Office Hours: Please refer to the course Canvas homepage for instructors' office hours. You are welcome to attend any instructor's office hours, regardless of your section.     TAs Office Hours: One-on-one and small group tutoring sessions with our UTAs will start in the second week of the course. Appointments can be booked with them or other UTAs via UTA Tutoring on Canvas.      Additional Tutoring and Academic Support     Precalculus & Algebra Review: If you are uncertain whether you are prepared for this course, or if some background topics are giving you trouble, check out our Precalc & Algebra Review Help page on Canvas.     The Math Lab: Staffed by graduate students in the Math program (including some of your TAs), offering free drop-in tutoring in Clough 280. See posted hours and schedule at math.gatech.edu\/tutors-and-labs .     1-to-1 Tutoring & Knack: Georgia Tech offers free private tutoring by appointment through Tutoring & Academic Support, as well as free in-person and online tutoring through Knack at joinknack.com\/school\/georgia-institute-of-technology .     PLUS (Peer-Led Undergraduate Study): Peer-led group study sessions where a peer leader prepares extra problems for collaborative work. Watch Canvas announcements for the MATH 1551 PLUS schedule.     OMED Academic Support: Offers free drop-in tutoring and general academic services through OMED Educational Services.     Office of Undergraduate Education (OUE) & Academic Advising: Offers the First-Year Student Success talk series, general tutoring, and advising appointments. Academic Success and Advising (Clough Undergraduate Learning Commons, Suite 283) provides free course support; visit success.gatech.edu\/tutoring or email tutoring@gatech.edu .      Student Well-Being  At Georgia Tech, we are concerned about your overall physical, social, and mental well-being. A comprehensive list of wellness-related resources is maintained by the Office of the Vice President for Student Engagement and Well-being at students.gatech.edu\/student-resource-guide .     Tentative Course Schedule and Assessments   Please note: Items on the syllabus and course schedule are subject to change. Any changes to the syllabus and\/or course schedule will be relayed to students in class and through Canvas. Please use this as an approximate class schedule; section coverage may change depending on the flow of the course, and review days\/topics may be changed or cancelled in the event of campus closures.  Here's to a happy and productive semester!       Week and Dates  Section Coverage  Topics & Assessments     Week 1  Aug. 24 – 28  Aug. 24: First day of classes  Aug. 28: Last day to make schedule changes    Course Policies  Sections 1.1 and 1.2  Section 2.1    Syllabus and Canvas Course Page (5–10 mins)  Functions and Graphs  Rates of Change, Tangent and Secant Lines  Friday Studio: WS 1 – Participation Quiz  Due: Canvas Precalculus\/Algebra Assessment Quiz due Tuesday, Aug. 25, at 11:59 pm (under the Quizzes tab on Canvas).      Week 2  Aug. 31 – Sept. 4  Aug. 31: Payment Deadline at 4:00 pm (ET)    Section 2.2  Sections 2.4 and 2.6a    Limit of a Function  One-Sided and Infinite Limits  Due: WW 1.1, 1.2, 2.1 due Tuesday at 11:59 pm (ET)  Friday Studio: WS 2 – Participation Quiz      Week 3  Sept. 7 – 11  Sept. 8: VOP Report due at 4:00 pm    Labor Day: No classes on Monday  Section 2.6b and the Sandwich Theorem (Part 1)    Limits and Horizontal\/Vertical Asymptotes and the Sandwich Theorem (Part 1)  Due: WW 2.2 due Wednesday at 11:59 pm (ET)  Friday Studio: WS 3 – Participation Quiz      Week 4  Sept. 14 – 18    Section 2.5a and the Sandwich Theorem (Part 2)  Section 2.5b    Continuity and the Sandwich Theorem  Discontinuity and Intermediate Value Theorem  Due: WW 2.4 and 2.6 due Tuesday at 11:59 pm (ET)  Friday Studio: WS 4 – Participation Quiz      Week 5  Sept. 21 – 25    Sections 3.1 and 3.2a  Exam 1 Q&A Review (in lecture; bring your own questions)    The Derivative at a Point and the Derivative as a Function (Part 1)  Common Exam 1: Friday, Sept. 25 (Sections 1.1, 1.2, 2.1, 2.2, 2.4, 2.6, and 2.5) at 5:00 pm (locations on Canvas)  Makeup: Common Exam 1 Makeup at 11:00 am Tuesday, Sept. 29  Due: WW 2.5 due Tuesday at 11:59 pm (ET)  No Studio: Practice Exercises for Sections 3.1 and 3.2a      Week 6  Sept. 28 – Oct. 2  Sept. 29: Common Exam 1 Makeup    Section 3.2b  Sections 3.3a and 3.6    The Derivative as a Function (Part 2)  Differentiation Rules (Part 1), the Chain Rule, and the Product Rule  Due: WW 3.1 due Tuesday at 11:59 pm (ET)  Friday Studio: WS 5 – Participation Quiz      Week 7  Oct. 5 – 9  Oct. 5 – 6: Fall Break    Fall Break: No classes on Monday  Sections 3.3b, 4.1a, and 4.3    The Quotient Rule and Extreme Values of Function (Part 1)  Due: WW 3.2, 3.3a, 3.6 due Wednesday at 11:59 pm (ET)  Friday Studio: WS 6 – Participation Quiz      Week 8  Oct. 12 – 16  Oct. 12: Midterm Report    Sections 4.4a, 4.1b, and 4.6a  Section 4.6b    Extreme Values of Function (Part 2) and Optimization (Part 1)  Optimization (Part 2)  Due: WW 3.3b, 4.1, and 4.3 due Tuesday at 11:59 pm (ET)  Friday Studio: WS 7 – Participation Quiz      Week 9  Oct. 19 – 23    Section 3.11  Exam 2 Q&A Review (in lecture; bring your own questions)    Linearization  Common Exam 2: Friday, Oct. 23 (Sections 3.1, 3.2, 3.3a, 3.3b, 3.6, 4.1, 4.3, 4.4a, and 4.6) at 5:00 pm (locations on Canvas)  Makeup: Common Exam 2 Makeup at 11:00 am Tuesday, Oct. 27  Due: WW 4.6 due Tuesday at 11:59 pm (ET)  No Studio: Practice Exercises for Section 3.11      Week 10  Oct. 26 – 30  Oct. 27: Common Exam 2 Makeup  Oct. 31: Withdrawal Deadline at 11:59 pm    Sections 4.7 and 3.4a  Sections 1.3, 3.4b, and 3.5    Newton's Method and the Derivative as a Rate of Change (Part 1)  Derivatives of Trigonometric Functions and the Derivative as a Rate of Change (Part 2)  Due: WW 3.11 due Tuesday at 11:59 pm (ET)  Friday Studio: WS 8 – Participation Quiz      Week 11  Nov. 2 – 6    Section 3.7  Section 3.10a    Implicit Differentiation and the Derivatives of Log Functions  Related Rates (Part 1)  Due: WW 4.7, 1.3, 3.4, and 3.5 due Tuesday at 11:59 pm (ET)  Friday Studio: WS 9 – Participation Quiz      Week 12  Nov. 9 – 13    Sections 3.10b and 3.8a  Sections 1.6, 3.8b, and 3.9    Related Rates (Part 2) and Logarithmic Differentiation (Part 1)  Logarithmic Differentiation (Part 2) and Derivatives of Inverse Trigonometric Functions  Due: WW 3.7 due Tuesday at 11:59 pm (ET); WW 3.10 due Friday at 11:59 pm (ET)  Friday Studio: WS 10 – Participation Quiz      Week 13  Nov. 16 – 20    Section 4.4b  Exam 3 Q&A Review (in lecture; bring your own questions)    Curve Sketching (Part 1)  Common Exam 3: Friday, Nov. 20 (Sections 3.11, 4.7, 1.3, 3.4, 3.5, 3.7, 3.10, 1.6, 3.8, and 3.9) at 5:00 pm (locations on Canvas)  Makeup: Common Exam 3 Makeup at 11:00 am Tuesday, Nov. 24  Due: WW 1.6, 3.8, and 3.9 due Tuesday at 11:59 pm (ET)  No Studio: Practice Exercises for Section 4.4b (Part 1)      Week 14  Nov. 23 – 27  Nov. 24: Common Exam 3 Makeup  Nov. 25: Student Recess  Nov. 26 – 27: Thanksgiving Break    Sections 4.4b and 4.2a  Student Recess: No classes on Wednesday  Thanksgiving Break: No classes on Friday    Curve Sketching (Part 2) and Rolle's Theorem  Due: WW 4.4 due Tuesday at 11:59 pm (ET)  No Studio: Practice Problems for Sections 4.4b (Part 2) and 4.2a      Week 15  Nov. 30 – Dec. 4    Section 4.2b  Section 4.8    Mean Value Theorem  Antiderivatives  Friday Studio: WS 11 – Participation Quiz  Due: WW 4.2 and 4.8 due Monday, Dec. 7, at 11:59 pm (ET)      Week 16  Dec. 7 – 11  Dec. 7: Final Instructional Day    Final Exam Q&A Review (in lecture; bring your own questions)    Final Exam: Thursday, Dec. 10, from 6:00 pm to 8:50 pm (location TBD)  Makeup Final Exam: Friday, Dec. 18 (during the conflict period; time and location TBD)      "
+  "body": " MATH 1551 Syllabus (Fall 2026)    Course: Differential Calculus, Sections A\/C\/F\/G\/H\/HP\/K\/M (2 Credits)   Term: Fall 2026    Instructor Information   Course Coordinator: Thomas Tran, thomas.tran@math.gatech.edu    MATH 1551 Section Instructors       Section(s)  Name  Email    A\/C  Prof. Matteo Raffaelli  raffaelli@math.gatech.edu    F  Prof. Pranav Chinmay  to be updated    H  Prof. Fei Peng  fpeng33@gatech.edu    K\/M  Prof. Maya Thompson  mthompson367@gatech.edu    G\/HP  Prof. Thomas Tran  thomas.tran@math.gatech.edu       General Course Information   Description  Differential calculus including applications and the underlying theory of limits for functions and sequences.    Course Learning Outcomes   Make sense of mathematical expressions and graphs involving functions and their derivatives.  Compute mathematical quantities using differential calculus and interpret their meaning.  Analyze mathematical statements and expressions.  Write and communicate your mathematical reasoning effectively.  Apply calculus concepts to solve real-world problems such as optimization and related rates problems.     Required Course Materials  Thomas, Calculus: Early Transcendentals , 15th ed. We will discuss topics in chapters 1 to 4. This particular textbook is the one we will follow, but it is not required that you have a copy. Any calculus textbook will be a good reference.    Pre- &\/or Co-Requisites   Prerequisites: Math SAT Score of 660 or ACT 28 or MATH 1113 Precalculus with a grade of C or better  Or Corequisite: MATH 1499      Grading Policy  Letter grades will be determined based on the following intervals. You will be guaranteed a minimum of the following scale:   A: 90% and above  B: 80% to less than 90%  C: 70% to less than 80%  D: 60% to less than 70%  F: below 60%   Students should not expect any changes to these intervals, and changes (if any) to these intervals will only be made after the final exam. Percentage grades are not necessarily rounded to the nearest integer before conversion to letter grades. For example, 89.999% is converted to a B, 79.9999% is converted to a C, and so on.  If any changes to the grade cutoffs are made, they will be in your favor (i.e., the cutoff for an A may be lowered to an 89.5, but will not be raised above 90), and will not be announced per course policy. Such changes will apply to all students uniformly. Individual grade bumps will not be considered under any circumstances please do not submit such requests to your instructor or the coordinator.  Your final average will be computed using whichever of the following two options gives you the higher grade:   Course Grade Breakdown Options       Component  Option 1  Option 2    WeBWork  10%  10%    Studio Participation Quizzes  5%  5%    Best Two Midterms  40%  40%    Lowest Midterm  20%  0%    Final Exam  25%  45%      Description of Graded Components     WeBWork Homework: Earning 90% of the total homework points will result in 100% credit for the homework portion of the course grade. Students can earn up to 105% as your final homework score (by earning at least 95% of the total homework points).     Studio Participation Quizzes: These 5-minute open-notes quizzes are administered during studios. Students are allowed to miss up to three studios, regardless of the reason, including any quizzes given during those sessions. In other words, the three lowest quiz scores will be dropped. If students have extenuating circumstances that require additional absences beyond this buffer, please reach out individually to your instructor or the course coordinator.     Exams: We will have three 75-minute exams during the term, which will all take place on select Fridays during the common exam time at 5 pm. Students will receive more information about testing locations closer to exam time; please be advised that most exams will not be in the normal classroom. The exams will include both multiple-choice and free-response problems. To prepare for exams, students are expected to thoroughly review course materials, including lecture notes, WeBWork solutions, quiz solutions, and practice problems from non-studio weeks and studio worksheets, both with available answer keys and hints, before working through problems from past exams.     Final Exam: The final exam will cover all course materials and will consist entirely of multiple-choice questions.    Students must be physically present on the Georgia Tech campus to take all quizzes, midterm, and final exams; no virtual exams will be given. No books, notes, calculators, cell phones, or other aids or electronic devices are allowed during quizzes, exams, or any other proctored assessment, unless students have accommodations allowing a basic four-function calculator and\/or a formula sheet, approved by the course instructor or the course coordinator.    Extra Credit Opportunities    Surveys administered via Canvas after midterm exams gather your feedback on your study progress, exam preparation, and any additional support you may need to succeed in the course. You may earn up to 1% for completing all three midterm surveys.    We really value your input and feedback on this course, as part of your active role in your education. If at least 70% of each lecture section fills out the CIOS survey by 5 pm on TBD, an extra-credit reflection question worth 3% of the final exam will be added.       Course Policies   Attendance and\/or Participation  When signing up for MATH 1551, you signed up for a specific lecture and studio. You must attend the lecture section you signed up for, as the rooms are at capacity. Lecture attendance is not mandatory but is strongly encouraged, as we have observed a significant difference in exam performance between students who regularly attend class and those who do not.  In addition to lectures, you also signed up for a Friday Studio. Studio attendance is required. You must attend the studio section you signed up for; otherwise, no attendance points will be given, and your quiz will not be graded. You should not expect to be allowed to take the quiz if you have not been present for the entire studio session.    Academic Integrity  Georgia Tech aims to cultivate a community based on trust, academic integrity, and honor. Students are expected to act according to the highest ethical standards. Review Georgia Tech's Honor Code and the Student Code of Conduct. Any student suspected of cheating or plagiarism on a quiz, exam, or assignment will be reported to the Office of Student Integrity, who will investigate the incident and identify the appropriate penalty for violations.    Core IMPACTS  This is a Core IMPACTS course that is part of the STEM area. Core IMPACTS refers to the core curriculum, which provides students with essential knowledge in foundational academic areas. This course will help master course content, and support students' broad academic and career goals.     Orienting Question: How do I ask scientific questions or use data, mathematics, or technology to understand the universe?     Learning Outcome: Students will use the scientific method and laboratory procedures or mathematical and computational methods to analyze data, solve problems, and explain natural phenomena.     Career-Ready Competencies: Inquiry and Analysis, Problem-Solving, and Teamwork.      Accommodations for Students with Disabilities  If you are a student with learning needs that require special accommodation, contact the Office of Disability Services (404-894-2563) as soon as possible to make an appointment to discuss your special needs and to obtain an accommodations letter. Please also e-mail me as soon as possible in order to set up a time to discuss your learning needs.    Student-Faculty Expectations Agreement  At Georgia Tech, we believe that it is important to strive for an atmosphere of mutual respect, acknowledgement, and responsibility between faculty members and the student body. The Student-Faculty Expectations articulate some basic expectations that you can have of me and that I have of you. In the end, simple respect for knowledge, hard work, and cordial interactions will help build the environment we seek. Therefore, I encourage you to remain committed to the ideals of Georgia Tech while in this class.    Collaboration, Group Work, and Use of Generative AI  You are welcome to collaborate with other students on solving homework problems; in fact, we encourage you to do so. Talking with others gives you a chance to consider issues you might not have thought of yourself and often improves your understanding. However, it is important that you understand the homework yourself by the end, or quizzes and exams will be of extreme difficulty. Of course, it is always unacceptable to copy a solution from any source or to look up answers online.  Please make use of the Piazza forum on the Canvas site in a positive and constructive manner to ask questions about the course material. This way, your questions will benefit the entire class, and not just yourself. Comments on Piazza are moderated, anonymous to peers, and not anonymous to instructors. Please look through recently posted questions before adding your own it may have been answered.    Extensions, Late Assignments, & Re-Scheduled\/Missed Exams  A make-up assessment will be offered only in the event of an excused absence. In such cases, students must notify their instructor or the course coordinator (not the TA) as soon as possible, regardless of the availability of supporting documentation.     WeBWork: All students are strongly encouraged to do their homework in advance. Due to the flexibility already given by the extended window students will have to complete these assignments and the extra problems available beyond the number required, there will be no extensions or makeups on the online homework for any reason.     Studio Participation Quizzes: Students are allowed to miss up to three studios, regardless of the reason. In other words, the three lowest quiz scores will be dropped. If you have extenuating circumstances that require additional absences beyond this buffer, please reach out individually to your instructor or the course coordinator.     Exams: Students who miss an exam for an excused absence should take a make-up exam at the scheduled time, Tuesdays at 11:00 am following the Friday exams, with the location TBD. In the extraordinary circumstance that a student must miss both the exam and the make-up, they must consult their instructor or the course coordinator to arrange an alternate solution. This may involve scheduling another time to take the make-up exam, provided it occurs on or before the make-up date and before grades are posted, and they submit the necessary supporting documentation.    If a student needs to miss multiple assessments and multiple make-up dates for non-academic reasons, they should instead discuss the possibilities of an incomplete or course withdrawal with their instructor or the course coordinator and academic advisor. Every student must take at least two of the exams and the final, with no exceptions.  Students must notify their instructor or the course coordinator (not the TA) of an excused absence within 3 days, including weekends, from the date of the missed exams or studios. For make-up exams, students must notify their instructor or the course coordinator at least 24 hours in advance if they are going to miss the scheduled exam. Failure to do so may result in receiving a grade of zero on the missed assessment.  Any make-ups must be completed before the corresponding exam has been graded and returned to other students or the solutions have been posted on Canvas. It is solely the student's responsibility to inform their instructor or the course coordinator (not the TA) of their absence in a timely manner as mentioned above. No exceptions will be considered in any case. All makeup exams will be given at a common time at 11 am on the Tuesday following the exam.  Per department policy, there will be no retakes of any assessment. Any student who has received a copy of the assessment, even if they have not fully completed it, is no longer eligible to take a makeup exam.    Inclement Weather and Digital Learning Days  In cases where campus may be physically closed due to events such as inclement weather, a digital learning day may replace in-person classes. Should this event occur on a class day, then class will either be streamed live, or a recording will be posted for students to watch asynchronously. No studio participation will be counted on a digital learning day, and the studio participation quiz will be rescheduled. The instructor reserves the right to consider many possible modes for rescheduling a missed assessment, including possible changes to the weightings of assignments if the assessment cannot be rescheduled.    Student Use of Mobile Devices in the Classroom  Put away all cellphones and other electronic devices (as they can be very distracting!), except for tablets used solely for taking notes. If a computer is needed for notetaking, students must notify and obtain permission from their instructor in advance.    Additional Course Policies  Please review the Common Course Questions section posted on our Canvas homepage.     Attendance and Engagement: You are expected to come prepared and actively participate in every lecture and studio. In the event of an absence, you are responsible for all missed materials, assignments, and any additional announcements or schedule changes given in class. Class disruptions of any kind will not be tolerated and may result in your removal from the classroom. Please adhere to the following class rules:   Come to class on time and stay for the entire class period. Do not leave until dismissed. If you need to leave early, please notify the instructor in advance.  Ensure your discussions with fellow classmates are mathematical and occur only when you're asked to collaborate. It is unacceptable to carry on a conversation while your instructor is lecturing.  Put away any reading materials unrelated to the course.      Netiquette: Netiquette is the etiquette of online behavior. In all means of online communication, you will need to follow the same rules of behavior as you would in a face-to-face course when communicating with the other students, teaching assistants, and instructors in the class. Negative personal comments are strictly prohibited. Unprofessional, abusive, or accusatory comments are not allowed on class websites, including but not limited to Piazza. Students may post anonymously to other classmates on our Piazza page; however, instructors always have student identifying information. We reserve the right to remove student comments when necessary and report inappropriate behavior to the Dean's office as a violation of the student code of conduct.     Excused Absences: Reasons for which an absence may be excused are:   An athletic or university-sponsored event or religious holidays or institute-approved absences: You should provide official documentation to your instructor at least one week in advance of the quiz or exam.  An ongoing or serious medical or family emergency: You should provide official documentation as soon as you are able through the Dean of Students office. Please do not submit sensitive information to your instructor; instead, notify them of your situation as soon as possible.  Illness: We understand that there are illnesses that inhibit your cognitive function but may not necessitate a visit to the doctor and we appreciate you taking care not to spread them to your classmates. If you are ill the day of an assessment, please contact your instructor by the end of that day, if possible, to discuss the possibility of a makeup.   Please note that personal travel is not a valid reason for missing an assessment, so please plan any personal travel days around our scheduled exam dates. Instructors reserve the right in any situation to ask for documentation of any illness or absence, especially for repeated absences. Students are expected to obtain an excused letter from the Dean of Students office.     Calculators: While you may need a scientific calculator for help with some of the homework problems, the use of calculators is not allowed on in-class assessments, unless you have accommodations allowing a basic four-function calculator.     Announcements: You are responsible for obtaining any announcements or materials placed on our Canvas website.     Regrading of Work: Grades become final once the regrade request deadline has passed. If a problem on your paper has been graded in error, you must submit a regrade request through Gradescope no more than one week after the papers have been returned via Gradescope. Please note the following:   Please check the solutions before you submit a regrade request; if your work is incorrect, you may not be eligible for a regrade.  A regrade request should only be submitted if we made an error in the grading, which means you have done something CORRECT on your paper that has been marked as incorrect.  Regrades are NOT to be used to randomly ask for more partial credit or to argue with our grading rubric. Students who abuse this policy will have one point deducted from the assessment grade for each violation.  Papers submitted for regrades could be adjusted up or down, as we will need to regrade the entire problem.  If you only wish to know what you missed, or if you are not sure whether or not your work may qualify for a regrade, please see your instructor before submitting a regrade request. Please keep your comments cordial and professional. We reserve the right to submit rude comments to the Dean's office as violations of the student code of conduct.      Missing\/Incorrect Grades: The one-week policy to ask for regrades applies to every score you may see in the gradebook, even if it was not graded via Gradescope. On Canvas, if your grade is not reported, that means we do not have a submission from you for that assignment. If your submission score is listed as 0 or is not posted on Canvas, you will also have one week after scores are posted or papers have been returned to report a missing grade. After that time, hard copies of the papers may be shredded, and any unreported submissions will be scored as a 0 . It is every student's obligation to check Canvas regularly and report grading errors promptly to their instructor or the course coordinator. A missed studio participation quiz will be recorded as a 0 for tracking purposes toward the three allowed absences. However, these studio absence zeros will be dropped when calculating the final quiz average.     Statement of Intent for Inclusivity: As members of the Georgia Tech community, we are committed to creating a learning environment in which all our students feel safe and included. Because we are individuals with varying needs, we are reliant on your feedback to achieve this goal. To that end, we invite you to engage in dialogue with us about the things we can stop, start, and continue doing to make our classroom an environment in which every student feels valued and can engage actively in our learning community.     Recordings of Class Sessions and Required Permissions: Classes may not be recorded by students without the express consent of the instructor unless it is pursuant to an accommodation granted by the Office of Disability Services. Class recordings, lectures, presentations, and other materials posted on Canvas are for the sole purpose of educating the students currently enrolled in the course. Students may not record or share the materials or recordings, including screen capturing or automated bots, unless the instructor gives permission. For classes where participation is voluntary, students who participate with their camera engaged or utilize a profile image are agreeing to have their video or image recorded. For classes requiring class participation, if students are identifiable by their names, facial images, voices, and\/or comments, written consent must be obtained before sharing the recording with persons outside of currently enrolled students in the class.     Please note: Items on the syllabus and course schedule are subject to change. Any changes to the syllabus and\/or course schedule will be relayed to the students in class and through Canvas announcements.     Campus Resources for Students   MATH 1551 Tutoring and Academic Support     Instructors' Office Hours: Please refer to the course Canvas homepage for instructors' office hours. You are welcome to attend any instructor's office hours, regardless of your section.     TAs Office Hours: One-on-one and small group tutoring sessions with our UTAs will start in the second week of the course. Appointments can be booked with them or other UTAs via UTA Tutoring on Canvas.      Additional Tutoring and Academic Support     Precalculus & Algebra Review: If you are uncertain whether you are prepared for this course, or if some background topics are giving you trouble, check out our Precalc & Algebra Review Help page on Canvas.     The Math Lab: Staffed by graduate students in the Math program (including some of your TAs), offering free drop-in tutoring in Clough 280. See posted hours and schedule at math.gatech.edu\/tutors-and-labs .     1-to-1 Tutoring & Knack: Georgia Tech offers free private tutoring by appointment through Tutoring & Academic Support, as well as free in-person and online tutoring through Knack at joinknack.com\/school\/georgia-institute-of-technology .     PLUS (Peer-Led Undergraduate Study): Peer-led group study sessions where a peer leader prepares extra problems for collaborative work. Watch Canvas announcements for the MATH 1551 PLUS schedule.     OMED Academic Support: Offers free drop-in tutoring and general academic services through OMED Educational Services.     Office of Undergraduate Education (OUE) & Academic Advising: Offers the First-Year Student Success talk series, general tutoring, and advising appointments. Academic Success and Advising (Clough Undergraduate Learning Commons, Suite 283) provides free course support; visit success.gatech.edu\/tutoring or email tutoring@gatech.edu .      Student Well-Being  At Georgia Tech, we are concerned about your overall physical, social, and mental well-being. A comprehensive list of wellness-related resources is maintained by the Office of the Vice President for Student Engagement and Well-being at students.gatech.edu\/student-resource-guide .     Tentative Course Schedule and Assessments   Please note: Items on the syllabus and course schedule are subject to change. Any changes to the syllabus and\/or course schedule will be relayed to students in class and through Canvas. Please use this as an approximate class schedule; section coverage may change depending on the flow of the course, and review days\/topics may be changed or cancelled in the event of campus closures.  Here's to a happy and productive semester!   Week 1: Aug. 24 – 28   Important Dates: Aug. 24 (First day of classes); Aug. 28 (Last day to make schedule changes)  Sections: Course Policies; Sections 1.1, 1.2, and 2.1  Topics: Syllabus and Canvas Course Page (5–10 mins); Functions and Graphs; Rates of Change, Tangent and Secant Lines  Friday Studio: WS 1 – Participation Quiz  Assessments Due: Canvas Precalculus\/Algebra Assessment Quiz due Tuesday, Aug. 25, at 11:59 pm (under the Quizzes tab on Canvas)     Week 2: Aug. 31 – Sept. 4   Important Dates: Monday, Aug. 31 (Payment Deadline at 4:00 pm ET)  Sections: Sections 2.2, 2.4, and 2.6a  Topics: Limit of a Function; One-Sided and Infinite Limits  Friday Studio: WS 2 – Participation Quiz  Assessments Due: WW 1.1, 1.2, 2.1 due Tuesday at 11:59 pm (ET)     Week 3: Sept. 7 – 11   Important Dates: Monday, Sept. 7 (Labor Day – No classes); Tuesday, Sept. 8 (VOP Report due at 4:00 pm)  Sections: Section 2.6b and the Sandwich Theorem (Part 1)  Topics: Limits and Horizontal\/Vertical Asymptotes and the Sandwich Theorem (Part 1)  Friday Studio: WS 3 – Participation Quiz  Assessments Due: WW 2.2 due Wednesday at 11:59 pm (ET)     Week 4: Sept. 14 – 18   Sections: Section 2.5a, the Sandwich Theorem (Part 2), and Section 2.5b  Topics: Continuity and the Sandwich Theorem; Discontinuity and Intermediate Value Theorem  Friday Studio: WS 4 – Participation Quiz  Assessments Due: WW 2.4 and 2.6 due Tuesday at 11:59 pm (ET)     Week 5: Sept. 21 – 25   Sections: Sections 3.1 and 3.2a; Exam 1 Q&A Review (in lecture; students are expected to bring their own questions)  Topics: The Derivative at a Point and the Derivative as a Function (Part 1)  Friday Studio: No Studio – Practice Exercises for Sections 3.1 and 3.2a  Assessments Due & Exams: WW 2.5 due Tuesday at 11:59 pm (ET); Common Exam 1 on Friday, Sept. 25 (Sections 1.1, 1.2, 2.1, 2.2, 2.4, 2.6, and 2.5) at 5:00 pm (locations announced on Canvas); Common Exam 1 Makeup at 11:00 am Tuesday, Sept. 29     Week 6: Sept. 28 – Oct. 2   Important Dates: Tuesday, Sept. 29 (Common Exam 1 Makeup)  Sections: Sections 3.2b, 3.3a, and 3.6  Topics: The Derivative as a Function (Part 2); Differentiation Rules (Part 1), the Chain Rule, and the Product Rule  Friday Studio: WS 5 – Participation Quiz  Assessments Due: WW 3.1 due Tuesday at 11:59 pm (ET)     Week 7: Oct. 5 – 9   Important Dates: Oct. 5 – 6 (Fall Break – No classes on Monday)  Sections: Sections 3.3b, 4.1a, and 4.3  Topics: The Quotient Rule and Extreme Values of Function (Part 1)  Friday Studio: WS 6 – Participation Quiz  Assessments Due: WW 3.2, 3.3a, 3.6 due Wednesday at 11:59 pm (ET)     Week 8: Oct. 12 – 16   Important Dates: Monday, Oct. 12 (Midterm Report)  Sections: Sections 4.4a, 4.1b, 4.6a, and 4.6b  Topics: Extreme Values of Function (Part 2) and Optimization (Parts 1 and 2)  Friday Studio: WS 7 – Participation Quiz  Assessments Due: WW 3.3b, 4.1, and 4.3 due Tuesday at 11:59 pm (ET)     Week 9: Oct. 19 – 23   Sections: Section 3.11; Exam 2 Q&A Review (in lecture; students are expected to bring their own questions)  Topics: Linearization  Friday Studio: No Studio – Practice Exercises for Section 3.11  Assessments Due & Exams: WW 4.6 due Tuesday at 11:59 pm (ET); Common Exam 2 on Friday, Oct. 23 (Sections 3.1, 3.2, 3.3a, 3.3b, 3.6, 4.1, 4.3, 4.4a, and 4.6) at 5:00 pm (locations announced on Canvas); Common Exam 2 Makeup at 11:00 am Tuesday, Oct. 27     Week 10: Oct. 26 – 30   Important Dates: Tuesday, Oct. 27 (Common Exam 2 Makeup); Saturday, Oct. 31 (Withdrawal Deadline at 11:59 pm)  Sections: Sections 4.7, 3.4a, 1.3, 3.4b, and 3.5  Topics: Newton's Method and the Derivative as a Rate of Change (Part 1); Derivatives of Trigonometric Functions and the Derivative as a Rate of Change (Part 2)  Friday Studio: WS 8 – Participation Quiz  Assessments Due: WW 3.11 due Tuesday at 11:59 pm (ET)     Week 11: Nov. 2 – 6   Sections: Sections 3.7 and 3.10a  Topics: Implicit Differentiation and the Derivatives of Log Functions; Related Rates (Part 1)  Friday Studio: WS 9 – Participation Quiz  Assessments Due: WW 4.7, 1.3, 3.4, and 3.5 due Tuesday at 11:59 pm (ET)     Week 12: Nov. 9 – 13   Sections: Sections 3.10b, 3.8a, 1.6, 3.8b, and 3.9  Topics: Related Rates (Part 2) and Logarithmic Differentiation (Parts 1 and 2); Derivatives of Inverse Trigonometric Functions  Friday Studio: WS 10 – Participation Quiz  Assessments Due: WW 3.7 due Tuesday at 11:59 pm (ET); WW 3.10 due Friday at 11:59 pm (ET)     Week 13: Nov. 16 – 20   Sections: Section 4.4b; Exam 3 Q&A Review (in lecture; students are expected to bring their own questions)  Topics: Curve Sketching (Part 1)  Friday Studio: No Studio – Practice Exercises for Section 4.4b (Part 1)  Assessments Due & Exams: WW 1.6, 3.8, and 3.9 due Tuesday at 11:59 pm (ET); Common Exam 3 on Friday, Nov. 20 (Sections 3.11, 4.7, 1.3, 3.4, 3.5, 3.7, 3.10, 1.6, 3.8, and 3.9) at 5:00 pm (locations announced on Canvas); Common Exam 3 Makeup at 11:00 am Tuesday, Nov. 24     Week 14: Nov. 23 – 27   Important Dates: Tuesday, Nov. 24 (Common Exam 3 Makeup); Wednesday, Nov. 25 (Student Recess – No classes); Nov. 26 – 27 (Thanksgiving Break – No classes on Friday)  Sections: Sections 4.4b and 4.2a  Topics: Curve Sketching (Part 2) and Rolle's Theorem  Friday Studio: No Studio – Practice Problems for Sections 4.4b (Part 2) and 4.2a  Assessments Due: WW 4.4 due Tuesday at 11:59 pm (ET)     Week 15: Nov. 30 – Dec. 4   Sections: Sections 4.2b and 4.8  Topics: Mean Value Theorem; Antiderivatives  Friday Studio: WS 11 – Participation Quiz  Assessments Due: WW 4.2 and 4.8 due Monday, Dec. 7, at 11:59 pm (ET)     Week 16: Dec. 7 – 11   Important Dates: Monday, Dec. 7 (Final Instructional Day)  Topics: Final Exam Q&A Review (in lecture; students are expected to bring their own questions)  Final Exam: Thursday, Dec. 10, from 6:00 pm to 8:50 pm (location TBD)  Makeup Final Exam: Friday, Dec. 18 (during the conflict period; time and location TBD)     "
 },
 {
   "id": "syllabus-fall-2026-2-1",
@@ -35,6 +35,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "Course Coordinator: "
+},
+{
+  "id": "table-instructors",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#table-instructors",
+  "type": "Table",
+  "number": "1",
+  "title": "MATH 1551 Section Instructors",
+  "body": " MATH 1551 Section Instructors       Section(s)  Name  Email    A\/C  Prof. Matteo Raffaelli  raffaelli@math.gatech.edu    F  Prof. Pranav Chinmay  to be updated    H  Prof. Fei Peng  fpeng33@gatech.edu    K\/M  Prof. Maya Thompson  mthompson367@gatech.edu    G\/HP  Prof. Thomas Tran  thomas.tran@math.gatech.edu    "
 },
 {
   "id": "syllabus-prerequisites-2-1-1",
@@ -98,6 +107,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "F: "
+},
+{
+  "id": "table-grade-weights",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#table-grade-weights",
+  "type": "Table",
+  "number": "2",
+  "title": "Course Grade Breakdown Options",
+  "body": " Course Grade Breakdown Options       Component  Option 1  Option 2    WeBWork  10%  10%    Studio Participation Quizzes  5%  5%    Best Two Midterms  40%  40%    Lowest Midterm  20%  0%    Final Exam  25%  45%    "
 },
 {
   "id": "syllabus-graded-components-2-1-1",
@@ -343,486 +361,648 @@ var ptx_lunr_docs = [
   "body": "Office of Undergraduate Education (OUE) & Academic Advising: "
 },
 {
-  "id": "syllabus-course-schedule-4-5-1-1",
+  "id": "schedule-week-1-2-1-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-5-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-1-2-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 1 "
+  "body": "Important Dates: "
 },
 {
-  "id": "syllabus-course-schedule-4-5-3-4",
+  "id": "schedule-week-1-2-2-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-5-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-1-2-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Friday Studio: "
+  "body": "Sections: "
 },
 {
-  "id": "syllabus-course-schedule-4-5-3-5",
+  "id": "schedule-week-1-2-3-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-5-3-5",
+  "url": "syllabus-fall-2026.html#schedule-week-1-2-3-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Due: "
+  "body": "Topics: "
 },
 {
-  "id": "syllabus-course-schedule-4-6-1-1",
+  "id": "schedule-week-1-2-4-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-6-1-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Week 2 "
-},
-{
-  "id": "syllabus-course-schedule-4-6-3-3",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-6-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Due: "
-},
-{
-  "id": "syllabus-course-schedule-4-6-3-4",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-6-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-1-2-4-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Friday Studio: "
 },
 {
-  "id": "syllabus-course-schedule-4-7-1-1",
+  "id": "schedule-week-1-2-5-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-7-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-1-2-5-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 3 "
+  "body": "Assessments Due: "
 },
 {
-  "id": "syllabus-course-schedule-4-7-3-2",
+  "id": "schedule-week-2-2-1-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-7-3-2",
+  "url": "syllabus-fall-2026.html#schedule-week-2-2-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Due: "
+  "body": "Important Dates: "
 },
 {
-  "id": "syllabus-course-schedule-4-7-3-3",
+  "id": "schedule-week-2-2-2-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-7-3-3",
+  "url": "syllabus-fall-2026.html#schedule-week-2-2-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Friday Studio: "
+  "body": "Sections: "
 },
 {
-  "id": "syllabus-course-schedule-4-8-1-1",
+  "id": "schedule-week-2-2-3-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-8-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-2-2-3-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 4 "
+  "body": "Topics: "
 },
 {
-  "id": "syllabus-course-schedule-4-8-3-3",
+  "id": "schedule-week-2-2-4-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-8-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Due: "
-},
-{
-  "id": "syllabus-course-schedule-4-8-3-4",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-8-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-2-2-4-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Friday Studio: "
 },
 {
-  "id": "syllabus-course-schedule-4-9-1-1",
+  "id": "schedule-week-2-2-5-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-9-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-2-2-5-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 5 "
+  "body": "Assessments Due: "
 },
 {
-  "id": "syllabus-course-schedule-4-9-3-2",
+  "id": "schedule-week-3-2-1-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-9-3-2",
+  "url": "syllabus-fall-2026.html#schedule-week-3-2-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Common Exam 1: "
+  "body": "Important Dates: "
 },
 {
-  "id": "syllabus-course-schedule-4-9-3-3",
+  "id": "schedule-week-3-2-2-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-9-3-3",
+  "url": "syllabus-fall-2026.html#schedule-week-3-2-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Makeup: "
+  "body": "Sections: "
 },
 {
-  "id": "syllabus-course-schedule-4-9-3-4",
+  "id": "schedule-week-3-2-3-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-9-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-3-2-3-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Due: "
+  "body": "Topics: "
 },
 {
-  "id": "syllabus-course-schedule-4-9-3-5",
+  "id": "schedule-week-3-2-4-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-9-3-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "No Studio: "
-},
-{
-  "id": "syllabus-course-schedule-4-10-1-1",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-10-1-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Week 6 "
-},
-{
-  "id": "syllabus-course-schedule-4-10-3-3",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-10-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Due: "
-},
-{
-  "id": "syllabus-course-schedule-4-10-3-4",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-10-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-3-2-4-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Friday Studio: "
 },
 {
-  "id": "syllabus-course-schedule-4-11-1-1",
+  "id": "schedule-week-3-2-5-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-11-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-3-2-5-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 7 "
+  "body": "Assessments Due: "
 },
 {
-  "id": "syllabus-course-schedule-4-11-3-2",
+  "id": "schedule-week-4-2-1-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-11-3-2",
+  "url": "syllabus-fall-2026.html#schedule-week-4-2-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Due: "
+  "body": "Sections: "
 },
 {
-  "id": "syllabus-course-schedule-4-11-3-3",
+  "id": "schedule-week-4-2-2-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-11-3-3",
+  "url": "syllabus-fall-2026.html#schedule-week-4-2-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Friday Studio: "
+  "body": "Topics: "
 },
 {
-  "id": "syllabus-course-schedule-4-12-1-1",
+  "id": "schedule-week-4-2-3-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-12-1-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Week 8 "
-},
-{
-  "id": "syllabus-course-schedule-4-12-3-3",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-12-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Due: "
-},
-{
-  "id": "syllabus-course-schedule-4-12-3-4",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-12-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-4-2-3-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Friday Studio: "
 },
 {
-  "id": "syllabus-course-schedule-4-13-1-1",
+  "id": "schedule-week-4-2-4-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-13-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-4-2-4-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 9 "
+  "body": "Assessments Due: "
 },
 {
-  "id": "syllabus-course-schedule-4-13-3-2",
+  "id": "schedule-week-5-2-1-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-13-3-2",
+  "url": "syllabus-fall-2026.html#schedule-week-5-2-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Common Exam 2: "
+  "body": "Sections: "
 },
 {
-  "id": "syllabus-course-schedule-4-13-3-3",
+  "id": "schedule-week-5-2-2-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-13-3-3",
+  "url": "syllabus-fall-2026.html#schedule-week-5-2-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Makeup: "
+  "body": "Topics: "
 },
 {
-  "id": "syllabus-course-schedule-4-13-3-4",
+  "id": "schedule-week-5-2-3-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-13-3-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Due: "
-},
-{
-  "id": "syllabus-course-schedule-4-13-3-5",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-13-3-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "No Studio: "
-},
-{
-  "id": "syllabus-course-schedule-4-14-1-1",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-14-1-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Week 10 "
-},
-{
-  "id": "syllabus-course-schedule-4-14-3-3",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-14-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Due: "
-},
-{
-  "id": "syllabus-course-schedule-4-14-3-4",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-14-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-5-2-3-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Friday Studio: "
 },
 {
-  "id": "syllabus-course-schedule-4-15-1-1",
+  "id": "schedule-week-5-2-4-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-15-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-5-2-4-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 11 "
+  "body": "Assessments Due & Exams: "
 },
 {
-  "id": "syllabus-course-schedule-4-15-3-3",
+  "id": "schedule-week-6-2-1-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-15-3-3",
+  "url": "syllabus-fall-2026.html#schedule-week-6-2-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Due: "
+  "body": "Important Dates: "
 },
 {
-  "id": "syllabus-course-schedule-4-15-3-4",
+  "id": "schedule-week-6-2-2-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-15-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-6-2-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Friday Studio: "
+  "body": "Sections: "
 },
 {
-  "id": "syllabus-course-schedule-4-16-1-1",
+  "id": "schedule-week-6-2-3-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-16-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-6-2-3-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 12 "
+  "body": "Topics: "
 },
 {
-  "id": "syllabus-course-schedule-4-16-3-3",
+  "id": "schedule-week-6-2-4-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-16-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Due: "
-},
-{
-  "id": "syllabus-course-schedule-4-16-3-4",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-16-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-6-2-4-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Friday Studio: "
 },
 {
-  "id": "syllabus-course-schedule-4-17-1-1",
+  "id": "schedule-week-6-2-5-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-17-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-6-2-5-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 13 "
+  "body": "Assessments Due: "
 },
 {
-  "id": "syllabus-course-schedule-4-17-3-2",
+  "id": "schedule-week-7-2-1-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-17-3-2",
+  "url": "syllabus-fall-2026.html#schedule-week-7-2-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Common Exam 3: "
+  "body": "Important Dates: "
 },
 {
-  "id": "syllabus-course-schedule-4-17-3-3",
+  "id": "schedule-week-7-2-2-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-17-3-3",
+  "url": "syllabus-fall-2026.html#schedule-week-7-2-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Makeup: "
+  "body": "Sections: "
 },
 {
-  "id": "syllabus-course-schedule-4-17-3-4",
+  "id": "schedule-week-7-2-3-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-17-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-7-2-3-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Due: "
+  "body": "Topics: "
 },
 {
-  "id": "syllabus-course-schedule-4-17-3-5",
+  "id": "schedule-week-7-2-4-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-17-3-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "No Studio: "
-},
-{
-  "id": "syllabus-course-schedule-4-18-1-1",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-18-1-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Week 14 "
-},
-{
-  "id": "syllabus-course-schedule-4-18-3-2",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-18-3-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Due: "
-},
-{
-  "id": "syllabus-course-schedule-4-18-3-3",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-18-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "No Studio: "
-},
-{
-  "id": "syllabus-course-schedule-4-19-1-1",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-19-1-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Week 15 "
-},
-{
-  "id": "syllabus-course-schedule-4-19-3-3",
-  "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-19-3-3",
+  "url": "syllabus-fall-2026.html#schedule-week-7-2-4-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Friday Studio: "
 },
 {
-  "id": "syllabus-course-schedule-4-19-3-4",
+  "id": "schedule-week-7-2-5-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-19-3-4",
+  "url": "syllabus-fall-2026.html#schedule-week-7-2-5-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Due: "
+  "body": "Assessments Due: "
 },
 {
-  "id": "syllabus-course-schedule-4-20-1-1",
+  "id": "schedule-week-8-2-1-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-20-1-1",
+  "url": "syllabus-fall-2026.html#schedule-week-8-2-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Week 16 "
+  "body": "Important Dates: "
 },
 {
-  "id": "syllabus-course-schedule-4-20-3-1",
+  "id": "schedule-week-8-2-2-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-20-3-1",
+  "url": "syllabus-fall-2026.html#schedule-week-8-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections: "
+},
+{
+  "id": "schedule-week-8-2-3-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-8-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Topics: "
+},
+{
+  "id": "schedule-week-8-2-4-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-8-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Friday Studio: "
+},
+{
+  "id": "schedule-week-8-2-5-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-8-2-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Assessments Due: "
+},
+{
+  "id": "schedule-week-9-2-1-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-9-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections: "
+},
+{
+  "id": "schedule-week-9-2-2-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-9-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Topics: "
+},
+{
+  "id": "schedule-week-9-2-3-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-9-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Friday Studio: "
+},
+{
+  "id": "schedule-week-9-2-4-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-9-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Assessments Due & Exams: "
+},
+{
+  "id": "schedule-week-10-2-1-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-10-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Important Dates: "
+},
+{
+  "id": "schedule-week-10-2-2-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-10-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections: "
+},
+{
+  "id": "schedule-week-10-2-3-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-10-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Topics: "
+},
+{
+  "id": "schedule-week-10-2-4-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-10-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Friday Studio: "
+},
+{
+  "id": "schedule-week-10-2-5-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-10-2-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Assessments Due: "
+},
+{
+  "id": "schedule-week-11-2-1-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-11-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections: "
+},
+{
+  "id": "schedule-week-11-2-2-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-11-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Topics: "
+},
+{
+  "id": "schedule-week-11-2-3-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-11-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Friday Studio: "
+},
+{
+  "id": "schedule-week-11-2-4-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-11-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Assessments Due: "
+},
+{
+  "id": "schedule-week-12-2-1-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-12-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections: "
+},
+{
+  "id": "schedule-week-12-2-2-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-12-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Topics: "
+},
+{
+  "id": "schedule-week-12-2-3-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-12-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Friday Studio: "
+},
+{
+  "id": "schedule-week-12-2-4-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-12-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Assessments Due: "
+},
+{
+  "id": "schedule-week-13-2-1-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-13-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections: "
+},
+{
+  "id": "schedule-week-13-2-2-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-13-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Topics: "
+},
+{
+  "id": "schedule-week-13-2-3-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-13-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Friday Studio: "
+},
+{
+  "id": "schedule-week-13-2-4-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-13-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Assessments Due & Exams: "
+},
+{
+  "id": "schedule-week-14-2-1-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-14-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Important Dates: "
+},
+{
+  "id": "schedule-week-14-2-2-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-14-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections: "
+},
+{
+  "id": "schedule-week-14-2-3-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-14-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Topics: "
+},
+{
+  "id": "schedule-week-14-2-4-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-14-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Friday Studio: "
+},
+{
+  "id": "schedule-week-14-2-5-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-14-2-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Assessments Due: "
+},
+{
+  "id": "schedule-week-15-2-1-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-15-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sections: "
+},
+{
+  "id": "schedule-week-15-2-2-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-15-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Topics: "
+},
+{
+  "id": "schedule-week-15-2-3-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-15-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Friday Studio: "
+},
+{
+  "id": "schedule-week-15-2-4-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-15-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Assessments Due: "
+},
+{
+  "id": "schedule-week-16-2-1-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-16-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Important Dates: "
+},
+{
+  "id": "schedule-week-16-2-2-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-16-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Topics: "
+},
+{
+  "id": "schedule-week-16-2-3-1",
+  "level": "2",
+  "url": "syllabus-fall-2026.html#schedule-week-16-2-3-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Final Exam: "
 },
 {
-  "id": "syllabus-course-schedule-4-20-3-2",
+  "id": "schedule-week-16-2-4-1",
   "level": "2",
-  "url": "syllabus-fall-2026.html#syllabus-course-schedule-4-20-3-2",
+  "url": "syllabus-fall-2026.html#schedule-week-16-2-4-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
