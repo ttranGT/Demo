@@ -13,7 +13,7 @@
 
   <page>
     <paragraphs xml:id="checkpoint-warmup-limits">
-      <title>Checkpoint (Warm Up)</title>
+      <title>Problem 1 (Warm Up)</title>
       <p>
         The graph of a function <m>f(x)</m> is shown below. Find the following limits. If you aren't sure what the answer should be, discuss with a neighbor.
       </p>
@@ -47,25 +47,25 @@
     <paragraphs xml:id="def-one-sided-limits">
       <title>Definition</title>
       <p>
-        A <fillin characters="14"/> limit is a limit <m>\displaystyle \lim_{x \to a} f(x)</m> that only considers the case <fillin characters="6"/> or <fillin characters="6"/>.
+        A <fillin characters="24"/> limit is a limit <m>\displaystyle \lim_{x \to a} f(x)</m> that only considers the case <fillin characters="10"/> or <fillin characters="10"/>.
       </p>
       <ol marker="i)">
         <li>
           <p>
-            <m>\displaystyle \lim_{x \to a^-} f(x)</m> is the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> from the <fillin characters="6"/>. It is called the <fillin characters="14"/> limit.
+            <m>\displaystyle \lim_{x \to a^-} f(x)</m> is the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> from the <fillin characters="10"/>. It is called the <fillin characters="24"/> limit.
           </p>
         </li>
         <li>
           <p>
-            <m>\displaystyle \lim_{x \to a^+} f(x)</m> is the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> from the <fillin characters="6"/>. It is called the <fillin characters="14"/> limit.
+            <m>\displaystyle \lim_{x \to a^+} f(x)</m> is the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> from the <fillin characters="10"/>. It is called the <fillin characters="24"/> limit.
           </p>
         </li>
       </ol>
       <p>
-        <term>Note:</term> We recall that for <m>\displaystyle \lim_{x \to a} f(x) = L</m>, where <m>L</m> is a real number, the values of <m>f(x)</m> must get infinitely close to <m>L</m> as <m>x</m> approaches <m>a</m> from <fillin characters="10"/> left-hand and right-hand sides.
+        <term>Note:</term> We recall that for <m>\displaystyle \lim_{x \to a} f(x) = L</m>, where <m>L</m> is a real number, the values of <m>f(x)</m> must get infinitely close to <m>L</m> as <m>x</m> approaches <m>a</m> from <fillin characters="15"/> left-hand and right-hand sides.
       </p>
       <p>
-        For this reason, the ordinary limit <m>\displaystyle \lim_{x \to a} f(x)</m> is called a <fillin characters="16"/> limit.
+        For this reason, the ordinary limit <m>\displaystyle \lim_{x \to a} f(x)</m> is called a <fillin characters="26"/> limit.
       </p>
     </paragraphs>
 
@@ -79,17 +79,17 @@
       </p>
       <ol marker="1.">
         <li>
-          <p>The <fillin characters="20"/> exists</p>
+          <p>The <fillin characters="30"/> exists</p>
         </li>
         <li>
-          <p>AND The <fillin characters="20"/> exists</p>
+          <p>AND The <fillin characters="30"/> exists</p>
         </li>
         <li>
-          <p>AND <fillin characters="14"/> <m>=</m> <fillin characters="14"/></p>
+          <p>AND <fillin characters="24"/> <m>=</m> <fillin characters="24"/></p>
         </li>
       </ol>
       <p>
-        That is, any time our one-sided limits <fillin characters="10"/> match, the two-sided limit <fillin characters="18"/>.
+        That is, any time our one-sided limits <fillin characters="20"/> match, the two-sided limit <fillin characters="38"/>.
       </p>
     </paragraphs>
   </page>
@@ -98,12 +98,12 @@
     <paragraphs xml:id="p-piecewise-one-sided">
       <title>One-Sided Limits of Piecewise Functions</title>
       <p>
-        One common place where one-sided limits appear is in <fillin characters="14"/> functions. In such cases, we evaluate the limit using the <fillin characters="14"/> of the function that corresponds to the appropriate side of <m>a</m> as <m>x</m> approaches <m>a</m>. For example:
+        One common place where one-sided limits appear is in <fillin characters="24"/> functions. In such cases, we evaluate the limit using the <fillin characters="24"/> of the function that corresponds to the appropriate side (left or right) of <m>a</m> as <m>x</m> approaches <m>a</m>. For example:
       </p>
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-piecewise-limit">
-      <title>Checkpoint</title>
+      <title>Problem 2</title>
       <p workspace="1.5in">
         Given that
         <me>f(x)=\begin{cases}e^x-2 \amp \text{if } x \leq 0\\ x^2-\ln(x+1)+1 \amp \text{if } x \gt 0\end{cases},</me>
@@ -112,7 +112,7 @@
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-graph-infinite-limits">
-      <title>Checkpoint</title>
+      <title>Problem 3</title>
       <p>
         Next, let's examine the following problem and explore the interaction between infinite and one-sided limits a bit. Consider the function <m>f(x)</m> below. Find each limit.
       </p>
@@ -139,7 +139,7 @@
       </sidebyside>
 
       <p>
-        So we see that <fillin characters="6"/> of the 3 two-sided limits above exist, but the amount of information we can give about them varies, and our final answer is always as informative as possible.
+        So we see that <fillin characters="10"/> of the 3 two-sided limits above exist, but the amount of information we can give about them varies, and our final answer is always as informative as possible.
       </p>
       <p>
         We can guess from the graph that <m>\displaystyle \lim_{x \to 5} f(x) =</m> <fillin characters="8"/>.
@@ -148,22 +148,22 @@
         But what does it mean for a limit to be <fillin characters="10"/>?
       </p>
       <p>
-        We say that <m>\displaystyle \lim_{x \to a} f(x) = \pm \infty</m> if <m>f(x)</m> becomes arbitrarily <fillin characters="10"/> and <fillin characters="10"/> / <fillin characters="10"/> as <m>x</m> approaches <m>a</m>.
+        We say that <m>\displaystyle \lim_{x \to a} f(x) = \pm \infty</m> if <m>f(x)</m> becomes arbitrarily <fillin characters="15"/> and <fillin characters="20"/> / <fillin characters="20"/> as <m>x</m> approaches <m>a</m>.
       </p>
     </paragraphs>
   </page>
 
   <page>
     <paragraphs xml:id="fact-infinite-limits">
-      <title>Fact</title>
+      <title>Infinite Limits</title>
       <p>
-        But wait... <m>\infty</m> is not a <fillin characters="14"/>! Our definition says that a limit exists only if it's equal to <fillin characters="14"/>. That means we have an important distinction to make here:
+        But wait... <m>\infty</m> is not a <fillin characters="34"/>! Our definition says that a limit exists only if it's equal to <fillin characters="34"/>. That means we have an important distinction to make here:
       </p>
       <p>
-        <strong>Infinite limits</strong> <fillin characters="18"/>.
+        <strong>Infinite limits</strong> <fillin characters="38"/>.
       </p>
       <p>
-        That is, saying <m>\displaystyle \lim_{x \to a} f(x) = \pm\infty</m> is just a <fillin characters="8"/> <fillin characters="12"/> way of saying that <m>\displaystyle \lim_{x \to a} f(x)</m> DNE<mdash/>and we always want to be as specific as possible!
+        That is, saying <m>\displaystyle \lim_{x \to a} f(x) = \pm\infty</m> is just a <fillin characters="10"/> <fillin characters="20"/> way of saying that <m>\displaystyle \lim_{x \to a} f(x)</m> DNE<mdash/>and we always want to be as specific as possible!
       </p>
     </paragraphs>
 
@@ -185,7 +185,7 @@
         <strong>A:</strong> Answers like this are a sign that we have an <fillin characters="14"/> limit!
       </p>
       <p>
-        As we saw in parts (4 to 6) and (7 to 9) of the previous checkpoint, this means that:
+        As we saw in parts (4 to 6) and (7 to 9) of the previous checkpoint, this means that infinite limits have 3 possible outcomes:
       </p>
       <ol marker="i)">
         <li>
@@ -195,11 +195,11 @@
           <p>If the one-sided limits are both <fillin characters="8"/>, the corresponding two-sided limit is <fillin characters="8"/>.</p>
         </li>
         <li>
-          <p>If the one-sided limits are infinite with <fillin characters="14"/> signs (or only one is infinite), the corresponding two-sided limit <fillin characters="10"/>.</p>
+          <p>If the one-sided limits are infinite with <fillin characters="20"/> signs (or only one is infinite), the corresponding two-sided limit <fillin characters="10"/>.</p>
         </li>
       </ol>
       <p>
-        Thus our approach in this case will be to evaluate <fillin characters="14"/> limits and see what we can learn.
+        Thus our approach in this case will be to evaluate <fillin characters="24"/> limits and see what we can learn.
       </p>
       <p workspace="1.5in">
         So let's keep going, looking at the one-sided limits of <fillin characters="18"/> to see what we can learn:
@@ -225,7 +225,7 @@
         </li>
       </ol>
       <p>
-        then looking at the <fillin characters="14"/> limits at that point can be a very helpful strategy.
+        then looking at the <fillin characters="24"/> limits at that point can be a very helpful strategy.
       </p>
     </paragraphs>
 
@@ -234,7 +234,7 @@
       <ul>
         <li>
           <p>
-            When finding a limit, be sure to use <fillin characters="18"/> around <fillin characters="14"/> that involve undefined notations (e.g., <m>0^+</m>, <m>0^-</m>, <m>\infty</m>, <m>-\infty</m>, or <m>0</m> in the denominator) in <em>any intermediate substitution</em>, before arriving at the final answer for the limit.
+            When finding a limit, be sure to use <fillin characters="28"/> around <fillin characters="24"/> that involve undefined notations (e.g., <m>0^+</m>, <m>0^-</m>, <m>\infty</m>, <m>-\infty</m>, or <m>0</m> in the denominator) in <em>any intermediate substitution</em>, before arriving at the final answer for the limit.
           </p>
         </li>
         <li>
