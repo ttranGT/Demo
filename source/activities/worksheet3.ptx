@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="worksheet-3">
+  <title>Worksheet 3: Limits and Asymptotes (Section 2.6b) and the Sandwich Theorem</title>
+
+  <page>
+    <paragraphs xml:id="ws3-reference">
+      <title>Reference</title>
+      <p>
+        For reference as you go:
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            Factoring quadratics:
+            <me>ax^2+bx+c = a(x-x_1)(x-x_2),</me>
+            where
+            <me>x_1 = \frac{-b+\sqrt{b^2-4ac}}{2a} \qquad \text{and} \qquad x_2 = \frac{-b-\sqrt{b^2-4ac}}{2a}.</me>
+          </p>
+        </li>
+        <li>
+          <p>
+            Some algebraic identities:
+            <md>
+              <mrow>a^2-b^2 \amp = (a-b)(a+b), \qquad e^0 = 1</mrow>
+              <mrow>(a-b)(a+b) \amp = a^2-b^2, \qquad \ln(1) = 0.</mrow>
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            Graphs of exponential <m>e^x, 2^x, 3^x,</m> and <m>\dfrac{1}{x}</m> functions.
+          </p>
+          <sidebyside widths="44% 44%" margins="4% 4%" valign="top">
+            <image source="pictures/sec26bfa24pic2.png">
+              <shortdescription>Graphs of exponential functions e^x, 2^x, and 3^x showing growth as x increases and approach to y = 0 as x approaches negative infinity.</shortdescription>
+            </image>
+            <image source="pictures/sec26fa24pic8.png">
+              <shortdescription>Graph of y = 1/x showing both branches approaching y = 0 as x approaches positive and negative infinity.</shortdescription>
+            </image>
+          </sidebyside>
+        </li>
+        <li>
+          <p>Trigonometry</p>
+          <sidebyside widths="46% 48%" valign="top">
+            <ul>
+              <li><p>The function <m>\cos(x)</m> oscillates between <m>y=-1</m> and <m>y=1</m> with a period of <m>2\pi</m></p></li>
+              <li><p><m>\cos(0)=1</m>, <m>\cos(\pi/2)=0</m>, <m>\cos(\pi)=-1</m>, etc.</p></li>
+            </ul>
+            <ul>
+              <li><p>The function <m>\sin(x)</m> oscillates between <m>y=-1</m> and <m>y=1</m> with a period of <m>2\pi</m></p></li>
+              <li><p><m>\sin(0)=0</m>, <m>\sin(\pi/2)=1</m>, <m>\sin(\pi/4)=\dfrac{\sqrt{2}}{2}</m>, etc.</p></li>
+            </ul>
+          </sidebyside>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws3-prob1">
+      <title>Problem 1</title>
+      <p>
+        Answer the following. Remember that looking at one-sided limits might be helpful!
+      </p>
+      <p workspace="1.3in">
+        <strong>(a)</strong> Evaluate <m>\displaystyle \lim_{x \to -3} \frac{9-x^2}{(x+3)^2}</m>. Does the limit result in a vertical asymptote at <m>x=-3</m> for <m>\dfrac{9-x^2}{(x+3)^2}</m>? Why or why not?
+      </p>
+      <p workspace="1.3in">
+        <strong>(c)</strong> Evaluate <m>\displaystyle \lim_{x \to -\infty} \frac{e^x - 3x^2 + 1}{2x^2 - x + 1}</m>. Does the limit result in a horizontal asymptote as <m>x</m> approaches negative infinity for <m>\dfrac{e^x - 3x^2 + 1}{2x^2 - x + 1}</m>? Why or why not?
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws3-prob2">
+      <title>Problem 2</title>
+      <p>
+        Knowing possibilities will help us build intuition and check whether we have correct answers!
+      </p>
+      <ol marker="(a)">
+        <li workspace="0.8in">
+          <p>How many horizontal asymptotes could a function have?</p>
+        </li>
+        <li workspace="0.8in">
+          <p>How many vertical asymptotes could a function have?</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws3-prob3">
+      <title>Problem 3</title>
+      <p>
+        Find the horizontal and vertical asymptotes of the following function, if they exist. Be sure to justify your answers with limits.
+      </p>
+      <p workspace="1.6in">
+        <strong>b)</strong> <m>\displaystyle g(x) = \frac{4^x - 3 \cdot 2^x + 5}{2^x + 1}</m>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws3-prob4">
+      <title>Problem 4</title>
+      <p workspace="1.6in">
+        Find the limit <m>\displaystyle \lim_{x \to 0} \left[x^2 \sin\left(\frac{1}{x}\right)\right]</m>. <em>Hint: Can you make a sandwich?</em>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws3-extra-heading">
+      <title>Additional Practice Problems (to be completed outside of studio)</title>
+    </paragraphs>
+
+    <paragraphs xml:id="ws3-extra-prob1">
+      <title>Problem 1 (cont.)</title>
+      <p>
+        Answer the following. Remember that looking at one-sided limits might be helpful!
+      </p>
+      <p workspace="1.6in">
+        <strong>(b)</strong> Evaluate <m>\displaystyle \lim_{x \to \infty} \frac{5x^3 - 3x^2 + 1}{x^2 + 2x + 4}</m>. Does the limit result in a horizontal asymptote as <m>x</m> approaches infinity for <m>\dfrac{5x^3 - 3x^2 + 1}{x^2 + 2x + 4}</m>? Why or why not?
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws3-extra-prob3">
+      <title>Problem 3 (cont.)</title>
+      <p>
+        Find the horizontal and vertical asymptotes of the following function, if they exist. Be sure to justify your answers with limits.
+      </p>
+      <p workspace="1.8in">
+        <strong>a)</strong> <m>\displaystyle f(x) = \frac{x^2 + x - 2}{2x^2 + 4x}</m>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws3-extra-prob5">
+      <title>Problem 5</title>
+      <p>
+        One limit that it's really convenient to know (and you may want to remember) is <m>\displaystyle \lim_{x \to 0} \frac{\sin x}{x}</m>. Let's calculate it!
+      </p>
+      <ol marker="(a)">
+        <li workspace="1in">
+          <p>Try plugging in the limit. What happens? What else can you try?</p>
+        </li>
+        <li workspace="1.2in">
+          <p>When <m>x</m> approaches <m>0</m> from the right, we know that <m>1 \geq \dfrac{\sin x}{x} \geq \cos x</m>. Use this fact and the Sandwich Theorem to find <m>\displaystyle \lim_{x \to 0^+} \frac{\sin x}{x}</m>.</p>
+        </li>
+        <li workspace="1.2in">
+          <p>Similarly, when <m>x</m> approaches <m>0</m> from the left, we know that <m>1 \geq \dfrac{\sin x}{x} \geq \cos x</m>. Use this fact and the Sandwich Theorem to find <m>\displaystyle \lim_{x \to 0^-} \frac{\sin x}{x}</m>.</p>
+        </li>
+        <li workspace="0.8in">
+          <p>Using your answers from (b) and (c), what is <m>\displaystyle \lim_{x \to 0} \frac{\sin x}{x}</m>?</p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+</handout>

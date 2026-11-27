@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="worksheet-5">
+  <title>Worksheet 5: Sections 3.2b, 3.3ab, 3.6, and 4.1a - Derivative Functions, Derivative Rules, and Global/Local Extrema (Geometrically)</title>
+
+  <page>
+    <paragraphs xml:id="ws5-prob1">
+      <title>Problem 1</title>
+      <p>
+        Answer the following:
+      </p>
+      <p workspace="1.3in">
+        <strong>(a)</strong> Find <m>f'(x)</m>, where <m>\displaystyle f(x) = 4x - 3x^2 + \pi^x + \sqrt[3]{x^2} - \frac{e}{x} + e^{\pi}</m>.
+      </p>
+      <p workspace="1.3in">
+        <strong>(d)</strong> Find <m>\displaystyle \frac{df}{dx}</m>, where <m>\displaystyle f(x) = (\sqrt[5]{2^x + 5} - 2)^4</m>. <em>Hint: Apply the Chain Rule twice.</em>
+      </p>
+      <p workspace="1.3in">
+        <strong>(e)</strong> Find <m>g'(t)</m>, where <m>\displaystyle g(t) = 5^{-2t+1}\left(\frac{2}{t^3} - t^2\right)</m>.
+      </p>
+      <p workspace="1.3in">
+        <strong>(g)</strong> Simplify the following function <m>f(x)</m> before differentiating: <m>\displaystyle f(x) = \frac{(2^{x-1})^2 \cdot 8^{(x^2)}}{\sqrt{4^{2x}}}</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws5-prob3">
+      <title>Problem 3</title>
+      <p workspace="1.8in">
+        Let <m>a</m> be a constant and consider the piecewise function
+        <me>f(x) = \begin{cases}
+        a \cdot e^x + 1 \amp x \lt 0 \\[6pt]
+        \sqrt[3]{x+1} + a \amp x \geq 0
+        \end{cases}.</me>
+        For which value(s) of <m>a</m> is the function <m>f(x)</m> <em>differentiable</em> at <m>x=0</m>?
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws5-extra-heading">
+      <title>Additional Practice Problems (to be completed outside of studio)</title>
+    </paragraphs>
+
+    <paragraphs xml:id="ws5-extra-prob1">
+      <title>Problem 1 (cont.)</title>
+      <p>
+        Answer the following:
+      </p>
+      <p workspace="1in">
+        <strong>(b)</strong> Suppose <m>g(y) = \sqrt{3y}</m>. Find <m>g'(2)</m>.
+      </p>
+      <p workspace="1.1in">
+        <strong>(c)</strong> Find <m>\displaystyle \frac{dy}{dx}</m>, where <m>\displaystyle y = 3^{-2/x^3}</m>.
+      </p>
+      <p workspace="1.3in">
+        <strong>(f)</strong> Find <m>\displaystyle \frac{dh}{ds}</m>, where <m>\displaystyle h(s) = \frac{(3\,s^{5/3} - 2)(s^e - \pi^e)}{\sqrt[4]{s} - 3^{-es+1}}</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws5-extra-prob2">
+      <title>Problem 2</title>
+      <p>
+        You are given the following information about three functions, <m>f</m>, <m>g</m>, and <m>h</m>.
+        <md>
+          <mrow>h(1) \amp = 2 \amp g(2) \amp = 3 \amp f(2) \amp = 6 \amp f'(3) \amp = 7</mrow>
+          <mrow>h'(1) \amp = 4 \amp g'(2) \amp = 5 \amp f'(2) \amp = 8 \amp g'(3) \amp = 9</mrow>
+        </md>
+      </p>
+      <ol marker="(a)">
+        <li workspace="1in">
+          <p>If <m>r(x) = f(g(h(x)))</m>, do you have enough information to find <m>r'(1)</m>? If so, compute it. If not, what is missing?</p>
+        </li>
+        <li workspace="1in">
+          <p>If <m>t(x) = g(f(h(x)))</m>, do you have enough information to find <m>t'(1)</m>? If so, compute it. If not, what is missing?</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws5-extra-prob4">
+      <title>Problem 4</title>
+      <p>
+        Answer the following questions using the given graph of <m>f(x)</m> on the interval <m>[-5,5]</m>.
+      </p>
+
+      <sidebyside width="55%">
+        <image source="pictures/exam2pic16.png">
+          <shortdescription>
+            Graph of a function f(x) on the closed interval [-5, 5] showing local peaks, valleys, endpoints, and discontinuities for identifying local and global extrema.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <ol marker="(a)">
+        <li workspace="0.8in">
+          <p>Determine whether any absolute (global) extrema exist. If so, identify them.</p>
+        </li>
+        <li workspace="0.8in">
+          <p>Identify all local extrema.</p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+</handout>

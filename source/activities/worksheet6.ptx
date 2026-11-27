@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="worksheet-6">
+  <title>Worksheet 6: Sections 4.1a, 4.3, and 4.4a - Absolute/Local Extrema</title>
+
+  <page>
+    <paragraphs xml:id="ws6-prob1">
+      <title>Problem 1</title>
+      <p>
+        Answer the following questions using the given graph of <m>f(x)</m> on the interval <m>[-5,5]</m>.
+      </p>
+
+      <sidebyside width="55%">
+        <image source="pictures/exam2pic16.png">
+          <shortdescription>
+            Graph of a function f(x) on the closed interval [-5, 5] showing local peaks, valleys, endpoints, and discontinuities for identifying local and global extrema.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <ol marker="(a)">
+        <li workspace="0.8in">
+          <p>Determine whether any absolute (global) extrema exist. If so, identify them.</p>
+        </li>
+        <li workspace="0.8in">
+          <p>Identify all local extrema.</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws6-prob2">
+      <title>Problem 2</title>
+      <p>
+        Find the critical points of each of the following functions, and decide whether each one is a local minimum, a local maximum, or neither. Remember that you can use different strategies for different points!
+      </p>
+      <ol marker="a)">
+        <li workspace="1.6in">
+          <p><m>r(x) = 5\,x^{2/3} - x^{5/3}</m></p>
+        </li>
+        <li workspace="1.6in">
+          <p><m>h(x) = x^4 + x^3</m></p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws6-prob3">
+      <title>Problem 3</title>
+      <p>
+        Suppose you've made the below sign chart for the derivative of a function <m>f(x)</m>. The function <m>f(x)</m> is continuous and differentiable on <m>(-\infty, \infty)</m>. Answer the following with <q>definitely yes,</q> <q>definitely no,</q> or <q>undetermined.</q>
+      </p>
+
+      <sidebyside width="55%">
+        <image source="pictures/Day_18.2.png">
+          <shortdescription>
+            Sign chart for the first derivative f'(x) showing critical numbers at x = 0, x = 3, and x = 5 along with the positive and negative signs of f'(x) on each subinterval.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <p workspace="0.8in">
+        <strong>a)</strong> Are both <m>x=0</m> and <m>x=5</m> local maxima? Why or why not?
+      </p>
+      <p workspace="0.8in">
+        <strong>b)</strong> Is <m>x=3</m> a local maximum? Why or why not?
+      </p>
+      <p workspace="0.8in">
+        <strong>f)</strong> Does <m>f(x)</m> have an absolute maximum on <m>(-\infty, \infty)</m>? If so, where could it be?
+      </p>
+      <p workspace="0.8in">
+        <strong>g)</strong> Does <m>f(x)</m> have an absolute minimum on <m>(-\infty, \infty)</m>? If so, where could it be?
+      </p>
+      <p workspace="0.8in">
+        <strong>h)</strong> Does <m>f(x)</m> have an absolute maximum on <m>[-2, 10]</m>? If so, where could it be?
+      </p>
+      <p workspace="0.8in">
+        <strong>i)</strong> Does <m>f(x)</m> have an absolute minimum on <m>[-2, 10]</m>? If so, where could it be?
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws6-extra-heading">
+      <title>Additional Practice Problems (to be completed outside of studio)</title>
+    </paragraphs>
+
+    <paragraphs xml:id="ws6-extra-prob2">
+      <title>Problem 2 (cont.)</title>
+      <p>
+        Find the critical points of each of the following functions, and decide whether each one is a local minimum, a local maximum, or neither. Remember that you can use different strategies for different points!
+      </p>
+      <p workspace="1.4in">
+        <strong>c)</strong> <m>f(x) = 8x - e^x</m>
+      </p>
+      <p workspace="1.4in">
+        <strong>d)</strong> <m>g(x) = x^4 - 8x^2 + 16</m>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws6-extra-prob3">
+      <title>Problem 3 (cont.)</title>
+      <p>
+        Suppose you've made the below sign chart for the derivative of a function <m>f(x)</m>. The function <m>f(x)</m> is continuous and differentiable on <m>(-\infty, \infty)</m>. Answer the following with <q>definitely yes,</q> <q>definitely no,</q> or <q>undetermined.</q>
+      </p>
+
+      <sidebyside width="55%">
+        <image source="pictures/Day_18.2.png">
+          <shortdescription>
+            Sign chart for the first derivative f'(x) showing critical numbers at x = 0, x = 3, and x = 5 along with the positive and negative signs of f'(x) on each subinterval.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <p workspace="0.8in">
+        <strong>c)</strong> Is <m>f''(0) \gt 0</m>? Why or why not?
+      </p>
+      <p workspace="0.8in">
+        <strong>d)</strong> Is <m>f''(3) \gt 0</m>? Why or why not?
+      </p>
+      <p workspace="0.8in">
+        <strong>e)</strong> Is <m>f''(5) = 0</m> possible? Why or why not?
+      </p>
+    </paragraphs>
+  </page>
+</handout>
