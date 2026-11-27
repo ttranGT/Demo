@@ -26,7 +26,7 @@
 
 
     <chapter xml:id="activities">
-      <title>In-Class Activities</title>
+      <title>Worksheets &amp; Practice Exercises</title>
 
       <introduction>
         <p>
@@ -35,7 +35,6 @@
       </introduction>
 
       <!-- Remove the example and replace with your own activities -->
-      <xi:include href="./activities/01-intro-activity.ptx"/>
       <xi:include href="./activities/worksheet1.ptx"/>
       <xi:include href="./activities/worksheet2.ptx"/>
        <xi:include href="./activities/worksheet3.ptx"/>
@@ -52,7 +51,7 @@
     </chapter>
 
     <chapter xml:id="handouts">
-      <title>Handouts</title>
+      <title>Guided Lecture Notes</title>
       <!-- Include handouts -->
       <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
       <xi:include href="./handouts/Day 1 Lecture Notes.ptx"/>
