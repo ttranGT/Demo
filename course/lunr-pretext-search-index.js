@@ -118,6 +118,15 @@ var ptx_lunr_docs = [
   "body": "  Find the equation of the secant line through the points on where and .   "
 },
 {
+  "id": "worksheet-2",
+  "level": "1",
+  "url": "worksheet-2.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Worksheet 2: Sections 2.2, 2.4, 2.6a - Limit of a Function, One-Sided and Infinite Limits",
+  "body": " Worksheet 2: Sections 2.2, 2.4, 2.6a - Limit of a Function, One-Sided and Infinite Limits    Problem 1  Find the following limits. Be sure to show your work carefully and get in the habit of practicing proper notation !               Problem 2  The graph of a function is given below:    Graph of a piecewise function g(x) showing removable, jump, and continuous behaviors at x = -1, 0, 1, 2, and 4.      Find and    Find and    Find and       (d) Based on your answers in previous parts, fill in the blanks:  The limit of the function as approaches is not necessarily to the value of the function at . That is, in general,    (e) Here are some limits that don't exist. Looking at the picture above, explain what you think the problem is in each case. Can you state a fact about the existence of limits based on any patterns you observe by filling in the blanks below?   A fact about the existence of limits:  The limit of a function as approaches does not exist if the values of get infinitely close to numbers from the and from the of .      Problem 3  Evaluate the following limit. Remember that looking at one-sided limits might be helpful!         Problem 4  Let and be constants, and consider the function     Find the value of such that exists, if applicable.      Problem 5  Consider the graphs of two functions (left) and (right) depicted below. Note that .    Graph of function f(x) showing vertical asymptote and limit behavior near x = 0 and x = 1.    Graph of function g(x) showing vertical asymptote and limit behavior near x = 0 and x = 1.    Answer the following question based on these two graphs:           Additional Practice Problems (to be completed outside of studio)    Problem 1 (cont.)  Find the following limits. Be sure to show your work carefully and get in the habit of practicing proper notation !   (d)     (e)   Note: Does it have the form ?     Problem 3 (cont.)  Evaluate the following limit. Remember that looking at one-sided limits might be helpful!         Problem 4 (cont.)  Let and be constants, and consider the function    (b) Find the value of such that exists, if applicable.   (c) Find the values of and such that exists, if applicable.    Problem 5 (cont.)  Consider the graphs of two functions (left) and (right) depicted below. Note that .    Graph of function f(x) showing vertical asymptote and limit behavior near x = 0 and x = 1.    Graph of function g(x) showing vertical asymptote and limit behavior near x = 0 and x = 1.    Answer the following questions based on these two graphs:   (b)     (c)      "
+},
+{
   "id": "day-1-notes",
   "level": "1",
   "url": "day-1-notes.html",
