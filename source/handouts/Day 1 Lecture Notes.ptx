@@ -126,19 +126,20 @@
     </paragraphs>
 
     <paragraphs xml:id="def-domain-range">
-      <title>Definition</title>
+      <title>Finding the Domain</title>
       <ol marker="i)">
         <li>
           <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>x</m>.</p>
         </li>
         <li>
-          <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>y</m> or <m>f(x)</m>.</p>
-        </li>
-      </ol>
-      <title>Finding the Domain</title>
-      <p>
+          <p>
         A strategy for finding the <em>domain</em> of a function is to look for <fillin characters="14"/>!
       </p>
+        </li>
+       
+      </ol>
+    
+  
       <p>Common ones include:</p>
       <ol>
         <li><p><fillin characters="60"/></p></li>
@@ -158,9 +159,20 @@
   <page>
     <paragraphs xml:id="p-ranges-and-graphs">
       <title>Ranges and Graphs</title>
-      <p>
+
+      <ol marker="i)">
+        <li>
+          <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>y</m> or <m>f(x)</m>.</p>
+        </li>
+        <li>
+         <p>
         Ranges can be a little trickier. It helps to look at <fillin characters="15"/>, so knowing the common ones (polynomial, power, exponential, logarithmic, trigonometric, and absolute value functions) is helpful.
       </p>
+        </li>
+       
+      </ol>
+
+      
     </paragraphs>
 
    <page>
