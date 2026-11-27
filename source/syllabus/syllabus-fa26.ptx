@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="syllabus-fall-2026">
+  <title>MATH 1551 Syllabus (Fall 2026)</title>
+
+  <introduction>
+    <p>
+      <term>Course:</term> Differential Calculus, Sections A/C/F/G/H/HP/K/M (2 Credits)
+    </p>
+    <p>
+      <term>Term:</term> Fall 2026
+    </p>
+  </introduction>
+
+  <subsection xml:id="syllabus-instructor-info">
+    <title>Instructor Information</title>
+    <p>
+      <term>Course Coordinator:</term> Thomas Tran, <url href="mailto:thomas.tran@math.gatech.edu">thomas.tran@math.gatech.edu</url>
+    </p>
+
+    <tabular top="minor" left="minor" right="minor" bottom="minor">
+      <col width="20%" halign="left"/>
+      <col width="40%" halign="left"/>
+      <col width="40%" halign="left"/>
+      <row header="yes" bottom="medium">
+        <cell>Section(s)</cell>
+        <cell>Name</cell>
+        <cell>Email</cell>
+      </row>
+      <row bottom="minor">
+        <cell>A/C</cell>
+        <cell>Prof. Matteo Raffaelli</cell>
+        <cell><url href="mailto:raffaelli@math.gatech.edu">raffaelli@math.gatech.edu</url></cell>
+      </row>
+      <row bottom="minor">
+        <cell>F</cell>
+        <cell>Prof. Pranav Chinmay</cell>
+        <cell><em>to be updated</em></cell>
+      </row>
+      <row bottom="minor">
+        <cell>H</cell>
+        <cell>Prof. Fei Peng</cell>
+        <cell><url href="mailto:fpeng33@gatech.edu">fpeng33@gatech.edu</url></cell>
+      </row>
+      <row bottom="minor">
+        <cell>K/M</cell>
+        <cell>Prof. Maya Thompson</cell>
+        <cell><url href="mailto:mthompson367@gatech.edu">mthompson367@gatech.edu</url></cell>
+      </row>
+      <row>
+        <cell>G/HP</cell>
+        <cell>Prof. Thomas Tran</cell>
+        <cell><url href="mailto:thomas.tran@math.gatech.edu">thomas.tran@math.gatech.edu</url></cell>
+      </row>
+    </tabular>
+  </subsection>
+
+  <subsection xml:id="syllabus-general-info">
+    <title>General Course Information</title>
+
+    <paragraphs xml:id="syllabus-description">
+      <title>Description</title>
+      <p>
+        Differential calculus including applications and the underlying theory of limits for functions and sequences.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-learning-outcomes">
+      <title>Course Learning Outcomes</title>
+      <ul>
+        <li><p>Make sense of mathematical expressions and graphs involving functions and their derivatives.</p></li>
+        <li><p>Compute mathematical quantities using differential calculus and interpret their meaning.</p></li>
+        <li><p>Analyze mathematical statements and expressions.</p></li>
+        <li><p>Write and communicate your mathematical reasoning effectively.</p></li>
+        <li><p>Apply calculus concepts to solve real-world problems such as optimization and related rates problems.</p></li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-materials">
+      <title>Required Course Materials</title>
+      <p>
+        Thomas, <em>Calculus: Early Transcendentals</em>, 15th ed. We will discuss topics in chapters 1 to 4. This particular textbook is the one we will follow, but it is not required that you have a copy. Any calculus textbook will be a good reference.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-prerequisites">
+      <title>Pre- &amp;/or Co-Requisites</title>
+      <ul>
+        <li><p><term>Prerequisites:</term> Math SAT Score of 660 or ACT 28 or MATH 1113 Precalculus with a grade of C or better</p></li>
+        <li><p><term>Or Corequisite:</term> MATH 1499</p></li>
+      </ul>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="syllabus-grading-policy">
+    <title>Grading Policy</title>
+    <p>
+      Letter grades will be determined based on the following intervals. You will be guaranteed a minimum of the following scale:
+    </p>
+    <ul>
+      <li><p><term>A:</term> 90% and above</p></li>
+      <li><p><term>B:</term> 80% to less than 90%</p></li>
+      <li><p><term>C:</term> 70% to less than 80%</p></li>
+      <li><p><term>D:</term> 60% to less than 70%</p></li>
+      <li><p><term>F:</term> below 60%</p></li>
+    </ul>
+    <p>
+      Students should not expect any changes to these intervals, and changes (if any) to these intervals will only be made after the final exam. Percentage grades are not necessarily rounded to the nearest integer before conversion to letter grades. For example, 89.999% is converted to a B, 79.9999% is converted to a C, and so on.
+    </p>
+    <p>
+      If any changes to the grade cutoffs are made, they will be in your favor (i.e., the cutoff for an A may be lowered to an 89.5, but will not be raised above 90), and will not be announced per course policy. Such changes will apply to all students uniformly. Individual <q>grade bumps</q> will not be considered under any circumstances<mdash/>please do not submit such requests to your instructor or the coordinator.
+    </p>
+    <p>
+      Your final average will be computed using whichever of the following two options gives you the higher grade:
+    </p>
+
+    <tabular top="minor" left="minor" right="minor" bottom="minor">
+      <col width="44%" halign="left"/>
+      <col width="28%" halign="center"/>
+      <col width="28%" halign="center"/>
+      <row header="yes" bottom="medium">
+        <cell>Component</cell>
+        <cell>Option 1</cell>
+        <cell>Option 2</cell>
+      </row>
+      <row bottom="minor">
+        <cell>WeBWork</cell>
+        <cell>10%</cell>
+        <cell>10%</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Studio Participation Quizzes</cell>
+        <cell>5%</cell>
+        <cell>5%</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Best Two Midterms</cell>
+        <cell>40%</cell>
+        <cell>40%</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Lowest Midterm</cell>
+        <cell>20%</cell>
+        <cell>0%</cell>
+      </row>
+      <row>
+        <cell>Final Exam</cell>
+        <cell>25%</cell>
+        <cell>45%</cell>
+      </row>
+    </tabular>
+
+    <paragraphs xml:id="syllabus-graded-components">
+      <title>Description of Graded Components</title>
+      <ul>
+        <li>
+          <p>
+            <term>WeBWork Homework:</term> Earning 90% of the total homework points will result in 100% credit for the homework portion of the course grade. Students can earn up to 105% as your final homework score (by earning at least 95% of the total homework points).
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Studio Participation Quizzes:</term> These 5-minute open-notes quizzes are administered during studios. Students are allowed to miss up to three studios, regardless of the reason, including any quizzes given during those sessions. In other words, the three lowest quiz scores will be dropped. If students have extenuating circumstances that require additional absences beyond this buffer, please reach out individually to your instructor or the course coordinator.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Exams:</term> We will have three 75-minute exams during the term, which will all take place on select Fridays during the common exam time at 5 pm. Students will receive more information about testing locations closer to exam time; please be advised that most exams will not be in the normal classroom. The exams will include both multiple-choice and free-response problems. To prepare for exams, students are expected to thoroughly review course materials, including lecture notes, WeBWork solutions, quiz solutions, and practice problems from non-studio weeks and studio worksheets, both with available answer keys and hints, before working through problems from past exams.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Final Exam:</term> The final exam will cover all course materials and will consist entirely of multiple-choice questions.
+          </p>
+        </li>
+      </ul>
+      <p>
+        Students must be physically present on the Georgia Tech campus to take all quizzes, midterm, and final exams; no virtual exams will be given. No books, notes, calculators, cell phones, or other aids or electronic devices are allowed during quizzes, exams, or any other proctored assessment, unless students have accommodations allowing a basic four-function calculator and/or a formula sheet, approved by the course instructor or the course coordinator.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-extra-credit">
+      <title>Extra Credit Opportunities</title>
+      <ul>
+        <li>
+          <p>
+            Surveys administered via Canvas after midterm exams gather your feedback on your study progress, exam preparation, and any additional support you may need to succeed in the course. You may earn up to 1% for completing all three midterm surveys.
+          </p>
+        </li>
+        <li>
+          <p>
+            We really value your input and feedback on this course, as part of your active role in your education. If at least 70% of each lecture section fills out the CIOS survey by 5 pm on TBD, an extra-credit reflection question worth 3% of the final exam will be added.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="syllabus-course-policies">
+    <title>Course Policies</title>
+
+    <paragraphs xml:id="syllabus-attendance">
+      <title>Attendance and/or Participation</title>
+      <p>
+        When signing up for MATH 1551, you signed up for a specific lecture and studio. You must attend the lecture section you signed up for, as the rooms are at capacity. Lecture attendance is not mandatory but is strongly encouraged, as we have observed a significant difference in exam performance between students who regularly attend class and those who do not.
+      </p>
+      <p>
+        In addition to lectures, you also signed up for a Friday Studio. Studio attendance is required. You must attend the studio section you signed up for; otherwise, no attendance points will be given, and your quiz will not be graded. You should not expect to be allowed to take the quiz if you have not been present for the entire studio session.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-academic-integrity">
+      <title>Academic Integrity</title>
+      <p>
+        Georgia Tech aims to cultivate a community based on trust, academic integrity, and honor. Students are expected to act according to the highest ethical standards. Review Georgia Tech's Honor Code and the Student Code of Conduct. Any student suspected of cheating or plagiarism on a quiz, exam, or assignment will be reported to the Office of Student Integrity, who will investigate the incident and identify the appropriate penalty for violations.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-core-impacts">
+      <title>Core IMPACTS</title>
+      <p>
+        This is a Core IMPACTS course that is part of the <strong>STEM</strong> area. Core IMPACTS refers to the core curriculum, which provides students with essential knowledge in foundational academic areas. This course will help master course content, and support students' broad academic and career goals.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <term>Orienting Question:</term> How do I ask scientific questions or use data, mathematics, or technology to understand the universe?
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Learning Outcome:</term> Students will use the scientific method and laboratory procedures or mathematical and computational methods to analyze data, solve problems, and explain natural phenomena.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Career-Ready Competencies:</term> Inquiry and Analysis, Problem-Solving, and Teamwork.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-accommodations">
+      <title>Accommodations for Students with Disabilities</title>
+      <p>
+        If you are a student with learning needs that require special accommodation, contact the Office of Disability Services (404-894-2563) as soon as possible to make an appointment to discuss your special needs and to obtain an accommodations letter. Please also e-mail me as soon as possible in order to set up a time to discuss your learning needs.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-expectations">
+      <title>Student-Faculty Expectations Agreement</title>
+      <p>
+        At Georgia Tech, we believe that it is important to strive for an atmosphere of mutual respect, acknowledgement, and responsibility between faculty members and the student body. The Student-Faculty Expectations articulate some basic expectations that you can have of me and that I have of you. In the end, simple respect for knowledge, hard work, and cordial interactions will help build the environment we seek. Therefore, I encourage you to remain committed to the ideals of Georgia Tech while in this class.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-collaboration">
+      <title>Collaboration, Group Work, and Use of Generative AI</title>
+      <p>
+        You are welcome to collaborate with other students on solving homework problems; in fact, we encourage you to do so. Talking with others gives you a chance to consider issues you might not have thought of yourself and often improves your understanding. However, it is important that you understand the homework yourself by the end, or quizzes and exams will be of extreme difficulty. Of course, it is always unacceptable to copy a solution from any source or to look up answers online.
+      </p>
+      <p>
+        Please make use of the Piazza forum on the Canvas site in a positive and constructive manner to ask questions about the course material. This way, your questions will benefit the entire class, and not just yourself. Comments on Piazza are moderated, anonymous to peers, and not anonymous to instructors. Please look through recently posted questions before adding your own<mdash/>it may have been answered.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-extensions-makeups">
+      <title>Extensions, Late Assignments, &amp; Re-Scheduled/Missed Exams</title>
+      <p>
+        A make-up assessment will be offered only in the event of an excused absence. In such cases, students must notify their instructor or the course coordinator (not the TA) as soon as possible, regardless of the availability of supporting documentation.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <term>WeBWork:</term> All students are strongly encouraged to do their homework in advance. Due to the flexibility already given by the extended window students will have to complete these assignments and the extra problems available beyond the number required, there will be no extensions or makeups on the online homework for any reason.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Studio Participation Quizzes:</term> Students are allowed to miss up to three studios, regardless of the reason. In other words, the three lowest quiz scores will be dropped. If you have extenuating circumstances that require additional absences beyond this buffer, please reach out individually to your instructor or the course coordinator.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Exams:</term> Students who miss an exam for an excused absence should take a make-up exam at the scheduled time, Tuesdays at 11:00 am following the Friday exams, with the location TBD. In the extraordinary circumstance that a student must miss both the exam and the make-up, they must consult their instructor or the course coordinator to arrange an alternate solution. This may involve scheduling another time to take the make-up exam, provided it occurs on or before the make-up date and before grades are posted, and they submit the necessary supporting documentation.
+          </p>
+        </li>
+      </ul>
+      <p>
+        If a student needs to miss multiple assessments and multiple make-up dates for non-academic reasons, they should instead discuss the possibilities of an incomplete or course withdrawal with their instructor or the course coordinator and academic advisor. Every student must take at least two of the exams and the final, with no exceptions.
+      </p>
+      <p>
+        Students must notify their instructor or the course coordinator (not the TA) of an excused absence within 3 days, including weekends, from the date of the missed exams or studios. For make-up exams, students must notify their instructor or the course coordinator at least 24 hours in advance if they are going to miss the scheduled exam. Failure to do so may result in receiving a grade of zero on the missed assessment.
+      </p>
+      <p>
+        Any make-ups must be completed before the corresponding exam has been graded and returned to other students or the solutions have been posted on Canvas. It is solely the student's responsibility to inform their instructor or the course coordinator (not the TA) of their absence in a timely manner as mentioned above. No exceptions will be considered in any case. All makeup exams will be given at a common time at 11 am on the Tuesday following the exam.
+      </p>
+      <p>
+        Per department policy, there will be no retakes of any assessment. Any student who has received a copy of the assessment, even if they have not fully completed it, is no longer eligible to take a makeup exam.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-inclement-weather">
+      <title>Inclement Weather and Digital Learning Days</title>
+      <p>
+        In cases where campus may be physically closed due to events such as inclement weather, a digital learning day may replace in-person classes. Should this event occur on a class day, then class will either be streamed live, or a recording will be posted for students to watch asynchronously. No studio participation will be counted on a digital learning day, and the studio participation quiz will be rescheduled. The instructor reserves the right to consider many possible modes for rescheduling a missed assessment, including possible changes to the weightings of assignments if the assessment cannot be rescheduled.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-mobile-devices">
+      <title>Student Use of Mobile Devices in the Classroom</title>
+      <p>
+        Put away all cellphones and other electronic devices (as they can be very distracting!), except for tablets used solely for taking notes. If a computer is needed for notetaking, students must notify and obtain permission from their instructor in advance.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-additional-policies">
+      <title>Additional Course Policies</title>
+      <p>
+        Please review the <q>Common Course Questions</q> section posted on our Canvas homepage.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <term>Attendance and Engagement:</term> You are expected to come prepared and actively participate in every lecture and studio. In the event of an absence, you are responsible for all missed materials, assignments, and any additional announcements or schedule changes given in class. Class disruptions of any kind will not be tolerated and may result in your removal from the classroom. Please adhere to the following class rules:
+          </p>
+          <ul>
+            <li><p>Come to class on time and stay for the entire class period. Do not leave until dismissed. If you need to leave early, please notify the instructor in advance.</p></li>
+            <li><p>Ensure your discussions with fellow classmates are mathematical and occur only when you're asked to collaborate. It is unacceptable to carry on a conversation while your instructor is lecturing.</p></li>
+            <li><p>Put away any reading materials unrelated to the course.</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <term>Netiquette:</term> Netiquette is the etiquette of online behavior. In all means of online communication, you will need to follow the same rules of behavior as you would in a face-to-face course when communicating with the other students, teaching assistants, and instructors in the class. Negative personal comments are strictly prohibited. Unprofessional, abusive, or accusatory comments are not allowed on class websites, including but not limited to Piazza. Students may post anonymously to other classmates on our Piazza page; however, instructors always have student identifying information. We reserve the right to remove student comments when necessary and report inappropriate behavior to the Dean's office as a violation of the student code of conduct.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Excused Absences:</term> Reasons for which an absence may be excused are:
+          </p>
+          <ul>
+            <li><p><em>An athletic or university-sponsored event or religious holidays or institute-approved absences:</em> You should provide official documentation to your instructor at least one week in advance of the quiz or exam.</p></li>
+            <li><p><em>An ongoing or serious medical or family emergency:</em> You should provide official documentation as soon as you are able through the Dean of Students office. Please do not submit sensitive information to your instructor; instead, notify them of your situation as soon as possible.</p></li>
+            <li><p><em>Illness:</em> We understand that there are illnesses that inhibit your cognitive function but may not necessitate a visit to the doctor<mdash/>and we appreciate you taking care not to spread them to your classmates. If you are ill the day of an assessment, please contact your instructor by the end of that day, if possible, to discuss the possibility of a makeup.</p></li>
+          </ul>
+          <p>
+            Please note that personal travel is <em>not</em> a valid reason for missing an assessment, so please plan any personal travel days around our scheduled exam dates. Instructors reserve the right in any situation to ask for documentation of any illness or absence, especially for repeated absences. Students are expected to obtain an excused letter from the Dean of Students office.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Calculators:</term> While you may need a scientific calculator for help with some of the homework problems, the use of calculators is not allowed on in-class assessments, unless you have accommodations allowing a basic four-function calculator.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Announcements:</term> You are responsible for obtaining any announcements or materials placed on our Canvas website.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Regrading of Work:</term> Grades become final once the regrade request deadline has passed. If a problem on your paper has been graded in error, you must submit a regrade request through Gradescope no more than one week after the papers have been returned via Gradescope. Please note the following:
+          </p>
+          <ul>
+            <li><p>Please check the solutions before you submit a regrade request; if your work is incorrect, you may not be eligible for a regrade.</p></li>
+            <li><p>A regrade request should only be submitted if we made an error in the grading, which means you have done something CORRECT on your paper that has been marked as incorrect.</p></li>
+            <li><p>Regrades are NOT to be used to randomly ask for more partial credit or to argue with our grading rubric. Students who abuse this policy will have one point deducted from the assessment grade for <em>each</em> violation.</p></li>
+            <li><p>Papers submitted for regrades could be adjusted up or down, as we will need to regrade the entire problem.</p></li>
+            <li><p>If you only wish to know what you missed, or if you are not sure whether or not your work may qualify for a regrade, please see your instructor before submitting a regrade request. Please keep your comments cordial and professional. We reserve the right to submit rude comments to the Dean's office as violations of the student code of conduct.</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <term>Missing/Incorrect Grades:</term> The one-week policy to ask for regrades applies to <em>every</em> score you may see in the gradebook, even if it was not graded via Gradescope. On Canvas, if your grade is not reported, that means we do not have a submission from you for that assignment. If your submission score is listed as <q>0</q> or is not posted on Canvas, you will also have one week after scores are posted or papers have been returned to report a missing grade. After that time, hard copies of the papers may be shredded, and any unreported submissions will be scored as a <q>0</q>. It is every student's obligation to check Canvas regularly and report grading errors promptly to their instructor or the course coordinator. A missed studio participation quiz will be recorded as a <q>0</q> for tracking purposes toward the three allowed absences. However, these studio absence zeros will be dropped when calculating the final quiz average.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Statement of Intent for Inclusivity:</term> As members of the Georgia Tech community, we are committed to creating a learning environment in which all our students feel safe and included. Because we are individuals with varying needs, we are reliant on your feedback to achieve this goal. To that end, we invite you to engage in dialogue with us about the things we can stop, start, and continue doing to make our classroom an environment in which every student feels valued and can engage actively in our learning community.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Recordings of Class Sessions and Required Permissions:</term> Classes may not be recorded by students without the express consent of the instructor unless it is pursuant to an accommodation granted by the Office of Disability Services. Class recordings, lectures, presentations, and other materials posted on Canvas are for the sole purpose of educating the students currently enrolled in the course. Students may not record or share the materials or recordings, including screen capturing or automated bots, unless the instructor gives permission. For classes where participation is voluntary, students who participate with their camera engaged or utilize a profile image are agreeing to have their video or image recorded. For classes requiring class participation, if students are identifiable by their names, facial images, voices, and/or comments, written consent must be obtained before sharing the recording with persons outside of currently enrolled students in the class.
+          </p>
+        </li>
+      </ul>
+      <p>
+        <em>Please note:</em> Items on the syllabus and course schedule are subject to change. Any changes to the syllabus and/or course schedule will be relayed to the students in class and through Canvas announcements.
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="syllabus-campus-resources">
+    <title>Campus Resources for Students</title>
+
+    <paragraphs xml:id="syllabus-tutoring-support">
+      <title>MATH 1551 Tutoring and Academic Support</title>
+      <ul>
+        <li>
+          <p>
+            <term>Instructors' Office Hours:</term> Please refer to the course Canvas homepage for instructors' office hours. You are welcome to attend any instructor's office hours, regardless of your section.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>TAs Office Hours:</term> One-on-one and small group tutoring sessions with our UTAs will start in the second week of the course. Appointments can be booked with them or other UTAs via UTA Tutoring on Canvas.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-additional-tutoring">
+      <title>Additional Tutoring and Academic Support</title>
+      <ul>
+        <li>
+          <p>
+            <term>Precalculus &amp; Algebra Review:</term> If you are uncertain whether you are prepared for this course, or if some background topics are giving you trouble, check out our Precalc &amp; Algebra Review Help page on Canvas.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>The Math Lab:</term> Staffed by graduate students in the Math program (including some of your TAs), offering free drop-in tutoring in Clough 280. See posted hours and schedule at <url href="https://www.math.gatech.edu/tutors-and-labs">math.gatech.edu/tutors-and-labs</url>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>1-to-1 Tutoring &amp; Knack:</term> Georgia Tech offers free private tutoring by appointment through Tutoring &amp; Academic Support, as well as free in-person and online tutoring through Knack at <url href="https://www.joinknack.com/school/georgia-institute-of-technology">joinknack.com/school/georgia-institute-of-technology</url>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>PLUS (Peer-Led Undergraduate Study):</term> Peer-led group study sessions where a peer leader prepares extra problems for collaborative work. Watch Canvas announcements for the MATH 1551 PLUS schedule.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>OMED Academic Support:</term> Offers free drop-in tutoring and general academic services through OMED Educational Services.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Office of Undergraduate Education (OUE) &amp; Academic Advising:</term> Offers the <q>First-Year Student Success</q> talk series, general tutoring, and advising appointments. Academic Success and Advising (Clough Undergraduate Learning Commons, Suite 283) provides free course support; visit <url href="https://success.gatech.edu/tutoring">success.gatech.edu/tutoring</url> or email <url href="mailto:tutoring@gatech.edu">tutoring@gatech.edu</url>.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-well-being">
+      <title>Student Well-Being</title>
+      <p>
+        At Georgia Tech, we are concerned about your overall physical, social, and mental well-being. A comprehensive list of wellness-related resources is maintained by the Office of the Vice President for Student Engagement and Well-being at <url href="https://students.gatech.edu/student-resource-guide">students.gatech.edu/student-resource-guide</url>.
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="syllabus-course-schedule">
+    <title>Tentative Course Schedule and Assessments</title>
+    <p>
+      <em>Please note:</em> Items on the syllabus and course schedule are subject to change. Any changes to the syllabus and/or course schedule will be relayed to students in class and through Canvas. Please use this as an approximate class schedule; section coverage may change depending on the flow of the course, and review days/topics may be changed or cancelled in the event of campus closures.
+    </p>
+    <p>
+      Here's to a happy and productive semester!
+    </p>
+
+    <tabular top="minor" left="minor" right="minor" bottom="minor">
+      <col width="22%" halign="left"/>
+      <col width="26%" halign="left"/>
+      <col width="52%" halign="left"/>
+      <row header="yes" bottom="medium">
+        <cell>Week and Dates</cell>
+        <cell>Section Coverage</cell>
+        <cell>Topics &amp; Assessments</cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 1</term></p>
+          <p>Aug. 24 – 28</p>
+          <p><em>Aug. 24:</em> First day of classes</p>
+          <p><em>Aug. 28:</em> Last day to make schedule changes</p>
+        </cell>
+        <cell>
+          <p>Course Policies</p>
+          <p>Sections 1.1 and 1.2</p>
+          <p>Section 2.1</p>
+        </cell>
+        <cell>
+          <p>Syllabus and Canvas Course Page (5–10 mins)</p>
+          <p>Functions and Graphs</p>
+          <p>Rates of Change, Tangent and Secant Lines</p>
+          <p><term>Friday Studio:</term> WS 1 – Participation Quiz</p>
+          <p><term>Due:</term> Canvas Precalculus/Algebra Assessment Quiz due Tuesday, Aug. 25, at 11:59 pm (under the Quizzes tab on Canvas).</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 2</term></p>
+          <p>Aug. 31 – Sept. 4</p>
+          <p><em>Aug. 31:</em> Payment Deadline at 4:00 pm (ET)</p>
+        </cell>
+        <cell>
+          <p>Section 2.2</p>
+          <p>Sections 2.4 and 2.6a</p>
+        </cell>
+        <cell>
+          <p>Limit of a Function</p>
+          <p>One-Sided and Infinite Limits</p>
+          <p><term>Due:</term> WW 1.1, 1.2, 2.1 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>Friday Studio:</term> WS 2 – Participation Quiz</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 3</term></p>
+          <p>Sept. 7 – 11</p>
+          <p><em>Sept. 8:</em> VOP Report due at 4:00 pm</p>
+        </cell>
+        <cell>
+          <p><em>Labor Day:</em> No classes on Monday</p>
+          <p>Section 2.6b and the Sandwich Theorem (Part 1)</p>
+        </cell>
+        <cell>
+          <p>Limits and Horizontal/Vertical Asymptotes and the Sandwich Theorem (Part 1)</p>
+          <p><term>Due:</term> WW 2.2 due Wednesday at 11:59 pm (ET)</p>
+          <p><term>Friday Studio:</term> WS 3 – Participation Quiz</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 4</term></p>
+          <p>Sept. 14 – 18</p>
+        </cell>
+        <cell>
+          <p>Section 2.5a and the Sandwich Theorem (Part 2)</p>
+          <p>Section 2.5b</p>
+        </cell>
+        <cell>
+          <p>Continuity and the Sandwich Theorem</p>
+          <p>Discontinuity and Intermediate Value Theorem</p>
+          <p><term>Due:</term> WW 2.4 and 2.6 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>Friday Studio:</term> WS 4 – Participation Quiz</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 5</term></p>
+          <p>Sept. 21 – 25</p>
+        </cell>
+        <cell>
+          <p>Sections 3.1 and 3.2a</p>
+          <p>Exam 1 Q&amp;A Review (in lecture; bring your own questions)</p>
+        </cell>
+        <cell>
+          <p>The Derivative at a Point and the Derivative as a Function (Part 1)</p>
+          <p><term>Common Exam 1:</term> Friday, Sept. 25 (Sections 1.1, 1.2, 2.1, 2.2, 2.4, 2.6, and 2.5) at 5:00 pm (locations on Canvas)</p>
+          <p><term>Makeup:</term> Common Exam 1 Makeup at 11:00 am Tuesday, Sept. 29</p>
+          <p><term>Due:</term> WW 2.5 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>No Studio:</term> Practice Exercises for Sections 3.1 and 3.2a</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 6</term></p>
+          <p>Sept. 28 – Oct. 2</p>
+          <p><em>Sept. 29:</em> Common Exam 1 Makeup</p>
+        </cell>
+        <cell>
+          <p>Section 3.2b</p>
+          <p>Sections 3.3a and 3.6</p>
+        </cell>
+        <cell>
+          <p>The Derivative as a Function (Part 2)</p>
+          <p>Differentiation Rules (Part 1), the Chain Rule, and the Product Rule</p>
+          <p><term>Due:</term> WW 3.1 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>Friday Studio:</term> WS 5 – Participation Quiz</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 7</term></p>
+          <p>Oct. 5 – 9</p>
+          <p><em>Oct. 5 – 6:</em> Fall Break</p>
+        </cell>
+        <cell>
+          <p><em>Fall Break:</em> No classes on Monday</p>
+          <p>Sections 3.3b, 4.1a, and 4.3</p>
+        </cell>
+        <cell>
+          <p>The Quotient Rule and Extreme Values of Function (Part 1)</p>
+          <p><term>Due:</term> WW 3.2, 3.3a, 3.6 due Wednesday at 11:59 pm (ET)</p>
+          <p><term>Friday Studio:</term> WS 6 – Participation Quiz</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 8</term></p>
+          <p>Oct. 12 – 16</p>
+          <p><em>Oct. 12:</em> Midterm Report</p>
+        </cell>
+        <cell>
+          <p>Sections 4.4a, 4.1b, and 4.6a</p>
+          <p>Section 4.6b</p>
+        </cell>
+        <cell>
+          <p>Extreme Values of Function (Part 2) and Optimization (Part 1)</p>
+          <p>Optimization (Part 2)</p>
+          <p><term>Due:</term> WW 3.3b, 4.1, and 4.3 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>Friday Studio:</term> WS 7 – Participation Quiz</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 9</term></p>
+          <p>Oct. 19 – 23</p>
+        </cell>
+        <cell>
+          <p>Section 3.11</p>
+          <p>Exam 2 Q&amp;A Review (in lecture; bring your own questions)</p>
+        </cell>
+        <cell>
+          <p>Linearization</p>
+          <p><term>Common Exam 2:</term> Friday, Oct. 23 (Sections 3.1, 3.2, 3.3a, 3.3b, 3.6, 4.1, 4.3, 4.4a, and 4.6) at 5:00 pm (locations on Canvas)</p>
+          <p><term>Makeup:</term> Common Exam 2 Makeup at 11:00 am Tuesday, Oct. 27</p>
+          <p><term>Due:</term> WW 4.6 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>No Studio:</term> Practice Exercises for Section 3.11</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 10</term></p>
+          <p>Oct. 26 – 30</p>
+          <p><em>Oct. 27:</em> Common Exam 2 Makeup</p>
+          <p><em>Oct. 31:</em> Withdrawal Deadline at 11:59 pm</p>
+        </cell>
+        <cell>
+          <p>Sections 4.7 and 3.4a</p>
+          <p>Sections 1.3, 3.4b, and 3.5</p>
+        </cell>
+        <cell>
+          <p>Newton's Method and the Derivative as a Rate of Change (Part 1)</p>
+          <p>Derivatives of Trigonometric Functions and the Derivative as a Rate of Change (Part 2)</p>
+          <p><term>Due:</term> WW 3.11 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>Friday Studio:</term> WS 8 – Participation Quiz</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 11</term></p>
+          <p>Nov. 2 – 6</p>
+        </cell>
+        <cell>
+          <p>Section 3.7</p>
+          <p>Section 3.10a</p>
+        </cell>
+        <cell>
+          <p>Implicit Differentiation and the Derivatives of Log Functions</p>
+          <p>Related Rates (Part 1)</p>
+          <p><term>Due:</term> WW 4.7, 1.3, 3.4, and 3.5 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>Friday Studio:</term> WS 9 – Participation Quiz</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 12</term></p>
+          <p>Nov. 9 – 13</p>
+        </cell>
+        <cell>
+          <p>Sections 3.10b and 3.8a</p>
+          <p>Sections 1.6, 3.8b, and 3.9</p>
+        </cell>
+        <cell>
+          <p>Related Rates (Part 2) and Logarithmic Differentiation (Part 1)</p>
+          <p>Logarithmic Differentiation (Part 2) and Derivatives of Inverse Trigonometric Functions</p>
+          <p><term>Due:</term> WW 3.7 due Tuesday at 11:59 pm (ET); WW 3.10 due Friday at 11:59 pm (ET)</p>
+          <p><term>Friday Studio:</term> WS 10 – Participation Quiz</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 13</term></p>
+          <p>Nov. 16 – 20</p>
+        </cell>
+        <cell>
+          <p>Section 4.4b</p>
+          <p>Exam 3 Q&amp;A Review (in lecture; bring your own questions)</p>
+        </cell>
+        <cell>
+          <p>Curve Sketching (Part 1)</p>
+          <p><term>Common Exam 3:</term> Friday, Nov. 20 (Sections 3.11, 4.7, 1.3, 3.4, 3.5, 3.7, 3.10, 1.6, 3.8, and 3.9) at 5:00 pm (locations on Canvas)</p>
+          <p><term>Makeup:</term> Common Exam 3 Makeup at 11:00 am Tuesday, Nov. 24</p>
+          <p><term>Due:</term> WW 1.6, 3.8, and 3.9 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>No Studio:</term> Practice Exercises for Section 4.4b (Part 1)</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 14</term></p>
+          <p>Nov. 23 – 27</p>
+          <p><em>Nov. 24:</em> Common Exam 3 Makeup</p>
+          <p><em>Nov. 25:</em> Student Recess</p>
+          <p><em>Nov. 26 – 27:</em> Thanksgiving Break</p>
+        </cell>
+        <cell>
+          <p>Sections 4.4b and 4.2a</p>
+          <p><em>Student Recess:</em> No classes on Wednesday</p>
+          <p><em>Thanksgiving Break:</em> No classes on Friday</p>
+        </cell>
+        <cell>
+          <p>Curve Sketching (Part 2) and Rolle's Theorem</p>
+          <p><term>Due:</term> WW 4.4 due Tuesday at 11:59 pm (ET)</p>
+          <p><term>No Studio:</term> Practice Problems for Sections 4.4b (Part 2) and 4.2a</p>
+        </cell>
+      </row>
+
+      <row bottom="minor">
+        <cell>
+          <p><term>Week 15</term></p>
+          <p>Nov. 30 – Dec. 4</p>
+        </cell>
+        <cell>
+          <p>Section 4.2b</p>
+          <p>Section 4.8</p>
+        </cell>
+        <cell>
+          <p>Mean Value Theorem</p>
+          <p>Antiderivatives</p>
+          <p><term>Friday Studio:</term> WS 11 – Participation Quiz</p>
+          <p><term>Due:</term> WW 4.2 and 4.8 due Monday, Dec. 7, at 11:59 pm (ET)</p>
+        </cell>
+      </row>
+
+      <row>
+        <cell>
+          <p><term>Week 16</term></p>
+          <p>Dec. 7 – 11</p>
+          <p><em>Dec. 7:</em> Final Instructional Day</p>
+        </cell>
+        <cell>
+          <p>Final Exam Q&amp;A Review (in lecture; bring your own questions)</p>
+        </cell>
+        <cell>
+          <p><term>Final Exam:</term> Thursday, Dec. 10, from 6:00 pm to 8:50 pm (location TBD)</p>
+          <p><term>Makeup Final Exam:</term> Friday, Dec. 18 (during the conflict period; time and location TBD)</p>
+        </cell>
+      </row>
+    </tabular>
+  </subsection>
+</section>
+
+
