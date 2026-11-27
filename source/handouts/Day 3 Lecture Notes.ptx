@@ -154,7 +154,7 @@
       <ol marker="i)">
         <li workspace="0.75in">
           <p>
-            Find <m>\lim_{x \to 2} (x^2-x+5)</m>.
+            Find <m>\displaystyle \lim_{x \to 2} (x^2-x+5)</m>.
           </p>
           <p>
             Step 1: Direct Substitution <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
@@ -162,7 +162,7 @@
         </li>
         <li workspace="0.9in">
           <p>
-            Find <m>\lim_{x \to 1} \dfrac{x^2-1}{x-1}</m> (<em>Numerically and graphically, we observed that the limit is 2. How about finding it algebraically?</em>)
+            Find <m>\displaystyle \lim_{x \to 1} \dfrac{x^2-1}{x-1}</m> (<em>Numerically and graphically, we observed that the limit is 2. How about finding it algebraically?</em>)
           </p>
           <p>
             Step 1: Direct Substitution <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
