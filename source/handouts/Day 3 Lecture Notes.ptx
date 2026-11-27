@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-3-notes">
+  <title>Day 3: Section 2.2 - Limit of a Function</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We talked about average and instantaneous rates of change, and how they can be represented as the slopes of secant and tangent lines. In particular, we had an idea that secant lines <q>approach</q> tangent lines as the two points that define them get close together.
+    </p>
+    <p>
+      <term>Today:</term> We want to make that idea of one function <q>approaching</q> or <q>becoming</q> another a concrete thing we can do carefully. This is the idea of a <em>limit</em>.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="def-limit">
+      <title>Definition</title>
+      <p>
+        The <fillin characters="12"/> of <m>f(x)</m> as <m>x</m> approaches <m>a</m>, written
+        <me>\lim_{x \to a} f(x),</me>
+        is the <fillin characters="12"/> that <m>f(x)</m> <fillin characters="25"/> to as <m>x</m> approaches <m>a</m>.
+      </p>
+
+      <sidebyside widths="35% 60%" valign="top">
+        <image source="pictures/sec22pic1.png">
+          <shortdescription>
+            Numerical table of values showing f(x) approaching 2 as x approaches 1 from both sides.
+          </shortdescription>
+        </image>
+        <stack>
+          <ul>
+            <li>
+              <p>
+                If there <fillin characters="5"/> such a number, we say this limit <fillin characters="8"/> and <fillin characters="8"/> to that number.
+              </p>
+            </li>
+            <li>
+              <p>
+                If there <fillin characters="8"/>, we say the limit <fillin characters="14"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                <q><m>x</m> approaches <m>a</m></q> but <fillin characters="15"/> to <m>a</m>. That is, <fillin characters="10"/> in computing the limit <m>\lim_{x \to a} f(x)</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                For example (numerical approach): The table on the left indicates that
+                <me>\lim_{x \to 1} \frac{x^2-1}{x-1} = \underline{\hspace{0.8in}}</me>
+              </p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="p-limits-with-graphs">
+      <title>Finding Limits with Graphs</title>
+      <p>
+        If we have a good (well-labeled and detailed) graph of <m>y=f(x)</m>, we can find the limit <m>\lim_{x \to a} f(x)</m> by observing the number that <m>y</m> gets infinitely close to as <m>x</m> approaches <m>a</m>.
+      </p>
+      <p>
+        For example: Let's revisit the function <m>f(x)=\dfrac{x^2-1}{x-1}</m> introduced above. Its graph is shown below.
+      </p>
+
+      <sidebyside widths="35% 60%" valign="top">
+        <image source="pictures/Day3fa25pic1.png">
+          <shortdescription>
+            Graph of the line y = x + 1 with an open hole at the point (1, 2).
+          </shortdescription>
+        </image>
+        <stack>
+          <ul>
+            <li workspace="0.5in">
+              <p>From which directions can <m>x</m> approach <m>1</m> along the <m>x</m>-axis?</p>
+            </li>
+            <li>
+              <p>Now,</p>
+              <ul>
+                <li>
+                  <p>As <m>x</m> approaches <m>1</m> from the <fillin characters="6"/>, <m>f(x)</m> gets infinitely close to <fillin characters="6"/>.</p>
+                </li>
+                <li>
+                  <p>As <m>x</m> approaches <m>1</m> from the <fillin characters="6"/>, <m>f(x)</m> gets infinitely close to <fillin characters="6"/>.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>Thus, as <m>x</m> approaches <m>1</m>, the limit of <m>f(x)</m> is <fillin characters="6"/>.</p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-graphical-limits">
+      <title>Checkpoint</title>
+      <ol marker="i)">
+        <li workspace="0.8in">
+          <p>
+            For each of the following functions, find <m>f(0)</m> and <m>\lim_{x \to 0} f(x)</m>.
+          </p>
+          <sidebyside widths="31% 31% 31%" margins="1% 1%">
+            <image source="pictures/Day3fa25pic2.png">
+              <shortdescription>First graph of a function near x = 0 for finding f(0) and the limit as x approaches 0.</shortdescription>
+            </image>
+            <image source="pictures/Day3fa25pic3.png">
+              <shortdescription>Second graph of a function near x = 0 for finding f(0) and the limit as x approaches 0.</shortdescription>
+            </image>
+            <image source="pictures/Day3fa25pic4.png">
+              <shortdescription>Third graph of a function near x = 0 for finding f(0) and the limit as x approaches 0.</shortdescription>
+            </image>
+          </sidebyside>
+        </li>
+        <li>
+          <p>
+            Based on part i), work with your neighbor to decide whether the following statements are true or false. Remember that a true statement must be ALWAYS true, but a false statement could be either always false or sometimes true (it's just not necessarily always true).
+          </p>
+          <ol marker="a)">
+            <li workspace="0.6in">
+              <p>If <m>f(a)</m> is not defined, then <m>\lim_{x \to a} f(x)</m> does not exist.</p>
+            </li>
+            <li workspace="0.6in">
+              <p>If <m>f(a)</m> is defined, then <m>\lim_{x \to a} f(x) = f(a)</m>.</p>
+            </li>
+            <li workspace="0.6in">
+              <p>If <m>\lim_{x \to a} f(x)</m> exists, then the values of <m>f(x)</m> must steadily get close to that limit as <m>x</m> approaches <m>a</m>, without fluctuating or oscillating away from it at any point.</p>
+            </li>
+            <li workspace="0.6in">
+              <p>Our ability to find limits using graphs depends on the availability of a good (well-labelled and detailed) graph.</p>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-limits-algebraically">
+      <title>Finding Limits Algebraically</title>
+      <p>
+        Since finding limits using graphs depends on having a good (well-labeled and detailed) graph, graphs are generally best suited for <em>estimating</em> limits. But can you tell the difference between a limit of <m>5</m> or <m>5.0000001</m>? Often, we want a way to show that the limit we've found is <em>exactly</em> correct. As usual, the answer lies in algebra!
+      </p>
+      <p>
+        <term>Step 1: Direct Substitution</term> <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
+      </p>
+      <p>
+        Often (especially for common functions), we can find a limit simply by substituting <m>x=a</m> in our function. This method is effective for functions that are <em>continuous</em> at the point of interest.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-direct-substitution">
+      <title>Checkpoint</title>
+      <ol marker="i)">
+        <li workspace="0.75in">
+          <p>
+            Find <m>\lim_{x \to 2} (x^2-x+5)</m>.
+          </p>
+          <p>
+            Step 1: Direct Substitution <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
+          </p>
+        </li>
+        <li workspace="0.9in">
+          <p>
+            Find <m>\lim_{x \to 1} \dfrac{x^2-1}{x-1}</m> (<em>Numerically and graphically, we observed that the limit is 2. How about finding it algebraically?</em>)
+          </p>
+          <p>
+            Step 1: Direct Substitution <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
+          </p>
+        </li>
+      </ol>
+
+      <p>
+        What do we do with something that looks like <m>\left(\dfrac{0}{0}\right)</m>? This is an <fillin characters="15"/> form, meaning we can't determine what's going on<mdash/>we don't even know whether the limit exists!
+      </p>
+      <p>
+        <term>Step 2: Algebraic Manipulation</term> <em><mdash/> try simplifying the function <m>f(x)</m> using algebraic techniques while evaluating the limit.</em>
+      </p>
+      <p>
+        If, by using algebraic manipulation, we can get rid of the <fillin characters="15"/> form, we can try Step 1 again.
+      </p>
+      <p>
+        We are reviewing the following 3 common ways to deal with this issue of a <m>\left(\dfrac{0}{0}\right)</m> form:
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-algebraic-limits">
+      <title>Checkpoint</title>
+      <ol marker="i)">
+        <li workspace="2in">
+          <p>
+            <term>Factor and Cancel:</term> <m>\lim_{x \to 1} \dfrac{x^2-1}{x-1}</m>
+          </p>
+          <p>
+            <em>Note that:</em> <m>a^2-b^2 =</m> <fillin characters="18"/>.
+          </p>
+        </li>
+        <li workspace="2in">
+          <p>
+            <term>Find a Common Denominator:</term> <m>\lim_{x \to -1} \dfrac{\frac{1}{4x+5}-\frac{1}{x^2}}{x+1}</m>
+          </p>
+          <p>
+            <em>Note that:</em> <m>\dfrac{a/b}{c/d} =</m> <fillin characters="12"/> <m>=</m> <fillin characters="10"/>.
+          </p>
+        </li>
+        <li workspace="2in">
+          <p>
+            <term>Multiply by a Conjugate:</term> <em>(Exercise)</em> <m>\lim_{x \to 4} \dfrac{\sqrt{x}-2}{x-4}</m>
+          </p>
+          <p>
+            <em>Note that:</em> The conjugate of <m>(a-b)</m> is <fillin characters="12"/> and vice versa.
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="p-notation-warning">
+      <title>Notation Warning</title>
+      <p>
+        There are some notational things to be careful of with limits. In short, make sure every step of your work has both a limit operator (<m>\lim_{x \to a}</m>) and an argument (<m>f(x)</m>) until you've successfully evaluated the limit. That is, the variables and the operator should always disappear in the same step.
+      </p>
+      <p>
+        In many of the problems we'll do this semester, some combination or variation of these techniques will be sufficient to find limits algebraically. But it takes lots of practice, and there are a few weird cases to consider.
+      </p>
+    </paragraphs>
+  </page>
+</handout>
