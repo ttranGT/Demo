@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-2-notes">
+  <title>Day 2: Section 2.1 - Rates of Change, Secant and Tangent Lines</title>
+
+  <introduction>
+    <p>
+      Today we want to start thinking about rates of change<mdash/>one of the most foundational ideas in all of Calculus. We'll start by reviewing how to calculate rates of change, what physical quantities they represent, and how to visualize them on a graph.
+    </p>
+    <p>
+      More importantly, we want to build an intuition for what these calculations actually mean. So many real-world situations can be modeled by functions. If we can develop better tools to study the math, we can solve much more complex problems in the real world. Let's look at the following example.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="checkpoint-cyclist-velocity">
+      <title>Checkpoint</title>
+      <p>
+        The following table shows the position <m>s</m> (in meters) of a cyclist as a function of time <m>t</m> (in seconds).
+      </p>
+
+      <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+        <row>
+          <cell><m>t</m> (seconds)</cell>
+          <cell>0</cell>
+          <cell>1</cell>
+          <cell>2</cell>
+          <cell>3</cell>
+          <cell>4</cell>
+          <cell>5</cell>
+        </row>
+        <row>
+          <cell><m>s</m> (meters)</cell>
+          <cell>0</cell>
+          <cell>1.5</cell>
+          <cell>5.1</cell>
+          <cell>10.5</cell>
+          <cell>17.7</cell>
+          <cell>25.8</cell>
+        </row>
+      </tabular>
+
+      <ol marker="a)">
+        <li workspace="1.2in">
+          <p>
+            Find the average velocity over the time period <m>[1,3]</m>. Include units in your answer. Recall that average velocity is given by the change in position divided by the elapsed time.
+          </p>
+        </li>
+        <li workspace="1.2in">
+          <p>
+            Suppose you'd like to know the cyclist's <em>instantaneous</em> velocity at the moment <m>t=3</m>. Can we compute the average velocity over the time period <m>[3,3]</m>? Why or why not?
+          </p>
+        </li>
+        <li workspace="1.2in">
+          <p>
+            We can use average velocities over appropriate intervals to <em>approximate</em> an instantaneous velocity. What are some specific intervals near <m>t=3</m> that would help estimate the instantaneous velocity at <m>t=3</m>?
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="p-aroc-synthesis">
+      <title>Key Details</title>
+      <p>
+        Let's write down a few key details to help us synthesize our approach to the problem above.
+      </p>
+      <ol marker="i)">
+        <li>
+          <p>
+            The average rate of change (AROC) of <m>s(t)</m> over the interval <m>[t_1,t_2]</m> is given by
+            <me>\text{AROC} = <fillin characters="20"/></me>
+          </p>
+        </li>
+        <li>
+          <p>
+            We can <strong>not</strong> find an <fillin characters="18"/> rate of change by using the formula for the average rate of change.
+          </p>
+        </li>
+        <li>
+          <p>
+            We <strong>can</strong> find an average rate of change over a small interval<mdash/>this gives us an <fillin characters="15"/> of the instantaneous rate of change.
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-secant-lines">
+      <title>Secant Lines and Average Rate of Change</title>
+      <p>
+        Let's think about what average and instantaneous velocities look like on a graph. Here's a generic graph of our situation:
+      </p>
+
+      <sidebyside widths="52% 44%" valign="top">
+        <image source="pictures/Day1fa25.png">
+          <shortdescription>
+            Generic curve showing two points connected by a secant line illustrating average rate of change.
+          </shortdescription>
+        </image>
+        <stack>
+          <ul>
+            <li>
+              <p>
+                Graphically, when we calculate average velocity over a time interval, we're really finding the average rate of change as we move from <fillin characters="12"/> on the function to <fillin characters="12"/>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Let's look at the slope of the line between those points:
+                <me>m = <fillin characters="12"/></me>
+              </p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+
+      <p>
+        Remember that a line connecting two points on a function is called a <fillin characters="15"/> line.
+      </p>
+      <p>
+        We've really discovered an important relationship here:
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="fact-secant-aroc">
+      <title>Fact</title>
+      <p>
+        The <fillin characters="10"/> of a secant line is the <fillin characters="10"/> <fillin characters="18"/> of the function over the interval defined by our points.
+      </p>
+      <p>
+        In our example above, we were looking at the average rate of change of position, which is just another way of saying average velocity. It's a nice example!
+      </p>
+      <p>
+        We'll do a lot with the formula associated with this idea, so let's write it down:
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="formula-aroc">
+      <title>Formula</title>
+      <p>
+        The average rate of change (AROC) of <m>y=f(x)</m> with respect to <m>x</m> over the interval <m>[x_1,x_2]</m> is
+        <me>\text{AROC} = \frac{\Delta y}{\Delta x} = \frac{<fillin characters="16"/>}{<fillin characters="16"/>} = \frac{<fillin characters="16"/>}{<fillin characters="16"/>}.</me>
+      </p>
+      <p>Notes:</p>
+      <ul>
+        <li>
+          <p>This fraction (in either form) is often referred to as the <fillin characters="25"/>.</p>
+        </li>
+        <li>
+          <p>We can get the second form of the difference quotient by making the substitution <m>h = </m> <fillin characters="10"/> (note that we need to be sure <m>h \neq 0</m>).</p>
+        </li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="def-tangent-line">
+      <title>Definition</title>
+      <p>
+        The last thing we need to complete our picture of mathematically representing rates of change is the idea of a <em>tangent line</em>.
+      </p>
+      <p>
+        The tangent line to <m>f(x)</m> at <m>x=x_1</m> is the line that <fillin characters="10"/> the graph of <m>f(x)</m> at the point <m>(x_1,f(x_1))</m>.
+      </p>
+      <p>We care about tangent lines because:</p>
+      <ul>
+        <li>
+          <p>
+            As <fillin characters="6"/> approaches <fillin characters="6"/>, the secant line becomes closer to the tangent line at <fillin characters="6"/> (see <url href="https://www.geogebra.org/m/YvaFWUzY" visual="geogebra.org/m/YvaFWUzY">GeoGebra</url>).
+          </p>
+        </li>
+        <li>
+          <p>
+            That is, the <fillin characters="8"/> of a tangent line to a function at <m>x=x_1</m> represents the function's <fillin characters="15"/> <fillin characters="20"/> at <m>x=x_1</m>.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="checkpoint-parabola-slopes">
+      <title>Checkpoint (Think - Pair - Share)</title>
+      <p>
+        Consider the parabola <m>f(x)</m>. Use sketches to order the following quantities from smallest to largest:
+      </p>
+
+      <sidebyside widths="54% 42%" valign="top">
+        <stack>
+          <ol marker="A.">
+            <li><p>The slope of the secant line between <m>x=1</m> and <m>x=2</m></p></li>
+            <li><p>The slope of the tangent line at <m>x=0</m></p></li>
+            <li><p>The instantaneous rate of change of <m>f(x)</m> at <m>x=2</m></p></li>
+            <li><p><m>\dfrac{f(4)-f(2)}{2}</m></p></li>
+          </ol>
+          <p>
+            <em>Answer:</em> <fillin characters="5"/> <m>\lt</m> <fillin characters="5"/> <m>\lt</m> <fillin characters="5"/> <m>\lt</m> <fillin characters="5"/>
+          </p>
+          <p>
+            Hint: Recall how the slope is related to the steepness and direction of a line (see <url href="https://www.geogebra.org/m/pmaa2Y8T" visual="geogebra.org/m/pmaa2Y8T">GeoGebra</url>).
+          </p>
+        </stack>
+        <image source="pictures/sec21fa24pic1.png">
+          <shortdescription>
+            Graph of a downward-opening parabola f(x) with vertex at x = 2.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <p>
+        The study of secant and tangent lines, and how they measure rates of change, is what motivates a lot of Calculus<mdash/>learning this framework is a great start!
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-bridge-exercise">
+      <title>Checkpoint (Exercise)</title>
+      <p workspace="1.5in">
+        Suppose you take 2 hours to cross a 1 mile long bridge. How fast do you have to return if you want your average round-trip velocity to be 1 mph?
+      </p>
+    </paragraphs>
+  </page>
+</handout>
