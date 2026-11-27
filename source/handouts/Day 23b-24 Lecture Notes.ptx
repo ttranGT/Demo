@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-23-notes">
+  <title>Days 23b &amp; 24: Section 4.8: Antiderivatives</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We learned Rolle's Theorem and the Mean Value Theorem, wrapping up our study of derivatives and their applications.
+    </p>
+    <p>
+      <term>Today:</term> We want to start doing it all backwards! We can undo derivatives using <em>antiderivatives</em>.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="p-antiderivative-definition">
+      <title>Definition: Antiderivative</title>
+      <p>
+        A function <m>F(x)</m> is an <strong>antiderivative</strong> of <m>f(x)</m> if <m>\displaystyle \frac{d}{dx}\bigl(</m><fillin characters="6"/><m>\bigr) =</m> <fillin characters="6"/>.
+      </p>
+      <p>
+        We use the notation <q><m>\displaystyle \int f(x)\,dx</m></q> to represent <q><fillin characters="6"/> antiderivatives of <m>f(x)</m></q> or <q><fillin characters="16"/> antiderivative of <m>f(x)</m></q>. This is also called the <fillin characters="22"/> of <m>f(x)</m>.
+      </p>
+      <p>
+        In light of the definition and notation above, we have:
+        <me>\int f(x)\,dx = \underline{\hspace{0.5in}} + C, \quad \text{where } C \text{ is an arbitrary constant.}</me>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-antiderivative-checkpoint">
+      <title>Problem 1 (Definition Checkpoint)</title>
+      <p>
+        Given a function <m>f(x)</m>, match each question in the first column with its corresponding answer in the second column.
+      </p>
+
+      <sidebyside widths="50% 46%" margins="1% 1%" valign="top">
+        <ol marker="1)">
+          <li><p>How many antiderivatives does <m>f(x)</m> have?</p></li>
+          <li><p>How do they all differ?</p></li>
+          <li><p>What do they all have in common?</p></li>
+          <li><p>What does this mean in terms of the graph?</p></li>
+        </ol>
+
+        <ol marker="A)">
+          <li><p>By a constant</p></li>
+          <li><p>The same derivative</p></li>
+          <li><p>Infinitely many</p></li>
+          <li><p>A vertical (upward/downward) shift</p></li>
+        </ol>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-useful-antiderivative-formulas-p1">
+      <title>Problem 2 (Useful Formulas)</title>
+      <p>
+        The following problem covers the basic indefinite integrals<mdash/>you should know these! And you probably already do: just ask yourself which function you know whose derivative equals the given function.
+      </p>
+      <p>
+        Find the following antiderivatives (1) through (12). <em>Pro tip: Differentiate to CHECK your answer<mdash/>it should match the original function!</em>
+      </p>
+      <p>
+        <strong>(1) Reversing the Power Rule for derivatives:</strong> For <m>n \neq -1</m>, find <m>\displaystyle \int x^n\,dx =</m> <fillin characters="12"/> by answering the following questions:
+      </p>
+      <ol marker="i)">
+        <li workspace="1.3in">
+          <p>
+            Choose <m>n = 2</m>. Guess a power function whose derivative contains <m>x^2</m>, then differentiate your guess and adjust the coefficient so the derivative equals <m>x^2</m>. Repeat the process for <m>n = 3</m>.
+          </p>
+        </li>
+        <li workspace="0.8in">
+          <p>
+            Pay attention to the powers and coefficients of the <m>x</m>-terms to generalize to an antiderivative of <m>x^n</m>. Don't forget to add the arbitrary constant <m>C</m> to your final answer!
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-useful-antiderivative-formulas-p2">
+      <title>Problem 2 (Useful Formulas, cont.)</title>
+      <p>
+        <strong>(1)</strong> So, for <m>n \neq -1</m>, <m>\displaystyle \int x^n\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p>
+        <strong>Differentiation</strong> gives <m>\displaystyle \frac{d}{dx}\bigl(F(x)\bigr) = f(x)</m>, while <strong>antidifferentiation</strong> reverses it: <m>\displaystyle \int f(x)\,dx = F(x) + C</m>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(2)</strong> Recall that <m>\displaystyle \frac{d}{dx}\,e^x =</m> <fillin characters="12"/>. Then, <m>\displaystyle \int e^x\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(3)</strong> Recall that for <m>0 \lt b \neq 1</m>, <m>\displaystyle \frac{d}{dx}\,b^x =</m> <fillin characters="12"/>. Then, <m>\displaystyle \int b^x\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(4)</strong> Recall that for <m>x \gt 0</m>, <m>\displaystyle \frac{d}{dx}\,\ln(x) =</m> <fillin characters="12"/>. Then, <m>\displaystyle \int \frac{1}{x}\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(5)</strong> Recall that <m>\displaystyle \frac{d}{dx}\,\sin(x) =</m> <fillin characters="12"/>. Then, <m>\displaystyle \int \cos(x)\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(6)</strong> Recall that <m>\displaystyle \frac{d}{dx}\,\cos(x) =</m> <fillin characters="12"/>. Then, <m>\displaystyle \int \sin(x)\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(7)</strong> Recall that <m>\displaystyle \frac{d}{dx}\,\tan(x) =</m> <fillin characters="12"/>. Then, <m>\displaystyle \int \sec^2(x)\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(8)</strong> Recall that <m>\displaystyle \frac{d}{dx}\,\cot(x) =</m> <fillin characters="12"/>. Then, <m>\displaystyle \int \csc^2(x)\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(9)</strong> Recall that <m>\displaystyle \frac{d}{dx}\,\sec(x) =</m> <fillin characters="16"/>. Then, <m>\displaystyle \int \sec(x)\tan(x)\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(10)</strong> Recall that <m>\displaystyle \frac{d}{dx}\,\csc(x) =</m> <fillin characters="16"/>. Then, <m>\displaystyle \int \csc(x)\cot(x)\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(11)</strong> Recall that <m>\displaystyle \frac{d}{dx}\,\arctan(x) =</m> <fillin characters="12"/>. Then, <m>\displaystyle \int \frac{1}{1+x^2}\,dx =</m> <fillin characters="12"/>.
+      </p>
+      <p workspace="0.25in">
+        <strong>(12)</strong> Recall that <m>\displaystyle \frac{d}{dx}\,\arcsin(x) =</m> <fillin characters="12"/>. Then, <m>\displaystyle \int \frac{1}{\sqrt{1-x^2}}\,dx =</m> <fillin characters="12"/>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-kx-substitution-proof">
+      <title>Problem 3</title>
+      <p workspace="1.3in">
+        Assume that <m>F(x)</m> is an antiderivative of <m>f(x)</m> and <m>k \neq 0</m> is a constant. Show that
+        <me>\int f(kx)\,dx = \frac{F(kx)}{k} + C.</me>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-kx-antiderivative-table">
+      <title>Problem 4</title>
+      <p>
+        Based on Problem 3, fill in the blanks (assume <m>k \neq 0</m> is a constant):
+        <md>
+          <mrow>\int e^{x}\,dx = e^{x} + C \qquad \amp\Longrightarrow \qquad \int e^{kx}\,dx = \underline{\hspace{1.2in}} + C</mrow>
+          <mrow>\int b^{x}\,dx = \frac{b^{x}}{\ln(b)} + C \qquad \amp\Longrightarrow \qquad \int b^{kx}\,dx = \underline{\hspace{1.2in}} + C</mrow>
+          <mrow>\int \sin(x)\,dx = -\cos(x) + C \qquad \amp\Longrightarrow \qquad \int \sin(kx)\,dx = \underline{\hspace{1.2in}} + C</mrow>
+          <mrow>\int \cos(x)\,dx = \sin(x) + C \qquad \amp\Longrightarrow \qquad \int \cos(kx)\,dx = \underline{\hspace{1.2in}} + C</mrow>
+          <mrow>\int \sec^2(x)\,dx = \tan(x) + C \qquad \amp\Longrightarrow \qquad \int \sec^2(kx)\,dx = \underline{\hspace{1.2in}} + C</mrow>
+          <mrow>\int \csc^2(x)\,dx = -\cot(x) + C \qquad \amp\Longrightarrow \qquad \int \csc^2(kx)\,dx = \underline{\hspace{1.2in}} + C</mrow>
+          <mrow>\int \sec(x)\tan(x)\,dx = \sec(x) + C \qquad \amp\Longrightarrow \qquad \int \sec(kx)\tan(kx)\,dx = \underline{\hspace{1.2in}} + C</mrow>
+          <mrow>\int \csc(x)\cot(x)\,dx = -\csc(x) + C \qquad \amp\Longrightarrow \qquad \int \csc(kx)\cot(kx)\,dx = \underline{\hspace{1.2in}} + C</mrow>
+          <mrow>\int \frac{1}{1+x^2}\,dx = \arctan(x) + C \qquad \amp\Longrightarrow \qquad \int \frac{1}{1+(kx)^2}\,dx = \underline{\hspace{1.2in}} + C</mrow>
+          <mrow>\int \frac{1}{\sqrt{1-x^2}}\,dx = \arcsin(x) + C \qquad \amp\Longrightarrow \qquad \int \frac{1}{\sqrt{1-(kx)^2}}\,dx = \underline{\hspace{1.2in}} + C</mrow>
+        </md>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-kx-antiderivative-summary">
+      <title>Summary of <m>kx</m>-Generalized Antiderivatives</title>
+      <p>
+        In summary, it is useful to remember the following <m>kx</m>-generalized antiderivatives, where <m>k</m> is a non-zero constant:
+        <md>
+          <mrow>\int e^{x}\,dx = e^{x} + C \qquad \amp\Longrightarrow \qquad \int e^{kx}\,dx = \frac{e^{kx}}{k} + C</mrow>
+          <mrow>\int b^{x}\,dx = \frac{b^{x}}{\ln(b)} + C \qquad \amp\Longrightarrow \qquad \int b^{kx}\,dx = \frac{b^{kx}}{k\ln(b)} + C</mrow>
+          <mrow>\int \sin(x)\,dx = -\cos(x) + C \qquad \amp\Longrightarrow \qquad \int \sin(kx)\,dx = -\frac{\cos(kx)}{k} + C</mrow>
+          <mrow>\int \cos(x)\,dx = \sin(x) + C \qquad \amp\Longrightarrow \qquad \int \cos(kx)\,dx = \frac{\sin(kx)}{k} + C</mrow>
+          <mrow>\int \sec^2(x)\,dx = \tan(x) + C \qquad \amp\Longrightarrow \qquad \int \sec^2(kx)\,dx = \frac{\tan(kx)}{k} + C</mrow>
+          <mrow>\int \csc^2(x)\,dx = -\cot(x) + C \qquad \amp\Longrightarrow \qquad \int \csc^2(kx)\,dx = \frac{-\cot(kx)}{k} + C</mrow>
+          <mrow>\int \sec(x)\tan(x)\,dx = \sec(x) + C \qquad \amp\Longrightarrow \qquad \int \sec(kx)\tan(kx)\,dx = \frac{\sec(kx)}{k} + C</mrow>
+          <mrow>\int \csc(x)\cot(x)\,dx = -\csc(x) + C \qquad \amp\Longrightarrow \qquad \int \csc(kx)\cot(kx)\,dx = \frac{-\csc(kx)}{k} + C</mrow>
+          <mrow>\int \frac{1}{1+x^2}\,dx = \arctan(x) + C \qquad \amp\Longrightarrow \qquad \int \frac{1}{1+(kx)^2}\,dx = \frac{\arctan(kx)}{k} + C</mrow>
+          <mrow>\int \frac{1}{\sqrt{1-x^2}}\,dx = \arcsin(x) + C \qquad \amp\Longrightarrow \qquad \int \frac{1}{\sqrt{1-(kx)^2}}\,dx = \frac{\arcsin(kx)}{k} + C</mrow>
+        </md>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-linearity-rules-antiderivatives">
+      <title>Some Antiderivative Rules</title>
+      <p>
+        Let's spend a few minutes thinking about some basic antiderivative rules. Assume that <m>F(x)</m> is an antiderivative of <m>f(x)</m>, <m>G(x)</m> is an antiderivative of <m>g(x)</m>, and <m>c</m> is a constant.
+      </p>
+      <ol marker="i)">
+        <li>
+          <p workspace="0.6in">Then <m>F(x) \pm G(x)</m> is an antiderivative of <m>f(x) \pm g(x)</m>. Indeed,</p>
+          <p>
+            In indefinite integral notation,
+            <me>\int \bigl(f(x) \pm g(x)\bigr)\,dx = \underline{\hspace{3.2in}}</me>
+          </p>
+        </li>
+        <li>
+          <p workspace="0.6in">Then <m>c \cdot F(x)</m> is an antiderivative of <m>c \cdot f(x)</m>. Indeed,</p>
+          <p>
+            In indefinite integral notation,
+            <me>\int c \cdot f(x)\,dx = \underline{\hspace{2.4in}}</me>
+          </p>
+        </li>
+      </ol>
+      <p>
+        <term>Note:</term> The basic derivative rules for sums, differences, and constant multiples carry over directly to antiderivatives. Notice, however, that we do <strong>not</strong> have a simple Product Rule or Quotient Rule for antiderivatives<mdash/>more advanced integration techniques will be covered in MATH 1552.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-evaluating-antiderivatives">
+      <title>Problem 5</title>
+      <p>
+        Evaluate the following integrals. Additional practice may be assigned as exercises.
+      </p>
+      <ol marker="i)">
+        <li workspace="1in">
+          <p><m>\displaystyle \int (4x^2 + 2)\,dx</m></p>
+        </li>
+        <li>
+          <p>
+            Find <m>\displaystyle \int (3 e^\pi + e x + \pi^x)\,dx</m>. Choose one of the following options:
+          </p>
+          <p><strong>Option 1:</strong> <m>\displaystyle 3e^\pi\,x + e\,\frac{x^2}{2} + \frac{\pi^x}{\ln(\pi)}</m></p>
+          <p><strong>Option 2:</strong> <m>\displaystyle 3e^\pi\,x + e\,\frac{x^2}{2} + \frac{\pi^x}{\ln(\pi)} + C</m></p>
+          <p><strong>Option 3:</strong> <m>\displaystyle 3e^\pi\,x + e\,\frac{x^2}{2} + \pi^x + C</m></p>
+          <p><strong>Option 4:</strong> <m>\displaystyle 3e^\pi + e\,x^2 + \pi^x\,\ln(\pi) + C</m></p>
+        </li>
+      </ol>
+
+      <p>
+        <term>Additional practice:</term>
+      </p>
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <p workspace="1in"><strong>a)</strong> <m>\displaystyle \int u\sqrt{u}\,du</m></p>
+          <p workspace="1in"><strong>c)</strong> <m>\displaystyle \int \frac{5}{7x}\,dx</m></p>
+          <p workspace="1in"><strong>e)</strong> <m>\displaystyle \int \left(\cos(6t) + \frac{3}{1+4t^2}\right)\,dt</m></p>
+        </stack>
+        <stack>
+          <p workspace="1in"><strong>b)</strong> <m>\displaystyle \int (3e^u - e^{6u} + 5)\,du</m></p>
+          <p workspace="1in"><strong>d)</strong> <m>\displaystyle \int (\pi + x)\sqrt{x}\,dx</m></p>
+          <p workspace="1in"><strong>f)</strong> <m>\displaystyle \int \left(\frac{e}{t^2} + 2^t \cdot 3^t\right)\,dt</m></p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+  </page>
+</handout>

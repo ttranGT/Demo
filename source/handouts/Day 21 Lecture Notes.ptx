@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-21-notes">
+  <title>Day 21: Curve Sketching (Part II)</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We revisited concavity to study inflection points and reviewed how to extract important features of graphs from first and second derivatives.
+    </p>
+    <p>
+      <term>Today:</term> We will also pick up another tool that can be really helpful when it applies: the idea of <em>symmetry</em>.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="p-symmetry-definition">
+      <title>Definition: Symmetry</title>
+      <p>
+        A mathematical object has a <strong>symmetry</strong> if it remains <fillin characters="14"/> after undergoing a transformation, such as a reflection or a rotation. For example,
+      </p>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image>
+            <shortdescription>
+              Symmetric isosceles triangle centered on a vertical axis of reflection, illustrating that reflecting across the axis maps the triangle directly back onto itself.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.2]
+                \coordinate (A) at (-1.2,0);
+                \coordinate (B) at (1.2,0);
+                \coordinate (C) at (0,2.1);
+                \draw[thick, fill=blue!15] (A) -- (B) -- (C) -- cycle;
+                \draw[dashed, red!80!black, thick] (0,-0.3) -- (0,2.5) node[above] {\small Axis of Reflection};
+                \draw[&lt;-&gt;, &gt;=stealth, blue!80!black, thick] (-0.6,0.7) -- (0.6,0.7);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p>
+            <em>Figure 1: Reflecting across the axis maps the object directly back onto itself.</em>
+          </p>
+        </stack>
+
+        <stack>
+          <image>
+            <shortdescription>
+              Asymmetric triangle to the left of a vertical axis of reflection mapped to a dashed mirror-image triangle on the right, showing a distinct object in a different position.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.2]
+                \coordinate (A) at (-1.4,0.3);
+                \coordinate (B) at (-0.2,0);
+                \coordinate (C) at (-0.8,1.9);
+                \coordinate (A') at (1.4,0.3);
+                \coordinate (B') at (0.2,0);
+                \coordinate (C') at (0.8,1.9);
+                \draw[thick, fill=orange!25] (A) -- (B) -- (C) -- cycle;
+                \draw[thick, dashed, orange!80!black, fill=orange!5] (A') -- (B') -- (C') -- cycle;
+                \draw[dashed, red!80!black, thick] (0,-0.3) -- (0,2.5) node[above] {\small Axis of Reflection};
+                \draw[-&gt;, &gt;=stealth, gray!70, semithick] (A) -- (A');
+                \draw[-&gt;, &gt;=stealth, gray!70, semithick] (C) -- (C');
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p>
+            <em>Figure 2: Reflecting across the axis creates a distinct object in a different position.</em>
+          </p>
+        </stack>
+      </sidebyside>
+
+      <p>
+        Applying these geometric ideas to functions, there are two primary symmetries a function's graph can have:
+      </p>
+      <ul>
+        <li>
+          <p>
+            An <strong>even function</strong> <m>f(x)</m> satisfies the algebraic condition <m>f(-x) =</m> <fillin characters="10"/>. Graphically, its graph is unchanged under reflection across <fillin characters="14"/>. That is, it is symmetric about <fillin characters="14"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+            An <strong>odd function</strong> <m>f(x)</m> satisfies the algebraic condition <m>f(-x) =</m> <fillin characters="10"/>. Graphically, its graph is unchanged after a <m>180^\circ</m> rotation about <fillin characters="14"/>. That is, it is symmetric about <fillin characters="12"/>.
+          </p>
+        </li>
+      </ul>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image>
+            <shortdescription>
+              Graph of y = x^2 showing symmetric points (-x, y) and (x, y) reflected across the y-axis.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.1]
+                \draw[-&gt;, &gt;=stealth, thick] (-2.2,0) -- (2.2,0) node[right] {$x$};
+                \draw[-&gt;, &gt;=stealth, thick] (0,-0.4) -- (0,2.5) node[above] {$y$};
+                \node[below left] at (0,0) {$0$};
+                \draw[cyan!80!black, ultra thick, domain=-1.45:1.45, samples=100] plot (\x, {\x*\x});
+                \node[above right] at (1, 2.2) {$y = x^2$};
+                \coordinate (P1) at (-1.1, 1.21);
+                \coordinate (P2) at (1.1, 1.21);
+                \draw[&lt;-&gt;, &gt;=stealth, red!80!black, thick] (P1) -- (P2);
+                \fill[cyan!80!black] (P1) circle (2pt) node[left=2pt, black] {$(-x, y)$};
+                \fill[cyan!80!black] (P2) circle (2pt) node[right=2pt, black] {$(x, y)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p><strong><fillin characters="6"/> Function:</strong></p>
+          <p>Geometrically: Symmetric about <fillin characters="10"/>.</p>
+          <p>Algebraically: Satisfies <m>f(-x) =</m> <fillin characters="6"/>. Indeed, <fillin characters="24"/>.</p>
+        </stack>
+
+        <stack>
+          <image>
+            <shortdescription>
+              Graph of y = x^3 showing symmetric points (-x, -y) and (x, y) rotated 180 degrees about the origin.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.1]
+                \draw[-&gt;, &gt;=stealth, thick] (-2.0,0) -- (2.0,0) node[right] {$x$};
+                \draw[-&gt;, &gt;=stealth, thick] (0,-2.0) -- (0,2.0) node[above] {$y$};
+                \node[below right] at (0,0) {$0$};
+                \draw[cyan!80!black, ultra thick, domain=-1.22:1.22, samples=100] plot (\x, {\x*\x*\x});
+                \node[above left] at (2, 2) {$y = x^3$};
+                \coordinate (P1) at (-1.05, -1.157);
+                \coordinate (P2) at (1.05, 1.157);
+                \draw[&lt;-&gt;, &gt;=stealth, red!80!black, thick] (P1) -- (P2);
+                \fill[cyan!80!black] (P1) circle (2pt) node[left=2pt, black] {$(-x, -y)$};
+                \fill[cyan!80!black] (P2) circle (2pt) node[right=2pt, black] {$(x, y)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p><strong><fillin characters="6"/> Function:</strong></p>
+          <p>Geometrically: Symmetric about <fillin characters="10"/>.</p>
+          <p>Algebraically: Satisfies <m>f(-x) =</m> <fillin characters="6"/>. Indeed, <fillin characters="24"/>.</p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="p-why-symmetry-helpful">
+      <title>Why Is Symmetry Helpful in Curve Sketching?</title>
+      <p>
+        Identifying whether a function is even or odd streamlines the entire curve sketching process:
+      </p>
+      <ul>
+        <li>
+          <p>
+            <strong>Cuts the work in half:</strong> You can just sketch the left or right half of the graph and then reflect it across the <m>y</m>-axis (even) or rotate it <m>180^\circ</m> about the origin (odd) to complete the curve.
+          </p>
+        </li>
+      </ul>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image>
+            <shortdescription>
+              Graph of y = x^2 with a solid curve for x greater than or equal to 0 and a dashed reflected curve for x less than 0.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.1]
+                \draw[-&gt;, &gt;=stealth, thick] (-2.2,0) -- (2.2,0) node[right] {$x$};
+                \draw[-&gt;, &gt;=stealth, thick] (0,-0.4) -- (0,2.5) node[above] {$y$};
+                \node[below left] at (0,0) {$0$};
+                \draw[cyan!80!black, ultra thick, dashed, domain=-1.45:0, samples=50] plot (\x, {\x*\x});
+                \draw[cyan!80!black, ultra thick, domain=0:1.45, samples=50] plot (\x, {\x*\x});
+                \node[above right] at (1, 2.2) {$y = x^2$};
+                \coordinate (P1) at (-1.1, 1.21);
+                \coordinate (P2) at (1.1, 1.21);
+                \draw[&lt;-&gt;, &gt;=stealth, red!80!black, thick] (P1) -- (P2);
+                \fill[cyan!80!black] (P1) circle (2pt) node[left=2pt, black] {$(-x, y)$};
+                \fill[cyan!80!black] (P2) circle (2pt) node[right=2pt, black] {$(x, y)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p><strong>Even Function</strong></p>
+        </stack>
+
+        <stack>
+          <image>
+            <shortdescription>
+              Graph of y = x^3 with a solid curve for x greater than or equal to 0 and a dashed rotated curve for x less than 0.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=1.1]
+                \draw[-&gt;, &gt;=stealth, thick] (-2.0,0) -- (2.0,0) node[right] {$x$};
+                \draw[-&gt;, &gt;=stealth, thick] (0,-2.0) -- (0,2.0) node[above] {$y$};
+                \node[below right] at (0,0) {$0$};
+                \draw[cyan!80!black, ultra thick, dashed, domain=-1.22:0, samples=50] plot (\x, {\x*\x*\x});
+                \draw[cyan!80!black, ultra thick, domain=0:1.22, samples=50] plot (\x, {\x*\x*\x});
+                \node[above left] at (2, 2) {$y = x^3$};
+                \coordinate (P1) at (-1.05, -1.157);
+                \coordinate (P2) at (1.05, 1.157);
+                \draw[&lt;-&gt;, &gt;=stealth, red!80!black, thick] (P1) -- (P2);
+                \fill[cyan!80!black] (P1) circle (2pt) node[left=2pt, black] {$(-x, -y)$};
+                \fill[cyan!80!black] (P2) circle (2pt) node[right=2pt, black] {$(x, y)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p><strong>Odd Function</strong></p>
+        </stack>
+      </sidebyside>
+
+      <p>
+        <term>Domain and Symmetry:</term>
+      </p>
+      <ul>
+        <li><p>A function's domain is <em><fillin characters="14"/> about <m>0</m></em> if <m>-x</m> is in the domain whenever <m>x</m> is.</p></li>
+        <li><p>If the domain is <em>not</em> symmetric about <m>0</m> (e.g., <m>[0, \infty)</m> or <m>x \neq 2</m>), the function is <fillin characters="10"/>.</p></li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-symmetry-sketch-intro">
+      <title>Problem 1</title>
+      <p>
+        We'd like to get an accurate graph of <m>\displaystyle f(x) = \frac{x^2 - 3}{x^3}</m>. Use the steps below to analyze and sketch its graph.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>What is the domain of <m>f(x)</m>? <fillin characters="18"/></p>
+        </li>
+        <li workspace="0.8in">
+          <p>Does <m>f(x)</m> have any useful symmetry?</p>
+        </li>
+        <li>
+          <p>Now analyze the function on <fillin characters="12"/> and sketch that half of the graph, and then use symmetry to complete the rest.</p>
+        </li>
+      </ol>
+      <p>
+        Before completing part c), let's recap the procedure for sketching <m>y = f(x)</m>:
+      </p>
+      <p><strong>Step 1:</strong> Identify the domain of <m>f</m> and any symmetries the curve may have.</p>
+      <p><strong>Step 2:</strong> Use <m>f'</m> to find critical points, where <m>f</m> increases or decreases, and local extrema.</p>
+      <p><strong>Step 3:</strong> Use <m>f''</m> to find inflection points and where <m>f</m> is concave up or down.</p>
+      <p><strong>Step 4:</strong> Identify any asymptotes and <m>x</m>- and <m>y</m>-intercepts.</p>
+      <p><strong>Step 5:</strong> Sketch the curve (using symmetry from Step 1 if applicable).</p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-symmetry-sketch-cont">
+      <title>Problem 1c (cont.)</title>
+      <p>
+        We'd like to get an accurate graph of <m>\displaystyle f(x) = \frac{x^2 - 3}{x^3}</m>.
+      </p>
+      <p>
+        <strong>c)</strong> Now analyze the function on <em><m>(0, \infty)</m></em> and sketch that half of the graph, and then use symmetry to complete the rest.
+      </p>
+      <p workspace="1.8in">
+        <strong>Step 2:</strong> Use <m>f'</m> to find critical points, where <m>f</m> increases or decreases, and local extrema.
+      </p>
+      <p workspace="1.8in">
+        <strong>Step 3:</strong> Use <m>f''</m> to find inflection points and where <m>f</m> is concave up or down.
+      </p>
+      <p workspace="1.5in">
+        <strong>Step 4:</strong> Identify any asymptotes and <m>x</m>- and <m>y</m>-intercepts.
+      </p>
+      <p>
+        <strong>Step 5:</strong> Sketch the curve on the next page (using symmetry from Step 1 if applicable).
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-symmetry-sketch-canvas">
+      <title>Problem 1c (Sketching Grid &amp; Multiple Choice)</title>
+      <p>
+        Recall the previous results on <m>(0, \infty)</m>:
+      </p>
+      <ul>
+        <li>
+          <p>
+            <em>Shape:</em> Increasing on <m>(0, 3)</m>, decreasing on <m>(3, \infty)</m> (local max at <m>x = 3</m>); concave down on <m>(0, \sqrt{18})</m>, concave up on <m>(\sqrt{18}, \infty)</m> (inflection point at <m>x = \sqrt{18}</m>).
+          </p>
+        </li>
+        <li>
+          <p>
+            <em>Asymptotes &amp; Intercepts:</em> Vertical at <m>x = 0</m>, horizontal at <m>y = 0</m>; <m>x</m>-intercept at <m>x = \sqrt{3}</m>, no <m>y</m>-intercept.
+          </p>
+        </li>
+      </ul>
+
+      <sidebyside width="85%">
+        <image>
+          <shortdescription>
+            Coordinate grid from x = -7.6 to 7.6 and y = -0.45 to 0.48 with plotted dots at the local maximum (3, 2/9) and inflection point (sqrt(18), 5*sqrt(2)/36).
+          </shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[xscale=0.8, yscale=4]
+              \draw[-&gt;, gray!80] (-7.6,0) -- (7.6,0) node[right, black] {\small $x$};
+              \draw[-&gt;, gray!80] (0,-0.45) -- (0,0.48) node[above, black] {\small $y$};
+              \foreach \x in {-7,-5,-4,-2,-1,1,2,4,5,7} \draw[gray!60] (\x,0.015) -- (\x,-0.015);
+              \foreach \x in {-6,-3,3,6} \draw[gray] (\x,0.025) -- (\x,-0.025) node[below, black] {\scriptsize $\x$};
+              \foreach \y in {-0.2,0.2} \draw[gray] (0.12,\y) -- (-0.12,\y) node[left, black] {\scriptsize $\y$};
+              \node at (3,{2/9}) {$\bullet$};
+              \node at ({sqrt(18)},{5*sqrt(2)/36}) {$\bullet$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+
+      <p>
+        <strong>Step 5:</strong> Sketch the curve (using symmetry from Step 1 if applicable). Circle the correct graph below:
+      </p>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <image>
+          <shortdescription>Graph option (A) showing an odd curve reflected across the x-axis with a local minimum at x = 3 and local maximum at x = -3.</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[xscale=0.48, yscale=3.0]
+              \node[anchor=north west, inner sep=1pt] at (-7.7, 0.54) {\textbf{(A)}};
+              \draw[-&gt;, gray!60] (-7.8,0) -- (7.8,0) node[right, black] {\small $x$};
+              \draw[-&gt;, gray!60] (0,-0.48) -- (0,0.52) node[above, black] {\small $y$};
+              \draw[dashed, red!75!black, thick] (-7.5,0) -- (7.5,0);
+              \draw[dashed, red!75!black, thick] (0,-0.46) -- (0,0.46);
+              \foreach \x in {-6,-3,3,6} \draw[gray] (\x,0.03) -- (\x,-0.03) node[below, black] {\scriptsize $\x$};
+              \draw[thick, blue, domain=1.38:7.5, samples=100] plot (\x, {-(\x*\x - 3)/(\x*\x*\x)});
+              \draw[thick, blue, domain=-7.5:-1.38, samples=100] plot (\x, {-(\x*\x - 3)/(\x*\x*\x)});
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+
+        <image>
+          <shortdescription>Graph option (B) showing an even curve symmetric across the y-axis with local maxima at x = -3 and x = 3.</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[xscale=0.48, yscale=3.0]
+              \node[anchor=north west, inner sep=1pt] at (-7.7, 0.54) {\textbf{(B)}};
+              \draw[-&gt;, gray!60] (-7.8,0) -- (7.8,0) node[right, black] {\small $x$};
+              \draw[-&gt;, gray!60] (0,-0.48) -- (0,0.52) node[above, black] {\small $y$};
+              \draw[dashed, red!75!black, thick] (-7.5,0) -- (7.5,0);
+              \draw[dashed, red!75!black, thick] (0,-0.46) -- (0,0.46);
+              \foreach \x in {-6,-3,3,6} \draw[gray] (\x,0.03) -- (\x,-0.03) node[below, black] {\scriptsize $\x$};
+              \draw[thick, blue, domain=1.38:7.5, samples=100] plot (\x, {(\x*\x - 3)/(\x*\x*\x)});
+              \draw[thick, blue, domain=-7.5:-1.38, samples=100] plot (\x, {(\x*\x - 3)/(-(\x*\x*\x))});
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <image>
+          <shortdescription>Graph option (C) showing a continuous odd curve passing through the origin with no vertical asymptote.</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[xscale=0.48, yscale=3.0]
+              \node[anchor=north west, inner sep=1pt] at (-7.7, 0.54) {\textbf{(C)}};
+              \draw[-&gt;, gray!60] (-7.8,0) -- (7.8,0) node[right, black] {\small $x$};
+              \draw[-&gt;, gray!60] (0,-0.48) -- (0,0.52) node[above, black] {\small $y$};
+              \draw[dashed, red!75!black, thick] (-7.5,0) -- (7.5,0);
+              \foreach \x in {-6,-3,3,6} \draw[gray] (\x,0.03) -- (\x,-0.03) node[below, black] {\scriptsize $\x$};
+              \draw[thick, blue, domain=-7.5:7.5, samples=140] plot (\x, {\x*(\x*\x - 3)/(\x*\x*\x*\x + 9)});
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+
+        <image>
+          <shortdescription>Graph option (D) showing the odd function f(x) = (x^2 - 3)/x^3 with vertical asymptote x = 0, horizontal asymptote y = 0, x-intercepts at plus/minus sqrt(3), local max at x = 3, and local min at x = -3.</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[xscale=0.48, yscale=3.0]
+              \node[anchor=north west, inner sep=1pt] at (-7.7, 0.54) {\textbf{(D)}};
+              \draw[-&gt;, gray!60] (-7.8,0) -- (7.8,0) node[right, black] {\small $x$};
+              \draw[-&gt;, gray!60] (0,-0.48) -- (0,0.52) node[above, black] {\small $y$};
+              \draw[dashed, red!75!black, thick] (-7.5,0) -- (7.5,0);
+              \draw[dashed, red!75!black, thick] (0,-0.46) -- (0,0.46);
+              \foreach \x in {-6,-3,3,6} \draw[gray] (\x,0.03) -- (\x,-0.03) node[below, black] {\scriptsize $\x$};
+              \draw[thick, blue, domain=1.38:7.5, samples=100] plot (\x, {(\x*\x - 3)/(\x*\x*\x)});
+              \draw[thick, blue, domain=-7.5:-1.38, samples=100] plot (\x, {(\x*\x - 3)/(\x*\x*\x)});
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <image>
+          <shortdescription>Graph option (E) showing an even curve symmetric across the y-axis with local minima at x = -3 and x = 3.</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[xscale=0.48, yscale=3.0]
+              \node[anchor=north west, inner sep=1pt] at (-7.7, 0.54) {\textbf{(E)}};
+              \draw[-&gt;, gray!60] (-7.8,0) -- (7.8,0) node[right, black] {\small $x$};
+              \draw[-&gt;, gray!60] (0,-0.48) -- (0,0.52) node[above, black] {\small $y$};
+              \draw[dashed, red!75!black, thick] (-7.5,0) -- (7.5,0);
+              \draw[dashed, red!75!black, thick] (0,-0.46) -- (0,0.46);
+              \foreach \x in {-6,-3,3,6} \draw[gray] (\x,0.03) -- (\x,-0.03) node[below, black] {\scriptsize $\x$};
+              \draw[thick, blue, domain=1.38:7.5, samples=100] plot (\x, {-(\x*\x - 3)/(\x*\x*\x)});
+              \draw[thick, blue, domain=-7.5:-1.38, samples=100] plot (\x, {-(\x*\x - 3)/(-(\x*\x*\x))});
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+
+        <image>
+          <shortdescription>Graph option (F) showing a curve with a slant asymptote instead of a horizontal asymptote.</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[xscale=0.48, yscale=3.0]
+              \node[anchor=north west, inner sep=1pt] at (-7.7, 0.54) {\textbf{(F)}};
+              \draw[-&gt;, gray!60] (-7.8,0) -- (7.8,0) node[right, black] {\small $x$};
+              \draw[-&gt;, gray!60] (0,-0.48) -- (0,0.52) node[above, black] {\small $y$};
+              \draw[dashed, red!75!black, thick] (0,-0.46) -- (0,0.46);
+              \foreach \x in {-6,-3,3,6} \draw[gray] (\x,0.03) -- (\x,-0.03) node[below, black] {\scriptsize $\x$};
+              \draw[thick, blue, domain=1.24:7.5, samples=100] plot (\x, {1.658 - 0.2393*\x - 2.154/\x});
+              \draw[thick, blue, domain=-7.5:-1.24, samples=100] plot (\x, {-1.658 - 0.2393*\x - 2.154/\x});
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-even-derivative-is-odd">
+      <title>Problem 2</title>
+      <p workspace="1.5in">
+        Suppose <m>f(x)</m> is an even, differentiable function for all real numbers. Show that its derivative <m>f'(x)</m> is an odd function.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-even-odd-classification">
+      <title>Problem 3 (Exercise)</title>
+      <p>
+        For each function below:
+      </p>
+      <ol marker="(i)">
+        <li>
+          <p>Determine algebraically whether the function is <strong>even</strong>, <strong>odd</strong>, or <strong>neither</strong> by evaluating <m>f(-x)</m>.</p>
+        </li>
+        <li>
+          <p>Confirm your answer by using a Desmos demonstration by plotting <m>y = f(x)</m>, <m>y = -f(x)</m>, and <m>y = f(-x)</m>:</p>
+          <ul>
+            <li><p>If <m>f(-x)</m> overlaps <m>f(x)</m>, the function is <strong>even</strong>.</p></li>
+            <li><p>If <m>f(-x)</m> overlaps <m>-f(x)</m>, the function is <strong>odd</strong>.</p></li>
+            <li><p>If <m>f(-x)</m> overlaps neither curve, the function is <strong>neither</strong>.</p></li>
+          </ul>
+        </li>
+      </ol>
+
+      <p><strong>Part I: Foundational Parent Functions</strong></p>
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <p workspace="0.3in"><strong>a)</strong> <m>f(x) = x^2</m></p>
+          <p workspace="0.3in"><strong>b)</strong> <m>f(x) = x^3</m></p>
+          <p workspace="0.3in"><strong>c)</strong> <m>f(x) = |x|</m></p>
+          <p workspace="0.3in"><strong>d)</strong> <m>f(x) = \sqrt[3]{x}</m></p>
+        </stack>
+        <stack>
+          <p workspace="0.3in"><strong>e)</strong> <m>f(x) = \sin(x)</m></p>
+          <p workspace="0.3in"><strong>f)</strong> <m>f(x) = \cos(x)</m></p>
+          <p workspace="0.3in"><strong>g)</strong> <m>f(x) = e^x</m></p>
+          <p workspace="0.3in"><strong>h)</strong> <m>f(x) = \ln(x)</m></p>
+        </stack>
+      </sidebyside>
+
+      <p><strong>Part II: Algebraic Combinations</strong></p>
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <p workspace="0.35in"><strong>i)</strong> <m>f(x) = x^2 - 1</m></p>
+          <p workspace="0.35in"><strong>j)</strong> <m>f(x) = 3x^3 - 3x</m></p>
+          <p workspace="0.35in"><strong>k)</strong> <m>f(x) = x^4 + x^5</m></p>
+          <p workspace="0.35in"><strong>l)</strong> <m>f(x) = x|x|</m></p>
+          <p workspace="0.35in"><strong>m)</strong> <m>f(x) = x^{2/3}</m></p>
+          <p workspace="0.35in"><strong>n)</strong> <m>f(x) = e^x + e^{-x}</m></p>
+          <p workspace="0.35in"><strong>o)</strong> <m>f(x) = \ln(x^2 + 1)</m></p>
+        </stack>
+        <stack>
+          <p workspace="0.35in"><strong>p)</strong> <m>\displaystyle f(x) = \ln\left(\frac{1+x}{1-x}\right)</m></p>
+          <p workspace="0.35in"><strong>q)</strong> <m>f(x) = \tan(x)</m></p>
+          <p workspace="0.35in"><strong>r)</strong> <m>f(x) = \sin(x) + 1</m></p>
+          <p workspace="0.35in"><strong>s)</strong> <m>f(x) = x^2 \sin(x)</m></p>
+          <p workspace="0.35in"><strong>t)</strong> <m>\displaystyle f(x) = \frac{2\sqrt[5]{x}}{\cos(x)}</m></p>
+          <p workspace="0.35in"><strong>u)</strong> <m>\displaystyle f(x) = \frac{\cos(x) + \pi}{x^{2/3} + x^6}</m></p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+  </page>
+</handout>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-22-notes">
+  <title>Days 22 &amp; 23a: Section 4.2: Rolle's Theorem and Mean Value Theorem</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We studied curve sketching by extracting key features of graphs from first and second derivatives, along with the idea of symmetry.
+    </p>
+    <p>
+      <term>Today:</term> We explore our final applications of derivatives: Rolle's Theorem and the Mean Value Theorem.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="p-secant-tangent-recap">
+      <title>Secant Lines, Tangent Lines, and Rates of Change</title>
+      <p>
+        We have worked with secant lines and tangent lines multiple times in different contexts. Recall how they connect to rates of change by filling in the blanks below:
+      </p>
+
+      <sidebyside widths="54% 42%" margins="1% 1%" valign="top">
+        <ol marker="i)">
+          <li>
+            <p>The <fillin characters="10"/> of the secant line is the <fillin characters="14"/> rate of change.</p>
+          </li>
+          <li>
+            <p>The <fillin characters="10"/> of the tangent line is the <fillin characters="16"/> rate of change.</p>
+          </li>
+          <li>
+            <p>The <fillin characters="10"/> of the average rate of change is the instantaneous rate of change.</p>
+          </li>
+        </ol>
+
+        <image source="pictures/sec42pic4.png">
+          <shortdescription>
+            Graph showing a curve y = f(x) with a secant line connecting two points and a tangent line at a single point, illustrating average versus instantaneous rate of change.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <p>
+        Today we want to see how secant and tangent lines relate to each other on the graph of a continuous and differentiable function. Let's start with a simple case and suppose <m>f(x)</m> is a function defined on <m>[a, b]</m> satisfying the following:
+      </p>
+      <p><strong>Condition 1:</strong> <m>f</m> is <fillin characters="18"/> on the closed interval <m>[a, b]</m>,</p>
+      <p><strong>Condition 2:</strong> <m>f</m> is <fillin characters="18"/> on the open interval <m>(a, b)</m>, and</p>
+      <p><strong>Condition 3:</strong> <m>f(a) =</m> <fillin characters="8"/>.</p>
+
+      <sidebyside widths="48% 48%" margins="1% 1%" valign="top">
+        <stack>
+          <p>Here's a sketch of our coordinate plane, with a function that satisfies all these three properties.</p>
+          <image source="pictures/Rolle's Theorem.png">
+            <shortdescription>
+              Graph of a continuous and differentiable curve on [a, b] with f(a) = f(b) and a horizontal tangent line at an interior point c in (a, b).
+            </shortdescription>
+          </image>
+        </stack>
+
+        <stack>
+          <p><strong>Questions:</strong></p>
+          <ol marker="i)">
+            <li>
+              <p>Is the secant line through the endpoints <m>\bigl(a, f(a)\bigr)</m> and <m>\bigl(b, f(b)\bigr)</m> horizontal? <fillin characters="6"/></p>
+            </li>
+            <li>
+              <p>Is it possible to draw a horizontal tangent line at some number <m>c</m> in <m>(a, b)</m>? <fillin characters="6"/></p>
+            </li>
+            <li>
+              <p><em>Conclusion:</em> Given the three conditions, there is <fillin characters="10"/> one number <m>c</m> in <m>(a, b)</m> where the slope of the tangent line is <fillin characters="8"/>.</p>
+            </li>
+          </ol>
+        </stack>
+      </sidebyside>
+
+      <p>
+        This visual observation holds for the graph of any continuous and differentiable function whose endpoints are at the same height. We formalize this guarantee below:
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="thm-rolles-theorem">
+      <title>Rolle's Theorem</title>
+      <p>
+        <term>Rolle's Theorem:</term> Suppose <m>f(x)</m> is
+      </p>
+      <p><strong>Condition 1:</strong> a <fillin characters="18"/> function on <m>[a, b]</m>,</p>
+      <p><strong>Condition 2:</strong> <fillin characters="18"/> over <m>(a, b)</m>, and</p>
+      <p><strong>Condition 3:</strong> <m>f(a) =</m> <fillin characters="10"/>.</p>
+      <p>
+        Then there is <fillin characters="14"/> one value <m>c</m> in <m>(a, b)</m> at which <m>f'(c) =</m> <fillin characters="6"/>.
+      </p>
+      <p>
+        Geometrically, under these three conditions, there must be at least one point on the graph between <m>x = a</m> and <m>x = b</m> where <fillin characters="34"/> is equal to <fillin characters="6"/>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-unique-root-rolles">
+      <title>Application: Proving a Unique Root (Problem 1)</title>
+      <p>
+        One classic use of Rolle's Theorem is proving that an equation has <strong>exactly</strong> one solution on an interval. To prove this, we split the job between two theorems:
+      </p>
+      <p>
+        <strong>Step 1:</strong> <em>Existence (at least one):</em> Use the <em>Intermediate Value Theorem</em> to show the equation has a solution.
+      </p>
+      <p>
+        <strong>Step 2:</strong> <em>Uniqueness (at most one):</em> Use <em>Rolle's Theorem</em> to show the equation cannot have two solutions.
+      </p>
+      <p>
+        <term>Problem 1:</term> Show that the equation <m>x^3 + x - 2 = 0</m> has <strong>exactly</strong> one solution on <m>[0, 2]</m>.
+      </p>
+      <p>
+        <strong>Step 1:</strong> <em>Existence (at least one solution):</em> Let <m>f(x) = x^3 + x - 2</m>. Explain why the Intermediate Value Theorem applies to <m>f(x)</m> on <m>[0, 2]</m>, and use it to show that <m>f(x) = 0</m> has at least one solution in this interval. Fill in the blanks.
+      </p>
+      <p>
+        Since <m>f(x)</m> is a <fillin characters="18"/>, it is continuous everywhere, so the Intermediate Value Theorem applies on <m>[0, 2]</m>. Also, <m>f(0) =</m> <fillin characters="6"/> <m>\lt</m> <fillin characters="6"/> <m>\lt f(2) =</m> <fillin characters="6"/>. Therefore, the theorem guarantees that <m>f(x) =</m> <fillin characters="6"/> has <fillin characters="14"/> <fillin characters="18"/> on <m>[0, 2]</m>.
+      </p>
+      <p>
+        <strong>Step 2:</strong> <em>Uniqueness (at most one solution):</em> Suppose, by contradiction, that <m>f(x) = 0</m> has <em>two</em> distinct solutions <m>a</m> and <m>b</m> in <m>[0, 2]</m>, with <m>a \lt b</m>.
+      </p>
+      <ol marker="i)">
+        <li workspace="0.4in">
+          <p>Since <m>a</m> and <m>b</m> are solutions of <m>f(x) = 0</m>, what are the values of <m>f(a)</m> and <m>f(b)</m>?</p>
+        </li>
+        <li workspace="0.5in">
+          <p>Since <m>f(x)</m> is a <fillin characters="14"/>, it is continuous on <m>[a, b]</m> and differentiable on <m>(a, b)</m>. Combining this with part (i), what does Rolle's Theorem guarantee about <m>f'(x)</m>?</p>
+        </li>
+        <li workspace="0.9in">
+          <p><em>Finding the contradiction:</em> Compute <m>f'(x)</m>. Based on your formula for <m>f'(x)</m>, is the guarantee from part (ii) actually possible? Explain why or why not.</p>
+        </li>
+        <li>
+          <p>
+            <em>Conclusion:</em> Since part (iii) gave us a <fillin characters="18"/>, our initial assumption in part (ii) must be <fillin characters="8"/><mdash/>meaning <m>f(x) = 0</m> cannot have <fillin characters="8"/> solutions. Combining this with Step 1, which showed <m>f(x) = 0</m> has at least one solution on <m>[0, 2]</m>, we conclude that the solution is <fillin characters="10"/> (there is <fillin characters="12"/> one solution on <m>[0, 2]</m>).
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="p-rolles-hypothesis-fails">
+      <title>Quick Check: What Happens When a Hypothesis Fails?</title>
+      <p>
+        Rolle's Theorem only <em>guarantees</em> a number <m>c</m> in <m>(a, b)</m> where <m>f'(c) = 0</m> when all three conditions hold. If even one condition fails, that guarantee disappears<mdash/><em>meaning there might be no such <m>c</m>, or one might still exist anyway</em>!
+      </p>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image>
+            <shortdescription>V-shaped absolute value graph from (-1, 1) to (0, 0) to (1, 1) with a sharp corner at x = 0.</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[-&gt;] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[-&gt;] (0,-0.3) -- (0,1.5) node[above] {$y$};
+                \draw[thick, blue] (-1,1) -- (0,0) -- (1,1);
+                \filldraw[blue] (-1,1) circle (1.5pt) node[left] {$(-1,1)$};
+                \filldraw[blue] (1,1) circle (1.5pt) node[right] {$(1,1)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <ul>
+            <li><p>Condition <fillin characters="4"/> fails: Not differentiable on <m>(-1, 1)</m>.</p></li>
+            <li><p>Does <m>f'(c) = 0</m> hold anywhere in <m>(-1, 1)</m>? <fillin characters="6"/></p></li>
+          </ul>
+        </stack>
+
+        <stack>
+          <image>
+            <shortdescription>Piecewise parabolic curve from (-1, 1) to (1, 1) with corners at x = -0.5 and x = 0.5 and a smooth local maximum with horizontal tangent at x = 0.</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[-&gt;] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[-&gt;] (0,-0.3) -- (0,1.5) node[above] {$y$};
+                \draw[thick, blue, domain=-1:-0.5, samples=30] plot (\x, {\x*\x});
+                \draw[thick, blue, domain=-0.5:0.5, samples=40] plot (\x, {0.5 - \x*\x});
+                \draw[thick, blue, domain=0.5:1, samples=30] plot (\x, {\x*\x});
+                \filldraw[blue] (-1,1) circle (1.5pt) node[left] {$(-1,1)$};
+                \filldraw[blue] (1,1) circle (1.5pt) node[right] {$(1,1)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <ul>
+            <li><p>Condition <fillin characters="4"/> fails: Not differentiable on <m>(-1, 1)</m>.</p></li>
+            <li><p>Does <m>f'(c) = 0</m> hold anywhere in <m>(-1, 1)</m>? <fillin characters="6"/></p></li>
+          </ul>
+        </stack>
+      </sidebyside>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image>
+            <shortdescription>Straight increasing line segment from (-1, 0.3) to an open circle at (1, 1.3) with a filled endpoint dot at (1, 0.3), showing a jump discontinuity at x = 1.</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[-&gt;] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[-&gt;] (0,-0.3) -- (0,1.5) node[above] {$y$};
+                \draw[thick, blue] (-1,0.3) -- (1,1.3);
+                \filldraw[blue] (-1,0.3) circle (1.5pt) node[left] {$(-1,0)$};
+                \draw[thick, blue, fill=white] (1,1.3) circle (1.5pt);
+                \filldraw[blue] (1,0.3) circle (1.5pt) node[right] {$(1,0)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <ul>
+            <li><p>Condition <fillin characters="4"/> fails: Not continuous on <m>[-1, 1]</m>.</p></li>
+            <li><p>Does <m>f'(c) = 0</m> hold anywhere in <m>(-1, 1)</m>? <fillin characters="6"/></p></li>
+          </ul>
+        </stack>
+
+        <stack>
+          <image>
+            <shortdescription>Parabolic curve from (-1, 1) dipping smoothly to a horizontal tangent at (0, 0.3) and rising to an open circle at (1, 1.6) with a filled endpoint dot at (1, 1).</shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[-&gt;] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[-&gt;] (0,-0.3) -- (0,1.8) node[above] {$y$};
+                \draw[thick, blue, domain=-1:0, samples=30] plot (\x, {0.3 + 0.7*\x*\x});
+                \draw[thick, blue, domain=0:1, samples=30] plot (\x, {0.3 + 1.3*\x*\x});
+                \filldraw[blue] (-1,1) circle (1.5pt) node[left] {$(-1,1)$};
+                \draw[thick, blue, fill=white] (1,1.6) circle (1.5pt);
+                \filldraw[blue] (1,1) circle (1.5pt) node[right] {$(1,1)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <ul>
+            <li><p>Condition <fillin characters="4"/> fails: Not continuous on <m>[-1, 1]</m>.</p></li>
+            <li><p>Does <m>f'(c) = 0</m> hold anywhere in <m>(-1, 1)</m>? <fillin characters="6"/></p></li>
+          </ul>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="thm-mean-value-theorem">
+      <title>From Rolle's Theorem to the Mean Value Theorem</title>
+      <p>
+        Notice that in Rolle's theorem, the conditions that <m>f</m> is continuous and differentiable are important in forcing the function to behave the way we want it to.
+      </p>
+
+      <sidebyside widths="52% 44%" margins="1% 1%" valign="middle">
+        <ul>
+          <li>
+            <p>
+              But the only reason we needed <m>f(a) = f(b)</m> was to get a <fillin characters="22"/> for our tangent lines to be parallel to.
+            </p>
+          </li>
+        </ul>
+
+        <image>
+          <shortdescription>Sinusoidal wave curve passing through two points (a, f(a)) and (b, f(b)) at equal heights.</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[scale=0.85]
+              \draw[step=0.5, gray!25, very thin] (-0.4,-0.3) grid (4.9,3.0);
+              \draw[-&gt;, thick] (-0.4,0) -- (4.9,0);
+              \draw[-&gt;, thick] (0,-0.3) -- (0,3.0);
+              \draw[thick, domain=-0.2:4.7, samples=100] plot (\x, {1.5 + 1.1*sin(deg(2.1*(\x - 0.8)))});
+              \filldraw (0.8, 1.5) circle (2pt) node[above left] {\scriptsize $(a,f(a))$};
+              \filldraw (3.79, 1.5) circle (2pt) node[above right] {\scriptsize $(b,f(b))$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+
+      <ul>
+        <li>
+          <p>
+            In fact, we can draw a straight line connecting <em>any</em> two points, and the line does <em><fillin characters="6"/></em> need to be horizontal; that is, its slope does <em><fillin characters="6"/></em> need to be zero. If we drop the third condition, <m>f(a) = f(b)</m>, we obtain the <em>Mean Value Theorem</em>.
+          </p>
+        </li>
+      </ul>
+
+      <sidebyside widths="52% 44%" margins="1% 1%" valign="middle">
+        <stack>
+          <p>
+            <term>Mean Value Theorem (MVT):</term> Suppose <m>f(x)</m> is
+          </p>
+          <p><strong>Condition 1:</strong> a <fillin characters="16"/> function on <m>[a, b]</m></p>
+          <p><strong>Condition 2:</strong> and is <fillin characters="16"/> over <m>(a, b)</m>.</p>
+          <p>
+            Then there is <fillin characters="12"/> one value <m>c</m> in <m>(a, b)</m> at which
+            <me>f'(c) = \underline{\hspace{1in}}</me>
+          </p>
+        </stack>
+
+        <image>
+          <shortdescription>Smooth curve passing through two points (a, f(a)) and (b, f(b)) at different heights, illustrating the Mean Value Theorem.</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[scale=0.85]
+              \draw[step=0.5, gray!25, very thin] (-0.4,-1.4) grid (4.9,1.7);
+              \draw[-&gt;, thick] (-0.4,0) -- (4.9,0);
+              \draw[-&gt;, thick] (0,-1.4) -- (0,1.7);
+              \draw[thick, domain=-0.2:4.7, samples=100] plot (\x, {1.2*sin(deg(2.1*(\x - 0.8)))});
+              \filldraw (0.8, 0) circle (2pt) node[above left] {\scriptsize $(a,f(a))$};
+              \filldraw (3.04, -1.2) circle (2pt) node[below left] {\scriptsize $(b,f(b))$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+
+      <p>
+        Geometrically, under these two conditions, there must be at least one number <m>c</m> inside the interval where the <fillin characters="6"/> of the <fillin characters="18"/> is equal to the <fillin characters="6"/> of the <fillin characters="18"/> passing through the endpoints.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-trucker-speeding-mvt">
+      <title>Application: How Can We Use the MVT in Real Life? (Problem 2)</title>
+      <p>
+        The following is a simple application of the MVT, but it's powerful<mdash/>it is the exact math behind automated toll-road and highway speeding tickets!
+      </p>
+
+      <sidebyside widths="50% 44%" margins="1% 1%" valign="top">
+        <p>
+          A trucker drives west a distance of <m>244</m> miles, stopping only once to get gas. She begins the trip parked at a truck stop and ends the trip parked at another truck stop. The trip takes her <m>4</m> hours. Let <m>s(t)</m> be the truck's position (in miles west of the starting truck stop) after <m>t</m> hours, as shown in the graph.
+        </p>
+
+        <image>
+          <shortdescription>Position-versus-time graph s(t) starting at (0, 0), flattening horizontally during a mid-trip gas stop, and ending at (4, 244).</shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[scale=0.88]
+              \draw[step=0.5, gray!20, very thin] (0,0) grid (4.3,3.8);
+              \draw[-&gt;, thick] (-0.3,0) -- (4.5,0) node[right] {$t$ (hr)};
+              \draw[-&gt;, thick] (0,-0.3) -- (0,4.0) node[above] {$s(t)$ (mi)};
+              \node[below left] at (0,0) {\scriptsize $0$};
+              \draw (4,0.08) -- (4,-0.08) node[below] {\scriptsize $4$};
+              \draw (0.08,3.5) -- (-0.08,3.5) node[left] {\scriptsize $244$};
+              \draw[dashed, gray] (0,3.5) -- (4,3.5);
+              \draw[dashed, gray] (4,0) -- (4,3.5);
+              \draw[very thick, blue]
+                (0,0) .. controls (0.5,0) and (0.9,1.75) .. (1.6,1.75)
+                -- (2.1,1.75)
+                .. controls (2.8,1.75) and (3.3,3.5) .. (4,3.5);
+              \node[above] at (1.85,1.8) {\scriptsize \textit{gas stop}};
+              \filldraw[blue] (0,0) circle (2pt);
+              \filldraw[blue] (4,3.5) circle (2pt);
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </sidebyside>
+
+      <ol marker="a)">
+        <li workspace="0.8in">
+          <p>Compute the trucker's <em>average velocity</em> over the <m>4</m>-hour trip (include units):</p>
+        </li>
+        <li workspace="1.1in">
+          <p>Explain why the Mean Value Theorem applies to <m>s(t)</m> on <m>[0, 4]</m>, and state what it guarantees in the context of this problem:</p>
+        </li>
+        <li workspace="0.9in">
+          <p>Did she ever exceed the <m>60\text{ mph}</m> speed limit? Explain your reasoning clearly.</p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-algebraic-mvt">
+      <title>Problem 3</title>
+      <p>
+        Let's finish with a few algebraic problems and some mathematical consequences of our theorem.
+      </p>
+      <p>
+        Determine whether each of the following functions meets the conditions of the Mean Value Theorem (MVT) on the given interval. If it does, find the value(s) <m>c</m> guaranteed by the theorem.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p><m>\displaystyle f(x) = \frac{x}{x+1}</m> on <m>[0, 3]</m>.</p>
+          <ol marker="i)">
+            <li workspace="0.6in">
+              <p>Is <m>f(x)</m> continuous on <m>[0, 3]</m>? Why or why not? <em>Hint: What is the domain of <m>\displaystyle \frac{x}{x+1}</m>?</em></p>
+            </li>
+            <li workspace="0.6in">
+              <p>Is <m>f(x)</m> differentiable on <m>(0, 3)</m>? Why or why not? <em>Hint: Is <m>f'(x)</m> defined on <m>(0, 3)</m>?</em></p>
+            </li>
+            <li>
+              <p>If YES for both parts i) and ii), fill in the following blanks: By the MVT, there is <fillin characters="12"/> one value <m>c</m> in <m>(0, 3)</m> at which <m>f'(c) =</m> <fillin characters="12"/>.</p>
+            </li>
+            <li workspace="1.8in">
+              <p>Find all such values of <m>c</m> in <m>(0, 3)</m>:</p>
+            </li>
+          </ol>
+        </li>
+        <li workspace="2.1in">
+          <p>(Exercise) <m>\displaystyle g(x) = \sqrt[3]{x-1}</m> on <m>[0, 9]</m>. <em>Hint: Check BOTH conditions of the MVT! Is <m>g(x)</m> differentiable on <m>(0, 9)</m>?</em></p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-mvt-corollaries">
+      <title>Mathematical Consequences of the Mean Value Theorem</title>
+      <p>
+        Here are a couple of other nice mathematical consequences of the MVT. (Proofs are for your information, not for testing.)
+      </p>
+      <p>
+        <strong>Corollary 1:</strong> If <m>f'(x) = 0</m> at every point <m>x</m> in <m>(a, b)</m>, then <m>f(x) = C</m> for all <m>x</m> in <m>(a, b)</m>, where <m>C</m> is a constant.
+      </p>
+      <p>
+        <em>Quick Proof:</em> Pick any two points <m>x_1 \lt x_2</m> in <m>(a, b)</m>. By the MVT, there is some <m>c</m> in <m>(x_1, x_2)</m> such that
+        <me>\frac{f(x_2)-f(x_1)}{x_2-x_1} = f'(c) = \underline{\hspace{0.6in}} \implies f(x_2) - f(x_1) = \underline{\hspace{0.6in}} \implies f(x_1) \,\underline{\hspace{0.6in}}\, f(x_2).</me>
+        Thus <m>f</m> takes the <fillin characters="8"/> value everywhere on <m>(a, b)</m>, so <m>f</m> is a <fillin characters="10"/> function!
+      </p>
+      <p>
+        <strong>Corollary 2:</strong> If <m>f'(x) = g'(x)</m> at every point <m>x</m> in <m>(a, b)</m>, then <m>f(x) = g(x) + C</m> for all <m>x</m> in <m>(a, b)</m>, where <m>C</m> is a constant.
+      </p>
+      <p>
+        <em>Quick Proof:</em> Let <m>h(x) = f(x) - g(x)</m>. Then <m>h'(x) = f'(x) - g'(x) =</m> <fillin characters="8"/>. By Corollary 1, <m>h(x) =</m> <fillin characters="8"/>, so <m>f(x) = g(x) +</m> <fillin characters="8"/>.
+      </p>
+      <p>
+        <term>Notes:</term>
+      </p>
+      <ul>
+        <li>
+          <p>Corollary 2 tells us that if two functions have the <fillin characters="8"/> derivative, they differ by <fillin characters="10"/>.</p>
+        </li>
+        <li>
+          <p>
+            In other words, given a derivative function <m>f'(x)</m>, we can find <strong>all</strong> functions whose derivative is <m>f'(x)</m> (by finding just one and adding <m>+C</m>). This leads directly to <em>antiderivatives</em> (which will be the final topic of this course and studied in more depth in MATH 1552).
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="p-corollary-2-applications">
+      <title>Applications of Corollary 2</title>
+      <ol marker="a)">
+        <li>
+          <p>
+            <em>Antiderivatives <mdash/> Finding Velocity and Position from Acceleration:</em> Suppose a ball is thrown upward with acceleration <m>a(t) = -32\text{ ft/s}^2</m>, initial velocity <m>v(0) = 48\text{ ft/s}</m>, and initial height <m>s(0) = 6\text{ ft}</m>. Find <m>v(t)</m> using the steps below, then find <m>s(t)</m> as an exercise.
+          </p>
+          <p><strong>Step 1:</strong> Recall that <m>a(t) = v'(t)</m>. Find a function in terms of <m>t</m> whose derivative is <m>-32</m>: <fillin characters="10"/></p>
+          <p><strong>Step 2:</strong> By Corollary 2, <m>v(t) =</m> <fillin characters="10"/> <m>+ C</m>.</p>
+          <p workspace="0.5in"><strong>Step 3:</strong> Now use the initial velocity <m>v(0) = 48</m> to find <m>C</m> and conclude <m>v(t)</m>:</p>
+          <p workspace="0.8in">(Exercise) Find <m>s(t)</m>:</p>
+        </li>
+        <li>
+          <p>
+            <em>Deriving the Properties of Logarithms</em> (for <m>b \gt 0</m>, <m>x \gt 0</m>, and any real number <m>r</m>):
+          </p>
+          <ol marker="i)">
+            <li workspace="1.1in">
+              <p>
+                <m>\displaystyle \ln(bx) = \ln(b) + \ln(x)</m> <em>Hint: Consider <m>f(x) = \ln(bx)</m> and <m>g(x) = \ln(x)</m>, show that <m>f(x) = g(x) + C</m>, then plug in <m>x = 1</m> to find <m>C</m>.</em>
+              </p>
+            </li>
+            <li workspace="0.5in">
+              <p>
+                (Exercise) <m>\displaystyle \ln\left(\frac{b}{x}\right) = \ln(b) - \ln(x)</m> <em>Hint: Consider <m>\displaystyle f(x) = \ln\left(\frac{b}{x}\right)</m> and <m>g(x) = -\ln(x)</m>.</em>
+              </p>
+            </li>
+            <li workspace="0.5in">
+              <p>
+                (Exercise) <m>\displaystyle \ln(x^r) = r\,\ln(x)</m> <em>Hint: Consider <m>f(x) = \ln(x^r)</m> and <m>g(x) = r\ln(x)</m>.</em>
+              </p>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+</handout>
