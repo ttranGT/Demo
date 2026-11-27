@@ -63,6 +63,25 @@
 
     <chapter xml:id="handouts">
       <title>Guided Lecture Notes</title>
+      <introduction>
+        <p>
+           <ul>
+  <li>
+     <p>
+  Welcome to Differential Calculus! Each day, we'll provide you with partially filled-in notes to complete during lecture. This ensures you don't miss key concepts and cuts down on writing so you can focus on following along.
+</p>
+  </li>
+  <li>
+    <p>
+  You can print these notes to write on paper, or if you have a tablet, feel free to annotate them digitally. Completed lecture notes will also be posted after class. Please let us know if you have any constructive feedback on how we can make them better!
+</p>
+  </li>
+</ul>
+        </p>
+      </introduction>
+
+    
+
       <!-- Include handouts -->
       <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
       <xi:include href="./handouts/Day 1 Lecture Notes.ptx"/>
