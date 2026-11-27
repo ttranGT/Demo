@@ -244,6 +244,42 @@ var ptx_lunr_docs = [
   "body": "Multiply by a Conjugate: "
 },
 {
+  "id": "day-4-notes",
+  "level": "1",
+  "url": "day-4-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 4 - Sections 2.4 and 2.6a: One-Sided and Infinite Limits",
+  "body": " Day 4 - Sections 2.4 and 2.6a: One-Sided and Infinite Limits    Last Time: We learned how to find limits of relatively nice functions, using graphs and algebra.   Today: We'll learn about one-sided limits, when limits exist, and how to deal with infinity.     Checkpoint (Warm Up)  The graph of a function is shown below. Find the following limits. If you aren't sure what the answer should be, discuss with a neighbor.    Graph of a piecewise function f(x) showing continuous behavior near x = 2 and a jump discontinuity at x = 0.              The first limit above should be straightforward, but the other is a new situation we want to learn about today.  The issue we see with part 2) of the problem above is also a really important one. What do we do with a limit when it approaches different values from the left and right?    Definition  A limit is a limit that only considers the case or .     is the limit of as approaches from the . It is called the limit.     is the limit of as approaches from the . It is called the limit.     Note: We recall that for , where is a real number, the values of must get infinitely close to as approaches from left-hand and right-hand sides.  For this reason, the ordinary limit is called a limit.    Fact  Now, the definitions of two-sided and one-sided limits, together with the warm-up problem, lead us to an important fact:  The two-sided limit exists if and only if (exactly when):    The exists    AND The exists    AND      That is, any time our one-sided limits match, the two-sided limit .      One-Sided Limits of Piecewise Functions  One common place where one-sided limits appear is in functions. In such cases, we evaluate the limit using the of the function that corresponds to the appropriate side of as approaches . For example:    Checkpoint  Given that find , , and .    Checkpoint  Next, let's examine the following problem and explore the interaction between infinite and one-sided limits a bit. Consider the function below. Find each limit.    Graph of a function f(x) exhibiting a jump discontinuity at x = 1, vertical asymptotes at x = -1 and x = 5, with opposite infinite behaviors at x = -1 and matching infinite behavior at x = 5.                          So we see that of the 3 two-sided limits above exist, but the amount of information we can give about them varies, and our final answer is always as informative as possible.  We can guess from the graph that  .  But what does it mean for a limit to be ?  We say that if becomes arbitrarily and \/ as approaches .      Fact  But wait... is not a ! Our definition says that a limit exists only if it's equal to . That means we have an important distinction to make here:   Infinite limits  .  That is, saying is just a  way of saying that DNE and we always want to be as specific as possible!    Finding Infinite Limits Algebraically  We'll spend the rest of the day looking at how we can find limits of this type algebraically they're easy to recognize on a graph, but we want to be able to do both.  Let's consider the following limit. First, we can use direct substitution to observe that and then applying to simplify:    Q: What do we do with something that looks like ?   A: Answers like this are a sign that we have an limit!  As we saw in parts (4 to 6) and (7 to 9) of the previous checkpoint, this means that:    If the one-sided limits are both , the corresponding two-sided limit is .    If the one-sided limits are both , the corresponding two-sided limit is .    If the one-sided limits are infinite with signs (or only one is infinite), the corresponding two-sided limit .    Thus our approach in this case will be to evaluate limits and see what we can learn.  So let's keep going, looking at the one-sided limits of to see what we can learn:  Thus, the limit  . And so  .      Big Idea of the Day  Whenever    limits are involved,    or you encounter a limit that you are sure how to evaluate algebraically,    then looking at the limits at that point can be a very helpful strategy.    Notation Warning    When finding a limit, be sure to use around that involve undefined notations (e.g., , , , , or in the denominator) in any intermediate substitution , before arriving at the final answer for the limit.    Points will be deducted on quizzes and midterms for incorrect or improper use of mathematical notation.    Here are some examples:         "
+},
+{
+  "id": "day-4-notes-2-1",
+  "level": "2",
+  "url": "day-4-notes.html#day-4-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-4-notes-2-2",
+  "level": "2",
+  "url": "day-4-notes.html#day-4-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "def-one-sided-limits-4",
+  "level": "2",
+  "url": "day-4-notes.html#def-one-sided-limits-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
   "id": "homework",
   "level": "1",
   "url": "homework.html",
