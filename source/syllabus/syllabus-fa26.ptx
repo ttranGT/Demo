@@ -17,44 +17,36 @@
       <term>Course Coordinator:</term> Thomas Tran, <url href="mailto:thomas.tran@math.gatech.edu">thomas.tran@math.gatech.edu</url>
     </p>
 
-    <table xml:id="table-instructors">
-      <title>MATH 1551 Section Instructors</title>
-      <tabular top="minor" left="minor" right="minor" bottom="minor">
-        <col width="20%" halign="left"/>
-        <col width="40%" halign="left"/>
-        <col width="40%" halign="left"/>
-        <row header="yes" bottom="medium">
-          <cell>Section(s)</cell>
-          <cell>Name</cell>
-          <cell>Email</cell>
-        </row>
-        <row bottom="minor">
-          <cell>A/C</cell>
-          <cell>Prof. Matteo Raffaelli</cell>
-          <cell><url href="mailto:raffaelli@math.gatech.edu">raffaelli@math.gatech.edu</url></cell>
-        </row>
-        <row bottom="minor">
-          <cell>F</cell>
-          <cell>Prof. Pranav Chinmay</cell>
-          <cell><em>to be updated</em></cell>
-        </row>
-        <row bottom="minor">
-          <cell>H</cell>
-          <cell>Prof. Fei Peng</cell>
-          <cell><url href="mailto:fpeng33@gatech.edu">fpeng33@gatech.edu</url></cell>
-        </row>
-        <row bottom="minor">
-          <cell>K/M</cell>
-          <cell>Prof. Maya Thompson</cell>
-          <cell><url href="mailto:mthompson367@gatech.edu">mthompson367@gatech.edu</url></cell>
-        </row>
-        <row>
-          <cell>G/HP</cell>
-          <cell>Prof. Thomas Tran</cell>
-          <cell><url href="mailto:thomas.tran@math.gatech.edu">thomas.tran@math.gatech.edu</url></cell>
-        </row>
-      </tabular>
-    </table>
+    <paragraphs xml:id="syllabus-section-instructors">
+      <title>Section Instructors</title>
+      <ul>
+        <li>
+          <p>
+            <term>Sections A/C:</term> Prof. Matteo Raffaelli (<url href="mailto:raffaelli@math.gatech.edu">raffaelli@math.gatech.edu</url>)
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Section F:</term> Prof. Pranav Chinmay (<em>email to be updated</em>)
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Section H:</term> Prof. Fei Peng (<url href="mailto:fpeng33@gatech.edu">fpeng33@gatech.edu</url>)
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Sections K/M:</term> Prof. Maya Thompson (<url href="mailto:mthompson367@gatech.edu">mthompson367@gatech.edu</url>)
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Sections G/HP:</term> Prof. Thomas Tran (<url href="mailto:thomas.tran@math.gatech.edu">thomas.tran@math.gatech.edu</url>)
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
   </subsection>
 
   <subsection xml:id="syllabus-general-info">
@@ -116,44 +108,27 @@
       Your final average will be computed using whichever of the following two options gives you the higher grade:
     </p>
 
-    <table xml:id="table-grade-weights">
-      <title>Course Grade Breakdown Options</title>
-      <tabular top="minor" left="minor" right="minor" bottom="minor">
-        <col width="44%" halign="left"/>
-        <col width="28%" halign="center"/>
-        <col width="28%" halign="center"/>
-        <row header="yes" bottom="medium">
-          <cell>Component</cell>
-          <cell>Option 1</cell>
-          <cell>Option 2</cell>
-        </row>
-        <row bottom="minor">
-          <cell>WeBWork</cell>
-          <cell>10%</cell>
-          <cell>10%</cell>
-        </row>
-        <row bottom="minor">
-          <cell>Studio Participation Quizzes</cell>
-          <cell>5%</cell>
-          <cell>5%</cell>
-        </row>
-        <row bottom="minor">
-          <cell>Best Two Midterms</cell>
-          <cell>40%</cell>
-          <cell>40%</cell>
-        </row>
-        <row bottom="minor">
-          <cell>Lowest Midterm</cell>
-          <cell>20%</cell>
-          <cell>0%</cell>
-        </row>
-        <row>
-          <cell>Final Exam</cell>
-          <cell>25%</cell>
-          <cell>45%</cell>
-        </row>
-      </tabular>
-    </table>
+    <paragraphs xml:id="syllabus-grade-option-1">
+      <title>Option 1 – Assignments</title>
+      <ul>
+        <li><p><term>WeBWork:</term> 10%</p></li>
+        <li><p><term>Studio Participation Quizzes:</term> 5%</p></li>
+        <li><p><term>Best Two Midterms:</term> 40%</p></li>
+        <li><p><term>Lowest Midterm:</term> 20%</p></li>
+        <li><p><term>Final Exam:</term> 25%</p></li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="syllabus-grade-option-2">
+      <title>Option 2 – Assignments</title>
+      <ul>
+        <li><p><term>WeBWork:</term> 10%</p></li>
+        <li><p><term>Studio Participation Quizzes:</term> 5%</p></li>
+        <li><p><term>Best Two Midterms:</term> 40%</p></li>
+        <li><p><term>Lowest Midterm:</term> 0%</p></li>
+        <li><p><term>Final Exam:</term> 45%</p></li>
+      </ul>
+    </paragraphs>
 
     <paragraphs xml:id="syllabus-graded-components">
       <title>Description of Graded Components</title>
