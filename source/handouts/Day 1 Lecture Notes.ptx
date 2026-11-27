@@ -94,14 +94,18 @@
   </li>
 </ul>
 
-<ol marker="a)">
-  <li>
-    <p>How would you describe the circle algebraically?</p>
-  </li>
-  <li>
-    <p>How would you describe the upper-half of the circle algebraically?</p>
-  </li>
-</ol>
+<exercise workspace="1.5in">
+  <statement>
+    <ol marker="a)">
+      <li workspace="0.75in">
+        <p>How would you describe the circle algebraically?</p>
+      </li>
+      <li workspace="0.75in">
+        <p>How would you describe the upper-half of the circle algebraically?</p>
+      </li>
+    </ol>
+  </statement>
+</exercise>
 
       <definition xml:id="def-domain-range">
         <statement>
