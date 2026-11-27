@@ -19,24 +19,6 @@ var ptx_lunr_docs = [
   "body": "course name (MATH xxx, section xxx) "
 },
 {
-  "id": "activity-01-intro-activity",
-  "level": "1",
-  "url": "activity-01-intro-activity.html",
-  "type": "Worksheet",
-  "number": "",
-  "title": "Section 1.1",
-  "body": " Section 1.1    Worksheet for Studio      Given . Find the equation of the secant line  This is my test figure   This is my alt texdt. Decorative      Suppose that and . Find , , and their domains.        "
-},
-{
-  "id": "activity-01-intro-activity-3",
-  "level": "2",
-  "url": "activity-01-intro-activity.html#activity-01-intro-activity-3",
-  "type": "Worksheet Exercise",
-  "number": "1",
-  "title": "",
-  "body": "  Given . Find the equation of the secant line  This is my test figure   This is my alt texdt. Decorative      Suppose that and . Find , , and their domains.       "
-},
-{
   "id": "ws-1",
   "level": "1",
   "url": "ws-1.html",
