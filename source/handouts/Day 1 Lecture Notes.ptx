@@ -56,24 +56,16 @@
   </image>
 </sidebyside>
 
-
-
-
 <ul>
   <li>
     <p>Some common ways to describe functions: a corresponding diagram, a table, or an equation.</p>
   </li>
 </ul>
 
-<sidebyside widths="30% 30% 35%" valign="middle">
+<sidebyside widths="30% 35%" valign="middle">
   <image source="pictures/sec11page1.png">
     <shortdescription>
       Mapping diagram illustrating a function as an input-output correspondence between two sets.
-    </shortdescription>
-  </image>
-  <image source="pictures/sec11page2.png">
-    <shortdescription>
-      Table of input and output values representing a function.
     </shortdescription>
   </image>
   <stack>
@@ -85,15 +77,23 @@
   </stack>
 </sidebyside>
 
+<sidebyside widths="45%" valign="middle">
+  <image source="pictures/sec11page2.png">
+    <shortdescription>
+      Table of input and output values representing a function.
+    </shortdescription>
+  </image>
+</sidebyside>
+
 <ul>
   <li>
     <p>
-      One nice way to check graphically that something is a function is the <fillin characters="14"/> test, which says that:
+      One nice way to check graphically that something is a function is the <fillin characters="24"/> test, which says that:
     </p>
     <p>
-      A curve is the graph of a function if no vertical line intersects it more than <fillin characters="8"/>.
+      A curve is the graph of a function if no vertical line intersects it more than <fillin characters="10"/>.
     </p>
-    <image source="pic3.png" width="45%">
+    <image source="pictures/pic3.png" width="45%">
       <shortdescription>
         Coordinate graphs comparing a curve intersected once by a vertical line against a curve intersected twice.
       </shortdescription>
