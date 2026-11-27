@@ -41,10 +41,23 @@
   </statement>
 </definition>
 
-<image source="pic1-2.png" width="40%">
+<image source="../../assets/pictures/pic1-2.png" width="45%">
   <shortdescription>
-    Arrow diagram mapping elements from set D to unique elements in set Y to illustrate a function.
+    Arrow diagram of a function mapping four elements in set D to three elements in set Y, with two elements in D mapping to f(a) and x mapping to f(x).
   </shortdescription>
+  <description>
+    <p>
+      Two irregular shaded regions represent two sets side by side. The left region is labeled <m>D = \text{domain set}</m> and contains four red dots, two of which are labeled <m>x</m> and <m>a</m>. The right region is labeled <m>Y = \text{set containing the range}</m> and contains three blue dots, two of which are labeled <m>f(a)</m> and <m>f(x)</m>.
+    </p>
+    <p>
+      Curved red arrows point from each element in <m>D</m> to an element in <m>Y</m>:
+    </p>
+    <ul>
+      <li><p>The dot labeled <m>x</m> maps to the dot labeled <m>f(x)</m>.</p></li>
+      <li><p>A second unlabeled dot in <m>D</m> maps to the middle unlabeled dot in <m>Y</m>.</p></li>
+      <li><p>Both the dot labeled <m>a</m> and a fourth unlabeled dot in <m>D</m> map to the same dot labeled <m>f(a)</m>, illustrating that two distinct inputs in the domain can share the same output in a function.</p></li>
+    </ul>
+  </description>
 </image>
 
 <ul>
