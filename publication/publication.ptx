@@ -159,7 +159,13 @@
   <!--   underline hyperlinks in the PDF.                              -->
   <!-- @latex-style selects one of a few provided styles: AIM, chaos,  -->
   <!--   CLP, dyslexic-font, guide, texstyle.  Some are demos only.    -->
-  <latex>
+ 
+  <latex print="yes" sides="one">
+    <preamble>
+      \titlespacing*{\paragraph}{0pt}{1.5ex plus 0.5ex minus 0.2ex}{0.75ex plus 0.2ex}
+    </preamble>
+  
+
   <!-- Replace the <latex> tag above with the one below to try these-->
   <!--
     <latex
