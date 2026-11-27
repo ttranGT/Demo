@@ -172,6 +172,78 @@ var ptx_lunr_docs = [
   "body": " Day 2: Section 2.1 - Rates of Change, Secant and Tangent Lines   Today we want to start thinking about rates of change one of the most foundational ideas in all of Calculus. We'll start by reviewing how to calculate rates of change, what physical quantities they represent, and how to visualize them on a graph.  More importantly, we want to build an intuition for what these calculations actually mean. So many real-world situations can be modeled by functions. If we can develop better tools to study the math, we can solve much more complex problems in the real world. Let's look at the following example.     Problem 1  The following table shows the position (in meters) of a cyclist as a function of time (in seconds).    (seconds)  (meters)    0  0    1  1.5    2  5.1    3  10.5    4  17.7    5  25.8      Find the average velocity over the time period . Include units in your answer. Recall that average velocity is given by the change in position divided by the elapsed time.    Suppose you'd like to know the cyclist's instantaneous velocity at the moment . Can we compute the average velocity over the time period ? Why or why not?    We can use average velocities over appropriate intervals to approximate an instantaneous velocity. What are some specific intervals near that would help estimate the instantaneous velocity at ?      Key Details  Let's write down a few key details to help us synthesize our approach to the problem above.    The average rate of change (AROC) of over the interval is given by     We can not find an rate of change by using the formula for the average rate of change.    We can find an average rate of change over a small interval this gives us an of the instantaneous rate of change.        Secant Lines and Average Rate of Change  Let's think about what average and instantaneous velocities look like on a graph. Here's a generic graph of our situation:    Generic curve showing two points connected by a secant line illustrating average rate of change.      Graphically, when we calculate average velocity over a time interval, we're really finding the average rate of change as we move from on the position function to .    Let's look at the slope of the line between those points:       Remember that a line connecting two points on a function is called a line.  We've really discovered an important relationship here: The of a secant line is the  of the function over the interval defined by our points.   In our example above, we were looking at the average rate of change of position, which is just another way of saying average velocity. It's a nice example!  We'll do a lot with the formula associated with this idea, so let's write it down:    Average Rate of Change Formula  The average rate of change (AROC) of with respect to over the interval is   Notes:    This fraction (in either form) is often referred to as the .    We can get the second form of the difference quotient by making the substitution  (note that we need to be sure ).      Tangent Lines and Secant Lines  The last thing we need to complete our picture of mathematically representing rates of change is the idea of a tangent line .  The tangent line to at is the line that the graph of at the point .  We care about tangent lines because:    As approaches , the secant line becomes closer to the tangent line at (see GeoGebra ).    Recall that the of a secant line is the rate of change of the function over the interval defined by the points.    Therefore, the of a tangent line to a function at represents the function's rate of change at .        Problem 2  Consider the parabola . Use sketches to order the following quantities from smallest to largest:     The slope of the secant line between and  The slope of the tangent line at  The instantaneous rate of change of at     Answer:          Hint: Recall how the slope is related to the steepness and direction of a line (see GeoGebra ).    Graph of a downward-opening parabola f(x) with vertex at x = 2.    The study of secant and tangent lines, and how they measure rates of change, is what motivates a lot of Calculus learning this framework is a great start!    Problem 3 (Exercise)  Suppose you take 2 hours to cross a 1 mile long bridge. How fast do you have to return if you want your average round-trip velocity to be 1 mph?    "
 },
 {
+  "id": "day-3-notes",
+  "level": "1",
+  "url": "day-3-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 3: Section 2.2 - Limit of a Function",
+  "body": " Day 3: Section 2.2 - Limit of a Function    Last Time: We talked about average and instantaneous rates of change, and how they can be represented as the slopes of secant and tangent lines. In particular, we had an idea that secant lines approach tangent lines as the two points that define them get close together.   Today: We want to make that idea of one function approaching or becoming another a concrete thing we can do carefully. This is the idea of a limit .     Definition  The of as approaches , written is the that  to as approaches .    Numerical table of values showing f(x) approaching 2 as x approaches 1 from both sides.      If there such a number, we say this limit and to that number.    If there , we say the limit .     approaches but to . That is, in computing the limit .    For example (numerical approach): The table on the left indicates that         Finding Limits with Graphs  If we have a good (well-labeled and detailed) graph of , we can find the limit by observing the number that gets infinitely close to as approaches .  For example: Let's revisit the function introduced above. Its graph is shown below.    Graph of the line y = x + 1 with an open hole at the point (1, 2).      From which directions can approach along the -axis?    Now,    As approaches from the , gets infinitely close to .    As approaches from the , gets infinitely close to .      Thus, as approaches , the limit of is .        Checkpoint    For each of the following functions, find and .    First graph of a function near x = 0 for finding f(0) and the limit as x approaches 0.    Second graph of a function near x = 0 for finding f(0) and the limit as x approaches 0.    Third graph of a function near x = 0 for finding f(0) and the limit as x approaches 0.      Based on part i), work with your neighbor to decide whether the following statements are true or false. Remember that a true statement must be ALWAYS true, but a false statement could be either always false or sometimes true (it's just not necessarily always true).    If is not defined, then does not exist.    If is defined, then .    If exists, then the values of must steadily get close to that limit as approaches , without fluctuating or oscillating away from it at any point.    Our ability to find limits using graphs depends on the availability of a good (well-labelled and detailed) graph.          Finding Limits Algebraically  Since finding limits using graphs depends on having a good (well-labeled and detailed) graph, graphs are generally best suited for estimating limits. But can you tell the difference between a limit of or ? Often, we want a way to show that the limit we've found is exactly correct. As usual, the answer lies in algebra!   Step 1: Direct Substitution  try plugging in the value that is approaching.   Often (especially for common functions), we can find a limit simply by substituting in our function. This method is effective for functions that are continuous at the point of interest.    Checkpoint    Find .  Step 1: Direct Substitution try plugging in the value that is approaching.     Find ( Numerically and graphically, we observed that the limit is 2. How about finding it algebraically? )  Step 1: Direct Substitution try plugging in the value that is approaching.     What do we do with something that looks like ? This is an form, meaning we can't determine what's going on we don't even know whether the limit exists!   Step 2: Algebraic Manipulation  try simplifying the function using algebraic techniques while evaluating the limit.   If, by using algebraic manipulation, we can get rid of the form, we can try Step 1 again.  We are reviewing the following 3 common ways to deal with this issue of a form:    Checkpoint     Factor and Cancel:     Note that:   .     Find a Common Denominator:     Note that:     .     Multiply by a Conjugate:  (Exercise)     Note that: The conjugate of is and vice versa.      Notation Warning  There are some notational things to be careful of with limits. In short, make sure every step of your work has both a limit operator ( ) and an argument ( ) until you've successfully evaluated the limit. That is, the variables and the operator should always disappear in the same step.  In many of the problems we'll do this semester, some combination or variation of these techniques will be sufficient to find limits algebraically. But it takes lots of practice, and there are a few weird cases to consider.    "
+},
+{
+  "id": "day-3-notes-2-1",
+  "level": "2",
+  "url": "day-3-notes.html#day-3-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-3-notes-2-2",
+  "level": "2",
+  "url": "day-3-notes.html#day-3-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "p-limits-algebraically-3",
+  "level": "2",
+  "url": "day-3-notes.html#p-limits-algebraically-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 1: Direct Substitution "
+},
+{
+  "id": "checkpoint-direct-substitution-4",
+  "level": "2",
+  "url": "day-3-notes.html#checkpoint-direct-substitution-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Step 2: Algebraic Manipulation "
+},
+{
+  "id": "checkpoint-algebraic-limits-2-1-1",
+  "level": "2",
+  "url": "day-3-notes.html#checkpoint-algebraic-limits-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Factor and Cancel: "
+},
+{
+  "id": "checkpoint-algebraic-limits-2-2-1",
+  "level": "2",
+  "url": "day-3-notes.html#checkpoint-algebraic-limits-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Find a Common Denominator: "
+},
+{
+  "id": "checkpoint-algebraic-limits-2-3-1",
+  "level": "2",
+  "url": "day-3-notes.html#checkpoint-algebraic-limits-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Multiply by a Conjugate: "
+},
+{
   "id": "homework",
   "level": "1",
   "url": "homework.html",
