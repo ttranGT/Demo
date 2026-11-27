@@ -124,7 +124,7 @@
     <!-- How many levels deep the numbering of these items runs.  Values -->
     <!-- may not exceed the divisions @level above.  Defaults depend on  -->
     <!-- the type of document.                                           -->
-      <blocks level="0" />
+      <blocks level="2" />
       <equations level="0" />
       <footnotes level="0" />
 
