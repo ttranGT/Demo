@@ -143,7 +143,7 @@
     </paragraphs>
 
     <paragraphs xml:id="formula-aroc">
-      <title>Formula</title>
+      <title>Average Rate of Change Formula</title>
       <p>
         The average rate of change (AROC) of <m>y=f(x)</m> with respect to <m>x</m> over the interval <m>[x_1,x_2]</m> is
         <me>\text{AROC} = \frac{\Delta y}{\Delta x} = \frac{<fillin characters="16"/>}{<fillin characters="16"/>} = \frac{<fillin characters="16"/>}{<fillin characters="16"/>}.</me>
@@ -160,7 +160,7 @@
     </paragraphs>
 
     <paragraphs xml:id="def-tangent-line">
-      <title>Definition</title>
+      <title>Tangent Lines and Secant Lines</title>
       <p>
         The last thing we need to complete our picture of mathematically representing rates of change is the idea of a <em>tangent line</em>.
       </p>
@@ -223,7 +223,7 @@
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-bridge-exercise">
-      <title>Problem 3(Exercise)</title>
+      <title>Problem 3 (Exercise)</title>
       <p workspace="1.5in">
         Suppose you take 2 hours to cross a 1 mile long bridge. How fast do you have to return if you want your average round-trip velocity to be 1 mph?
       </p>

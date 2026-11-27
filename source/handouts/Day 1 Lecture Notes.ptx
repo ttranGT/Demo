@@ -10,7 +10,7 @@
       You can print these notes if you'd like to write on paper, or if you have a tablet feel free to write on them digitally as well. Additionally, completed lecture notes will be posted after the class. Please let us know if you have constructive feedback about making them better!
     </p>
     <p>
-      Let's start with some basic facts about the course that you should know<mdash/>they'll help you as you have questions throughout the semester. Some have multiple correct answers! This is to help you make a plan:
+      Let's start with some basic facts about the course that you should know<mdash/>they'll help you as you have questions throughout the semester.
     </p>
   </introduction>
 
@@ -135,19 +135,20 @@
           <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>y</m> or <m>f(x)</m>.</p>
         </li>
       </ol>
+      <title>Finding the Domain</title>
       <p>
         A strategy for finding the <em>domain</em> of a function is to look for <fillin characters="14"/>!
       </p>
       <p>Common ones include:</p>
       <ol>
-        <li><p><fillin characters="35"/></p></li>
-        <li><p><fillin characters="35"/></p></li>
-        <li><p><fillin characters="35"/></p></li>
+        <li><p><fillin characters="60"/></p></li>
+        <li><p><fillin characters="60"/></p></li>
+        <li><p><fillin characters="60"/></p></li>
       </ol>
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-domain-functions">
-      <title>Checkpoint</title>
+      <title>Problem 1</title>
       <p workspace="1in">
         Find the domains of <m>f(x)=\ln(x+1)</m> and <m>g(x) = \dfrac{1}{\sqrt{4-x^2}}</m>.
       </p>
@@ -156,7 +157,7 @@
 
   <page>
     <paragraphs xml:id="p-ranges-and-graphs">
-      <title>Ranges and Common Graphs</title>
+      <title>Ranges and Graphs</title>
       <p>
         Ranges can be a little trickier. It helps to look at <fillin characters="15"/>, so knowing the common ones (polynomial, power, exponential, logarithmic, trigonometric, and absolute value functions) is helpful.
       </p>
@@ -164,7 +165,7 @@
 
    <page>
   <paragraphs xml:id="checkpoint-match-graphs-p1">
-    <title>Checkpoint</title>
+    <title>Problem 2</title>
     <p>
       Match each graph below with its corresponding function from the bank, and state its domain and range.
     </p>
@@ -279,7 +280,7 @@
 
 <page>
   <paragraphs xml:id="checkpoint-match-graphs-p2">
-    <title>Checkpoint (continued)</title>
+    <title>Problem 2 (continued)</title>
 
     <sidebyside widths="47% 47%" margins="1% 1%">
       <!-- Left Column: Graphs 5 & 6 -->
@@ -380,7 +381,7 @@
 </page>
 
     <paragraphs xml:id="checkpoint-sketch-piecewise">
-      <title>Checkpoint</title>
+      <title>Problem 3</title>
       <p>
         Sketch the graph of the piecewise function below on the provided coordinate plane, and find its domain and range. (Remember, this is called a piecewise function!)
       </p>
@@ -528,7 +529,7 @@
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-composite-functions-1">
-      <title>Checkpoint</title>
+      <title>Problem 4</title>
       <p>
         If <m>f(x)=\sqrt{x}</m> and <m>g(x)=x+1</m>, find the following composite functions and their domains.
       </p>
@@ -539,7 +540,7 @@
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-composite-functions-2">
-      <title>Checkpoint</title>
+      <title>Problem 5</title>
       <p workspace="1.5in">
         If <m>k(x)=x^2</m> and <m>h(x)=\sqrt{x}</m>, find <m>k \circ h</m> and its domain.
       </p>
