@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-15-notes">
+  <title>Day 15: Sections 4.7 and 3.4a: Newton's Method and Derivatives as Rates of Change (Part 1)</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We learned how to use linear approximation (linearization) to estimate functions.
+    </p>
+    <p>
+      <term>Today:</term> Another specific use of linearization, where it does some cool things. That is, one reason why Isaac Newton thought linear approximation was cool.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="p-linearization-to-newtons-method">
+      <title>From Linear Approximation to Newton's Method</title>
+      <p>
+        Let's recap the idea of how we learned to use linear approximation:
+      </p>
+
+      <sidebyside widths="44% 52%" valign="top">
+        <image source="pictures/Newton1.png">
+          <shortdescription>
+            Graph showing a curve y = f(x) and its tangent line L(x) at (a, f(a)), illustrating how L(x) approximates f(x) for an x-value close to a.
+          </shortdescription>
+        </image>
+        <stack>
+          <p>
+            <strong>a)</strong> The basic procedure is that we find the <fillin characters="20"/> to our function at some point <m>\bigl(a, f(a)\bigr)</m>.
+          </p>
+          <p>
+            <strong>b)</strong> We can then choose an <m>x</m>-value <fillin characters="8"/> to <m>a</m> and approximate <fillin characters="5"/> using <fillin characters="5"/>.
+          </p>
+        </stack>
+      </sidebyside>
+
+      <p>
+        But there's nothing special about which coordinate we chose here! We could just as well choose a <m>y</m>-value <m>y_0</m> and use the tangent line to approximate the corresponding <m>x</m>-value <m>c</m> such that <m>f(c) = y_0</m>.
+      </p>
+
+      <sidebyside widths="44% 52%" valign="top">
+        <image source="pictures/Newton2.png">
+          <shortdescription>
+            Graph showing a curve y = f(x) and its tangent line intersecting the horizontal line y = y_0 at x = b to approximate the exact solution x = c where f(c) = y_0.
+          </shortdescription>
+        </image>
+        <stack>
+          <p>
+            <strong>c)</strong> That is, we can fix a <m>y_0</m> value, find <m>b</m> so that
+            <me>L(b) = y_0</me>
+            by solving the equation <fillin characters="10"/>.
+          </p>
+          <p>
+            <strong>d)</strong> We can then use that value <m>b</m> as an <fillin characters="12"/> for the value <m>c</m>, where <m>f(c) = y_0</m>.
+          </p>
+        </stack>
+      </sidebyside>
+
+      <ul>
+        <li>
+          <p>
+            This is really the idea of <fillin characters="24"/>. In particular, this process tells us how to <em>estimate</em> <fillin characters="8"/> of functions (i.e., estimate the values of <m>x</m> where <m>f(x) = 0</m>, considering <m>y_0 = 0</m>).
+          </p>
+        </li>
+        <li>
+          <p>
+            Why do we care about estimating a solution of <m>f(x) = 0</m>?
+          </p>
+          <ul>
+            <li>
+              <p>It is particularly useful when solving the equation <m>f(x) = 0</m> exactly is <fillin characters="14"/>. For example, solving <m>x^3 - x - 1 = 0</m> or <m>e^x - 3x^2 + 1 = 0</m>.</p>
+            </li>
+            <li>
+              <p>In such cases, applying <fillin characters="16"/>, we instead solve the simpler equation <fillin characters="8"/>, and use its solution as an approximation to the solution of <m>f(x) = 0</m>.</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-newtons-method-cubic">
+      <title>Problem 1</title>
+      <p>
+        Let's work out the process by estimating the root of <m>f(x) = x^3 - x - 1</m> (which has only one root that isn't very nice).
+      </p>
+
+      <sidebyside widths="32% 64%" valign="top">
+        <image source="pictures/sec47fa24pic2.png">
+          <shortdescription>
+            Graph of f(x) = x^3 - x - 1 showing the initial guess x_0 = 1 and its tangent line intersecting the x-axis at x_1, closer to the root.
+          </shortdescription>
+        </image>
+        <stack>
+          <p>
+            <strong>a)</strong> Make a guess <m>x_0</m> for which <m>x</m>-value might be close to the root. It doesn't have to be a good guess! We'll guess that <m>x_0 = 1</m>. For most of these problems, the value for <m>x_0</m> will be provided.
+          </p>
+          <p workspace="1.3in">
+            <strong>b)</strong> Find the tangent line to <m>f(x)</m> at <m>x = x_0</m>.
+          </p>
+          <p workspace="0.8in">
+            <strong>c)</strong> Find the value <m>x_1</m> where the tangent line at <m>x = x_0</m> intersects the <m>x</m>-axis.
+          </p>
+        </stack>
+      </sidebyside>
+
+      <p>
+        We see that <m>x_1</m> is <fillin characters="8"/> to the actual root of our function than our original guess, so we have generated a more accurate approximation. Now we can repeat the process to improve further!
+      </p>
+
+      <sidebyside widths="38% 58%" valign="top">
+        <image source="pictures/sec47fa24pic3.png">
+          <shortdescription>
+            Zoomed-in graph of f(x) = x^3 - x - 1 showing the second tangent line drawn at x_1 intersecting the x-axis at x_2, much closer to the root.
+          </shortdescription>
+        </image>
+        <stack>
+          <p>
+            <strong>a-b-c)</strong> <em>Using Newton's method with <m>x_0 = 1</m>, we found <m>x_1 =</m> <fillin characters="6"/>.</em>
+          </p>
+          <p>
+            <strong>d)</strong> <em>The tangent line to <m>f(x)</m> at <m>x = x_1</m> is given by</em>
+            <me>y = \underline{\hspace{2.5in}}</me>
+          </p>
+          <p>
+            <strong>e)</strong> <em>Find the <m>x</m>-intercept of this new tangent line to get an improved approximation <m>x_2</m>. We do this by solving the equation</em>
+            <me>\underline{\hspace{2.5in}} = 0</me>
+          </p>
+        </stack>
+      </sidebyside>
+
+      <p>
+        <em>to get that <m>x_2 \approx 1.3478</m>, which is way closer to the root <m>1.3247</m> of <m>f(x)</m>.</em>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-newtons-method-qa">
+      <title>Questions / Answers</title>
+      <ol marker="i)">
+        <li>
+          <p>
+            How long do we keep going? <em>Answer: As long as necessary, until your approximation is sufficiently accurate for the context you're working in. If you do <m>n</m> iterations and find that <m>f(x_n) = 0</m>, you've actually found the exact root!</em>
+          </p>
+        </li>
+        <li>
+          <p>
+            Can we always find an exact root by doing enough iterations? <em>Answer: No<mdash/>in most cases you can get an arbitrarily good approximation, but that's different than an exact answer. There are also a few ways Newton's method can break<mdash/>more on that in a minute.</em>
+          </p>
+        </li>
+        <li>
+          <p>
+            Can we use a calculator? <em>Answer: Yes. Please do for WeBWorK. When we ask you questions about this on quizzes and exams, we'll be very careful in our writing so that doing them without a calculator is reasonable.</em>
+          </p>
+        </li>
+        <li>
+          <p>
+            It feels like we're doing the same work of finding tangent lines and solving for roots over and over... can we find patterns to be more efficient? <em>Answer: Yes!</em>
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-newtons-method-formula">
+      <title>General Formula for Newton's Method</title>
+      <p>
+        <term>What can we say about the process overall?</term>
+      </p>
+
+      <sidebyside widths="38% 58%" valign="top">
+        <image source="pictures/Newton 3.png">
+          <shortdescription>
+            Diagram showing the general n-th iteration of Newton's method: the tangent line at (x_n, f(x_n)) crosses the x-axis at x_(n+1).
+          </shortdescription>
+        </image>
+        <stack>
+          <ul>
+            <li><p>Given <m>x_0</m>, use Newton's Method to approximate a root of <m>f(x)</m> or a solution of the equation <m>f(x) = 0</m>.</p></li>
+            <li>
+              <p>
+                Suppose we've found several approximations, <m>x_1, x_2, \ldots, x_n</m>, with <m>x_n</m> being the most recent. The tangent line to <m>f(x)</m> at <m>x = x_n</m> is:
+                <me>y = \underline{\hspace{2.5in}}</me>
+              </p>
+            </li>
+            <li>
+              <p workspace="1.3in">
+                Find the <m>x</m>-intercept of this tangent line to get an improved approximation <m>x_{n+1}</m>. We do this by solving the equation
+                <me>\underline{\hspace{2.5in}} = 0</me>
+              </p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+
+      <p>
+        So, the next approximation <m>x_{n+1}</m> is given by:
+        <me>x_{n+1} = \underline{\hspace{2in}}, \quad \text{if } f'(x_n) \, \underline{\hspace{0.5in}} \, 0.</me>
+      </p>
+      <p>
+        This formula gives us a really fast and efficient way to use Newton's method.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-newtons-method-exp">
+      <title>Problem 2</title>
+      <p>
+        Use Newton's method to approximate a solution to the equation <m>e^x = 3x^2 - 1</m>, starting with <m>x_0 = 0</m> to find <m>x_1</m> and <m>x_2</m>. No need to simplify <m>x_2</m>.
+      </p>
+      <ol marker="i)">
+        <li workspace="0.8in">
+          <p>Identify <m>f(x)</m> before applying the formula.</p>
+        </li>
+        <li workspace="1.8in">
+          <p>Use the formula to find <m>x_1</m> and <m>x_2</m>. No need to simplify <m>x_2</m>.</p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-newtons-method-pitfalls">
+      <title>When Newton's Method Fails</title>
+      <p>
+        We mentioned a few ways Newton's method can break down. While we will mostly stick to well-behaved problems in this course, it is important to understand the limitations of our tools. You are expected to master Case 1 (see below) for assessments; the remaining cases are provided for your reference.
+      </p>
+      <p>
+        Newton's method runs into problems when:
+      </p>
+      <p>
+        <strong>Case 1:</strong>
+      </p>
+      <sidebyside widths="25% 70%" valign="top">
+        <image source="pictures/Newton 4.png">
+          <shortdescription>
+            Graph showing a horizontal tangent line at a local extremum x_n where f'(x_n) = 0, failing to intersect the x-axis.
+          </shortdescription>
+        </image>
+        <stack>
+          <ul>
+            <li><p>Recall that <me>x_{n+1} = \underline{\hspace{2in}}.</me></p></li>
+            <li><p>When <m>f'(x_n) =</m> <fillin characters="4"/><mdash/>the formula is <fillin characters="10"/>.</p></li>
+            <li><p>Geometrically, the <fillin characters="14"/> tangent line, <m>y = f(x_n)</m>, might <fillin characters="6"/> cross the <m>x</m>-axis.</p></li>
+          </ul>
+        </stack>
+      </sidebyside>
+
+      <p>
+        <strong>Case 2:</strong> When <m>x_n = x_k</m> for <m>n \neq k</m>, we get stuck in a loop!
+      </p>
+      <sidebyside width="50%">
+        <image source="pictures/sec47pic5.png">
+          <shortdescription>
+            Graph showing Newton's method oscillating back and forth between two points x_0 and x_1 in an infinite cycle without converging to a root.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <p>
+        <strong>Case 3:</strong> We may miss the root we want.
+      </p>
+      <sidebyside width="50%">
+        <image source="pictures/sec47pic6.png">
+          <shortdescription>
+            Graph showing a poorly chosen initial guess x_0 whose tangent line sends x_1 far away toward a different root rather than the intended nearby root.
+          </shortdescription>
+        </image>
+      </sidebyside>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-rates-of-change-intro">
+      <title>(Preview) Derivatives as Rates of Change</title>
+      <p>
+        Let's finish today by taking a step back and thinking about an application of derivatives. The big idea here is that derivatives model the rates at which things change.
+      </p>
+      <p>
+        One of the real-world reasons people care about derivatives is that they help us relate tons of things to each other. For example, position, velocity, and acceleration:
+        <md>
+          <mrow>s(t) \amp \text{ gives an object's position at time } t</mrow>
+          <mrow>s'(t) = v(t) \amp \text{ gives the object's velocity at time } t</mrow>
+          <mrow>s''(t) = v'(t) = a(t) \amp \text{ gives the object's acceleration at time } t</mrow>
+        </md>
+      </p>
+      <p>
+        <term>Notes:</term> Velocity is speed with direction. That is, <m>\text{speed} = \lvert\text{velocity}\rvert</m>, and the sign of a velocity tells you which direction your object is traveling.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-dynamite-blast">
+      <title>Problem 3</title>
+      <p>
+        A dynamite blast blows a heavy rock straight up with an initial velocity of <m>10\text{ ft/s}</m>. It reaches a height of <m>s = 10t - t^2\text{ ft}</m> after <m>t</m> seconds.
+      </p>
+
+      <sidebyside widths="24% 72%" valign="top">
+        <image source="pictures/sec34fa24pic1.png">
+          <shortdescription>
+            Vertical trajectory diagram of a rock launched straight up from the ground, reaching a maximum height before falling back down.
+          </shortdescription>
+        </image>
+        <stack>
+          <p workspace="1.3in">
+            <strong>a)</strong> What are the velocity and acceleration of the rock at any time <m>t</m> during its flight (after the blast)?
+          </p>
+          <p workspace="1.3in">
+            <strong>b)</strong> When does the rock reach its highest point, and how high does it go?
+          </p>
+        </stack>
+      </sidebyside>
+
+      <p workspace="1.5in">
+        <strong>c)</strong> What are the velocity and speed of the rock when it is 16 ft above the ground on the way up? On the way down?
+      </p>
+      <p workspace="1.5in">
+        <strong>d)</strong> When does the rock hit the ground again?
+      </p>
+    </paragraphs>
+  </page>
+</handout>

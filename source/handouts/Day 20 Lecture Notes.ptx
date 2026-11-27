@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-20-notes">
+  <title>Day 20: Section 4.4b: Curve Sketching (Part I)</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We learned our last bit of differentiation theory: how to use logarithmic differentiation to tackle challenging functions, including inverse trigonometric functions.
+    </p>
+    <p>
+      <term>Today:</term> We cover derivatives of inverse trigonometric functions (refer to Day 19). We will then revisit concavity to study inflection points and review how to extract important features of graphs from first and second derivatives. Next week, we will also pick up another valuable tool: the idea of <em>symmetry</em>.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="prob-graph-matching-warmup">
+      <title>Problem 1 (Warm-Up)</title>
+      <p>
+        Suppose you want to sketch the graph of a function <m>f(x)</m>. Match each mathematical property on the left with its corresponding graphical feature on the right.
+      </p>
+
+      <sidebyside widths="55% 41%" margins="1% 1%" valign="top">
+        <stack>
+          <p><strong>Mathematical Property</strong></p>
+          <ol marker="1.">
+            <li><p>Point(s) <m>(x, y)</m> where <m>y = f(x) = 0</m></p></li>
+            <li><p>The point <m>(x, y)</m> where <m>x = 0</m> and <m>y = f(0)</m></p></li>
+            <li><p>Sign of <m>f'(x)</m> on an interval</p></li>
+            <li><p>Sign of <m>f''(x)</m> on an interval</p></li>
+            <li><p><m>\displaystyle\lim_{x \to a^+} f(x) = \pm\infty</m> or <m>\displaystyle\lim_{x \to a^-} f(x) = \pm\infty</m></p></li>
+            <li><p><m>\displaystyle\lim_{x \to \infty} f(x) = L</m> or <m>\displaystyle\lim_{x \to -\infty} f(x) = L</m></p></li>
+          </ol>
+        </stack>
+
+        <stack>
+          <p><strong>Graphical Feature</strong></p>
+          <ol marker="A.">
+            <li><p>Concave Up / Concave Down</p></li>
+            <li><p><m>y</m>-intercept</p></li>
+            <li><p>Horizontal asymptote (<m>y = L</m>)</p></li>
+            <li><p><m>x</m>-intercept(s) (root(s))</p></li>
+            <li><p>Increasing / Decreasing</p></li>
+            <li><p>Vertical asymptote (<m>x = a</m>)</p></li>
+          </ol>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="p-inflection-points-definition">
+      <title>Inflection Points</title>
+      <p>
+        Also, the <fillin characters="6"/> derivative allows us to locate <fillin characters="10"/> points<mdash/>the candidates for <fillin characters="6"/> extrema. We then classify each critical point as a local maximum, local minimum, or neither using the <fillin characters="26"/> Test.
+      </p>
+      <p>
+        Now, the <fillin characters="6"/> derivative allows us to locate candidates for <fillin characters="16"/> points.
+      </p>
+      <p>
+        <term>Definition:</term> A point <m>\bigl(c, f(c)\bigr)</m> where the graph of <m>f(x)</m> has <fillin characters="24"/> and where <fillin characters="14"/> or <fillin characters="14"/> is a <em>point of inflection</em>.
+      </p>
+      <p>
+        <term>Examples:</term>
+      </p>
+
+      <sidebyside widths="31% 31% 31%" margins="1% 1%" valign="top">
+        <image source="pictures/sec44bfa24pic2.png">
+          <shortdescription>
+            Example graph showing a smooth inflection point where concavity changes from concave down to concave up with a non-vertical tangent line.
+          </shortdescription>
+        </image>
+        <image source="pictures/sec44bfa24pic3.png">
+          <shortdescription>
+            Example graph showing an inflection point with a vertical tangent line where concavity changes across the point.
+          </shortdescription>
+        </image>
+        <image source="pictures/sec44pic3.jpeg">
+          <shortdescription>
+            Example graph showing a corner or cusp where concavity changes, illustrating a point that is not an inflection point because no unique tangent line exists.
+          </shortdescription>
+        </image>
+      </sidebyside>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-identify-features-graphs">
+      <title>Problem 2</title>
+      <p>
+        In the graphs below, identify the critical points and points of inflection (as well as the roots) if they exist.
+      </p>
+
+      <sidebyside widths="44% 48%" margins="2% 2%" valign="top">
+        <image source="pictures/sec44pic7.png">
+          <shortdescription>
+            First curve-sketching graph for identifying roots, critical points, and points of inflection.
+          </shortdescription>
+        </image>
+        <image source="pictures/sec44sp26pic1.png">
+          <shortdescription>
+            Second curve-sketching graph for identifying roots, critical points, and points of inflection.
+          </shortdescription>
+        </image>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="p-finding-inflection-points-steps">
+      <title>Algebraic Steps for Finding Inflection Points</title>
+      <p>
+        While it can be helpful to start by identifying these features on a given graph, we usually want to describe them algebraically first, then use that knowledge to sketch a graph.
+      </p>
+      <p>
+        By definition, a point <m>\bigl(c, f(c)\bigr)</m> where the graph of <m>f(x)</m> has a unique tangent line and where concavity changes is a <em>point of inflection</em>. Algebraically, to find the inflection points of a function, we follow these steps:
+      </p>
+      <p>
+        <strong>Step 1:</strong> Find all values <m>x = c</m> in the domain of <m>f</m> where <fillin characters="14"/> or <fillin characters="18"/>.
+      </p>
+      <p>
+        <strong>Step 2:</strong> Construct a sign chart for <fillin characters="10"/> using these candidate points from Step 1.
+      </p>
+      <p>
+        <strong>Step 3:</strong> Identify points <m>x = c</m> where the sign of <fillin characters="18"/>.
+      </p>
+      <p>
+        <strong>Step 4:</strong> Confirm that either <m>f'(c)</m> <fillin characters="8"/> or the graph has a vertical tangent line at <m>x = c</m> (i.e., <m>f</m> is continuous at <m>c</m> and the limit of <m>f'(x)</m> as <m>x</m> approaches <m>c</m> is infinite).
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-quintic-overview">
+      <title>Problem 3</title>
+      <p>
+        Let <m>\displaystyle f(x) = \frac{1}{72}x^5 + \frac{5}{72}x^4 + 2</m>.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>What is the <m>y</m>-intercept of <m>f(x)</m>? Is it easy to find the <m>x</m>-intercept?</p>
+        </li>
+        <li>
+          <p>(Exercise) What are the critical points of <m>f(x)</m>? On what intervals is <m>f(x)</m> increasing/decreasing? Identify any local extrema. Does it have any vertical or horizontal asymptotes?</p>
+        </li>
+        <li>
+          <p><strong>(Preview)</strong> On what intervals is <m>f(x)</m> concave up/down? Where are the inflection points?</p>
+        </li>
+        <li>
+          <p><strong>(Preview)</strong> Make a rough sketch of <m>f(x)</m>.</p>
+        </li>
+        <li>
+          <p>Based on the sketch, can you determine how many roots <m>f(x)</m> has?</p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-quintic-workthrough">
+      <title>Problem 3 (Workthrough)</title>
+      <p>
+        Let <m>\displaystyle f(x) = \frac{1}{72}x^5 + \frac{5}{72}x^4 + 2</m>.
+      </p>
+      <ol marker="a)">
+        <li workspace="0.4in">
+          <p>What is the <m>y</m>-intercept of <m>f(x)</m>? Is it easy to find the <m>x</m>-intercept?</p>
+        </li>
+        <li workspace="0.5in">
+          <p>(Exercise) What are the critical points of <m>f(x)</m>? On what intervals is <m>f(x)</m> increasing/decreasing? Identify any local extrema. Does it have any vertical or horizontal asymptotes?</p>
+        </li>
+        <li workspace="1.8in">
+          <p>On what intervals is <m>f(x)</m> concave up/down? Where are the inflection points?</p>
+        </li>
+        <li>
+          <p><strong>(Preview)</strong> Make a rough sketch of <m>f(x)</m> on <m>(-6, 4)</m>.</p>
+          <sidebyside widths="64% 32%" margins="1% 1%" valign="top">
+            <image source="pictures/sec44pic4.jpeg">
+              <shortdescription>
+                Coordinate grid on the interval (-6, 4) for sketching the graph of f(x) = (1/72)x^5 + (5/72)x^4 + 2.
+              </shortdescription>
+            </image>
+            <stack>
+              <p>Recall the previous results:</p>
+              <ul>
+                <li><p><em>Increasing:</em> <m>(-\infty, -4) \cup (0, \infty)</m></p></li>
+                <li><p><em>Decreasing:</em> <m>(-4, 0)</m></p></li>
+                <li><p>Local max at <m>\displaystyle \left(-4, \frac{50}{9}\right)</m></p></li>
+                <li><p>Local min at <m>(0, 2)</m></p></li>
+                <li><p><em>Asymptotes:</em> None</p></li>
+                <li><p>Concave up: <fillin characters="16"/></p></li>
+                <li><p>Concave down: <fillin characters="16"/></p></li>
+                <li><p>Inflection Point(s): <fillin characters="16"/></p></li>
+              </ul>
+            </stack>
+          </sidebyside>
+        </li>
+        <li workspace="0.5in">
+          <p>Can you determine how many roots <m>f(x)</m> has?</p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+</handout>

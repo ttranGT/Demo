@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-17-notes">
+  <title>Day 17: Section 3.7: Implicit Differentiation</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We learned how to differentiate trigonometric functions, and got a sneak peek of derivatives showing up in a non-mathematical context.
+    </p>
+    <p>
+      <term>Today:</term> We want to learn about implicit differentiation, how it's used, and how it helps us differentiate logarithmic functions.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="p-explicit-vs-implicit-intro">
+      <title>Explicit vs. Implicit Differentiation</title>
+      <p>
+        What are we doing when we take derivatives?
+      </p>
+      <p workspace="1.1in">
+        We differentiate functions that look like <m>y = f(x)</m> to find <m>\displaystyle \frac{dy}{dx}</m> (equivalently written as <m>\displaystyle \frac{d}{dx} y</m>, <m>\displaystyle \frac{d}{dx} f(x)</m>, <m>f'(x)</m>, or <m>y'</m>). For example: Find <m>\displaystyle \frac{dy}{dx}</m>, where <m>y = f(x) = 2^x - x^2 + 1</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-chain-rule-unspecified-fn">
+      <title>Problem 1</title>
+      <p workspace="1.1in">
+        Use the Chain Rule to find <m>g'(x)</m>, where <m>g(x) = \bigl(f(x)\bigr)^3</m> for an unspecified differentiable function <m>f(x)</m>.
+      </p>
+      <p workspace="1in">
+        But what if we treat <m>y</m> as a function of <m>x</m>, so <m>y = f(x)</m>? Then this problem is equivalent to finding <m>\displaystyle \frac{d}{dx}(y^3)</m>. Let's re-examine the problem using this notation.
+      </p>
+      <p>
+        This is really the idea of <fillin characters="24"/>: We want to find the <fillin characters="26"/> (or derivative) of an expression, but one variable is NOT written <fillin characters="16"/> as a function of the other variable. For example:
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-circle-tangent">
+      <title>Problem 2</title>
+      <p>
+        Consider the circle <m>x^2 + y^2 = 25</m>, pictured below. Find the equation of the tangent line to the circle at the point <m>(4, -3)</m>.
+      </p>
+
+      <sidebyside widths="32% 64%" valign="top">
+        <image source="pictures/Circle-Implicit Diff.png">
+          <shortdescription>
+            Circle of radius 5 centered at the origin (x^2 + y^2 = 25) with the point (4, -3) marked in the fourth quadrant and its tangent line drawn.
+          </shortdescription>
+        </image>
+        <stack>
+          <ul>
+            <li>
+              <p workspace="0.4in">We can set up the equation using the point-slope formula:</p>
+            </li>
+            <li>
+              <p workspace="0.4in">
+                We <em>can</em> finish this problem using the tools we already have. The function that gives us the <em>lower</em> half of the circle is
+                <me>y = \underline{\hspace{2in}}.</me>
+                Using the Chain Rule to differentiate, we can then find the slope of the tangent line.
+              </p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+
+      <ul>
+        <li>
+          <p>But is there an easier way?</p>
+        </li>
+      </ul>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-circle-tangent-cont">
+      <title>Problem 2 (cont.)</title>
+      <p>
+        A circle is a simple, symmetric shape, so it would be nice if we could find a single equation for the slope of the tangent line at any point on the circle, without having to split it into top and bottom halves.
+      </p>
+      <p>
+        <fillin characters="24"/> lets us do exactly that!
+      </p>
+      <p workspace="0.9in">
+        We can differentiate both sides of the equation <m>x^2 + y^2 = 25</m> with respect to <m>x</m>, remembering that because <m>y</m> is an <fillin characters="14"/> function of <m>x</m>, we must apply the <fillin characters="16"/> whenever <m>y</m> acts as the <fillin characters="10"/> function of a composition.
+      </p>
+      <p workspace="0.9in">
+        Now, by plugging in our point <m>(x, y) = (4, -3)</m>, we can quickly find the slope of the tangent line and complete the problem.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-implicit-differentiation-steps">
+      <title>Steps for Implicit Differentiation</title>
+      <p>
+        So the main takeaway of implicit differentiation is that we can find the slopes of tangent lines to any curve, even if it is not the graph of a function! We just follow these steps:
+      </p>
+      <p>
+        <strong>Step 1:</strong> Choose <fillin characters="14"/> to differentiate <em>with respect to</em>; that is, choose the independent variable (like <m>x</m>) that appears in the denominator of the derivative operator (like <m>\displaystyle \frac{d}{dx}</m>).
+      </p>
+      <p>
+        <strong>Step 2:</strong> Differentiate <fillin characters="18"/> (both sides!) with respect to the chosen independent variable. Apply standard derivative rules (Product, Quotient, Chain), treating every dependent variable (like <m>y</m>) as an <fillin characters="14"/> function and multiplying by its <fillin characters="14"/> whenever it is differentiated.
+      </p>
+      <p>
+        Next, depending on what the problem asks for:
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>General Derivative Expression: Solve algebraically for the corresponding derivative symbol (like <m>\displaystyle \frac{dy}{dx}</m>).</p>
+        </li>
+        <li>
+          <p>Slope at a Specific Point: Substitute the given coordinates <m>(x, y)</m> into your equation from Step 2 and solve for the slope (you do not need to isolate <m>\displaystyle \frac{dy}{dx}</m> first!).</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-folium-of-descartes">
+      <title>Problem 3</title>
+      <sidebyside widths="38% 58%" valign="top">
+        <image source="pictures/Day_13.2.png">
+          <shortdescription>
+            Graph of the Folium of Descartes x^3 + y^3 = (9/2)xy showing its loop in the first quadrant and the point (1, 2) on the curve.
+          </shortdescription>
+        </image>
+        <stack>
+          <p workspace="1.8in">
+            The curve <m>\displaystyle x^3 + y^3 = \frac{9}{2}xy</m>, called the <em>Folium of Descartes</em>, was defined by Descartes in a doomed attempt to find a function his rival Fermat couldn't differentiate. Find the slope of the tangent line to this curve at <m>(1, 2)</m>.
+          </p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-log-derivative-proof">
+      <title>Problem 4</title>
+      <p>
+        The other thing implicit differentiation allows us to do is find the derivative of logarithmic functions. For example:
+      </p>
+      <p>
+        Find the derivative of <m>y = \log_2(x)</m>.
+      </p>
+      <p>
+        We don't know how to differentiate this directly yet, but we can rewrite it exponentially as <m>x =</m> <fillin characters="10"/>.
+      </p>
+      <p workspace="1.4in">
+        Now differentiate implicitly with respect to <m>x</m>!
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="rule-logarithmic-derivatives">
+      <title>Derivatives and Properties of Logarithmic Functions</title>
+      <p>
+        The number <m>2</m> was not special here (but <m>e</m> is special): In general, for any constant base <m>a</m>, where <m>0 \lt a</m> and <m>a \neq 1</m>,
+        <me>\frac{d}{dx}\log_a(x) = \underline{\hspace{1.5in}} \qquad \text{and} \qquad \frac{d}{dx}\ln(x) = \underline{\hspace{1.5in}}.</me>
+      </p>
+      <p>
+        Since we are using logarithms, let's review a few key properties that help us rewrite logarithmic expressions:
+      </p>
+      <ul>
+        <li><p><m>\log_a(bc) =</m> <fillin characters="24"/></p></li>
+        <li><p><m>\displaystyle \log_a\left(\frac{b}{c}\right) =</m> <fillin characters="24"/></p></li>
+        <li><p>However, <m>\log_a(b \pm c) =</m> <fillin characters="10"/></p></li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-log-properties-differentiation">
+      <title>Problem 5 (Exercise)</title>
+      <p>
+        Find the derivative of <m>\displaystyle f(x) = \ln\left(\frac{(x^2+1)(2x-3)}{x^3+x-6}\right)</m>.
+      </p>
+      <ol marker="i)">
+        <li workspace="1.3in">
+          <p>First approach: Use derivative rules directly.</p>
+        </li>
+        <li workspace="1.3in">
+          <p>Second approach: Simplify the function using logarithmic properties before applying derivative rules.</p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-time-dependent-implicit">
+      <title>Problem 6</title>
+      <p>
+        One other huge reason we care about implicit differentiation is that it helps us explore situations where we have equations that model quantities that change over time.
+      </p>
+      <p>
+        Let's practice differentiating some of those functions today, and we'll see next time where they come from.
+      </p>
+      <ol marker="a)">
+        <li workspace="2.2in">
+          <p>
+            Differentiate both sides of the equation <m>\displaystyle V = \frac{3\pi}{25}\,h^3</m> with respect to <m>t</m>, where <m>V(t)</m> and <m>h(t)</m> are functions of <m>t</m>.
+          </p>
+        </li>
+        <li workspace="2.2in">
+          <p>
+            Find <m>\displaystyle \frac{d}{dt}\left(\tan(\theta) = \frac{300}{x}\right)</m>, where <m>\theta</m> and <m>x</m> are functions of <m>t</m>.
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+</handout>

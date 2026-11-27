@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-18-notes">
+  <title>Day 18: Section 3.10: Related Rates</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We learned how to use implicit differentiation to differentiate with respect to different variables, particularly to find the derivatives of logarithmic functions.
+    </p>
+    <p>
+      <term>Today:</term> We want to use implicit differentiation to solve related rates problems.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="prob-related-rates-warmup">
+      <title>Problem 1 (Warm-Up)</title>
+      <p>
+        Let's start with a quick warm-up problem to remind ourselves how implicit differentiation works. <em>(We may skip this problem if it was already discussed on Monday.)</em>
+      </p>
+      <ol marker="a)">
+        <li workspace="1.3in">
+          <p>
+            Differentiate both sides of the equation <m>\displaystyle V = \frac{3\pi}{25}\,h^3</m> with respect to <m>t</m>, where <m>V(t)</m> and <m>h(t)</m> are functions of <m>t</m>.
+          </p>
+        </li>
+        <li workspace="1.3in">
+          <p>
+            Find <m>\displaystyle \frac{d}{dt}\left(\tan(\theta) = \frac{300}{x}\right)</m>, where <m>\theta</m> and <m>x</m> are functions of <m>t</m>.
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="p-related-rates-intro">
+      <title>What Are Related Rates Problems?</title>
+      <p>
+        <term>Related Rates</term> problems are application problems that involve <fillin characters="22"/>.
+      </p>
+      <ul>
+        <li>
+          <p>
+            Solving a related rates problem relies heavily on <fillin characters="24"/> after setting up the problem using algebra, geometry, trigonometry, etc.
+          </p>
+        </li>
+        <li>
+          <p>
+            In particular, let's remember that any derivative <m>dy/dx</m> measures the (instantaneous) rate of change of <m>y</m> with respect to <m>x</m>, so finding rates of change is really just finding <fillin characters="14"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+            We'll deal almost entirely with finding rates of change as time passes, or derivatives with respect to <fillin characters="6"/>.
+          </p>
+        </li>
+      </ul>
+      <p>
+        Here's an example of a problem we might look at:
+      </p>
+      <p>
+        <strong>Problem 2:</strong> As a metal cube is heated, its side length expands at a constant rate of <m>0.5~\text{in/min}</m>. How fast is the volume of the cube increasing when its side length is <m>5~\text{in.}</m>?
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-checkpoint-identify-type">
+      <title>Identify the Type of Problem Checkpoint</title>
+      <p>
+        Select either Option 1 or Option 2 below. The problem asks: <q>How fast is the volume of the cube increasing when its side length is <m>5~\text{in.}</m>?</q> Does this mean:
+      </p>
+      <p>
+        <strong>Option 1:</strong> Find the volume when its side length is <m>5~\text{in.}</m>
+      </p>
+      <p>
+        <strong>Option 2:</strong> Find the rate of change of the volume when its side length is <m>5~\text{in.}</m>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-metal-cube-intro">
+      <title>Problem 2</title>
+      <p>
+        As a metal cube is heated, its side length expands at a constant rate of <m>0.5~\text{in/min}</m>. How fast is the volume of the cube increasing when its side length is <m>5~\text{in.}</m>?
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-related-rates-strategy">
+      <title>Related Rates Strategy</title>
+      <p>
+        Before we dive in, let's write down a general strategy for solving this type of problem<mdash/>there tend to be a lot of steps, so staying organized is key.
+      </p>
+      <p>
+        <strong>Step 1)</strong> Draw a <fillin characters="10"/> of the <strong>overall</strong> situation. Label <fillin characters="12"/> quantities with numbers and changing over time quantities with <fillin characters="14"/>.
+      </p>
+      <p>
+        <strong>Step 2)</strong> Identify your <fillin characters="10"/> (finding the rate of change of which <fillin characters="10"/> at a <fillin characters="8"/> instant) and any rates of change <fillin characters="12"/> in the problem.
+      </p>
+      <p>
+        <strong>Step 3)</strong> Write an <fillin characters="14"/> that relates <em>the variables</em> <strong>we really want</strong>. You should <em>not</em> include any rates in this step!
+      </p>
+      <ul>
+        <li>
+          <p>
+            <strong>3.1 (Useful Hint:)</strong> You may have to combine two or more equations to get a single equation that relates the variable whose rate <fillin characters="24"/> to the variables whose rates <fillin characters="18"/>.
+          </p>
+        </li>
+      </ul>
+      <p>
+        <strong>Step 4)</strong> <fillin characters="14"/> <fillin characters="22"/> your equation from Step 3) <em>with respect to</em> <fillin characters="14"/> to find an equation involving rates.
+      </p>
+      <p>
+        <strong>Step 5)</strong> <fillin characters="14"/> the given information, including any values from the specific instant, and <fillin characters="10"/> for the unknown rate! <em>Include units in your answer.</em>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-metal-cube-steps">
+      <title>Problem 2 (Walkthrough)</title>
+      <p>
+        Let's work through these steps in Problem 2. Here's the statement again:
+      </p>
+      <p>
+        As a metal cube is heated, its side length expands at a constant rate of <m>0.5~\text{in/min}</m>. How fast is the volume of the cube increasing when its side length is <m>5~\text{in.}</m>?
+      </p>
+      <p workspace="1.6in">
+        <strong>Step 1:</strong> Draw a <fillin characters="10"/> and label <fillin characters="14"/> and <fillin characters="14"/>.
+      </p>
+      <p>
+        <strong>Step 2:</strong> Identify your <fillin characters="10"/>:
+      </p>
+      <ul>
+        <li><p>Find <fillin characters="10"/> when <fillin characters="10"/>.</p></li>
+        <li><p>Given rate(s) of change in the problem: <fillin characters="18"/></p></li>
+      </ul>
+      <p workspace="0.8in">
+        <strong>Step 3:</strong> Relate the variable <fillin characters="6"/> whose rate <fillin characters="22"/> to the variable(s) <fillin characters="6"/> whose rate(s) are <fillin characters="10"/>.
+      </p>
+      <p workspace="0.8in">
+        <strong>Step 4:</strong> Implicitly differentiate with respect to <fillin characters="10"/>.
+      </p>
+      <p workspace="1.2in">
+        <strong>Step 5:</strong> Plug in and solve! <em>Include units in your answer.</em>
+      </p>
+      <p>
+        There are different pictures that will show up in different related rates problems, and different formulas we'll need to use for the setup<mdash/>this is where being careful in our physical interpretation of the problem is really important. The best way to get good at these is to do lots of practice until the strategy and steps become your own! Let's try a few more.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-ryan-radar-gun">
+      <title>Problem 3</title>
+      <p>
+        Ryan is parked <m>300</m> feet away from the side of I-75 with their radar gun, patrolling for speeding cars. A Tesla zips by quickly in the left lane, and the batteries in Ryan's radar gun die so they can't get a reading of the car's speed. Using the dashboard camera, they can determine that a few seconds later, the angle between Ryan, the Tesla, and the straight road is <m>\pi/6</m> and changing at a rate of <m>-3\pi</m> radians per minute. How fast is the Tesla driving at this instant?
+      </p>
+      <p workspace="1.6in">
+        <strong>Step 1:</strong> Draw a <fillin characters="10"/> and label <fillin characters="14"/> and <fillin characters="14"/>.
+      </p>
+      <p>
+        <strong>Step 2:</strong> Identify your <fillin characters="10"/>:
+      </p>
+      <ul>
+        <li><p>Find <fillin characters="10"/> when <fillin characters="10"/>.</p></li>
+        <li><p>Given rate(s) of change in the problem: <fillin characters="18"/></p></li>
+      </ul>
+      <p workspace="0.8in">
+        <strong>Step 3:</strong> Relate the variable <fillin characters="6"/> whose rate <fillin characters="22"/> to the variable(s) <fillin characters="6"/> whose rate(s) are <fillin characters="10"/>.
+      </p>
+      <p workspace="1in">
+        <strong>Step 4:</strong> Implicitly differentiate with respect to <fillin characters="10"/>.
+      </p>
+      <p workspace="1.2in">
+        <strong>Step 5:</strong> Plug in and solve! <em>Include units in your answer.</em>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-inverted-cone-preview">
+      <title>Problem 4 (Preview)</title>
+      <p>
+        An oil tank in the shape of an inverted cone has a height of <m>10</m> m and a radius of <m>6</m> m. When the oil is <m>5</m> m deep, the tank is leaking oil from the tip at a rate of <m>2\text{ m}^3</m> per day. How quickly is the depth of the oil in the tank decreasing at this moment?
+      </p>
+      <p workspace="1.6in">
+        <strong>Step 1:</strong> Draw a <fillin characters="10"/> and label <fillin characters="14"/> and <fillin characters="14"/>.
+      </p>
+      <p>
+        <strong>Step 2:</strong> Identify your <fillin characters="10"/>:
+      </p>
+      <ul>
+        <li><p>Find <fillin characters="10"/> when <fillin characters="10"/>.</p></li>
+        <li><p>Given rate(s) of change in the problem: <fillin characters="18"/></p></li>
+      </ul>
+      <p workspace="1.3in">
+        <strong>Step 3:</strong> Relate the variable <fillin characters="6"/> whose rate <fillin characters="22"/> to the variable(s) <fillin characters="6"/> whose rate(s) are <fillin characters="10"/>.
+      </p>
+      <p workspace="0.8in">
+        <strong>Step 4:</strong> Implicitly differentiate with respect to <fillin characters="10"/>.
+      </p>
+      <p workspace="1.1in">
+        <strong>Step 5:</strong> Plug in and solve! <em>Include units in your answer.</em>
+      </p>
+      <p>
+        Remember, these problems take practice! Keep working on them and looking for patterns<mdash/>they all follow the same basic framework, which is the 5-step strategy.
+      </p>
+    </paragraphs>
+  </page>
+</handout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-14-notes">
+  <title>Day 14: Section 3.11: Linear Approximation</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We finished our study of optimization, which is an application of derivatives.
+    </p>
+    <p>
+      <term>Today:</term> We continue our exploration of the applications of derivatives, focusing on tangent lines and their uses.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="p-linearization-intro">
+      <title>Linearization</title>
+      <p>
+        At the beginning of the semester, our discovery of derivatives was motivated by the idea that we wanted <em>exact</em> instantaneous rates of change, not just approximations. Today we're going in the opposite direction: sometimes a careful estimate is sufficient and easier to compute.
+      </p>
+      <p>
+        <term>Goal:</term> Learn how to use derivatives to approximate a function <m>f</m> near a specific point <m>a</m>, using the technique of linearization.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-tangent-line-equation">
+      <title>Problem 1</title>
+      <p workspace="1.2in">
+        Find an equation for the line tangent to <m>f(x)</m> at the point <m>\bigl(a, f(a)\bigr)</m> (assuming <m>f</m> is differentiable at <m>a</m>).
+      </p>
+      <sidebyside width="50%">
+        <image source="pictures/sec311p2.png">
+          <shortdescription>
+            Graph of a smooth curve y = f(x) with its tangent line L(x) drawn at the point (a, f(a)), showing how L(x) approximates f(x) near x = a.
+          </shortdescription>
+        </image>
+      </sidebyside>
+      <p>
+        This general tangent line we've just found has a name:
+      </p>
+      <p>
+        <term>Definition:</term> If <m>f(x)</m> is differentiable at <m>x = a</m>, then the <fillin characters="20"/> of <m>f(x)</m> at <m>a</m> is the tangent line
+        <me>L(x) = \underline{\hspace{2in}}.</me>
+      </p>
+      <p>
+        Knowing this equation is one of your important takeaways from today. You can use it to find <em>any</em> tangent line for the rest of the semester!
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-why-linearizations">
+      <title>Why Do We Care?</title>
+      <p>
+        Linearizations are useful in many contexts and fields. For example:
+      </p>
+      <ol marker="1.">
+        <li>
+          <p>
+            Math: If we don't have a general formula for <m>f(x)</m> but can find a tangent line, or have <m>f(x)</m> but evaluating it requires many calculations and we only need an approximation, we can use the fact that <m>f(x) \approx L(x)</m> as long as <m>x</m> and <m>a</m> are <fillin characters="8"/> together. That is, we have the useful <em>standard linear approximation</em> of <m>f</m> by <m>L</m>:
+            <me>f(x) \approx L(x) = \underline{\hspace{2in}},</me>
+            where <m>x = a</m> is <em>the <fillin characters="8"/> of the approximation</em>.
+          </p>
+          <ul>
+            <li><p>At <m>x = a</m>: <m>f(a)</m> <fillin characters="4"/> <m>L(a)</m>.</p></li>
+            <li><p>The approximation is most accurate <fillin characters="10"/> the center.</p></li>
+            <li><p>When possible, the center is often chosen to make calculations simpler (for example, an integer or a point where <m>f(a)</m> is easy to compute without a calculator).</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            Gaussian Optics: We can use paraxial approximation (linear approximation applied to trig functions) to simplify parameters enough to make functionally useful imaging systems.
+          </p>
+        </li>
+        <li>
+          <p>
+            Oscillation: The mathematical expressions describing movement of pendulums that take local gravity into consideration are really complicated, but when the pendulum is only making small swings we can get <em>really</em> good approximations since the variation is so small. Linearization allows us to make those approximations, which helps pendulums practically be useful for things like keeping time.
+          </p>
+        </li>
+        <li>
+          <p>
+            Electrical Resistivity: Similarly, electrical resistivity (which depends on temperature) is difficult to calculate. In the case where temperature is well controlled, a simple linear approximation is quite sufficient and much easier.
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-sqrt-linearization">
+      <title>Problem 2</title>
+      <p>
+        We'll focus on the first of these uses of linear approximation.
+      </p>
+      <ol marker="a)">
+        <li workspace="1.5in">
+          <p>Find the linearization of <m>f(x) = \sqrt{x}</m> with the center of approximation <m>4</m>.</p>
+        </li>
+        <li workspace="1in">
+          <p>Use your linearization to approximate <m>\sqrt{4.5}</m>. Note that <m>\sqrt{4.5} \approx 2.1213\ldots</m></p>
+        </li>
+        <li workspace="1.4in">
+          <p>Sketch a graph of <m>\sqrt{x}</m> and use it to explain what you're doing in parts (a) and (b).</p>
+          <p workspace="0.8in">
+            <strong>c-i)</strong> Is your approximation an overestimate or underestimate of <m>\sqrt{4.5}</m>? Why or why not?
+          </p>
+          <p workspace="0.8in">
+            <strong>c-ii)</strong> Is your linearization useful in approximating <m>\sqrt{25.5}</m>? Why or why not?
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-concavity-and-estimates">
+      <title>Concavity and Over/Underestimates</title>
+      <p>
+        Let's take a quick detour based on this last question: we can always graph a function and its linearization to answer questions about what kind of estimate we've found. But there's a better way!
+      </p>
+      <p>
+        Remember that:
+      </p>
+      <ul>
+        <li>
+          <p>The first derivative <m>f'(x)</m> tells you whether <m>f(x)</m> is <fillin characters="14"/> or <fillin characters="14"/>.</p>
+        </li>
+        <li>
+          <p>
+            The <fillin characters="10"/> derivative, <fillin characters="5"/>, tells you about the function's <em>concavity</em>, that is, which way the graph curves. This information also helps you decide whether the linearization <m>L(x)</m> is an under- or over-approximation of <m>f(x)</m>. In particular:
+          </p>
+          <p workspace="0.7in">
+            <strong>Case 1:</strong> If <m>f''(a) \gt 0</m>, <m>f</m> is <fillin characters="22"/>, and therefore <m>f(x) \gt L(x)</m> for <m>x</m> near <m>a</m>. In this case <m>L(x)</m> yields an <fillin characters="22"/>.
+          </p>
+          <p workspace="0.7in">
+            <strong>Case 2:</strong> If <m>f''(a) \lt 0</m>, <m>f</m> is <fillin characters="22"/>, and therefore <m>f(x) \lt L(x)</m> for <m>x</m> near <m>a</m>. In this case <m>L(x)</m> yields an <fillin characters="22"/>.
+          </p>
+          <p>
+            <strong>Case 3:</strong> If <m>f''(a) = 0</m>, we can't determine the concavity at <m>a</m> just from the second derivative. We'll need to use other tools to figure out what's happening.
+          </p>
+        </li>
+      </ul>
+      <p>
+        Let's not forget that <m>f''(x)</m> is the derivative of <m>f'(x)</m>, and so tells us something about whether <m>f'</m> is increasing or decreasing<mdash/>all three functions are closely related. Here's a helpful table to keep track!
+      </p>
+
+      <tabular top="minor" left="minor" right="minor" bottom="minor">
+        <col width="33%" halign="center"/>
+        <col width="33%" halign="center"/>
+        <col width="34%" halign="center"/>
+        <row bottom="minor">
+          <cell><m>f(x)</m></cell>
+          <cell><m>f'(x)</m></cell>
+          <cell><m>f''(x)</m></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Positive/Negative</cell>
+          <cell>X</cell>
+          <cell>X</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Increasing/Decreasing</cell>
+          <cell>Positive/Negative</cell>
+          <cell>X</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Concave Up/Down</cell>
+          <cell>Increasing/Decreasing</cell>
+          <cell>Positive/Negative</cell>
+        </row>
+        <row bottom="minor">
+          <cell>X</cell>
+          <cell>Concave Up/Down</cell>
+          <cell>Increasing/Decreasing</cell>
+        </row>
+        <row>
+          <cell>X</cell>
+          <cell>X</cell>
+          <cell>Concave Up/Down</cell>
+        </row>
+      </tabular>
+
+      <p>
+        And so on<mdash/>to read this table, remember that the facts in each row are equivalent (X's stand for no relevant information).
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-fractional-power-linearization">
+      <title>Problem 3</title>
+      <p>
+        Answer the following:
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>Find the linear approximation of <m>(8.01)^{4/3}</m>.</p>
+          <ol marker="i)">
+            <li workspace="0.8in">
+              <p>What is a good choice for the center of approximation <m>a</m>?</p>
+            </li>
+            <li workspace="0.8in">
+              <p>What function <m>f(x)</m> should you choose so that <m>f(8.01) = (8.01)^{4/3}</m>?</p>
+            </li>
+            <li workspace="1.8in">
+              <p><em>(Exercise)</em> Find the linearization <m>L(x)</m> of <m>f(x)</m> at <m>a</m>. <em>Hint: Use the formula for <m>L(x)</m>.</em></p>
+            </li>
+            <li workspace="1.5in">
+              <p><em>(Exercise)</em> Use <m>L(x)</m> to approximate <m>(8.01)^{4/3}</m>. <em>Hint: Recall that <m>f(x) \approx L(x)</m> for <m>x</m> near <m>a</m>.</em></p>
+            </li>
+          </ol>
+        </li>
+        <li workspace="1.5in">
+          <p>
+            <em>(Exercise)</em> Use the second derivative to decide whether your estimate is an overestimate or underestimate. <em>Hint: Consider the sign of <m>f''(a)</m> and make a conclusion accordingly.</em>
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+</handout>

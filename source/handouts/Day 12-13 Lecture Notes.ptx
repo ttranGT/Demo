@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-12-13-notes">
+  <title>Days 12 &amp; 13: Sections 4.1b and 4.6 - Extreme Value Theorem, Closed Interval Method, and Introduction to Optimization Problems</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We defined extrema and covered geometric methods for finding them, along with algebraic techniques for local extrema.
+    </p>
+    <p>
+      <term>Today:</term> We'll wrap up the Extreme Value Theorem and the Closed Interval Method for absolute extrema before starting optimization problems and practicing the setup step.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="thm-extreme-value-theorem">
+      <title>The Extreme Value Theorem (EVT)</title>
+      <p>
+        First, we examine the conditions sufficient for the existence of both absolute extrema.
+      </p>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image source="pictures/extremevaluetheorem1.png">
+            <shortdescription>
+              Graph of f(x) = 1/x on the closed interval [-2, 2], illustrating a vertical asymptote at x = 0 and no absolute maximum or minimum.
+            </shortdescription>
+          </image>
+          <p>
+            Figure 1: <m>\displaystyle f(x) = \frac{1}{x}</m> on <m>-2 \leq x \leq 2</m>.
+          </p>
+        </stack>
+
+        <stack>
+          <image source="pictures/extremevaluetheorem2.png">
+            <shortdescription>
+              Graph of g(x) = x^2 on the open interval (-2, 2) with open circles at (-2, 4) and (2, 4), illustrating an absolute minimum at (0, 0) but no absolute maximum.
+            </shortdescription>
+          </image>
+          <p>
+            Figure 2: <m>g(x) = x^2</m> on <m>-2 \lt x \lt 2</m>.
+          </p>
+        </stack>
+      </sidebyside>
+
+      <p>
+        We observe that:
+      </p>
+      <ul>
+        <li><p>Neither of the two graphs has both absolute extrema.</p></li>
+        <li><p>The function <m>f(x)</m> is not continuous on the closed interval <m>[-2, 2]</m>.</p></li>
+        <li><p>The function <m>g(x)</m> is continuous on <m>(-2, 2)</m>, but the interval <m>(-2, 2)</m> is not closed.</p></li>
+      </ul>
+      <p>
+        To guarantee both absolute extrema, we can use the <fillin characters="22"/>, stated below.
+      </p>
+      <p>
+        <term>The Extreme Value Theorem (EVT):</term> If <m>f</m> is <fillin characters="24"/> on a <fillin characters="26"/> <m>[a, b]</m>, then <m>f</m> attains <em><fillin characters="8"/></em> an absolute maximum and an absolute minimum on <m>[a, b]</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-closed-interval-method">
+      <title>Closed Interval Method</title>
+      <p>
+        Now, how can we determine these absolute extreme values?
+      </p>
+      <p>
+        Recall that extreme values can only occur at <fillin characters="22"/> or <fillin characters="14"/>. Therefore, by the Extreme Value Theorem, we can apply the <em>Closed Interval Method</em> to find them.
+      </p>
+      <p>
+        <term>Closed Interval Method:</term> Suppose <m>f</m> is a continuous function on a closed interval <m>[a, b]</m>. To find the absolute maximum and minimum values of <m>f</m> on <m>[a, b]</m>:
+      </p>
+      <p>
+        <strong>Step 1)</strong> Find the values of <m>f</m> at all <fillin characters="24"/> in the open interval <m>(a, b)</m>.
+      </p>
+      <p>
+        <strong>Step 2)</strong> Find the values of <m>f</m> at the <fillin characters="24"/>.
+      </p>
+      <p>
+        <strong>Step 3)</strong> Compare these values from Steps 1) and 2):
+      </p>
+      <ul>
+        <li><p>the <fillin characters="10"/> value is the absolute <fillin characters="16"/> value,</p></li>
+        <li><p>and the <fillin characters="10"/> value is the absolute <fillin characters="16"/> value.</p></li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-evt-closed-vs-open">
+      <title>Problem 1</title>
+      <p>
+        It can be verified that the following function has exactly one critical point at <m>r = 4</m> on the interval <m>[1, 8]</m>:
+        <me>f(r) = 2\pi r^2 + \frac{256\pi}{r}.</me>
+      </p>
+      <p workspace="1.2in">
+        <strong>Case 1:</strong> Does <m>f(r)</m> have an absolute maximum and absolute minimum on <m>[1, 8]</m>? If so, where? Note that <m>f(4) = 96\pi</m>, <m>f(1) = 258\pi</m>, and <m>f(8) = 160\pi</m>. <em>Hint: Is the function continuous on <m>[1, 8]</m>? Does the Extreme Value Theorem apply?</em>
+      </p>
+      <p workspace="1.2in">
+        <strong>Case 2:</strong> Next, does <m>f(r)</m> have an absolute maximum and absolute minimum on <m>(0, \infty)</m>? If so, where? Note that <m>\displaystyle f'(r) = 4\pi r - \frac{256\pi}{r^2} = \frac{4\pi r^3 - 256\pi}{r^2}</m>, <m>f'(4) = 0</m>, <m>f'(5) \gt 0</m>, and <m>f'(3) \lt 0</m>. <em>Hint: Is the function continuous on <m>(0, \infty)</m>? Does the Extreme Value Theorem apply?</em>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-optimization-strategy-recap">
+      <title>Introduction to Optimization Problems</title>
+      <p>
+        Next, we will discuss optimization problems and explore the process of using optimization to solve applied problems.
+      </p>
+      <p>
+        First, let's recap our strategy for finding absolute extrema of a function <m>f</m> on a given domain in Problem 1.
+      </p>
+      <p>
+        <strong>Case 1:</strong> If the function is continuous on a closed interval:
+      </p>
+      <ol marker="a)">
+        <li><p>Find the critical points of <m>f</m>.</p></li>
+        <li><p>Find the endpoints of the interval.</p></li>
+        <li><p>Plug each point you found above into <m>f</m>. The largest <m>f</m>-value is the absolute maximum value, and the smallest <m>f</m>-value is the absolute minimum value.</p></li>
+      </ol>
+      <p>
+        <strong>Case 2:</strong> If the domain is not a closed interval:
+      </p>
+      <ol marker="a)">
+        <li><p>Find the critical points of <m>f</m>.</p></li>
+        <li><p>Use the First or Second Derivative Test at each critical point to determine any local extrema.</p></li>
+        <li><p>Consider the behavior (increasing/decreasing or concavity) of the function over the domain, as well as its values or limits at critical points and endpoints, if applicable, to determine any absolute extrema.</p></li>
+      </ol>
+      <p>
+        Finding absolute extrema has practical applications in many areas of life. Here is an example:
+      </p>
+      <blockquote>
+        <p>
+          A soda company wants its aluminum soft drink cans to have a volume of <m>128\pi</m> cubic centimeters. The company's factory can only manufacture cans that are at least <m>2</m> cm tall and have a radius of at least <m>1</m> cm. In order to conserve resources, the company wants to minimize the amount of aluminum needed for a single can. What dimensions should they make their cans? Be sure to include units in your answers.
+        </p>
+      </blockquote>
+      <ul>
+        <li><p>This is an example of an optimization word problem.</p></li>
+        <li>
+          <p>How do we approach this type of problem?</p>
+          <ul>
+            <li><p>Read through the problem carefully, ideally sentence by sentence.</p></li>
+            <li><p>Translate each statement into mathematical expressions.</p></li>
+            <li><p>Identify the primary goal and apply calculus tools to solve it.</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>While we already have the calculus tools to solve these problems, the key challenge lies in the setup:</p>
+          <ul>
+            <li><p>translating the given narrative into a single-variable objective function to be maximized or minimized.</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>It is helpful to keep a step-by-step strategy in mind and to get plenty of practice.</p>
+          <ul>
+            <li><p>We will formalize this strategy after working through the example above.</p></li>
+          </ul>
+        </li>
+      </ul>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-soda-can-setup">
+      <title>Problem 2</title>
+      <p>
+        Suppose we want to solve the following problem:
+      </p>
+      <blockquote>
+        <p>
+          A soda company wants its aluminum soft drink cans to have a volume of <m>128\pi</m> cubic centimeters. The company's factory can only manufacture cans that are at least <m>2</m> cm tall and have a radius of at least <m>1</m> cm. In order to conserve resources, the company wants to minimize the amount of aluminum needed for a single can. What dimensions should they make their cans? Be sure to include units in your answers.
+        </p>
+      </blockquote>
+      <ol marker="i)">
+        <li workspace="0.6in">
+          <p>What is your <em>goal</em> in this problem?</p>
+        </li>
+        <li workspace="1in">
+          <p>Draw a couple of different possible cans. What are some useful variables to label?</p>
+        </li>
+        <li workspace="0.6in">
+          <p>Write a formula for the quantity you're trying to optimize.</p>
+        </li>
+        <li workspace="1.8in">
+          <p>Identify a constraint in the problem to relate the variables. Then rewrite the formula to be optimized as a function of a single variable.</p>
+        </li>
+        <li workspace="0.7in">
+          <p>What is the domain of the function you wrote down in part iv), in the context of this problem?</p>
+        </li>
+      </ol>
+      <p>
+        We have now set up the optimization problem: <fillin characters="10"/> the function <fillin characters="28"/> on the domain <fillin characters="14"/>.
+      </p>
+      <p workspace="1.1in">
+        <strong>vi)</strong> What dimensions should the soda company make their cans? <em>Hint: See Problem 1.</em>
+      </p>
+      <p workspace="1in">
+        Suppose the company's factory gets an upgrade so that it can now manufacture cans with any dimensions. How would that change your answers? <em>Hint: See Problem 1.</em>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-six-step-optimization">
+      <title>6-Step Strategy to Solve Optimization Problems</title>
+      <p>
+        We can extend the framework from Problem 2 to develop a <strong>6-Step Strategy to Solve Optimization Problems:</strong>
+      </p>
+      <p>
+        <strong>Step 1)</strong> Carefully read the problem, and identify the goal, i.e., the thing you need to optimize.
+      </p>
+      <p>
+        <strong>Step 2)</strong> Clearly define your variables. It's often really helpful to draw a picture to figure out which ones are important and how they're related.
+      </p>
+      <p>
+        <strong>Step 3)</strong> Write a formula for the thing you're optimizing. It's okay if multiple variables are involved.
+      </p>
+      <p>
+        <strong>Step 4)</strong> Express your formula from Step 3) in terms of a single-variable function.
+      </p>
+      <ul>
+        <li><p>This step usually involves using a relationship between variables, known as a <em>constraint equation</em>, to make a substitution.</p></li>
+        <li><p>The objective function and the constraint equation are fundamentally different.</p></li>
+      </ul>
+      <p>
+        <strong>Step 5)</strong> Find the domain of the function you're optimizing. It helps to think about what the independent variable in your function represents, and any physical or explicitly stated limitations.
+      </p>
+      <p>
+        <strong>Step 6)</strong> Optimize your function from Step 4) over the domain in Step 5) using the correct method, either Case 1 or Case 2 shown on Page 2<mdash/>the strategy for finding absolute extrema of a function <m>f</m> on a given domain.
+      </p>
+      <p>
+        The implementation of these steps will look slightly different in every problem, but the structure is always the same. Do lots of practice, keep your critical thinking skills handy, and don't be afraid to ask for help!
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-optimization-practice-overview">
+      <title>Problem 3</title>
+      <p>
+        <em>Notes:</em> Here are some additional optimization problems to practice using Steps 1 through 5. Step 6 (finding absolute extrema) will be part of your exercises, and the solutions for Step 6 will be posted later.
+      </p>
+      <ul>
+        <li><p>Steps 1<ndash/>5: For each problem: identify the goal, use a diagram to develop intuition and define your variables, then write a formula and use a substitution to express it as a single-variable function to optimize, including its domain.</p></li>
+        <li><p>Step 6: Determine which technique can be used to find the absolute extremum of the single-variable function on its domain. Refer to Problem 1 for details, and the solutions will be posted.</p></li>
+      </ul>
+      <ol marker="a)">
+        <li>
+          <p>
+            Sarah wants to fence in a play area in her backyard for her new puppy. She plans to use the house as one side of the rectangular area and buys 40 feet of fencing to make the other three sides. The side along the house cannot exceed the length of the house, which is 30 feet. In order for the puppy to have adequate space, each dimension of the rectangular play area must be at least 5 feet. What is the largest area she could have? Is there a smallest area she could have if she wants to use all 40 feet of fencing? Be sure to include units in your answers.
+          </p>
+        </li>
+        <li>
+          <sidebyside widths="30% 66%" valign="top">
+            <image source="pictures/sp25optimizepic1.jpg">
+              <shortdescription>
+                Diagram showing a rectangle inscribed in the upper semicircle of radius 2 centered at the origin.
+              </shortdescription>
+            </image>
+            <p>
+              A rectangle is to be inscribed in a semicircle of radius <m>2</m>. What is the largest area the rectangle can have, and what are its dimensions? Note that both the width and the length of the rectangle are strictly positive.
+            </p>
+          </sidebyside>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-3a-worksheet">
+      <title>Problem 3a</title>
+      <p>
+        Sarah wants to fence in a play area in her backyard for her new puppy. She plans to use the house as one side of the rectangular area and buys 40 feet of fencing to make the other three sides. The side along the house cannot exceed the length of the house, which is 30 feet. In order for the puppy to have adequate space, each dimension of the rectangular play area must be at least 5 feet. What is the largest area she could have? Is there a smallest area she could have if she wants to use all 40 feet of fencing? Be sure to include units in your answers.
+      </p>
+      <p workspace="0.6in">
+        <strong>Step 1)</strong> Identify the <fillin characters="10"/>.
+      </p>
+      <p workspace="1.3in">
+        <strong>Step 2)</strong> Draw a diagram to develop intuition and define your <fillin characters="14"/>.
+      </p>
+      <p workspace="0.8in">
+        <strong>Step 3)</strong> Write a <fillin characters="14"/> for the thing you're optimizing. It's okay if multiple variables are involved.
+      </p>
+      <p workspace="1.8in">
+        <strong>Step 4)</strong> Express your formula from Step 3) in terms of a <fillin characters="18"/> function by using a constraint equation and substitution.
+      </p>
+      <p workspace="1.4in">
+        <strong>Step 5)</strong> Find the <fillin characters="10"/> of the function you're optimizing.
+      </p>
+      <p workspace="0.8in">
+        <strong>Step 6)</strong> <fillin characters="10"/> your function from Step 4) over the domain in Step 5) using the correct method: <fillin characters="10"/>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-3b-worksheet">
+      <title>Problem 3b</title>
+      <sidebyside widths="30% 66%" valign="top">
+        <image source="pictures/sp25optimizepic1.jpg">
+          <shortdescription>
+            Diagram showing a rectangle inscribed in the upper semicircle of radius 2 centered at the origin.
+          </shortdescription>
+        </image>
+        <p>
+          A rectangle is to be inscribed in a semicircle of radius <m>2</m>. What is the largest area the rectangle can have, and what are its dimensions? Note that both the width and the length of the rectangle are strictly positive.
+        </p>
+      </sidebyside>
+      <p workspace="0.6in">
+        <strong>Step 1)</strong> Identify the <fillin characters="10"/>.
+      </p>
+      <p workspace="1.3in">
+        <strong>Step 2)</strong> Draw a diagram to develop intuition and define your <fillin characters="14"/>.
+      </p>
+      <p workspace="0.8in">
+        <strong>Step 3)</strong> Write a <fillin characters="10"/> for the thing you're optimizing. It's okay if multiple variables are involved.
+      </p>
+      <p workspace="1.8in">
+        <strong>Step 4)</strong> Express your formula from Step 3) in terms of a <fillin characters="18"/> function by using a constraint equation and substitution.
+      </p>
+      <p workspace="1.2in">
+        <strong>Step 5)</strong> Find the <fillin characters="10"/> of the function you're optimizing.
+      </p>
+      <p workspace="0.8in">
+        <strong>Step 6)</strong> <fillin characters="10"/> your function from Step 4) over the domain in Step 5) using the correct method: <fillin characters="10"/>.
+      </p>
+    </paragraphs>
+  </page>
+</handout>

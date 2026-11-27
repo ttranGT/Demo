@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-19-notes">
+  <title>Day 19: Sections 3.8, 1.6, and 3.9: Logarithmic Differentiation and Derivatives of Inverse Trigonometric Functions (Preview)</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We used implicit differentiation to solve related rates problems.
+    </p>
+    <p>
+      <term>Today:</term> We wrap up related rates (refer to Day 18). We then introduce our final differentiation technique, <em>logarithmic differentiation</em>, and apply it to derive derivatives of <em>inverse trigonometric functions</em> (if time permits).
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="prob-warmup-exponents">
+      <title>Problem 1 (Warm-Up)</title>
+      <p>
+        Find the following derivatives, if you can.
+      </p>
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <p workspace="0.6in"><strong>a)</strong> <m>\displaystyle \frac{d}{dx}(x^3)</m></p>
+          <p workspace="0.6in"><strong>c)</strong> <m>\displaystyle \frac{d}{dx}(3^3)</m></p>
+        </stack>
+        <stack>
+          <p workspace="0.6in"><strong>b)</strong> <m>\displaystyle \frac{d}{dx}(3^x)</m></p>
+          <p workspace="0.6in"><strong>d)</strong> <m>\displaystyle \frac{d}{dx}(x^x)</m></p>
+        </stack>
+      </sidebyside>
+      <p>
+        <em>What do we learn from Problem 1?</em> So far, we have only studied how to differentiate 3 of the 4 possible forms involving exponents. How do we take the derivative when a variable is in <em>both</em> the base and the exponent? None of our derivative rules apply!
+      </p>
+      <p>
+        We discussed logarithmic functions last week, and it turns out they are the key! Let's recall one more logarithm property that we didn't review:
+        <me>\log_a(b^c) = \underline{\hspace{1.2in}}</me>
+        This log property allows us to rewrite <fillin characters="18"/> as <fillin characters="18"/>.
+      </p>
+      <p>
+        Using this property along with implicit differentiation, we can now compute the derivative in Problem 1-d). To organize this process, we outline the step-by-step strategy below:
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-log-diff-xx">
+      <title>Problem 2</title>
+      <p>
+        Find <m>\displaystyle \frac{d}{dx}(x^x)</m>.
+      </p>
+      <p>
+        <strong>Step 1)</strong> Let <fillin characters="4"/> <m>=</m> <fillin characters="6"/>. In this notation, our goal is to find <fillin characters="10"/>.
+      </p>
+      <p workspace="0.5in">
+        <strong>Step 2)</strong> Take the <fillin characters="16"/> of <fillin characters="8"/> sides and use the <fillin characters="18"/>.
+      </p>
+      <p workspace="1in">
+        <strong>Step 3)</strong> Differentiate <fillin characters="8"/> sides with respect to <fillin characters="4"/> using implicit differentiation and derivative rules.
+      </p>
+      <p workspace="1.2in">
+        <strong>Step 4)</strong> Solve for <fillin characters="8"/> and substitute the original formula for <fillin characters="6"/> to eliminate <m>y</m> from your final answer.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-log-diff-scope">
+      <title>Logarithmic Differentiation</title>
+      <p>
+        The process we just used is called <fillin characters="28"/>.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <em>Scope:</em> It is an effective method for differentiating expressions with a variable in <fillin characters="10"/> the base and the exponent, and it can also be helpful in other complex differentiation problems.
+          </p>
+        </li>
+        <li>
+          <p>
+            <em>Limitation:</em> Recall that the domain of <m>\ln(x)</m> is <fillin characters="8"/>, so <m>\ln\bigl(f(x)\bigr)</m> is undefined whenever <m>f(x)</m> <fillin characters="6"/>. Therefore, logarithmic differentiation technically requires <m>f(x)</m> <fillin characters="6"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <em>Context:</em> In this course, we will focus on domains where this condition holds, but it is important to keep this restriction in mind as you move forward in calculus.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-log-diff-think-pair-share">
+      <title>Problem 3 (Think - Pair - Share)</title>
+      <p>
+        Let's apply logarithmic differentiation to another example: Find the derivative of <m>f(x) = (x^2 + 2^x)^{\tan(x)}</m>.
+      </p>
+      <p>
+        <strong>Step 1)</strong> Let <fillin characters="4"/> <m>=</m> <fillin characters="18"/>. In this notation, our goal is to find <fillin characters="10"/>.
+      </p>
+      <p workspace="0.5in">
+        <strong>Step 2)</strong> Take the <fillin characters="16"/> of <fillin characters="8"/> sides and use the <fillin characters="18"/>.
+      </p>
+      <p workspace="1in">
+        <strong>Step 3)</strong> Differentiate <fillin characters="8"/> sides with respect to <fillin characters="4"/> using implicit differentiation and derivative rules.
+      </p>
+      <p workspace="1in">
+        <strong>Step 4)</strong> Solve for <fillin characters="8"/> and substitute the original formula for <fillin characters="6"/> to eliminate <m>y</m> from your final answer.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-log-diff-four-examples">
+      <title>Problem 4</title>
+      <p>
+        While logarithmic differentiation is not mandatory for every problem, it can <fillin characters="14"/> our work significantly by using <fillin characters="22"/> to transform hard operations into easy ones:
+      </p>
+      <ul>
+        <li><p><em>Products</em> <m>\longrightarrow</m> <em>Sums</em></p></li>
+        <li><p><em>Quotients</em> <m>\longrightarrow</m> <em>Differences</em></p></li>
+        <li><p><em>Exponents</em> <m>\longrightarrow</m> <em>Factors</em></p></li>
+      </ul>
+      <p>
+        This allows us to bypass tedious Product, Quotient, and Chain Rule algebra. Consider the following examples:
+      </p>
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <p><strong>a)</strong> <m>\displaystyle \frac{x^5 \sqrt{x^2 + 1}}{(3x - 2)^4}</m></p>
+          <p><strong>c)</strong> <m>x^4 e^{3x} \sin^2(x)</m></p>
+        </stack>
+        <stack>
+          <p><strong>b)</strong> <m>\displaystyle \sqrt{\frac{x(x + 3)}{(x^2 + 1)^3}}</m></p>
+          <p><strong>d)</strong> <m>7^{\sqrt{x^3+14}}</m></p>
+        </stack>
+      </sidebyside>
+      <p>
+        Use logarithmic differentiation to find the derivative of each of the following functions. Three of the four functions are assigned as exercises.
+      </p>
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <p workspace="1.1in"><strong>a)</strong> <m>\displaystyle \frac{x^5 \sqrt{x^2 + 1}}{(3x - 2)^4}</m></p>
+          <p workspace="1.1in"><strong>c)</strong> <m>x^4 e^{3x} \sin^2(x)</m></p>
+        </stack>
+        <stack>
+          <p workspace="1.1in"><strong>b)</strong> <m>\displaystyle \sqrt{\frac{x(x + 3)}{(x^2 + 1)^3}}</m></p>
+          <p workspace="1.1in"><strong>d)</strong> <m>7^{\sqrt{x^3+14}}</m></p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-inv-trig-preview">
+      <title>(Preview) Inverse Trigonometric Functions</title>
+      <p>
+        Next, we recall the inverse trigonometric functions and use the idea of logarithmic differentiation to find their derivatives.
+      </p>
+
+      <sidebyside width="85%">
+        <image source="pictures/secs163839p1.png">
+          <shortdescription>
+            Graphs of the restricted sine, cosine, and tangent functions showing their one-to-one domains used to define inverse trigonometric functions.
+          </shortdescription>
+        </image>
+      </sidebyside>
+      <p><em>Figure 1: Sine/Cosine/Tangent Functions</em></p>
+
+      <sidebyside width="85%">
+        <image source="pictures/secs163839p2.png">
+          <shortdescription>
+            Graphs of the inverse sine, inverse cosine, and inverse tangent functions showing their domains and ranges.
+          </shortdescription>
+        </image>
+      </sidebyside>
+      <p><em>Figure 2: Inverse Sine/Cosine/Tangent Functions</em></p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-inv-trig-values">
+      <title>Problem 5</title>
+      <p>
+        Find the following (sketching triangles may be helpful):
+      </p>
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <p workspace="1.4in"><strong>a)</strong> <m>\arcsin(1/2)</m></p>
+        <p workspace="1.4in"><strong>b)</strong> <em>(Exercise)</em> <m>\sin\bigl(\cos^{-1}(3/5)\bigr)</m></p>
+      </sidebyside>
+      <p>
+        This is another topic where a bit of Precalculus review might be helpful<mdash/>it's likely you've forgotten a few things, but we don't have time to review them all. Please feel free to review it on your own and reach out if you need help.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-inv-trig-derivatives">
+      <title>Problem 6 (Preview)</title>
+      <p>
+        Let's see how we can differentiate inverse trig functions <m>y</m> using the idea behind logarithmic differentiation:
+      </p>
+      <ul>
+        <li><p><em>Apply an appropriate function to <m>y</m> to make differentiation easier!</em></p></li>
+      </ul>
+      <ol marker="a)">
+        <li workspace="1.3in">
+          <p>
+            Find <m>\displaystyle \frac{dy}{dx}</m> where <m>y = \arctan(x)</m>.
+          </p>
+          <p workspace="1.8in">
+            It's straightforward to find <m>\displaystyle \frac{dy}{dx}</m> in terms of <m>y</m>, but we want our answer in terms of <m>x</m>. So we go back to the triangle given by the relationship <m>\displaystyle \tan(y) = x = \frac{x}{1}</m> to help us substitute.
+          </p>
+        </li>
+        <li workspace="1.4in">
+          <p><em>(Exercise)</em> Find the derivative of <m>\arcsin(x)</m>.</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="p-inv-trig-summary-table">
+      <title>Summary of Inverse Trigonometric Derivatives</title>
+      <p>
+        In summary, we have the following derivatives that we need to remember:
+      </p>
+
+      <tabular top="minor" left="minor" right="minor" bottom="minor">
+        <col width="35%" halign="center"/>
+        <col width="45%" halign="center"/>
+        <row bottom="minor">
+          <cell><m>f(x)</m></cell>
+          <cell><m>f'(x)</m></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>\arcsin(x)</m></cell>
+          <cell><m>\displaystyle \frac{1}{\sqrt{1-x^2}}</m></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>\arccos(x)</m></cell>
+          <cell><m>\displaystyle \frac{-1}{\sqrt{1-x^2}}</m></cell>
+        </row>
+        <row>
+          <cell><m>\arctan(x)</m></cell>
+          <cell><m>\displaystyle \frac{1}{1+x^2}</m></cell>
+        </row>
+      </tabular>
+    </paragraphs>
+  </page>
+</handout>

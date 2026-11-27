@@ -80,7 +80,16 @@
        <xi:include href="./handouts/Day 9 Lecture Notes.ptx"/>
          <xi:include href="./handouts/Day 10 Lecture Notes.ptx"/>
            <xi:include href="./handouts/Day 11 Lecture Notes.ptx"/>
+           <xi:include href="./handouts/Day 12-13 Lecture Notes.ptx"/>
+           <xi:include href="./handouts/Day 14 Lecture Notes.ptx"/>
+            <xi:include href="./handouts/Day 15 Lecture Notes.ptx"/>
+             <xi:include href="./handouts/Day 16 Lecture Notes.ptx"/>
+              <xi:include href="./handouts/Day 17 Lecture Notes.ptx"/>
+               <xi:include href="./handouts/Day 18 Lecture Notes.ptx"/>
+                 <xi:include href="./handouts/Day 19 Lecture Notes.ptx"/>
+                 <xi:include href="./handouts/Day 20 Lecture Notes.ptx"/>
     </chapter>
+   
 
     <chapter xml:id="homework">
       <title>Homework</title>
