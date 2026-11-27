@@ -17,41 +17,44 @@
       <term>Course Coordinator:</term> Thomas Tran, <url href="mailto:thomas.tran@math.gatech.edu">thomas.tran@math.gatech.edu</url>
     </p>
 
-    <tabular top="minor" left="minor" right="minor" bottom="minor">
-      <col width="20%" halign="left"/>
-      <col width="40%" halign="left"/>
-      <col width="40%" halign="left"/>
-      <row header="yes" bottom="medium">
-        <cell>Section(s)</cell>
-        <cell>Name</cell>
-        <cell>Email</cell>
-      </row>
-      <row bottom="minor">
-        <cell>A/C</cell>
-        <cell>Prof. Matteo Raffaelli</cell>
-        <cell><url href="mailto:raffaelli@math.gatech.edu">raffaelli@math.gatech.edu</url></cell>
-      </row>
-      <row bottom="minor">
-        <cell>F</cell>
-        <cell>Prof. Pranav Chinmay</cell>
-        <cell><em>to be updated</em></cell>
-      </row>
-      <row bottom="minor">
-        <cell>H</cell>
-        <cell>Prof. Fei Peng</cell>
-        <cell><url href="mailto:fpeng33@gatech.edu">fpeng33@gatech.edu</url></cell>
-      </row>
-      <row bottom="minor">
-        <cell>K/M</cell>
-        <cell>Prof. Maya Thompson</cell>
-        <cell><url href="mailto:mthompson367@gatech.edu">mthompson367@gatech.edu</url></cell>
-      </row>
-      <row>
-        <cell>G/HP</cell>
-        <cell>Prof. Thomas Tran</cell>
-        <cell><url href="mailto:thomas.tran@math.gatech.edu">thomas.tran@math.gatech.edu</url></cell>
-      </row>
-    </tabular>
+    <table xml:id="table-instructors">
+      <title>MATH 1551 Section Instructors</title>
+      <tabular top="minor" left="minor" right="minor" bottom="minor">
+        <col width="20%" halign="left"/>
+        <col width="40%" halign="left"/>
+        <col width="40%" halign="left"/>
+        <row header="yes" bottom="medium">
+          <cell>Section(s)</cell>
+          <cell>Name</cell>
+          <cell>Email</cell>
+        </row>
+        <row bottom="minor">
+          <cell>A/C</cell>
+          <cell>Prof. Matteo Raffaelli</cell>
+          <cell><url href="mailto:raffaelli@math.gatech.edu">raffaelli@math.gatech.edu</url></cell>
+        </row>
+        <row bottom="minor">
+          <cell>F</cell>
+          <cell>Prof. Pranav Chinmay</cell>
+          <cell><em>to be updated</em></cell>
+        </row>
+        <row bottom="minor">
+          <cell>H</cell>
+          <cell>Prof. Fei Peng</cell>
+          <cell><url href="mailto:fpeng33@gatech.edu">fpeng33@gatech.edu</url></cell>
+        </row>
+        <row bottom="minor">
+          <cell>K/M</cell>
+          <cell>Prof. Maya Thompson</cell>
+          <cell><url href="mailto:mthompson367@gatech.edu">mthompson367@gatech.edu</url></cell>
+        </row>
+        <row>
+          <cell>G/HP</cell>
+          <cell>Prof. Thomas Tran</cell>
+          <cell><url href="mailto:thomas.tran@math.gatech.edu">thomas.tran@math.gatech.edu</url></cell>
+        </row>
+      </tabular>
+    </table>
   </subsection>
 
   <subsection xml:id="syllabus-general-info">
@@ -113,41 +116,44 @@
       Your final average will be computed using whichever of the following two options gives you the higher grade:
     </p>
 
-    <tabular top="minor" left="minor" right="minor" bottom="minor">
-      <col width="44%" halign="left"/>
-      <col width="28%" halign="center"/>
-      <col width="28%" halign="center"/>
-      <row header="yes" bottom="medium">
-        <cell>Component</cell>
-        <cell>Option 1</cell>
-        <cell>Option 2</cell>
-      </row>
-      <row bottom="minor">
-        <cell>WeBWork</cell>
-        <cell>10%</cell>
-        <cell>10%</cell>
-      </row>
-      <row bottom="minor">
-        <cell>Studio Participation Quizzes</cell>
-        <cell>5%</cell>
-        <cell>5%</cell>
-      </row>
-      <row bottom="minor">
-        <cell>Best Two Midterms</cell>
-        <cell>40%</cell>
-        <cell>40%</cell>
-      </row>
-      <row bottom="minor">
-        <cell>Lowest Midterm</cell>
-        <cell>20%</cell>
-        <cell>0%</cell>
-      </row>
-      <row>
-        <cell>Final Exam</cell>
-        <cell>25%</cell>
-        <cell>45%</cell>
-      </row>
-    </tabular>
+    <table xml:id="table-grade-weights">
+      <title>Course Grade Breakdown Options</title>
+      <tabular top="minor" left="minor" right="minor" bottom="minor">
+        <col width="44%" halign="left"/>
+        <col width="28%" halign="center"/>
+        <col width="28%" halign="center"/>
+        <row header="yes" bottom="medium">
+          <cell>Component</cell>
+          <cell>Option 1</cell>
+          <cell>Option 2</cell>
+        </row>
+        <row bottom="minor">
+          <cell>WeBWork</cell>
+          <cell>10%</cell>
+          <cell>10%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Studio Participation Quizzes</cell>
+          <cell>5%</cell>
+          <cell>5%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Best Two Midterms</cell>
+          <cell>40%</cell>
+          <cell>40%</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Lowest Midterm</cell>
+          <cell>20%</cell>
+          <cell>0%</cell>
+        </row>
+        <row>
+          <cell>Final Exam</cell>
+          <cell>25%</cell>
+          <cell>45%</cell>
+        </row>
+      </tabular>
+    </table>
 
     <paragraphs xml:id="syllabus-graded-components">
       <title>Description of Graded Components</title>
@@ -463,302 +469,172 @@
       Here's to a happy and productive semester!
     </p>
 
-    <tabular top="minor" left="minor" right="minor" bottom="minor">
-      <col width="22%" halign="left"/>
-      <col width="26%" halign="left"/>
-      <col width="52%" halign="left"/>
-      <row header="yes" bottom="medium">
-        <cell>Week and Dates</cell>
-        <cell>Section Coverage</cell>
-        <cell>Topics &amp; Assessments</cell>
-      </row>
+    <paragraphs xml:id="schedule-week-1">
+      <title>Week 1: Aug. 24 – 28</title>
+      <ul>
+        <li><p><term>Important Dates:</term> Aug. 24 (First day of classes); Aug. 28 (Last day to make schedule changes)</p></li>
+        <li><p><term>Sections:</term> Course Policies; Sections 1.1, 1.2, and 2.1</p></li>
+        <li><p><term>Topics:</term> Syllabus and Canvas Course Page (5–10 mins); Functions and Graphs; Rates of Change, Tangent and Secant Lines</p></li>
+        <li><p><term>Friday Studio:</term> WS 1 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> Canvas Precalculus/Algebra Assessment Quiz due Tuesday, Aug. 25, at 11:59 pm (under the Quizzes tab on Canvas)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 1</term></p>
-          <p>Aug. 24 – 28</p>
-          <p><em>Aug. 24:</em> First day of classes</p>
-          <p><em>Aug. 28:</em> Last day to make schedule changes</p>
-        </cell>
-        <cell>
-          <p>Course Policies</p>
-          <p>Sections 1.1 and 1.2</p>
-          <p>Section 2.1</p>
-        </cell>
-        <cell>
-          <p>Syllabus and Canvas Course Page (5–10 mins)</p>
-          <p>Functions and Graphs</p>
-          <p>Rates of Change, Tangent and Secant Lines</p>
-          <p><term>Friday Studio:</term> WS 1 – Participation Quiz</p>
-          <p><term>Due:</term> Canvas Precalculus/Algebra Assessment Quiz due Tuesday, Aug. 25, at 11:59 pm (under the Quizzes tab on Canvas).</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-2">
+      <title>Week 2: Aug. 31 – Sept. 4</title>
+      <ul>
+        <li><p><term>Important Dates:</term> Monday, Aug. 31 (Payment Deadline at 4:00 pm ET)</p></li>
+        <li><p><term>Sections:</term> Sections 2.2, 2.4, and 2.6a</p></li>
+        <li><p><term>Topics:</term> Limit of a Function; One-Sided and Infinite Limits</p></li>
+        <li><p><term>Friday Studio:</term> WS 2 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 1.1, 1.2, 2.1 due Tuesday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 2</term></p>
-          <p>Aug. 31 – Sept. 4</p>
-          <p><em>Aug. 31:</em> Payment Deadline at 4:00 pm (ET)</p>
-        </cell>
-        <cell>
-          <p>Section 2.2</p>
-          <p>Sections 2.4 and 2.6a</p>
-        </cell>
-        <cell>
-          <p>Limit of a Function</p>
-          <p>One-Sided and Infinite Limits</p>
-          <p><term>Due:</term> WW 1.1, 1.2, 2.1 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>Friday Studio:</term> WS 2 – Participation Quiz</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-3">
+      <title>Week 3: Sept. 7 – 11</title>
+      <ul>
+        <li><p><term>Important Dates:</term> Monday, Sept. 7 (Labor Day – No classes); Tuesday, Sept. 8 (VOP Report due at 4:00 pm)</p></li>
+        <li><p><term>Sections:</term> Section 2.6b and the Sandwich Theorem (Part 1)</p></li>
+        <li><p><term>Topics:</term> Limits and Horizontal/Vertical Asymptotes and the Sandwich Theorem (Part 1)</p></li>
+        <li><p><term>Friday Studio:</term> WS 3 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 2.2 due Wednesday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 3</term></p>
-          <p>Sept. 7 – 11</p>
-          <p><em>Sept. 8:</em> VOP Report due at 4:00 pm</p>
-        </cell>
-        <cell>
-          <p><em>Labor Day:</em> No classes on Monday</p>
-          <p>Section 2.6b and the Sandwich Theorem (Part 1)</p>
-        </cell>
-        <cell>
-          <p>Limits and Horizontal/Vertical Asymptotes and the Sandwich Theorem (Part 1)</p>
-          <p><term>Due:</term> WW 2.2 due Wednesday at 11:59 pm (ET)</p>
-          <p><term>Friday Studio:</term> WS 3 – Participation Quiz</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-4">
+      <title>Week 4: Sept. 14 – 18</title>
+      <ul>
+        <li><p><term>Sections:</term> Section 2.5a, the Sandwich Theorem (Part 2), and Section 2.5b</p></li>
+        <li><p><term>Topics:</term> Continuity and the Sandwich Theorem; Discontinuity and Intermediate Value Theorem</p></li>
+        <li><p><term>Friday Studio:</term> WS 4 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 2.4 and 2.6 due Tuesday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 4</term></p>
-          <p>Sept. 14 – 18</p>
-        </cell>
-        <cell>
-          <p>Section 2.5a and the Sandwich Theorem (Part 2)</p>
-          <p>Section 2.5b</p>
-        </cell>
-        <cell>
-          <p>Continuity and the Sandwich Theorem</p>
-          <p>Discontinuity and Intermediate Value Theorem</p>
-          <p><term>Due:</term> WW 2.4 and 2.6 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>Friday Studio:</term> WS 4 – Participation Quiz</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-5">
+      <title>Week 5: Sept. 21 – 25</title>
+      <ul>
+        <li><p><term>Sections:</term> Sections 3.1 and 3.2a; Exam 1 Q&amp;A Review (in lecture; students are expected to bring their own questions)</p></li>
+        <li><p><term>Topics:</term> The Derivative at a Point and the Derivative as a Function (Part 1)</p></li>
+        <li><p><term>Friday Studio:</term> No Studio – Practice Exercises for Sections 3.1 and 3.2a</p></li>
+        <li><p><term>Assessments Due &amp; Exams:</term> WW 2.5 due Tuesday at 11:59 pm (ET); Common Exam 1 on Friday, Sept. 25 (Sections 1.1, 1.2, 2.1, 2.2, 2.4, 2.6, and 2.5) at 5:00 pm (locations announced on Canvas); Common Exam 1 Makeup at 11:00 am Tuesday, Sept. 29</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 5</term></p>
-          <p>Sept. 21 – 25</p>
-        </cell>
-        <cell>
-          <p>Sections 3.1 and 3.2a</p>
-          <p>Exam 1 Q&amp;A Review (in lecture; bring your own questions)</p>
-        </cell>
-        <cell>
-          <p>The Derivative at a Point and the Derivative as a Function (Part 1)</p>
-          <p><term>Common Exam 1:</term> Friday, Sept. 25 (Sections 1.1, 1.2, 2.1, 2.2, 2.4, 2.6, and 2.5) at 5:00 pm (locations on Canvas)</p>
-          <p><term>Makeup:</term> Common Exam 1 Makeup at 11:00 am Tuesday, Sept. 29</p>
-          <p><term>Due:</term> WW 2.5 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>No Studio:</term> Practice Exercises for Sections 3.1 and 3.2a</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-6">
+      <title>Week 6: Sept. 28 – Oct. 2</title>
+      <ul>
+        <li><p><term>Important Dates:</term> Tuesday, Sept. 29 (Common Exam 1 Makeup)</p></li>
+        <li><p><term>Sections:</term> Sections 3.2b, 3.3a, and 3.6</p></li>
+        <li><p><term>Topics:</term> The Derivative as a Function (Part 2); Differentiation Rules (Part 1), the Chain Rule, and the Product Rule</p></li>
+        <li><p><term>Friday Studio:</term> WS 5 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 3.1 due Tuesday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 6</term></p>
-          <p>Sept. 28 – Oct. 2</p>
-          <p><em>Sept. 29:</em> Common Exam 1 Makeup</p>
-        </cell>
-        <cell>
-          <p>Section 3.2b</p>
-          <p>Sections 3.3a and 3.6</p>
-        </cell>
-        <cell>
-          <p>The Derivative as a Function (Part 2)</p>
-          <p>Differentiation Rules (Part 1), the Chain Rule, and the Product Rule</p>
-          <p><term>Due:</term> WW 3.1 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>Friday Studio:</term> WS 5 – Participation Quiz</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-7">
+      <title>Week 7: Oct. 5 – 9</title>
+      <ul>
+        <li><p><term>Important Dates:</term> Oct. 5 – 6 (Fall Break – No classes on Monday)</p></li>
+        <li><p><term>Sections:</term> Sections 3.3b, 4.1a, and 4.3</p></li>
+        <li><p><term>Topics:</term> The Quotient Rule and Extreme Values of Function (Part 1)</p></li>
+        <li><p><term>Friday Studio:</term> WS 6 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 3.2, 3.3a, 3.6 due Wednesday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 7</term></p>
-          <p>Oct. 5 – 9</p>
-          <p><em>Oct. 5 – 6:</em> Fall Break</p>
-        </cell>
-        <cell>
-          <p><em>Fall Break:</em> No classes on Monday</p>
-          <p>Sections 3.3b, 4.1a, and 4.3</p>
-        </cell>
-        <cell>
-          <p>The Quotient Rule and Extreme Values of Function (Part 1)</p>
-          <p><term>Due:</term> WW 3.2, 3.3a, 3.6 due Wednesday at 11:59 pm (ET)</p>
-          <p><term>Friday Studio:</term> WS 6 – Participation Quiz</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-8">
+      <title>Week 8: Oct. 12 – 16</title>
+      <ul>
+        <li><p><term>Important Dates:</term> Monday, Oct. 12 (Midterm Report)</p></li>
+        <li><p><term>Sections:</term> Sections 4.4a, 4.1b, 4.6a, and 4.6b</p></li>
+        <li><p><term>Topics:</term> Extreme Values of Function (Part 2) and Optimization (Parts 1 and 2)</p></li>
+        <li><p><term>Friday Studio:</term> WS 7 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 3.3b, 4.1, and 4.3 due Tuesday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 8</term></p>
-          <p>Oct. 12 – 16</p>
-          <p><em>Oct. 12:</em> Midterm Report</p>
-        </cell>
-        <cell>
-          <p>Sections 4.4a, 4.1b, and 4.6a</p>
-          <p>Section 4.6b</p>
-        </cell>
-        <cell>
-          <p>Extreme Values of Function (Part 2) and Optimization (Part 1)</p>
-          <p>Optimization (Part 2)</p>
-          <p><term>Due:</term> WW 3.3b, 4.1, and 4.3 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>Friday Studio:</term> WS 7 – Participation Quiz</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-9">
+      <title>Week 9: Oct. 19 – 23</title>
+      <ul>
+        <li><p><term>Sections:</term> Section 3.11; Exam 2 Q&amp;A Review (in lecture; students are expected to bring their own questions)</p></li>
+        <li><p><term>Topics:</term> Linearization</p></li>
+        <li><p><term>Friday Studio:</term> No Studio – Practice Exercises for Section 3.11</p></li>
+        <li><p><term>Assessments Due &amp; Exams:</term> WW 4.6 due Tuesday at 11:59 pm (ET); Common Exam 2 on Friday, Oct. 23 (Sections 3.1, 3.2, 3.3a, 3.3b, 3.6, 4.1, 4.3, 4.4a, and 4.6) at 5:00 pm (locations announced on Canvas); Common Exam 2 Makeup at 11:00 am Tuesday, Oct. 27</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 9</term></p>
-          <p>Oct. 19 – 23</p>
-        </cell>
-        <cell>
-          <p>Section 3.11</p>
-          <p>Exam 2 Q&amp;A Review (in lecture; bring your own questions)</p>
-        </cell>
-        <cell>
-          <p>Linearization</p>
-          <p><term>Common Exam 2:</term> Friday, Oct. 23 (Sections 3.1, 3.2, 3.3a, 3.3b, 3.6, 4.1, 4.3, 4.4a, and 4.6) at 5:00 pm (locations on Canvas)</p>
-          <p><term>Makeup:</term> Common Exam 2 Makeup at 11:00 am Tuesday, Oct. 27</p>
-          <p><term>Due:</term> WW 4.6 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>No Studio:</term> Practice Exercises for Section 3.11</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-10">
+      <title>Week 10: Oct. 26 – 30</title>
+      <ul>
+        <li><p><term>Important Dates:</term> Tuesday, Oct. 27 (Common Exam 2 Makeup); Saturday, Oct. 31 (Withdrawal Deadline at 11:59 pm)</p></li>
+        <li><p><term>Sections:</term> Sections 4.7, 3.4a, 1.3, 3.4b, and 3.5</p></li>
+        <li><p><term>Topics:</term> Newton's Method and the Derivative as a Rate of Change (Part 1); Derivatives of Trigonometric Functions and the Derivative as a Rate of Change (Part 2)</p></li>
+        <li><p><term>Friday Studio:</term> WS 8 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 3.11 due Tuesday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 10</term></p>
-          <p>Oct. 26 – 30</p>
-          <p><em>Oct. 27:</em> Common Exam 2 Makeup</p>
-          <p><em>Oct. 31:</em> Withdrawal Deadline at 11:59 pm</p>
-        </cell>
-        <cell>
-          <p>Sections 4.7 and 3.4a</p>
-          <p>Sections 1.3, 3.4b, and 3.5</p>
-        </cell>
-        <cell>
-          <p>Newton's Method and the Derivative as a Rate of Change (Part 1)</p>
-          <p>Derivatives of Trigonometric Functions and the Derivative as a Rate of Change (Part 2)</p>
-          <p><term>Due:</term> WW 3.11 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>Friday Studio:</term> WS 8 – Participation Quiz</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-11">
+      <title>Week 11: Nov. 2 – 6</title>
+      <ul>
+        <li><p><term>Sections:</term> Sections 3.7 and 3.10a</p></li>
+        <li><p><term>Topics:</term> Implicit Differentiation and the Derivatives of Log Functions; Related Rates (Part 1)</p></li>
+        <li><p><term>Friday Studio:</term> WS 9 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 4.7, 1.3, 3.4, and 3.5 due Tuesday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 11</term></p>
-          <p>Nov. 2 – 6</p>
-        </cell>
-        <cell>
-          <p>Section 3.7</p>
-          <p>Section 3.10a</p>
-        </cell>
-        <cell>
-          <p>Implicit Differentiation and the Derivatives of Log Functions</p>
-          <p>Related Rates (Part 1)</p>
-          <p><term>Due:</term> WW 4.7, 1.3, 3.4, and 3.5 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>Friday Studio:</term> WS 9 – Participation Quiz</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-12">
+      <title>Week 12: Nov. 9 – 13</title>
+      <ul>
+        <li><p><term>Sections:</term> Sections 3.10b, 3.8a, 1.6, 3.8b, and 3.9</p></li>
+        <li><p><term>Topics:</term> Related Rates (Part 2) and Logarithmic Differentiation (Parts 1 and 2); Derivatives of Inverse Trigonometric Functions</p></li>
+        <li><p><term>Friday Studio:</term> WS 10 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 3.7 due Tuesday at 11:59 pm (ET); WW 3.10 due Friday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 12</term></p>
-          <p>Nov. 9 – 13</p>
-        </cell>
-        <cell>
-          <p>Sections 3.10b and 3.8a</p>
-          <p>Sections 1.6, 3.8b, and 3.9</p>
-        </cell>
-        <cell>
-          <p>Related Rates (Part 2) and Logarithmic Differentiation (Part 1)</p>
-          <p>Logarithmic Differentiation (Part 2) and Derivatives of Inverse Trigonometric Functions</p>
-          <p><term>Due:</term> WW 3.7 due Tuesday at 11:59 pm (ET); WW 3.10 due Friday at 11:59 pm (ET)</p>
-          <p><term>Friday Studio:</term> WS 10 – Participation Quiz</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-13">
+      <title>Week 13: Nov. 16 – 20</title>
+      <ul>
+        <li><p><term>Sections:</term> Section 4.4b; Exam 3 Q&amp;A Review (in lecture; students are expected to bring their own questions)</p></li>
+        <li><p><term>Topics:</term> Curve Sketching (Part 1)</p></li>
+        <li><p><term>Friday Studio:</term> No Studio – Practice Exercises for Section 4.4b (Part 1)</p></li>
+        <li><p><term>Assessments Due &amp; Exams:</term> WW 1.6, 3.8, and 3.9 due Tuesday at 11:59 pm (ET); Common Exam 3 on Friday, Nov. 20 (Sections 3.11, 4.7, 1.3, 3.4, 3.5, 3.7, 3.10, 1.6, 3.8, and 3.9) at 5:00 pm (locations announced on Canvas); Common Exam 3 Makeup at 11:00 am Tuesday, Nov. 24</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 13</term></p>
-          <p>Nov. 16 – 20</p>
-        </cell>
-        <cell>
-          <p>Section 4.4b</p>
-          <p>Exam 3 Q&amp;A Review (in lecture; bring your own questions)</p>
-        </cell>
-        <cell>
-          <p>Curve Sketching (Part 1)</p>
-          <p><term>Common Exam 3:</term> Friday, Nov. 20 (Sections 3.11, 4.7, 1.3, 3.4, 3.5, 3.7, 3.10, 1.6, 3.8, and 3.9) at 5:00 pm (locations on Canvas)</p>
-          <p><term>Makeup:</term> Common Exam 3 Makeup at 11:00 am Tuesday, Nov. 24</p>
-          <p><term>Due:</term> WW 1.6, 3.8, and 3.9 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>No Studio:</term> Practice Exercises for Section 4.4b (Part 1)</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-14">
+      <title>Week 14: Nov. 23 – 27</title>
+      <ul>
+        <li><p><term>Important Dates:</term> Tuesday, Nov. 24 (Common Exam 3 Makeup); Wednesday, Nov. 25 (Student Recess – No classes); Nov. 26 – 27 (Thanksgiving Break – No classes on Friday)</p></li>
+        <li><p><term>Sections:</term> Sections 4.4b and 4.2a</p></li>
+        <li><p><term>Topics:</term> Curve Sketching (Part 2) and Rolle's Theorem</p></li>
+        <li><p><term>Friday Studio:</term> No Studio – Practice Problems for Sections 4.4b (Part 2) and 4.2a</p></li>
+        <li><p><term>Assessments Due:</term> WW 4.4 due Tuesday at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 14</term></p>
-          <p>Nov. 23 – 27</p>
-          <p><em>Nov. 24:</em> Common Exam 3 Makeup</p>
-          <p><em>Nov. 25:</em> Student Recess</p>
-          <p><em>Nov. 26 – 27:</em> Thanksgiving Break</p>
-        </cell>
-        <cell>
-          <p>Sections 4.4b and 4.2a</p>
-          <p><em>Student Recess:</em> No classes on Wednesday</p>
-          <p><em>Thanksgiving Break:</em> No classes on Friday</p>
-        </cell>
-        <cell>
-          <p>Curve Sketching (Part 2) and Rolle's Theorem</p>
-          <p><term>Due:</term> WW 4.4 due Tuesday at 11:59 pm (ET)</p>
-          <p><term>No Studio:</term> Practice Problems for Sections 4.4b (Part 2) and 4.2a</p>
-        </cell>
-      </row>
+    <paragraphs xml:id="schedule-week-15">
+      <title>Week 15: Nov. 30 – Dec. 4</title>
+      <ul>
+        <li><p><term>Sections:</term> Sections 4.2b and 4.8</p></li>
+        <li><p><term>Topics:</term> Mean Value Theorem; Antiderivatives</p></li>
+        <li><p><term>Friday Studio:</term> WS 11 – Participation Quiz</p></li>
+        <li><p><term>Assessments Due:</term> WW 4.2 and 4.8 due Monday, Dec. 7, at 11:59 pm (ET)</p></li>
+      </ul>
+    </paragraphs>
 
-      <row bottom="minor">
-        <cell>
-          <p><term>Week 15</term></p>
-          <p>Nov. 30 – Dec. 4</p>
-        </cell>
-        <cell>
-          <p>Section 4.2b</p>
-          <p>Section 4.8</p>
-        </cell>
-        <cell>
-          <p>Mean Value Theorem</p>
-          <p>Antiderivatives</p>
-          <p><term>Friday Studio:</term> WS 11 – Participation Quiz</p>
-          <p><term>Due:</term> WW 4.2 and 4.8 due Monday, Dec. 7, at 11:59 pm (ET)</p>
-        </cell>
-      </row>
-
-      <row>
-        <cell>
-          <p><term>Week 16</term></p>
-          <p>Dec. 7 – 11</p>
-          <p><em>Dec. 7:</em> Final Instructional Day</p>
-        </cell>
-        <cell>
-          <p>Final Exam Q&amp;A Review (in lecture; bring your own questions)</p>
-        </cell>
-        <cell>
-          <p><term>Final Exam:</term> Thursday, Dec. 10, from 6:00 pm to 8:50 pm (location TBD)</p>
-          <p><term>Makeup Final Exam:</term> Friday, Dec. 18 (during the conflict period; time and location TBD)</p>
-        </cell>
-      </row>
-    </tabular>
+    <paragraphs xml:id="schedule-week-16">
+      <title>Week 16: Dec. 7 – 11</title>
+      <ul>
+        <li><p><term>Important Dates:</term> Monday, Dec. 7 (Final Instructional Day)</p></li>
+        <li><p><term>Topics:</term> Final Exam Q&amp;A Review (in lecture; students are expected to bring their own questions)</p></li>
+        <li><p><term>Final Exam:</term> Thursday, Dec. 10, from 6:00 pm to 8:50 pm (location TBD)</p></li>
+        <li><p><term>Makeup Final Exam:</term> Friday, Dec. 18 (during the conflict period; time and location TBD)</p></li>
+      </ul>
+    </paragraphs>
   </subsection>
 </section>
-
-
