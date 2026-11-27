@@ -15,69 +15,87 @@
     <paragraphs xml:id="p-vertical-asymptotes">
       <title>Vertical Asymptotes</title>
       <p>
-        We saw last time (Day 4) that when we have a vertical asymptote, we also get an <fillin characters="14"/> limit. This relationship is actually closer than that<mdash/>we can use limits to prove the existence of vertical asymptotes.
-      </p>
+        We saw last time (Day 4) that when we have a vertical asymptote, we also get an <fillin characters="14"/> limit, which takes the form <m>\left(\dfrac{\text{nonzero \#}}{0}\right)</m> after direct substitution. This relationship is even closer than that<mdash/>we can use limits to prove the existence of vertical asymptotes.
+          </p>
     </paragraphs>
 
     <paragraphs xml:id="def-vertical-asymptote">
       <title>Definition</title>
       <p>
-        A line <m>x=a</m> is a <fillin characters="10"/> asymptote of the graph of a function <m>f(x)</m> if either
+        A line <m>x=a</m> is a <fillin characters="15"/> asymptote of the graph of a function <m>f(x)</m> if either
       </p>
       <sidebyside widths="44% 8% 44%" valign="middle">
-        <p><m>\lim_{x \to a^+} f(x) =</m> <fillin characters="8"/></p>
+        <p><m>\displaystyle \lim_{x \to a^+} f(x) =</m> <fillin characters="8"/></p>
         <p>or</p>
-        <p><m>\lim_{x \to a^-} f(x) =</m> <fillin characters="8"/></p>
+        <p><m>\displaystyle \lim_{x \to a^-} f(x) =</m> <fillin characters="8"/></p>
       </sidebyside>
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-vertical-asymptotes">
-      <title>Checkpoint</title>
+      <title>Problem 1</title>
       <p>
         Find all vertical asymptotes of the function <m>f(x)=\dfrac{x+1}{x^2-1}</m>. Be sure to justify your answers using limits.
       </p>
-      <ol marker="1.">
+      <ul>
         <li workspace="0.8in">
           <p><term>Step 1:</term> Note that an infinite limit could occur when <fillin characters="30"/>.</p>
         </li>
         <li workspace="1.8in">
           <p><term>Step 2:</term> We can now use limits to verify vertical asymptotes.</p>
         </li>
-      </ol>
+      </ul>
       <p>
-        So we see that finding places where the <fillin characters="14"/> of a rational function is <m>0</m> gives us a good start on <m>x</m> values we should check for asymptotes, but we really need to use <fillin characters="10"/> to prove that we actually have one.
+        So we see that finding places where the <fillin characters="24"/> of a rational function is <m>0</m> gives us a good start on <m>x</m> values we should check for asymptotes, but we really need to use <fillin characters="15"/> to prove that we actually have one.
       </p>
-      <p>
-        Let's shift gears a little here: we have a decent understanding now of how to evaluate limits that end up being <em>equal to</em> <m>\pm \infty</m><mdash/>but what about limits <em>at</em> infinity? That is, how do we think about things of the form
-        <me>\lim_{x \to \infty} f(x) \qquad \text{or} \qquad \lim_{x \to -\infty} f(x)?</me>
-      </p>
-      <p>
-        The <q>trick</q> here is that just like vertical asymptotes capture what's going on when our function gets arbitrarily large (positive or negative) in the <m>y</m> direction, <fillin characters="18"/> asymptotes are really giving us information about what happens to <m>f(x)</m> as <m>x</m> becomes arbitrarily large (positive or negative).
-      </p>
-    </paragraphs>
-  </page>
+</paragraphs>
+
+</page>
 
   <page>
+
+<paragraphs xml:id="infinite-limits">
+      <title>Infinite Limits</title>
+
+      <p>
+        Let's shift gears a little here: we have a decent understanding now of how to evaluate limits that end up being <em>equal to</em> <m>\pm \infty</m><mdash/>but what about limits <em>at</em> infinity? That is, how do we think about things of the form
+        <me>\displaystyle \lim_{x \to \infty} f(x) \qquad \text{or} \qquad \displaystyle \lim_{x \to -\infty} f(x)?</me>
+      </p>
+      <p>
+        The <q>trick</q> here is that just like vertical asymptotes capture what's going on when our function gets arbitrarily large (positive or negative) in the <m>y</m> direction, <fillin characters="28"/> asymptotes are really giving us information about what happens to <m>f(x)</m> as <m>x</m> becomes arbitrarily large (positive or negative).
+      </p>
+    </paragraphs>
+  
     <paragraphs xml:id="def-horizontal-asymptote">
       <title>Definition</title>
       <p>
         A line <m>y=b</m> is a <fillin characters="18"/> asymptote of the graph of a function <m>f(x)</m> if either
       </p>
       <sidebyside widths="44% 8% 44%" valign="middle">
-        <p><m>\lim_{x \to \infty} f(x) =</m> <fillin characters="6"/></p>
+        <p><m>\displaystyle \lim_{x \to \infty} f(x) =</m> <fillin characters="6"/></p>
         <p>or</p>
-        <p><m>\lim_{x \to -\infty} f(x) =</m> <fillin characters="6"/></p>
+        <p><m>\displaystyle \lim_{x \to -\infty} f(x) =</m> <fillin characters="6"/></p>
       </sidebyside>
-      <p>
-        <term>Note:</term> To find all possible horizontal asymptotes of <m>f(x)</m>, we compute both <m>\lim_{x \to \infty} f(x)</m> and <m>\lim_{x \to -\infty} f(x)</m>.
-      </p>
+
+       <ul>
+        <li>
+          <p>
+            To find all possible horizontal asymptotes of <m>f(x)</m>, we compute both <m>\displaystyle \lim_{x \to \infty} f(x)</m> and <m>\displaystyle \lim_{x \to -\infty} f(x)</m>. 
+        </p>
+        </li>
+        <li>
+          <p>
+            A function has <fillin characters="20"/> <fillin characters="10"/> distinct horizontal asymptotes.
+          </p>
+        </li>
+      </ul>
+      
       <p>
         <term>Example:</term>
       </p>
       <sidebyside width="45%">
         <image source="pictures/sec26bfa24pic1.png">
           <shortdescription>
-            Graph illustrating a function approaching a horizontal asymptote as x approaches positive or negative infinity.
+            Graph illustrating an exponential function approaching a horizontal asymptote as x approaches positive or negative infinity.
           </shortdescription>
         </image>
       </sidebyside>
@@ -87,7 +105,7 @@
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-rational-horizontal-asymptotes">
-      <title>Checkpoint</title>
+      <title>Problem 2</title>
       <p>
         Find all horizontal asymptotes of <m>g(x)=\dfrac{x^2-2x+4}{3x^2-5}</m> by computing the following limits:
       </p>
@@ -95,12 +113,12 @@
       <sidebyside widths="55% 40%" valign="top">
         <stack>
           <p workspace="2in">
-            <strong>(a)</strong> <m>\lim_{x \to \infty} \dfrac{x^2-2x+4}{3x^2-5}</m>
+            <strong>(a)</strong> <m>\displaystyle \lim_{x \to \infty} \dfrac{x^2-2x+4}{3x^2-5}</m>
           </p>
         </stack>
         <stack>
           <p workspace="1.2in">
-            <strong>(b)</strong> <m>\lim_{x \to -\infty} \dfrac{x^2-2x+4}{3x^2-5}</m> <em>(exercise!)</em>
+            <strong>(b)</strong> <m>\displaystyle \lim_{x \to -\infty} \dfrac{x^2-2x+4}{3x^2-5}</m> <em>(exercise!)</em>
           </p>
           <image source="pictures/sec26fa24pic8.png">
             <shortdescription>
@@ -108,7 +126,7 @@
             </shortdescription>
           </image>
           <p>
-            A Hint for this problem: Recall the graph of <m>\dfrac{1}{x}</m>.
+            A hint for this problem: Recall the graph of <m>\dfrac{1}{x}</m>.
           </p>
         </stack>
       </sidebyside>
@@ -122,12 +140,14 @@
       <ul>
         <li>
           <p>
-            <term>Strategy:</term> If direct substitution yields an indeterminate form of <m>\left(\pm\dfrac{\infty}{\infty}\right)</m>, we should divide <fillin characters="8"/> term in the numerator and denominator by the <fillin characters="12"/> term (in absolute value) that appears in the function.
+            <term>Strategy:</term> If direct substitution yields an indeterminate form of <m>\left(\pm\dfrac{\infty}{\infty}\right)</m>, divide <fillin characters="10"/> term in both the numerator and denominator by the <fillin characters="12"/> term (in absolute value) in the entire function.
           </p>
         </li>
         <li>
           <p>
-            <em><term>A 2nd Option:</term> Using the <fillin characters="12"/> term (in absolute value) that appears in the <fillin characters="14"/> is also a perfectly valid option<mdash/>you'll just get a different looking (but equivalent) answer.</em>
+            <em><term>Alternative:</term> Dividing by the <fillin characters="10"/> term (in absolute value) in the <fillin characters="20"/> also works<mdash/>it simply gives a different-looking (but equivalent)
+                        expression.
+                        </em>
           </p>
         </li>
       </ul>
@@ -136,33 +156,42 @@
 
   <page>
     <paragraphs xml:id="checkpoint-exponential-horizontal-asymptotes">
-      <title>Checkpoint</title>
+      <title>Problem 3</title>
       <p>
         Find all horizontal asymptotes of <m>f(x)=\dfrac{2^{3x} - 2^x + 5}{2^{2x}+7}</m>. <em>Recall that:</em> <m>\dfrac{2^a}{2^b} = 2^{a-b} = \dfrac{1}{2^{b-a}}</m>.
+      </p>
+
+      <p>
+        <em>Recall that:</em> <m>\dfrac{2^a}{2^b} = 2^{a-b} = \dfrac{1}{2^{b-a}}</m>.
       </p>
 
       <sidebyside widths="55% 40%" valign="top">
         <stack>
           <p workspace="2in">
-            <strong>(a)</strong> <em>(Exercise)</em> Consider <m>\lim_{x \to \infty} f(x)</m><br/>
+            <strong>(a)</strong> <em>(Exercise)</em> Consider <m>\displaystyle \lim_{x \to \infty} f(x)</m><br/>
           </p>
-          <p><em>Hint: Let's use the 2nd option.</em></p>
+          <p><em>Hint: Let's use the alternative approach.</em></p>
         </stack>
         <stack>
           <p workspace="2in">
-            <strong>(b)</strong> Consider <m>\lim_{x \to -\infty} f(x)</m>
+            <strong>(b)</strong> Consider <m>\displaystyle \lim_{x \to -\infty} f(x)</m>
           </p>
           <p><em>Hint: How the exponential function <m>2^x</m> behaves as <m>x</m> approaches negative infinity.</em></p>
         </stack>
       </sidebyside>
 
+       </paragraphs>
+
+      <paragraphs xml:id="checkpoint-vertical-horizontal-asymptotes">
+      <title>Recap</title>
+
       <p>
-        <term>Recap:</term> Whenever we find asymptotes, we look for limits that are equal to <m>\pm\infty</m> (<fillin characters="10"/> asymptotes) or limits at infinity (<fillin characters="14"/> asymptotes).
+        Whenever we find asymptotes, we look for infinite limits (<fillin characters="15"/> asymptotes) or limits at infinity (<fillin characters="20"/> asymptotes).
       </p>
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-oscillating-asymptote">
-      <title>Checkpoint</title>
+      <title>Problem 4</title>
       <p>
         Let's consider the following problem to get thinking about limits again. Find all horizontal asymptotes of the function <m>f(x)=\dfrac{\cos(x)}{e^x}</m>.
       </p>
@@ -191,13 +220,13 @@
       </sidebyside>
 
       <p workspace="1.2in">
-        First, look at <m>\lim_{x \to -\infty} \dfrac{\cos(x)}{e^x}</m> (a graph might help<mdash/>you may use Desmos):
+        First, look at <m>\displaystyle \lim_{x \to -\infty} \dfrac{\cos(x)}{e^x}</m> (a graph might help<mdash/>you may use Desmos):
       </p>
       <p>
         So there is <fillin characters="6"/> horizontal asymptote in the negative <m>x</m>-direction.
       </p>
       <p>
-        This shows another way a limit fails to exist: If our function oscillates <fillin characters="14"/> getting infinitely close to a single number, the limit <fillin characters="6"/>.
+        This shows another way a limit fails to exist: If our function oscillates <fillin characters="15"/> getting infinitely close to a single number, the limit <fillin characters="10"/>.
       </p>
     </paragraphs>
   </page>
@@ -214,28 +243,28 @@
             </shortdescription>
           </image>
           <ul>
-            <li><p>Oscillating WITHOUT getting infinitely close to a single number</p></li>
+            <li><p>Oscillating without getting infinitely close to a single number</p></li>
             <li><p>The limit DNE.</p></li>
           </ul>
         </stack>
         <stack>
           <image source="pictures/sec26fa24pic3.png">
             <shortdescription>
-              Graph of a damped oscillating function whose amplitude shrinks toward zero as x increases.
+              Graph of a damped oscillating function whose amplitude shrinks toward one as x approaches negative infinity.
             </shortdescription>
           </image>
           <ul>
-            <li><p>Oscillating and <fillin characters="10"/> infinitely close to a single number</p></li>
+            <li><p>Oscillating and <fillin characters="20"/> infinitely close to a single number</p></li>
             <li><p>The limit <fillin characters="8"/>.</p></li>
           </ul>
         </stack>
       </sidebyside>
 
       <p>
-        Now to make sure we have all horizontal asymptotes, we also check <m>\lim_{x \to \infty} f(x)</m>. Intuitively, we want to prove that this limit should be <fillin characters="6"/>, but need a careful way to do so.
+        Now to make sure we have all horizontal asymptotes, we also check <m>\displaystyle \lim_{x \to \infty} f(x)</m>. Based on the graph, this limit appears to be <fillin characters="6"/>, but we need a careful algebraic method to confirm it.
       </p>
       <p>
-        Here's a good way to deal with limits that involve oscillations that are controlled:
+         Here's an effective way to handle limits with bounded oscillations:
       </p>
     </paragraphs>
 
@@ -253,10 +282,10 @@
             Suppose <m>g(x) \leq</m> <fillin characters="6"/> <m>\leq h(x)</m> on some interval containing <m>c</m> (except possibly at <m>c</m> itself). If
           </p>
           <p>
-            <m>\lim_{x \to c} g(x)</m> <fillin characters="4"/> <m>\lim_{x \to c} h(x)</m> <fillin characters="4"/> <m>L</m>,
+            <m>\displaystyle \lim_{x \to c} g(x)</m> <fillin characters="4"/> <m>\displaystyle \lim_{x \to c} h(x)</m> <fillin characters="4"/> <m>L</m>,
           </p>
           <p>
-            then we must have <m>\lim_{x \to c} f(x) =</m> <fillin characters="6"/> also.
+            then we must have <m>\displaystyle \lim_{x \to c} f(x) =</m> <fillin characters="6"/> also.
           </p>
           <p>
             <term>Note:</term> In the theorem, <m>c</m> can be finite or infinite.
@@ -265,7 +294,7 @@
       </sidebyside>
 
       <p workspace="2in">
-        This theorem will help us finish our problem. We'll look again at <m>\lim_{x \to \infty} \dfrac{\cos(x)}{e^x}</m>:
+        This theorem will help us finish our problem. We'll look again at <m>\displaystyle \lim_{x \to \infty} \dfrac{\cos(x)}{e^x}</m>:
       </p>
     </paragraphs>
   </page>

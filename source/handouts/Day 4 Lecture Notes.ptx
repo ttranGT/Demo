@@ -11,6 +11,9 @@
     </p>
   </introduction>
 
+   <p workspace="0.25in"></p>
+
+
   <page>
     <paragraphs xml:id="checkpoint-warmup-limits">
       <title>Problem 1 (Warm Up)</title>
@@ -43,6 +46,8 @@
         The issue we see with part 2) of the problem above is also a really important one. What do we do with a limit when it approaches different values from the left and right?
       </p>
     </paragraphs>
+
+<p workspace="0.25in"></p>
 
     <paragraphs xml:id="def-one-sided-limits">
       <title>Definition</title>
@@ -102,6 +107,8 @@
       </p>
     </paragraphs>
 
+<p workspace="0.25in"></p>
+
     <paragraphs xml:id="checkpoint-piecewise-limit">
       <title>Problem 2</title>
       <p workspace="1.5in">
@@ -139,7 +146,7 @@
       </sidebyside>
 
       <p>
-        So we see that <fillin characters="10"/> of the 3 two-sided limits above exist, but the amount of information we can give about them varies, and our final answer is always as informative as possible.
+        So we see that <fillin characters="10"/> of the three two-sided limits (parts 3, 6, and 9) above exist, but the amount of information we can give about them varies, and our final answer is always as informative as possible.
       </p>
       <p>
         We can guess from the graph that <m>\displaystyle \lim_{x \to 5} f(x) =</m> <fillin characters="8"/>.
@@ -167,6 +174,8 @@
       </p>
     </paragraphs>
 
+<p workspace="0.25in"></p>
+
     <paragraphs xml:id="p-algebraic-infinite-limits">
       <title>Finding Infinite Limits Algebraically</title>
       <p>
@@ -185,7 +194,7 @@
         <strong>A:</strong> Answers like this are a sign that we have an <fillin characters="14"/> limit!
       </p>
       <p>
-        As we saw in parts (4 to 6) and (7 to 9) of the previous checkpoint, this means that infinite limits have 3 possible outcomes:
+        As we saw in parts (4)--(6) and (7)--(9) of Problem 3, to be as specific as possible, an infinite limit has three possible outcomes:
       </p>
       <ol marker="i)">
         <li>
@@ -213,7 +222,7 @@
   <page>
     <paragraphs xml:id="p-big-idea-day-4">
       <title>Big Idea of the Day</title>
-      <p workspace="1.2in">
+      <p workspace="0.2in">
         Whenever
       </p>
       <ol marker="a)">
@@ -228,6 +237,8 @@
         then looking at the <fillin characters="24"/> limits at that point can be a very helpful strategy.
       </p>
     </paragraphs>
+
+<p workspace="0.25in"></p>
 
     <paragraphs xml:id="p-notation-warning-day-4">
       <title>Notation Warning</title>
@@ -251,8 +262,8 @@
         <md>
           <mrow>\displaystyle \lim_{x \to 3}\frac{x^2-9}{(x-3)^2} \amp = \Big( \frac{0}{0} \Big) = \text{DNE},</mrow>
           <mrow>\displaystyle \lim_{x \to 3^-}\frac{x}{(x-3)^2} \amp = \left( \frac{3}{0^+} \right) = \infty, \qquad \displaystyle \lim_{x \to 3^+}\frac{x-4}{(x-3)^3} = \left( \frac{-1}{0^+} \right) = -\infty,</mrow>
-          <mrow>\displaystyle \lim_{x \to \infty}\frac{2^{3x} - 2^x + 5}{2^{2x}+7} \amp = \left( \frac{\infty}{\infty} \right) = \ldots \text{(on next Monday's lecture)} \ldots = \left( \frac{1-0+0}{0^++0^+} \right) = \left( \frac{1}{0^+} \right) = \infty,</mrow>
-          <mrow>\text{and } \displaystyle \lim_{x \to -\infty}\frac{x^2-2x+4}{3x^2-5} \amp = \left( \frac{\infty}{\infty} \right) = \ldots \text{(on next Monday's lecture)} \ldots = \frac{1}{3}</mrow>
+          <mrow>\displaystyle \lim_{x \to \infty}\frac{2^{3x} - 2^x + 5}{2^{2x}+7} \amp = \left( \frac{\infty}{\infty} \right) = \ldots \text{(studied later)} \ldots = \left( \frac{1-0+0}{0^++0^+} \right) = \left( \frac{1}{0^+} \right) = \infty,</mrow>
+          <mrow>\text{and } \displaystyle \lim_{x \to -\infty}\frac{x^2-2x+4}{3x^2-5} \amp = \left( \frac{\infty}{\infty} \right) = \ldots \text{(studied later)} \ldots = \frac{1}{3}</mrow>
         </md>
       </p>
     </paragraphs>
