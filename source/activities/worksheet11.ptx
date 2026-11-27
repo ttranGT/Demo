@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="worksheet-11">
+  <title>Worksheet 11: Sections 4.2b and 4.8: Mean Value Theorem and Antiderivatives</title>
+
+  <page>
+    <paragraphs xml:id="ws11-prob1">
+      <title>Problem 1</title>
+      <p>
+        Decide whether the MVT applies to each of the following functions <m>f(x)</m> over the specified interval. Be sure to justify your answer!
+      </p>
+      <p>
+        If the MVT does apply, find the value(s) guaranteed by the theorem, that is, the value(s) <m>c</m> where
+        <me>f'(c) = \frac{f(b) - f(a)}{b - a}.</me>
+      </p>
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <p workspace="1.3in">
+          <strong>a)</strong> <m>\displaystyle f(x) = \frac{1}{x}</m> on <m>[-1,1]</m>
+        </p>
+        <p workspace="1.3in">
+          <strong>b)</strong> <m>\displaystyle f(x) = \frac{1}{x}</m> on <m>[1,2]</m>
+        </p>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="ws11-prob2">
+      <title>Problem 2</title>
+      <p>
+        Answer the following questions for each graph below:
+      </p>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image>
+            <shortdescription>
+              Graph (a) showing a continuous piecewise linear function on [-1, 1] with a sharp corner at (0, 0.2) connecting (-1, 0.6) and (1, 1.4), along with a dashed red secant line between the endpoints.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[->] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[->] (0,-0.3) -- (0,1.7) node[above] {$y$};
+                \draw[dashed, red] (-1,0.6) -- (1,1.4);
+                \draw[thick, blue] (-1,0.6) -- (0,0.2) -- (1,1.4);
+                \filldraw[blue] (-1,0.6) circle (1.5pt) node[left] {$(-1,0.6)$};
+                \filldraw[blue] (1,1.4) circle (1.5pt) node[right] {$(1,1.4)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p workspace="0.5in">
+            <strong>a-i)</strong> Does the Mean Value Theorem apply here? Why or why not?
+          </p>
+          <p workspace="0.5in">
+            <strong>a-ii)</strong> Does <m>f'(c) = \dfrac{f(1)-f(-1)}{1-(-1)}</m> hold anywhere in <m>(-1,1)</m>? If so, for how many values of <m>c</m>?
+          </p>
+        </stack>
+
+        <stack>
+          <image>
+            <shortdescription>
+              Graph (b) showing a continuous curve on [-1, 1] composed of a parabola from (-1, 1.2) to (0, 0.2) and a line segment to (1, 0.6) with a corner at x = 0, along with a dashed red secant line.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[->] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[->] (0,-0.3) -- (0,1.7) node[above] {$y$};
+                \draw[dashed, red] (-1,1.2) -- (1,0.6);
+                \draw[thick, blue, domain=-1:0, samples=40] plot (\x, {0.2 + 2*\x + 3*\x*\x});
+                \draw[thick, blue] (0,0.2) -- (1,0.6);
+                \filldraw[blue] (-1,1.2) circle (1.5pt) node[left] {$(-1,1.2)$};
+                \filldraw[blue] (1,0.6) circle (1.5pt) node[right] {$(1,0.6)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p workspace="0.5in">
+            <strong>b-i)</strong> Does the Mean Value Theorem apply here? Why or why not?
+          </p>
+          <p workspace="0.5in">
+            <strong>b-ii)</strong> Does <m>f'(c) = \dfrac{f(1)-f(-1)}{1-(-1)}</m> hold anywhere in <m>(-1,1)</m>? If so, for how many values of <m>c</m>?
+          </p>
+        </stack>
+      </sidebyside>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image>
+            <shortdescription>
+              Graph (c) showing a smooth concave-down parabola connecting (-1, 0.4) and (1, 1.2) with one tangent parallel to the dashed red secant line.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[->] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[->] (0,-0.3) -- (0,1.8) node[above] {$y$};
+                \draw[dashed, red] (-1,0.4) -- (1,1.2);
+                \draw[thick, blue, domain=-1:1, samples=50] plot (\x, {1.4 + 0.4*\x - 0.6*\x*\x});
+                \filldraw[blue] (-1,0.4) circle (1.5pt) node[left] {$(-1,0.4)$};
+                \filldraw[blue] (1,1.2) circle (1.5pt) node[right] {$(1,1.2)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p workspace="0.5in">
+            <strong>c-i)</strong> Does the Mean Value Theorem apply here? Why or why not?
+          </p>
+          <p workspace="0.5in">
+            <strong>c-ii)</strong> Does <m>f'(c) = \dfrac{f(1)-f(-1)}{1-(-1)}</m> hold anywhere in <m>(-1,1)</m>? If so, for how many values of <m>c</m>?
+          </p>
+        </stack>
+
+        <stack>
+          <image>
+            <shortdescription>
+              Graph (d) showing a smooth cubic-like curve connecting (-1, 0.4) and (1, 1.2) with two tangents parallel to the dashed red secant line.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[->] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[->] (0,-0.3) -- (0,1.8) node[above] {$y$};
+                \draw[dashed, red] (-1,0.4) -- (1,1.2);
+                \draw[thick, blue, domain=-1:1, samples=80] plot (\x, {0.8 + 0.4*\x + 1.2*\x*(1 - \x*\x)});
+                \filldraw[blue] (-1,0.4) circle (1.5pt) node[left] {$(-1,0.4)$};
+                \filldraw[blue] (1,1.2) circle (1.5pt) node[right] {$(1,1.2)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p workspace="0.5in">
+            <strong>d-i)</strong> Does the Mean Value Theorem apply here? Why or why not?
+          </p>
+          <p workspace="0.5in">
+            <strong>d-ii)</strong> Does <m>f'(c) = \dfrac{f(1)-f(-1)}{1-(-1)}</m> hold anywhere in <m>(-1,1)</m>? If so, for how many values of <m>c</m>?
+          </p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws11-prob3">
+      <title>Problem 3</title>
+      <p>
+        Assume that <m>F(x)</m> is an antiderivative of <m>f(x)</m> and <m>G(x)</m> is an antiderivative of <m>g(x)</m>. Let <m>C</m> be an arbitrary constant. Answer the following statements as True or False.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p><m>F(x) + 2</m> is also an antiderivative of <m>f(x)</m>.</p>
+        </li>
+        <li>
+          <p><m>2F(x)</m> is also an antiderivative of <m>f(x)</m>.</p>
+        </li>
+        <li>
+          <p>The most general antiderivative of <m>f(x)</m> is <m>F(x) + C</m>.</p>
+        </li>
+        <li>
+          <p><m>\displaystyle \int G(x) \,dx = g(x) + C</m></p>
+        </li>
+        <li>
+          <p><m>\displaystyle \int \bigl(f(x) \pm g(x)\bigr) \,dx = F(x) \pm G(x) + C</m></p>
+        </li>
+        <li>
+          <p><m>\displaystyle \int a \cdot f(x) \,dx = a \cdot F(x) + C</m>, where <m>a</m> is a constant.</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws11-prob4">
+      <title>Problem 4</title>
+      <p workspace="1.3in">
+        Suppose a ball is thrown downward from the top of a building with acceleration <m>a(t) = -32\text{ ft/s}^2</m>, initial velocity <m>v(0) = -20\text{ ft/s}</m>, and initial height <m>s(0) = 144\text{ ft}</m>. Find <m>v(t)</m> and <m>s(t)</m>. Include units in your answers.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws11-prob5">
+      <title>Problem 5</title>
+      <p>
+        Compute the following antiderivatives.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p><m>\displaystyle \int x(x^2+5) \,dx</m>. Select one of the options below.</p>
+          <ol marker="(A)">
+            <li><p><m>\displaystyle \frac{1}{2}x^2\left(\frac{1}{3}x^3 + 5x\right) + C</m></p></li>
+            <li><p><m>\displaystyle \frac{1}{4}x^4 + \frac{5}{2}x^2 + C</m></p></li>
+            <li><p><m>\displaystyle \frac{1}{4}x^4 + \frac{5}{2}x^2</m></p></li>
+            <li><p><m>\displaystyle \frac{1}{4}x^4 + 5x + C</m></p></li>
+            <li><p><m>\displaystyle 3x^2 + 5 + C</m></p></li>
+          </ol>
+        </li>
+        <li>
+          <p><m>\displaystyle \int \left(3e^{5u} - u^e + \frac{2}{u}\right) du</m>. Choose one of the options below.</p>
+          <ol marker="(A)">
+            <li><p><m>\displaystyle \frac{3}{5}e^{5u} - \frac{u^{e+1}}{e+1} + 2\ln|u| + C</m></p></li>
+            <li><p><m>\displaystyle 3e^{5u} - \frac{u^{e+1}}{e+1} + 2\ln|u| + C</m></p></li>
+            <li><p><m>\displaystyle 15e^{5u} - eu^{e-1} - \frac{2}{u^2} + C</m></p></li>
+            <li><p><m>\displaystyle \frac{3}{5}e^{5u} - u^e - \frac{2}{u^2} + C</m></p></li>
+            <li><p><m>\displaystyle \frac{3}{5}e^{5u} - \frac{u^{e+1}}{e+1} + 2\ln|u|</m></p></li>
+          </ol>
+        </li>
+        <li>
+          <p><m>\displaystyle \int \left(\sin(2x) + \frac{3}{\sqrt{1-4x^2}}\right) \,dx</m>. Choose one of the options below.</p>
+          <ol marker="(A)">
+            <li><p><m>\displaystyle \frac{1}{2}\cos(2x) + \frac{3}{2}\arcsin(2x) + C</m></p></li>
+            <li><p><m>\displaystyle -\frac{1}{2}\cos(2x) + 3\arcsin(2x) + C</m></p></li>
+            <li><p><m>\displaystyle -\frac{1}{2}\cos(2x) + \frac{3}{2}\arcsin(2x) + C</m></p></li>
+            <li><p><m>\displaystyle -\frac{1}{2}\cos(2x) + \frac{3}{2}\arcsin(2x)</m></p></li>
+            <li><p><m>\displaystyle -2\cos(2x) + 6\arcsin(2x) + C</m></p></li>
+          </ol>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws11-extra-heading">
+      <title>Additional Practice Problems (to be completed outside of studio)</title>
+    </paragraphs>
+
+    <paragraphs xml:id="ws11-extra-prob6">
+      <title>Problem 6</title>
+      <p>
+        Answer the following questions for each graph below:
+      </p>
+
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <image>
+            <shortdescription>
+              Graph (e) showing a piecewise linear function on [-1, 1] with a jump discontinuity at x = 0 from (0, 1.3) to (0, 0.9), along with a dashed red secant line between (-1, 0.4) and (1, 1.2).
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[->] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[->] (0,-0.3) -- (0,1.7) node[above] {$y$};
+                \draw[dashed, red] (-1,0.4) -- (1,1.2);
+                \draw[thick, blue] (-1,0.4) -- (0,1.3);
+                \draw[thick, blue] (0,0.9) -- (1,1.2);
+                \filldraw[blue] (-1,0.4) circle (1.5pt) node[left] {$(-1,0.4)$};
+                \filldraw[blue] (0,1.3) circle (1.5pt);
+                \draw[thick, blue, fill=white] (0,0.9) circle (1.5pt);
+                \filldraw[blue] (1,1.2) circle (1.5pt) node[right] {$(1,1.2)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p workspace="0.5in">
+            <strong>e-i)</strong> Does the Mean Value Theorem apply here? Why or why not?
+          </p>
+          <p workspace="0.5in">
+            <strong>e-ii)</strong> Does <m>f'(c) = \dfrac{f(1)-f(-1)}{1-(-1)}</m> hold anywhere in <m>(-1,1)</m>? If so, for how many values of <m>c</m>?
+          </p>
+        </stack>
+
+        <stack>
+          <image>
+            <shortdescription>
+              Graph (f) showing a discontinuous piecewise function on [-1, 1] with removable endpoint discontinuity at (-1, 0.4) and jump discontinuity at x = 0, along with a dashed red secant line between (-1, 0.4) and (1, 1.2).
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.95]
+                \draw[->] (-1.5,0) -- (1.5,0) node[right] {$x$};
+                \draw[->] (0,-0.3) -- (0,1.7) node[above] {$y$};
+                \draw[dashed, red] (-1,0.4) -- (1,1.2);
+                \draw[thick, blue, domain=-1:0, samples=40] plot (\x, {1.21 - 2*(\x + 0.55)*(\x + 0.55)});
+                \draw[thick, blue, fill=white] (-1,0.8) circle (1.5pt);
+                \draw[thick, blue] (0,0.3) -- (1,1.2);
+                \filldraw[blue] (-1,0.4) circle (1.5pt) node[left] {$(-1,0.4)$};
+                \filldraw[blue] (0,0.605) circle (1.5pt);
+                \draw[thick, blue, fill=white] (0,0.3) circle (1.5pt);
+                \filldraw[blue] (1,1.2) circle (1.5pt) node[right] {$(1,1.2)$};
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <p workspace="0.5in">
+            <strong>f-i)</strong> Does the Mean Value Theorem apply here? Why or why not?
+          </p>
+          <p workspace="0.5in">
+            <strong>f-ii)</strong> Does <m>f'(c) = \dfrac{f(1)-f(-1)}{1-(-1)}</m> hold anywhere in <m>(-1,1)</m>? If so, for how many values of <m>c</m>?
+          </p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="ws11-extra-prob7">
+      <title>Problem 7</title>
+      <p>
+        Decide whether each of the following statements is true or false.
+      </p>
+      <p>
+        <em>Remember: a logical statement is only true if it is ALWAYS true; if it is ever false, the implication is false.</em>
+      </p>
+      <ol marker="a)">
+        <li workspace="0.6in">
+          <p>If <m>f(x)</m> is not continuous over <m>[a,b]</m>, then there is no value <m>x=c</m> in <m>(a,b)</m> where <m>\displaystyle f'(c) = \frac{f(b)-f(a)}{b-a}</m>.</p>
+        </li>
+        <li workspace="0.6in">
+          <p>If <m>f(x)</m> is differentiable everywhere, then there is at least one value <m>x=c</m> in <m>(a,b)</m> where <m>\displaystyle f'(c) = \frac{f(b)-f(a)}{b-a}</m>.</p>
+        </li>
+        <li workspace="0.6in">
+          <p>If <m>f(x)</m> is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>, then there is exactly one value <m>x=c</m> in <m>(a,b)</m> where <m>\displaystyle f'(c) = \frac{f(b)-f(a)}{b-a}</m>.</p>
+        </li>
+        <li workspace="0.6in">
+          <p>If <m>f(x)</m> is not differentiable over <m>(a,b)</m>, then there is at least one value <m>x=c</m> in <m>(a,b)</m> where <m>\displaystyle f'(c) = \frac{f(b)-f(a)}{b-a}</m>.</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws11-extra-prob8">
+      <title>Problem 8</title>
+      <p>
+        Decide whether the MVT applies to each of the following functions <m>f(x)</m> over the specified interval. Be sure to justify your answer!
+      </p>
+      <p>
+        If the MVT does apply, find the value(s) guaranteed by the theorem, that is, the value(s) <m>c</m> where
+        <me>f'(c) = \frac{f(b) - f(a)}{b - a}.</me>
+      </p>
+      <sidebyside widths="46% 46%" margins="2% 2%" valign="top">
+        <stack>
+          <p workspace="1in">
+            <strong>a)</strong> <m>f(x) = 2\,e^x - 2x^{1/3}</m> on <m>[-1,1]</m>
+          </p>
+          <p workspace="1in">
+            <strong>c)</strong> <m>f(x) = |x|</m> on <m>[1,2]</m>
+          </p>
+        </stack>
+        <stack>
+          <p workspace="1in">
+            <strong>b)</strong> <m>f(x) = |x|</m> on <m>[-1,1]</m>
+          </p>
+          <p workspace="1in">
+            <strong>d)</strong> <m>f(x) = \sin(x/2)</m> on <m>[0,\pi]</m>
+          </p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="ws11-extra-prob9">
+      <title>Problem 9</title>
+      <p>
+        Compute the following antiderivatives.
+      </p>
+      <ol marker="a)">
+        <li>
+          <p><m>\displaystyle \int \left(\frac{u}{\sqrt[3]{u}} - \frac{2}{u}\right) \,du</m>. Select one of the options below.</p>
+          <ol marker="(A)">
+            <li><p><m>\displaystyle \frac{3}{4}u^{4/3} - 2\ln|u| + C</m></p></li>
+            <li><p><m>\displaystyle \frac{3}{5}u^{5/3} - 2\ln|u| + C</m></p></li>
+            <li><p><m>\displaystyle \frac{3}{5}u^{5/3} - 2\ln|u|</m></p></li>
+            <li><p><m>\displaystyle \frac{5}{3}u^{5/3} - \frac{2}{u^2} + C</m></p></li>
+            <li><p><m>\displaystyle \frac{3}{5}u^{5/3} + \frac{2}{u^2} + C</m></p></li>
+          </ol>
+        </li>
+        <li>
+          <p><m>\displaystyle \int (4^x \cdot 3^x + \pi) \,dx</m>. Select one of the options below.</p>
+          <ol marker="(A)">
+            <li><p><m>\displaystyle \frac{4^x}{\ln 4} \cdot \frac{3^x}{\ln 3} + \pi x + C</m></p></li>
+            <li><p><m>\displaystyle 12^x \ln 12 + \pi x + C</m></p></li>
+            <li><p><m>\displaystyle \frac{12^x}{\ln 12} + \pi x</m></p></li>
+            <li><p><m>\displaystyle \frac{12^x}{\ln 12} + \pi x + C</m></p></li>
+            <li><p><m>\displaystyle \frac{12^{x+1}}{x+1} + \frac{\pi^2}{2} + C</m></p></li>
+          </ol>
+        </li>
+        <li>
+          <p><m>\displaystyle \int \csc(3x)\cot(3x) \,dx</m>. Select one of the options below.</p>
+          <ol marker="(A)">
+            <li><p><m>\displaystyle \frac{1}{3}\csc(3x) + C</m></p></li>
+            <li><p><m>\displaystyle -\csc(3x) + C</m></p></li>
+            <li><p><m>\displaystyle -3\csc(3x) + C</m></p></li>
+            <li><p><m>\displaystyle -\frac{1}{3}\csc(3x)</m></p></li>
+            <li><p><m>\displaystyle -\frac{1}{3}\csc(3x) + C</m></p></li>
+          </ol>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+</handout>

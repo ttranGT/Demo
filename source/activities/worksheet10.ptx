@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="worksheet-10">
+  <title>Worksheet 10 - Sections 1.6, 3.8, 3.9, and 4.4b: Logarithmic Differentiation, Derivatives of Inverse Trigonometric Functions, and Curve Sketching (Part I)</title>
+
+  <page>
+    <paragraphs xml:id="ws10-prob1">
+      <title>Problem 1</title>
+      <p>
+        Use an appropriate differentiation technique to find the derivative of each function below. There may be multiple correct approaches! Don't worry about simplifying your answers, but think critically about your strategy and options.
+      </p>
+      <ol marker="a)">
+        <li workspace="1.2in">
+          <p><m>\displaystyle 2^{x\tan^{-1}(x)}</m></p>
+        </li>
+        <li workspace="1.3in">
+          <p><m>\displaystyle \bigl(\ln(x) + \arccos(x)\bigr)^{\cot(x)}</m></p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws10-prob2">
+      <title>Problem 2</title>
+      <p workspace="2in">
+        Use logarithmic differentiation to find the derivative of the following function.
+        <me>\sqrt{\frac{e^x(x + 3)}{\bigl(x^2 + \arcsin(x)\bigr)^3}}</me>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws10-prob3">
+      <title>Problem 3</title>
+      <p workspace="2.2in">
+        For the function below, identify the intervals of increasing/decreasing behavior, local extrema, concavity, and any inflection points, if they exist.
+        <me>f(x) = x^{5/3} - 5\,x^{2/3}</me>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws10-extra-heading">
+      <title>Additional Practice Problems (to be completed outside of studio)</title>
+    </paragraphs>
+
+    <paragraphs xml:id="ws10-extra-prob4">
+      <title>Problem 4</title>
+      <p>
+        Use an appropriate differentiation technique to find the derivative of each function below. There may be multiple correct approaches! Don't worry about simplifying your answers, but think critically about your strategy and options.
+      </p>
+      <ol marker="a)">
+        <li workspace="1in">
+          <p><m>x^{\cos(x)}</m></p>
+        </li>
+        <li workspace="1in">
+          <p><m>\bigl(x^3 + 17\sin^{-1}(x)\bigr)^{\ln(3)}</m></p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws10-extra-prob5">
+      <title>Problem 5</title>
+      <p workspace="1.4in">
+        Use logarithmic differentiation to find the derivative of the following function.
+        <me>\frac{e^{2x}\,(\arctan(x)+2)}{(x^2+3)^4\,\bigl(\cos^{-1}(x)+2^x\bigr)^3}</me>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws10-extra-prob6">
+      <title>Problem 6</title>
+      <p workspace="1.3in">
+        Find the equation of the line tangent to the function <m>f(x) = \bigl(\arctan(x)\bigr)^x</m> at the point <m>x = 1</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws10-extra-prob7">
+      <title>Problem 7</title>
+      <p>
+        For the functions below, identify the intervals of increasing/decreasing behavior, local extrema, concavity, and any inflection points, if they exist.
+      </p>
+      <ol marker="(a)">
+        <li workspace="1.1in">
+          <p><m>f(x) = x e^{-x}</m></p>
+        </li>
+        <li workspace="1.1in">
+          <p><m>g(x) = x^5 - x</m></p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws10-extra-prob8">
+      <title>Problem 8</title>
+      <p>
+        Find the following:
+      </p>
+      <ol marker="(a)">
+        <li workspace="0.6in">
+          <p><m>\arccos(1/2)</m></p>
+        </li>
+        <li workspace="0.7in">
+          <p><m>\cos\bigl(\sin^{-1}(4/5)\bigr)</m></p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+</handout>

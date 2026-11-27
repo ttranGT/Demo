@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="worksheet-9">
+  <title>Worksheet 9 - Sections 3.7 and 3.10: Implicit Differentiation and Related Rates</title>
+
+  <page>
+    <paragraphs xml:id="ws9-prob1">
+      <title>Problem 1</title>
+      <p workspace="2.2in">
+        Find the equation of the line tangent to the curve <m>\displaystyle x\,y^2 - x^3 = \sin(2y) + \frac{2^y}{\ln(x+e)} - 1</m> at the point <m>(0,0)</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws9-prob2">
+      <title>Problem 2</title>
+      <p workspace="2in">
+        Use log properties to simplify the following function, then find and simplify its derivative:
+        <me>g(x) = \log_4\left(\frac{x}{x^4+9}\right)</me>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws9-prob3">
+      <title>Problem 3</title>
+      <p workspace="2.5in">
+        Spooky the friendly scarecrow is standing 80 feet away from a long, straight fence. One night she notices a runner running along the fence, getting closer to her. She points her flashlight at him and keeps it on him as he runs so he won't trip. When the distance between her and the runner is <m>100</m> feet, he is running at <m>9</m> feet per second. At this moment, at what rate is she turning the flashlight to keep him illuminated? Include units in your answer.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws9-extra-heading">
+      <title>Additional Practice Problems (to be completed outside of studio)</title>
+    </paragraphs>
+
+    <paragraphs xml:id="ws9-extra-prob4">
+      <title>Problem 4</title>
+      <ol marker="(a)">
+        <li workspace="1.1in">
+          <p>
+            Find <m>\displaystyle \frac{d}{dt}\left(x^4 - x^2y = 7\right)</m>, where <m>x(t)</m> and <m>y(t)</m> are functions of <m>t</m>. No need to simplify your answer.
+          </p>
+        </li>
+        <li workspace="1.2in">
+          <p>
+            Find and simplify <m>\displaystyle \frac{dy}{dx}</m>, where <m>x^2 + y^2 = \ln(2x)</m>.
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws9-extra-prob5">
+      <title>Problem 5</title>
+      <p workspace="1.3in">
+        Use log properties to simplify the following function, then find and simplify its derivative:
+        <me>f(x) = \ln\bigl(e^x(x^2+1)\bigr)</me>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws9-extra-prob6">
+      <title>Problem 6</title>
+      <p workspace="1.5in">
+        Suppose at a certain point in time, <m>\displaystyle x = \frac{\pi}{4}</m>, <m>y = 0</m>, and <m>y</m> is changing at a rate of <m>3\sqrt{2}</m> units per minute. Find <m>\displaystyle \frac{dx}{dt}</m> at this instant, given that <m>\displaystyle \cos(x)\,\tan(y) = 2x - \frac{\pi}{2}</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws9-extra-prob7">
+      <title>Problem 7</title>
+      <p workspace="1.8in">
+        Jonas sets up a ladder against the brick wall of an outdoor concert venue so he can watch his favorite band play for free. It's a bit muddy out, so as he stands on the ladder, the base of it slowly slides away from the wall. Jonas notices the ladder's movement and uses the bricks to measure that the top of the ladder is sliding down the wall at a rate of <m>1</m> inch per second. At the moment when the top of the ladder is <m>10</m> feet from the ground and the bottom of the ladder is <m>2</m> feet from the base of the wall, how fast is the bottom of the ladder sliding away from the wall?
+      </p>
+    </paragraphs>
+  </page>
+</handout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="worksheet-7">
+  <title>Worksheet 7: Sections 4.4a, 4.1b, and 4.6 - Local/Absolute Extrema (Part II) and Optimization</title>
+
+  <page>
+    <paragraphs xml:id="ws7-prob1">
+      <title>Problem 1</title>
+      <p>
+        Suppose you've made the below sign chart for the derivative of a function <m>f(x)</m>. The function <m>f(x)</m> is continuous and differentiable on <m>(-\infty, \infty)</m>. Answer the following with <q>definitely yes,</q> <q>definitely no,</q> or <q>undetermined.</q>
+      </p>
+
+      <sidebyside width="55%">
+        <image source="pictures/Day_18.2.png">
+          <shortdescription>
+            Sign chart for the first derivative f'(x) showing critical numbers at x = 0, x = 3, and x = 5 along with the positive and negative signs of f'(x) on each subinterval.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <p workspace="0.9in">
+        <strong>a)</strong> Is <m>f''(0) \gt 0</m>? Why or why not?
+      </p>
+      <p workspace="0.9in">
+        <strong>c)</strong> Is <m>f''(5) = 0</m> possible? Why or why not?
+      </p>
+      <p workspace="0.9in">
+        <strong>d)</strong> Does <m>f(x)</m> have an absolute maximum on <m>[-2, 10]</m>? If so, where could it be?
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws7-prob3">
+      <title>Problem 3</title>
+      <p workspace="2.4in">
+        Walter is planning to order a custom-made jewelry box for his mother's next birthday. The box will have a square base. The sides and bottom will be made out of mahogany, which costs 30 cents per square inch. The top will be made out of maple, which costs 50 cents per square inch. Walter has $60 to spend on the present and wants to get a box with the largest volume possible. What dimensions should his box be? Be sure to include units in your answers.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws7-extra-heading">
+      <title>Additional Practice Problems (to be completed outside of studio)</title>
+    </paragraphs>
+
+    <paragraphs xml:id="ws7-extra-prob1">
+      <title>Problem 1 (cont.)</title>
+      <p>
+        Suppose you've made the below sign chart for the derivative of a function <m>f(x)</m>. The function <m>f(x)</m> is continuous and differentiable on <m>(-\infty, \infty)</m>. Answer the following with <q>definitely yes,</q> <q>definitely no,</q> or <q>undetermined.</q>
+      </p>
+
+      <sidebyside width="55%">
+        <image source="pictures/Day_18.2.png">
+          <shortdescription>
+            Sign chart for the first derivative f'(x) showing critical numbers at x = 0, x = 3, and x = 5 along with the positive and negative signs of f'(x) on each subinterval.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <p workspace="0.8in">
+        <strong>b)</strong> Is <m>f''(3) \gt 0</m>? Why or why not?
+      </p>
+      <p workspace="0.8in">
+        <strong>e)</strong> Does <m>f(x)</m> have an absolute minimum on <m>[-2, 10]</m>? If so, where could it be?
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws7-extra-prob2">
+      <title>Problem 2</title>
+      <p>
+        Consider <m>f(t) = |2t - 7|</m> on <m>[1,5]</m>.
+      </p>
+      <ol marker="a)">
+        <li workspace="1.1in">
+          <p>Express <m>f(t)</m> as a piecewise function and then sketch its graph.</p>
+        </li>
+        <li workspace="0.7in">
+          <p>Show that <m>f(t)</m> satisfies the conditions of the Extreme Value Theorem <strong>using its graph</strong>.</p>
+        </li>
+        <li workspace="0.7in">
+          <p>Find all critical points of <m>f(t)</m> <strong>using its graph</strong>.</p>
+        </li>
+        <li workspace="1in">
+          <p>Apply the Closed Interval method to find the absolute maximum and minimum values of <m>f(t)</m>.</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws7-extra-prob4">
+      <title>Problem 4</title>
+      <p workspace="1.8in">
+        Piedmont Park is renovating the grounds to include a beautiful fountain surrounded by a walking path. The fountain will be in the shape of a rectangle. The path will follow two opposite sides of the fountain and two semi-circles on the other sides of the rectangle. If the track around the fountain is going to be 440 yards long, what dimensions would maximize the area of the fountain? Be sure to include units in your answers.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws7-extra-prob5">
+      <title>Problem 5</title>
+      <sidebyside widths="32% 64%" valign="top">
+        <image source="pictures/sp25optimizepic2.jpg">
+          <shortdescription>
+            Graph of the curve y = sqrt(x) and the point (3/2, 0) on the x-axis, showing a line segment representing the shortest distance between them.
+          </shortdescription>
+        </image>
+        <stack>
+          <p workspace="1.4in">
+            How close does the curve <m>y = \sqrt{x}</m> come to the point <m>(3/2, 0)</m>? Hint: The distance between two points, <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>, is given by
+            <me>D = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}</me>
+            If you minimize the square of the distance, you can avoid square roots.
+          </p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+  </page>
+</handout>

@@ -56,6 +56,11 @@
        <xi:include href="./activities/worksheet4.ptx"/>
         <xi:include href="./activities/worksheet5.ptx"/>
           <xi:include href="./activities/worksheet6.ptx"/>
+          <xi:include href="./activities/worksheet7.ptx"/>
+            <xi:include href="./activities/worksheet8.ptx"/>
+             <xi:include href="./activities/worksheet9.ptx"/>
+              <xi:include href="./activities/worksheet10.ptx"/>
+              <xi:include href="./activities/worksheet11.ptx"/>
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
