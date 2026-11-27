@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="worksheet-2">
+  <title>Worksheet 2: Sections 2.2, 2.4, 2.6a - Limit of a Function, One-Sided and Infinite Limits</title>
+
+  <page>
+    <paragraphs xml:id="ws2-prob1">
+      <title>Problem 1</title>
+      <p>
+        Find the following limits. Be sure to show your work carefully and get in the habit of practicing <strong>proper notation</strong>!
+      </p>
+      <ol marker="(a)">
+        <li workspace="1.1in">
+          <p><m>\displaystyle \lim_{x \to 2} \left(x^3 - 4e^x + \ln(x-1) + 5 - \frac{1}{2^{x-2}}\right)</m></p>
+        </li>
+        <li workspace="1.1in">
+          <p><m>\displaystyle \lim_{x \to 3} \frac{x^2 - 4x + 3}{3 - x}</m></p>
+        </li>
+        <li workspace="1.1in">
+          <p><m>\displaystyle \lim_{x \to -2} \frac{x + 2}{\sqrt{x^2 + 5} - 3}</m></p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws2-prob2">
+      <title>Problem 2</title>
+      <p>
+        The graph of a function <m>g(x)</m> is given below:
+      </p>
+
+      <sidebyside widths="48% 48%" valign="top">
+        <image source="pictures/WS2.PNG">
+          <shortdescription>
+            Graph of a piecewise function g(x) showing removable, jump, and continuous behaviors at x = -1, 0, 1, 2, and 4.
+          </shortdescription>
+        </image>
+        <stack>
+          <ol marker="(a)">
+            <li workspace="0.6in">
+              <p>Find <m>\displaystyle \lim_{x \to 0} g(x)</m> and <m>g(0)</m></p>
+            </li>
+            <li workspace="0.6in">
+              <p>Find <m>\displaystyle \lim_{x \to 4} g(x)</m> and <m>g(4)</m></p>
+            </li>
+            <li workspace="0.6in">
+              <p>Find <m>\displaystyle \lim_{x \to 2} g(x)</m> and <m>g(2)</m></p>
+            </li>
+          </ol>
+        </stack>
+      </sidebyside>
+
+      <p>
+        <strong>(d)</strong> Based on your answers in previous parts, fill in the blanks:
+      </p>
+      <p>
+        The limit of the function <m>f(x)</m> as <m>x</m> approaches <m>a</m> is <em>not</em> necessarily <fillin characters="10"/> to the value of the function at <m>x=a</m>. That is, in general,
+        <me>\lim_{x \to a} f(x) \quad \underline{\hspace{0.5in}} \quad f(a).</me>
+      </p>
+
+      <p workspace="1.2in">
+        <strong>(e)</strong> Here are some limits that don't exist. Looking at the picture above, explain what you think the problem is in each case. Can you state a fact about the existence of limits based on any patterns you observe by filling in the blanks below?
+        <me>\lim_{x \to -1} g(x) \hspace{1in} \lim_{x \to 1} g(x)</me>
+      </p>
+      <p>
+        A fact about the existence of limits:
+      </p>
+      <p>
+        The limit of a function <m>f(x)</m> as <m>x</m> approaches <m>a</m> does not exist if the values of <m>f(x)</m> get infinitely close to <fillin characters="14"/> numbers from the <fillin characters="8"/> and from the <fillin characters="8"/> of <m>a</m>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws2-prob3">
+      <title>Problem 3</title>
+      <p>
+        Evaluate the following limit. Remember that looking at one-sided limits might be helpful!
+      </p>
+      <ol marker="(a)">
+        <li workspace="1.8in">
+          <p><m>\displaystyle \lim_{x \to 4} \frac{2x}{x - 4}</m></p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws2-prob4">
+      <title>Problem 4</title>
+      <p>
+        Let <m>b</m> and <m>c</m> be constants, and consider the function
+        <me>g(x)=\begin{cases}
+        x^2+\dfrac{25}{x^2}-4+b\,e^{5-x} \amp \text{if } x \leq 5 \\[8pt]
+        \ln(x-4)+\sqrt{5x}-b \amp \text{if } 5 \lt x \lt 8 \\[8pt]
+        3\ln\left(\dfrac{x}{8}-1\right) - x^{2/3} + c\,x \amp \text{if } x \gt 8
+        \end{cases}.</me>
+      </p>
+      <ol marker="(a)">
+        <li workspace="2in">
+          <p>Find the value of <m>b</m> such that <m>\displaystyle \lim_{x \to 5} g(x)</m> exists, if applicable.</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws2-prob5">
+      <title>Problem 5</title>
+      <p>
+        Consider the graphs of two functions <m>f(x)</m> (left) and <m>g(x)</m> (right) depicted below. Note that <m>\left(\dfrac{1}{\pm \infty} = 0\right)</m>.
+      </p>
+
+      <sidebyside widths="44% 44%" margins="4% 4%" valign="top">
+        <image source="pictures/finalpic13.png">
+          <shortdescription>Graph of function f(x) showing vertical asymptote and limit behavior near x = 0 and x = 1.</shortdescription>
+        </image>
+        <image source="pictures/finalpic14.png">
+          <shortdescription>Graph of function g(x) showing vertical asymptote and limit behavior near x = 0 and x = 1.</shortdescription>
+        </image>
+      </sidebyside>
+
+      <p>
+        Answer the following question based on these two graphs:
+      </p>
+      <ol marker="(a)">
+        <li workspace="1.4in">
+          <p><m>\displaystyle \lim_{x \to 0} \bigl(f(x)g(x)\bigr)</m></p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="ws2-extra-heading">
+      <title>Additional Practice Problems (to be completed outside of studio)</title>
+    </paragraphs>
+
+    <paragraphs xml:id="ws2-extra-prob1">
+      <title>Problem 1 (cont.)</title>
+      <p>
+        Find the following limits. Be sure to show your work carefully and get in the habit of practicing <strong>proper notation</strong>!
+      </p>
+      <p workspace="1.6in">
+        <strong>(d)</strong> <m>\displaystyle \lim_{h \to 0} \frac{\frac{1}{(x+h)^3} - \frac{1}{x^3}}{h}</m>
+      </p>
+      <p workspace="1.6in">
+        <strong>(e)</strong> <m>\displaystyle \lim_{x \to 0} \left(\frac{1}{x} - \frac{2}{x\sqrt{4+x}}\right)</m> <em>Note: Does it have the form <m>\left(\dfrac{0}{0}\right)</m>?</em>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws2-extra-prob3">
+      <title>Problem 3 (cont.)</title>
+      <p>
+        Evaluate the following limit. Remember that looking at one-sided limits might be helpful!
+      </p>
+      <ol marker="(a)">
+        <li workspace="1.5in">
+          <p><m>\displaystyle \lim_{x \to -2^-} \frac{x}{(x+2)^2}\left(\frac{2e^{-x}+5}{x^2+\ln(x+3)}\right)</m></p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="ws2-extra-prob4">
+      <title>Problem 4 (cont.)</title>
+      <p>
+        Let <m>b</m> and <m>c</m> be constants, and consider the function
+        <me>g(x)=\begin{cases}
+        x^2+\dfrac{25}{x^2}-4+b\,e^{5-x} \amp \text{if } x \leq 5 \\[8pt]
+        \ln(x-4)+\sqrt{5x}-b \amp \text{if } 5 \lt x \lt 8 \\[8pt]
+        3\ln\left(\dfrac{x}{8}-1\right) - x^{2/3} + c\,x \amp \text{if } x \gt 8
+        \end{cases}.</me>
+      </p>
+      <p workspace="1.5in">
+        <strong>(b)</strong> Find the value of <m>b</m> such that <m>\displaystyle \lim_{x \to 0} g(x)</m> exists, if applicable.
+      </p>
+      <p workspace="1.8in">
+        <strong>(c)</strong> Find the values of <m>b</m> and <m>c</m> such that <m>\displaystyle \lim_{x \to 8} g(x)</m> exists, if applicable.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="ws2-extra-prob5">
+      <title>Problem 5 (cont.)</title>
+      <p>
+        Consider the graphs of two functions <m>f(x)</m> (left) and <m>g(x)</m> (right) depicted below. Note that <m>\left(\dfrac{1}{\pm \infty} = 0\right)</m>.
+      </p>
+
+      <sidebyside widths="44% 44%" margins="4% 4%" valign="top">
+        <image source="pictures/finalpic13.png">
+          <shortdescription>Graph of function f(x) showing vertical asymptote and limit behavior near x = 0 and x = 1.</shortdescription>
+        </image>
+        <image source="pictures/finalpic14.png">
+          <shortdescription>Graph of function g(x) showing vertical asymptote and limit behavior near x = 0 and x = 1.</shortdescription>
+        </image>
+      </sidebyside>
+
+      <p>
+        Answer the following questions based on these two graphs:
+      </p>
+      <p workspace="1.2in">
+        <strong>(b)</strong> <m>\displaystyle \lim_{x \to 1} \frac{f(x)}{g(x)}</m>
+      </p>
+      <p workspace="1.2in">
+        <strong>(c)</strong> <m>\displaystyle \lim_{x \to 1^+} \frac{g(x)}{f(x)}</m>
+      </p>
+    </paragraphs>
+  </page>
+</handout>
