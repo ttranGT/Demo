@@ -25,13 +25,12 @@
     <paragraphs xml:id="p-functions-domain-range">
       <title>Functions, Domain, and Range</title>
 
-      <definition xml:id="def-function">
-  <statement>
-    <p>
+      <paragraphs xml:id="def-function">
+  <title>Definition</title>
+  <p>
     A <em>function</em> <m>f</m> from a set <m>D</m> to a set <m>Y</m> is a rule that assigns a <fillin characters="8"/> element <m>f(x)</m> in <m>Y</m> to each element <m>x</m> in <m>D</m>.
   </p>
-  </statement>
-</definition>
+</paragraphs>
 
 
 
@@ -108,6 +107,19 @@
   </li>
 </ul>
 
+
+<paragraphs xml:id="checkpoint-circle">
+  <title>Checkpoint</title>
+  <ol marker="a)">
+    <li workspace="0.75in">
+      <p>How would you describe the circle algebraically?</p>
+    </li>
+    <li workspace="0.75in">
+      <p>How would you describe the upper half of the circle algebraically?</p>
+    </li>
+  </ol>
+</paragraphs>
+
 <exercise workspace="1.5in">
   <statement>
     <ol marker="a)">
@@ -144,14 +156,14 @@
         <li><p><fillin characters="35"/></p></li>
       </ol>
 
-      <example workspace="1in">
-        <statement>
-          <p>
-            Find the domains of <m>f(x)=\ln(x+1)</m> and <m>g(x) = \dfrac{1}{\sqrt{4-x^2}}</m>.
-          </p>
-        </statement>
-      </example>
-    </paragraphs>
+
+     <paragraphs xml:id="checkpoint-domain-functions">
+  <title>Checkpoint</title>
+  <p workspace="1in">
+    Find the domains of <m>f(x)=\ln(x+1)</m> and <m>g(x) = \dfrac{1}{\sqrt{4-x^2}}</m>.
+  </p>
+</paragraphs>
+  </paragraphs>
   </page>
 
   <page>
