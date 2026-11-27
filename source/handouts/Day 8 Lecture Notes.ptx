@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-8-notes">
+  <title>Day 8: Sections 3.1 and 3.2: The Derivative at a Point and the Derivative as a Function</title>
+
+  <introduction>
+    <p>
+      <term>Previously:</term> So far we've learned about rates of change, how to find limits, and what we can learn about functions by exploring continuity, including discontinuity and the Intermediate Value Theorem.
+    </p>
+    <p>
+      <term>Today:</term> We want to revisit our questions from the beginning of the semester with the new tools limits give us.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="p-recall-aroc">
+      <title>Recall</title>
+      <p>
+        We recall that:
+      </p>
+      <ol marker="i)">
+        <li>
+          <p>
+            The average rate of change (AROC) of <m>f(x)</m> over the interval <m>[x_1, x_2]</m> is given by
+            <me>\text{AROC} = \underline{\hspace{2in}} = \underline{\hspace{2in}}</me>
+          </p>
+        </li>
+        <li>
+          <p>
+            We can <strong>not</strong> find an <fillin characters="16"/> rate of change by using the formula for the AROC.
+          </p>
+        </li>
+        <li>
+          <p>
+            We <strong>can</strong> find an AROC over a small interval<mdash/>this gives us an <fillin characters="14"/> of the instantaneous rate of change.
+          </p>
+        </li>
+      </ol>
+      <p>
+        Now, <strong>limits and AROC together let us calculate instantaneous rates of change!</strong>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="def-derivative-at-point">
+      <title>Definition: The Limit Definition of the Derivative</title>
+      <p>
+        The instantaneous rate of change of <m>f(x)</m> at the point <m>x = a</m> is given by
+        <me>f'(a) = \underline{\hspace{2in}} = \underline{\hspace{2in}} \qquad (\text{provided the limit exists.})</me>
+      </p>
+      <p>
+        <term>Notes:</term>
+      </p>
+      <ul>
+        <li>
+          <p>The quantity <m>f'(a)</m> is called <em>the <fillin characters="14"/></em> of <fillin characters="6"/> at <m>x =</m> <fillin characters="4"/>.</p>
+        </li>
+        <li>
+          <p>We need to memorize this important definition<mdash/>frequent use will make it stick naturally.</p>
+        </li>
+        <li>
+          <p>
+            The second version of the derivative is equivalent to the first one<mdash/>just make the substitution <m>h =</m> <fillin characters="10"/>. In most cases you can use whichever version you prefer<mdash/>but they often give you different algebra to do, so sometimes one ends up being a little easier.
+          </p>
+        </li>
+      </ul>
+      <p>
+        Let's use the derivative to solve our problem.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-cyclist-velocity">
+      <title>Problem 1</title>
+      <p workspace="1.8in">
+        Assume that a cyclist's position is given by <m>f(t) = (t+1)^2 - 2</m>. Write an expression for the cyclist's instantaneous velocity at <m>t = 3</m> using limits, and identify the algebraic technique that can be used to evaluate this limit.
+      </p>
+      <p>
+        <em>Note: We leave the details as an exercise, as they provide good practice with the algebraic manipulation tool we covered in the Day 3 lecture.</em>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-derivative-interpretations">
+      <title>Interpretations of the Derivative</title>
+      <p>
+        You might notice we're using a few terms interchangeably<mdash/>let's write down something really important:
+      </p>
+      <ol marker="1.">
+        <li><p><fillin characters="36"/></p></li>
+        <li><p><strong>IS</strong> <fillin characters="36"/></p></li>
+        <li><p><strong>IS</strong> <fillin characters="36"/></p></li>
+      </ol>
+      <p>
+        Right away, derivatives give us a few new ways to talk about functions and describe what they're doing.
+      </p>
+      <p>
+        Recall that the slope of a secant line tells us whether the line is increasing or decreasing:
+      </p>
+      <ul>
+        <li><p>If the slope is <fillin characters="12"/>, the line is increasing, i.e., rising as we move from left to right.</p></li>
+        <li><p>If the slope is <fillin characters="12"/>, the line is decreasing, i.e., descending as we move from left to right.</p></li>
+      </ul>
+      <p>
+        The slope of a tangent line does the same thing!
+      </p>
+      <ul>
+        <li><p>If <m>f'(a)</m> is <fillin characters="12"/>, then <m>f(x)</m> is <fillin characters="16"/> at <m>x = a</m>.</p></li>
+        <li><p>If <m>f'(a)</m> is <fillin characters="12"/>, then <m>f(x)</m> is <fillin characters="16"/> at <m>x = a</m>.</p></li>
+      </ul>
+      <p>
+        Algebraically, assume that <m>x_1 \lt x_2</m>:
+      </p>
+      <ul>
+        <li><p>If <m>f</m> is <fillin characters="20"/>, then <m>f(x_1)</m> <fillin characters="4"/> <m>f(x_2)</m>.</p></li>
+        <li><p>If <m>f</m> is <fillin characters="20"/>, then <m>f(x_1)</m> <fillin characters="4"/> <m>f(x_2)</m>.</p></li>
+      </ul>
+      <p>
+        Notice that a function might be increasing in some places and decreasing in others<mdash/>but looking at derivatives can tell us what's happening.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-reciprocal-derivative">
+      <title>Problem 2</title>
+      <p>
+        Here's another example.
+      </p>
+      <ol marker="(a)">
+        <li workspace="1.2in">
+          <p>
+            Use Desmos, if necessary, to sketch the graph of the function <m>\displaystyle f(x) = \frac{1}{x}</m> and add a tangent line at <m>x = 2</m>. Do you think <m>f'(2)</m> is positive or negative?
+          </p>
+        </li>
+        <li workspace="1.8in">
+          <p>
+            Find the instantaneous rate of change of <m>f(x)</m> at <m>x = a</m>, where <m>a \neq 0</m>.
+          </p>
+          <p>
+            <em>Reminder:</em> <m>\displaystyle f'(a) = \lim_{x \to a} \frac{f(x) - f(a)}{x - a} = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}</m>.
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-reciprocal-derivative-cont">
+      <title>Problem 2 (cont.)</title>
+      <p workspace="1in">
+        <strong>(c)</strong> Evaluate <m>f'(2)</m> using part (b). Does your answer match your guess from part (a)?
+      </p>
+      <p>
+        <strong>(d)</strong> What happens to the tangent line to the curve at the point <m>\left(a, \dfrac{1}{a}\right)</m> as <m>a</m> changes? You may use <url href="https://www.desmos.com/calculator/cyca18r1df" visual="desmos.com/calculator/cyca18r1df">Desmos</url> and part (b) to help answer the question.
+      </p>
+      <ul>
+        <li><p>As <m>a</m> approaches infinity or negative infinity, the tangent line gets close to the <fillin characters="10"/> asymptote <fillin characters="10"/>.</p></li>
+        <li><p>As <m>a</m> approaches <m>0</m> from the right or from the left, the tangent line gets close to the <fillin characters="10"/> asymptote <fillin characters="10"/>.</p></li>
+        <li><p>Otherwise, the tangent line exists with slope <fillin characters="10"/>.</p></li>
+      </ul>
+      <p>
+        As we notice in Problem 2<mdash/>parts (b<ndash/>d), we can describe <fillin characters="12"/> using <fillin characters="12"/> and even find infinitely <fillin characters="8"/> derivatives all at once. That is, we want to write the derivative of <m>f</m> as a <fillin characters="16"/>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="def-derivative-function">
+      <title>Definition: The Derivative Function</title>
+      <p>
+        The derivative of a function <m>f(x)</m> with respect to the variable <m>x</m> is the <fillin characters="12"/> <m>f'(x)</m>, given by
+        <me>f'(x) = \frac{d}{dx} f(x) = \frac{df}{dx} = \underline{\hspace{2in}}.</me>
+      </p>
+      <p>
+        Finding derivatives of functions is powerful<mdash/>rather than choosing a single point and computing the derivative each time, we can find the derivative function once and then evaluate it at as many points as we like.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-sqrt-derivative">
+      <title>Problem 3</title>
+      <p workspace="1.8in">
+        Find <m>f'(x)</m> given that <m>f(x) = \sqrt{x}</m>.
+      </p>
+      <p>
+        So we know how to find derivatives, but since they rely on limits, they don't <fillin characters="10"/> exist. Moreover, since derivatives are <fillin characters="12"/>, they are defined only on their <fillin characters="10"/>. Let's explore!
+      </p>
+      <ul>
+        <li><p>If the limit that defines <m>f'(a)</m> does not exist, or if the derivative function <m>f'(x)</m> is not defined at <m>x = a</m>, we say that <m>f(x)</m> is <fillin characters="8"/> <fillin characters="20"/> at <m>x = a</m>.</p></li>
+        <li><p>Similarly, if the limit that defines <m>f'(a)</m> exists, or if <m>x = a</m> is in the domain of the derivative function <m>f'(x)</m>, we say that <m>f(x)</m> is <fillin characters="20"/> at <m>x = a</m>.</p></li>
+        <li><p>If <m>f(x)</m> is differentiable for all values of <m>x</m>, we simply say that <m>f(x)</m> is <fillin characters="20"/>.</p></li>
+      </ul>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-nondifferentiability-examples">
+      <title>Problem 4</title>
+      <ol marker="a)">
+        <li workspace="1.4in">
+          <p>
+            Continuing with Problem 3, is <m>f(x)</m> differentiable at <m>x = 0</m>? Why or why not?
+          </p>
+        </li>
+        <li workspace="1.8in">
+          <p>
+            Find <m>g'(0)</m> for <m>g(x) = |x|</m>, or explain why it does not exist.
+          </p>
+          <p>
+            <em>Reminder:</em> <m>\displaystyle g'(a) = \lim_{x \to a} \frac{g(x) - g(a)}{x - a} = \lim_{h \to 0} \frac{g(a+h) - g(a)}{h}</m>.
+          </p>
+          <p>
+            If <m>g'(0)</m> does not exist, fill in the following blanks:
+          </p>
+          <ul>
+            <li><p>The derivative function <m>g'(x)</m> is <fillin characters="16"/> at <m>x = 0</m>.</p></li>
+            <li><p>That is, the function <m>g(x)</m> is <fillin characters="24"/> at <m>x = 0</m>.</p></li>
+          </ul>
+        </li>
+        <li workspace="1.8in">
+          <p>
+            <em>(Exercise)</em> Find <m>k'(0)</m> for <m>k(x) = x^{1/3}</m>, or explain why it does not exist.
+          </p>
+          <p>
+            <em>Reminder:</em> <m>\displaystyle k'(a) = \lim_{x \to a} \frac{k(x) - k(a)}{x - a} = \lim_{h \to 0} \frac{k(a+h) - k(a)}{h}</m>.
+          </p>
+          <p>
+            If <m>k'(0)</m> does not exist, fill in the following blanks:
+          </p>
+          <ul>
+            <li><p>The derivative function <m>k'(x)</m> is <fillin characters="16"/> at <m>x = 0</m>.</p></li>
+            <li><p>That is, the function <m>k(x)</m> is <fillin characters="24"/> at <m>x = 0</m>.</p></li>
+          </ul>
+        </li>
+      </ol>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-preview-nondiff">
+      <title>Preview</title>
+      <p>
+        Let's graph these functions to see if we can figure out what the problems are: <url href="https://www.desmos.com/calculator/ayca03j0ll" visual="desmos.com/calculator/ayca03j0ll">Desmos</url>.
+      </p>
+
+      <sidebyside widths="30% 30% 30%" margins="2% 2%" valign="top">
+        <image source="pictures/sqrtx.png">
+          <shortdescription>Graph of f(x) = sqrt(x) starting at the origin with a vertical tangent at x = 0.</shortdescription>
+        </image>
+        <image source="pictures/sec25pic4.png">
+          <shortdescription>Graph of g(x) = |x| showing a sharp V-shaped corner at the origin.</shortdescription>
+        </image>
+        <image source="pictures/sec25pic5.png">
+          <shortdescription>Graph of k(x) = x^(1/3) passing through the origin with a vertical tangent line.</shortdescription>
+        </image>
+      </sidebyside>
+
+      <p>
+        So we can see that when we have <fillin characters="16"/> or <fillin characters="16"/>, the derivative doesn't exist.
+      </p>
+      <p>
+        This should make some sense, since <em>the derivative at a point is the <fillin characters="10"/> of the tangent line at that point</em><mdash/>we can't label this quantity in either of those cases.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-identify-8-nondiff">
+      <title>Problem 5</title>
+      <p workspace="0.8in">
+        Identify the 8 values of <m>x</m> where the following function is not differentiable:
+      </p>
+      <sidebyside width="55%">
+        <image source="pictures/Nondifferentibility.png">
+          <shortdescription>
+            Graph of a piecewise function containing 8 points of nondifferentiability including corners, cusps, vertical tangents, and discontinuities.
+          </shortdescription>
+        </image>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="p-summary-nondiff">
+      <title>Summary: When a Function Is Not Differentiable</title>
+      <p>
+        When (at least) one of the following things is true, <m>f</m> is <strong>not</strong> differentiable at <m>x = a</m>:
+      </p>
+
+      <sidebyside widths="48% 48%" margins="2% 2%" valign="top">
+        <stack>
+          <image source="pictures/sec31pic4.png">
+            <shortdescription>Graph illustrating a corner at x = a where left-hand and right-hand secant slopes approach different finite values.</shortdescription>
+          </image>
+          <p><strong>1.</strong> a <fillin characters="10"/>, where the one-sided derivatives differ.</p>
+        </stack>
+
+        <stack>
+          <image source="pictures/sec31pic5.png">
+            <shortdescription>Graph illustrating a cusp at x = a where secant slopes approach infinity from one side and negative infinity from the other.</shortdescription>
+          </image>
+          <p><strong>2.</strong> a <fillin characters="10"/>, where the slope of <m>PQ</m> approaches <m>\infty</m> from one side and <m>-\infty</m> from the other.</p>
+        </stack>
+      </sidebyside>
+
+      <sidebyside widths="44% 52%" margins="2% 2%" valign="top">
+        <stack>
+          <image source="pictures/sec31pic2.png">
+            <shortdescription>Graph illustrating a vertical tangent at x = a where secant slopes approach negative infinity from both sides.</shortdescription>
+          </image>
+          <p><strong>3.</strong> a <fillin characters="18"/>, where the slope of <m>PQ</m> approaches <m>\infty</m> or <m>-\infty</m> from both sides (here, <m>-\infty</m>).</p>
+        </stack>
+
+        <stack>
+          <image source="pictures/sec31pic3.png">
+            <shortdescription>Two graphs illustrating jump and removable discontinuities at x = a.</shortdescription>
+          </image>
+          <p><strong>4.</strong> a <fillin characters="14"/>: (two examples: jump (left) and removable (right) discontinuities).</p>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="thm-differentiability-continuity">
+      <title>Differentiability Implies Continuity</title>
+      <ul>
+        <li><p>If <m>f(x)</m> is <fillin characters="6"/> <fillin characters="12"/> at <m>x = a</m>, then <m>f(x)</m> is <fillin characters="6"/> <fillin characters="12"/> at <m>x = a</m>.</p></li>
+        <li><p>If <m>f(x)</m> is <fillin characters="16"/> at <m>x = a</m>, then <m>f(x)</m> is <fillin characters="16"/> at <m>x = a</m>.</p></li>
+        <li><p>If <m>f(x)</m> is continuous at <m>x = a</m>, then <m>f(x)</m> is <fillin characters="8"/> necessarily differentiable at <m>x = a</m>.</p></li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="p-increasing-decreasing">
+      <title>Increasing / Decreasing Functions</title>
+      <p>
+        We can now use the derivative function <m>f'(x)</m> to study the behavior of the graph of <m>f(x)</m>.
+      </p>
+      <ul>
+        <li><p>If <m>f'(x)</m> is <fillin characters="10"/> at every point on <m>(a,b)</m>, then <m>f(x)</m> is <fillin characters="16"/> on <m>(a,b)</m>.</p></li>
+        <li><p>If <m>f'(x)</m> is <fillin characters="10"/> at every point on <m>(a,b)</m>, then <m>f(x)</m> is <fillin characters="16"/> on <m>(a,b)</m>.</p></li>
+      </ul>
+
+      <sidebyside widths="36% 60%" valign="top">
+        <image source="pictures/sec32fa24pic1.png">
+          <shortdescription>
+            Graph of the cubic function f(x) = x^3 - 12x - 5 showing increasing intervals before x = -2 and after x = 2, and a decreasing interval between -2 and 2.
+          </shortdescription>
+        </image>
+        <stack>
+          <ul>
+            <li>
+              <p>A function that is increasing or decreasing on an interval is said to be <em>monotonic</em> on the interval.</p>
+            </li>
+            <li>
+              <p>
+                For example, the function <m>f(x) = x^3 - 12x - 5</m> is monotonic on three separate intervals: It is increasing on <fillin characters="10"/> and <fillin characters="10"/>, and decreasing on <fillin characters="10"/>.
+              </p>
+            </li>
+          </ul>
+        </stack>
+      </sidebyside>
+    </paragraphs>
+  </page>
+</handout>

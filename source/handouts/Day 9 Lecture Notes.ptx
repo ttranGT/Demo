@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-9-notes">
+  <title>Day 9: Sections 3.3a, 3.6: Derivative Rules, Part I</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We learned how to find the derivative as a function, explored the concepts of differentiability and non-differentiability, and understood how the derivative function helps us analyze the behavior of a function.
+    </p>
+    <p>
+      <term>Today:</term> We want to spot patterns when finding derivatives! Some function families follow consistent rules, so learning these patterns saves effort compared to using the limit definition every time.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="p-day9-notes">
+      <title>Notes</title>
+      <ul>
+        <li>
+          <p>
+            All the rules we're going to talk about today can be proved using the limit definition of the derivative. For example, we could prove the power rule by using the limit definition to differentiate the generic function <m>x^n</m> (see the link below). For the sake of time, we won't do that<mdash/>but you should know that this careful limit framework is the thing that makes all of our rules work.
+          </p>
+        </li>
+        <li>
+          <p>
+            There are going to be lots of rules to memorize today (and more next time)<mdash/>you may find it helpful to organize them into a condensed <q>cheat sheet</q> to use as a quick reference guide while you're studying.
+          </p>
+        </li>
+      </ul>
+      <p>
+        Let's start with the following table of derivatives. Do you see a pattern?
+      </p>
+
+      <tabular top="minor" left="minor" right="minor" bottom="minor">
+        <col width="25%" halign="center"/>
+        <col width="45%" halign="left"/>
+        <row bottom="minor">
+          <cell><m>f(x)</m></cell>
+          <cell><m>f'(x)</m></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>x</m></cell>
+          <cell><m>1 =</m></cell>
+        </row>
+        <row bottom="minor">
+          <cell><m>x^2</m></cell>
+          <cell><m>2x =</m></cell>
+        </row>
+        <row>
+          <cell><m>x^3</m></cell>
+          <cell><m>3x^2 =</m></cell>
+        </row>
+      </tabular>
+    </paragraphs>
+
+    <paragraphs xml:id="rule-power-and-constant">
+      <title>The Power Rule and Constant Rule</title>
+      <p>
+        <term>The Power Rule:</term> <m>\displaystyle \frac{d}{dx} \, x^n =</m> <fillin characters="12"/>, where <m>n</m> is <fillin characters="20"/>.
+      </p>
+      <p>
+        If you're happy to believe this rule holds based on our observations, that's great; if you want to see an actual proof of why it's true, there's a good one in <url href="https://tutorial.math.lamar.edu/classes/calci/DerivativeProofs.aspx" visual="tutorial.math.lamar.edu/classes/calci/DerivativeProofs.aspx">Paul's Online Math Notes</url>.
+      </p>
+      <p>
+        There is a special case of this rule that's particularly important because it tells us how to differentiate constants:
+      </p>
+      <p>
+        <term>The Constant Rule:</term> <m>\displaystyle \frac{d}{dx} \, c =</m> <fillin characters="6"/> for any constant <m>c</m>.
+      </p>
+      <p>
+        This is true because <m>c =</m> <fillin characters="10"/>. Alternatively, the graph of the constant function <m>f(x) = c</m> is a <fillin characters="18"/> line, which has a slope of <fillin characters="6"/>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="rule-constant-multiple-and-sum">
+      <title>The Constant Multiple Rule and Sum Rule</title>
+      <p>
+        So now we know how to differentiate constants by themselves<mdash/>but what if they show up as coefficients? And what if we have multiple terms added together? The following two rules make these cases really easy to deal with.
+      </p>
+      <p>
+        <term>The Constant Multiple Rule:</term>
+        <me>\frac{d}{dx} \, [c \cdot f(x)] = \underline{\hspace{1.5in}}</me>
+      </p>
+      <p>
+        <term>The Sum Rule:</term>
+        <me>\frac{d}{dx} \, [f(x) + g(x)] = \underline{\hspace{2in}}</me>
+      </p>
+      <p>
+        <term>Note:</term> This works for subtraction too, since <m>f(x) - g(x) = f(x) + (-1) \cdot g(x)</m>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-polynomial-derivatives">
+      <title>Problem 1</title>
+      <p>
+        The constant multiple and sum/subtraction rules basically work together to tell us that when we want to differentiate a complicated function, we can go one term at a time and any coefficients that show up can just be preserved as coefficients of our answer. These first 4 rules together tell us how to differentiate polynomials!
+      </p>
+      <ol marker="i)">
+        <li workspace="1.5in">
+          <p>Find <m>f'(x)</m> given that <m>\displaystyle f(x) = 2\,x^3 - 14\,x^{2/7} + x^e - \frac{5}{x} + 3\sqrt{x} - 4</m>.</p>
+        </li>
+        <li workspace="1.5in">
+          <p><em>(Exercise)</em> Find <m>g'(x)</m> given that <m>\displaystyle g(x) = x^{96} + 12\,x^{55.5} - 17\,x^{-4/3} + \frac{9}{x^2} - \sqrt[3]{x^2} - \pi^2</m>.</p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="rule-exponent">
+      <title>The Exponent Rule</title>
+      <p>
+        So we know how to take the derivatives of power functions (things that look like <m>\text{variable}^{\text{constant}}</m>). What if we swap them to get an exponential function, i.e., <m>\text{constant}^{\text{variable}}</m>?
+      </p>
+      <p>
+        <em>Remember:</em> An exponential function is one of the form <m>\text{constant}^{\text{variable}}</m>, like <m>e^x</m>, <m>2^t</m>, etc. Some exponent properties we need to remember:
+        <md>
+          <mrow>(a^b)(a^c) \amp = \underline{\hspace{1in}}, \qquad \qquad \frac{a^b}{a^c} = \underline{\hspace{1in}}</mrow>
+          <mrow>(a^b)^c \amp = \underline{\hspace{1in}}</mrow>
+          <mrow>(a^b)(c^b) \amp = \underline{\hspace{1in}}, \qquad \qquad \frac{a^b}{c^b} = \underline{\hspace{1in}}</mrow>
+          <mrow>\text{However, } a^b + a^c \amp = \underline{\hspace{1in}}</mrow>
+        </md>
+      </p>
+      <p>
+        <term>The Exponent Rule:</term> For any <m>a \gt 0</m>,
+        <me>\frac{d}{dx} \, a^x = \underline{\hspace{1.5in}}.</me>
+      </p>
+      <p>
+        There's a special case of this one we care about a lot too:
+        <me>\frac{d}{dx} \, e^x = \underline{\hspace{1in}}.</me>
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-composite-inner-outer">
+      <title>Problem 2</title>
+      <p>
+        At this point, we have the tools we need to differentiate many functions and simple combinations of functions. What we have left are the things we get through more complicated ways of combining functions. We'll start with one today and finish next time.
+      </p>
+      <p>
+        <em>Reminder:</em> A <em>composite</em> function is a function of the form <m>(f \circ g)(x) = f(g(x))</m>.
+      </p>
+      <p>
+        Identify the <q>inner</q> function <m>g</m> and the <q>outer</q> function <m>f</m> for each of the following composite functions.
+      </p>
+
+      <sidebyside widths="30% 30% 34%" margins="2% 2%" valign="top">
+        <p workspace="1in"><strong>(a)</strong> <m>h(x) = (x^2 + 1)^3</m></p>
+        <p workspace="1in"><strong>(b)</strong> <m>s(t) = e^{4t - \pi}</m></p>
+        <p workspace="1in"><strong>(c)</strong> <m>r(\theta) = \sin(2\theta + e^{\theta})</m></p>
+      </sidebyside>
+    </paragraphs>
+
+    <paragraphs xml:id="rule-chain-rule">
+      <title>The Chain Rule</title>
+      <p>
+        Suppose <m>f</m> and <m>g</m> are both differentiable functions. Then
+        <me>\frac{d}{dx} \, (f \circ g)(x) = \frac{d}{dx} \, f(g(x)) = \underline{\hspace{1.5in}}.</me>
+      </p>
+      <p>
+        In Leibniz notation, if <m>y = f(u)</m> is a function of <m>u</m> and <m>u = g(x)</m> is a function of <m>x</m>, we can write that <m>\displaystyle \frac{dy}{dx} = \frac{dy}{du} \, \frac{du}{dx}</m>, where <m>dy/du</m> is evaluated at <m>u = g(x)</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-chain-rule-square">
+      <title>Problem 3</title>
+      <p>
+        Let <m>h(x) = (3x - 4)^2</m>.
+      </p>
+      <ol marker="(a)">
+        <li workspace="1in">
+          <p>Find <m>h'(x)</m> using the Chain Rule.</p>
+        </li>
+        <li workspace="1.3in">
+          <p><em>(Exercise)</em> Find <m>h'(x)</m> without using the Chain Rule. <em>Hint: Expand the square.</em></p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-chain-rule-exponential">
+      <title>Problem 4</title>
+      <p workspace="1.5in">
+        Find the derivative of <m>\displaystyle r(s) = 4^{\left(2s^3 + 7\sqrt{s} - \frac{3}{s} + 1\right)}</m>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-chain-rule-nested-preview">
+      <title>Problem 5 (Preview)</title>
+      <p workspace="3.8in">
+        Find <m>r'(x)</m>, where <m>\displaystyle r(x) = \left(e^{(x^{2/3} - \sqrt{x})} - 1\right)^3</m>, by applying the Chain Rule twice.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="rule-chain-rule-three-nested">
+      <title>The Chain Rule for Three Nested Functions</title>
+      <p>
+        From Problem 5, we also have:
+      </p>
+      <p>
+        <term>The Chain Rule for three nested functions:</term>
+        <me>\frac{d}{dx} (f \circ g \circ h)(x) = \frac{d}{dx} f\bigl(g(h(x))\bigr) = f'\bigl(g(h(x))\bigr) \cdot g'\bigl(h(x)\bigr) \cdot h'(x)</me>
+      </p>
+      <p>
+        Fill in the following blanks:
+        <me>r(x) = f\bigl(g(h(x))\bigr),</me>
+        where
+        <md>
+          <mrow>f(x) \amp = \underline{\hspace{2in}}</mrow>
+          <mrow>g(x) \amp = \underline{\hspace{2in}}</mrow>
+          <mrow>h(x) \amp = \underline{\hspace{2in}}</mrow>
+        </md>
+      </p>
+    </paragraphs>
+  </page>
+</handout>

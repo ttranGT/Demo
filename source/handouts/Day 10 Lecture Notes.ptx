@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-10-notes">
+  <title>Day 10: Sections 3.3b and 4.1a: Derivative Rules (Part II) and Introduction to Absolute and Local Extrema</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We started looking at some derivative rules to help us take derivatives without the limit definition. In particular, we talked about the following rules:
+    </p>
+    <p>
+      <term>The Power Rule:</term> <m>\displaystyle \frac{d}{dx}\,x^n =</m> <fillin characters="8"/>.
+      <term>The Constant Rule:</term> <m>\displaystyle \frac{d}{dx}\,c =</m> <fillin characters="4"/>.
+    </p>
+    <p>
+      <term>The Constant Multiple Rule:</term> <m>\displaystyle \frac{d}{dx}\,[c \cdot f(x)] =</m> <fillin characters="12"/>.
+    </p>
+    <p>
+      <term>The Sum/Subtraction Rule:</term> <m>\displaystyle \frac{d}{dx}\,[f(x) \pm g(x)] =</m> <fillin characters="16"/>.
+    </p>
+    <p>
+      <term>The Exponent Rule:</term> <m>\displaystyle \frac{d}{dx}\,a^x =</m> <fillin characters="12"/>. Particularly, <m>\displaystyle \frac{d}{dx}\,e^x =</m> <fillin characters="12"/>.
+    </p>
+    <p>
+      <term>The Chain Rule:</term> Suppose <m>f</m> and <m>g</m> are both differentiable functions. Then <m>\displaystyle \frac{d}{dx}\,f(g(x)) =</m> <fillin characters="12"/>.
+    </p>
+    <p>
+      By applying the Chain Rule twice, we obtain
+      <me>\frac{d}{dx}\,f\bigl(g(h(x))\bigr) = \underline{\hspace{4in}}.</me>
+    </p>
+    <p>
+      <term>Today:</term> We want to talk about our other two big rules, the Product Rule and the Quotient Rule, and do some more practice using rules in combination. We will also begin exploring applications of derivatives, starting with absolute and local extrema.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="rule-product-rule">
+      <title>The Product Rule</title>
+      <p>
+        We want to know how to differentiate products of functions, i.e., functions like <m>h(x) = f(x) \cdot g(x)</m>.
+      </p>
+      <p>
+        Recall that products represent areas; suppose our functions <m>f</m> and <m>g</m> give the side lengths of the inner rectangle below:
+      </p>
+
+      <sidebyside width="45%">
+        <image source="pictures/Day_11.1.PNG">
+          <shortdescription>
+            Geometric area diagram showing a rectangle of side lengths f and g expanded by delta f and delta g to illustrate the Product Rule.
+          </shortdescription>
+        </image>
+      </sidebyside>
+
+      <p>
+        <term>The Product Rule:</term> <m>\displaystyle \frac{d}{dx}\,\bigl(f(x) \cdot g(x)\bigr) =</m> <fillin characters="14"/> <m>+</m> <fillin characters="14"/>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-product-rule">
+      <title>Problem 1</title>
+      <p workspace="1.6in">
+        Find <m>f'(x)</m>, given that <m>\displaystyle f(x) = \left(x^2 + \frac{4}{x} - 5\right)\left(3\sqrt{x} - 2^x + \pi\right)</m>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="rule-quotient-rule">
+      <title>The Quotient Rule</title>
+      <p workspace="0.8in">
+        The Product Rule also tells us how to deal with quotients of functions! Suppose we want to find <m>Q'(x)</m> when <m>\displaystyle Q(x) = \frac{f(x)}{g(x)}</m>. We don't know how to do this, but we do know how to find the derivative of <m>f(x) = Q(x) \cdot g(x)</m>:
+      </p>
+      <p workspace="1.6in">
+        Now we can rearrange our terms to solve for <m>Q'(x)</m>!
+      </p>
+      <p>
+        <term>The Quotient Rule:</term> Where <m>g(x) \neq 0</m>, we have <m>\displaystyle \frac{d}{dx}\,\left(\frac{f(x)}{g(x)}\right) =</m> <fillin characters="24"/>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-quotient-rule">
+      <title>Problem 2</title>
+      <p workspace="2.2in">
+        Find <m>\displaystyle \frac{d}{dx}\,\left(\frac{e^x - 2x^5 + 5\sqrt[3]{x} + 4}{\dfrac{1}{x^2} + e^{\pi}}\right)</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-differentiation-strategy">
+      <title>Differentiation Strategy</title>
+      <p>
+        To finish up the day, let's spend some time talking about strategy and doing a few more examples. Here are some strategy points to remember:
+      </p>
+      <ul>
+        <li>
+          <p>Always start by identifying <fillin characters="16"/> of the function you want to differentiate. Is it a product? Composition? Quotient? Are there multiple things happening? Making a plan will give you a direction.</p>
+        </li>
+        <li>
+          <p>While differentiating, always work from the <fillin characters="16"/>!</p>
+        </li>
+        <li>
+          <p>Stay really organized. Color code, put things in boxes, take derivatives of <fillin characters="8"/> of the function before plugging them into the <fillin characters="8"/>, whatever works for you! Just make sure your work is clear to anyone who looks at it.</p>
+        </li>
+        <li>
+          <p>Make sure all <fillin characters="16"/> are correctly placed, as they affect the meaning of the expression. <em>Penalties apply to quizzes and exams.</em></p>
+        </li>
+      </ul>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="prob-derivative-rules-practice">
+      <title>Problem 3</title>
+      <p>
+        Now we can practice the Derivative Rules we've studied with the following functions. For each function, identify the rules to apply, in order. Feel free to work out the details and double-check against the provided answers.
+      </p>
+      <ol marker="a)">
+        <li workspace="1.1in">
+          <p>
+            <m>\displaystyle f(x) = \frac{x e^x}{2x^2 - 3x + 9}</m> <mdash/> <em>Two big rules: <fillin characters="14"/> and <fillin characters="14"/></em>
+          </p>
+          <p>
+            <em>Answer:</em> <m>\displaystyle f'(x) = \frac{(e^x + x e^x)(2x^2 - 3x + 9) - x e^x(4x - 3)}{(2x^2 - 3x + 9)^2}</m>.
+          </p>
+        </li>
+        <li workspace="1.1in">
+          <p>
+            <m>\displaystyle g(t) = \left(3t^4 - \frac{1}{t} + 2\right)\left(2t^3 - 3^t - \pi^2\right)^7</m> <mdash/> <em>Two big rules: <fillin characters="12"/> and <fillin characters="12"/></em>
+          </p>
+          <p>
+            <em>Answer:</em> <m>\displaystyle g'(t) = \left(12t^3 + \frac{1}{t^2}\right)\left(2t^3 - 3^t - \pi^2\right)^7 + \left(3t^4 - \frac{1}{t} + 2\right) \cdot 7\left(2t^3 - 3^t - \pi^2\right)^6 \left(6t^2 - 3^t \ln(3)\right)</m>.
+          </p>
+        </li>
+        <li workspace="1.1in">
+          <p>
+            <em>(Exercise)</em> <m>\displaystyle h(t) = \left[\left(3t^4 - \frac{1}{t} + 2\right)\left(2t^3 - 3^t - \pi^2\right)\right]^7</m> <mdash/> <em>Two big rules: <fillin characters="12"/> and <fillin characters="12"/></em>
+          </p>
+          <p>
+            <em>Answer:</em> <m>\displaystyle h'(t) = 7\left[\left(3t^4 - \frac{1}{t} + 2\right)\left(2t^3 - 3^t - \pi^2\right)\right]^6 \cdot \left[\left(12t^3 + \frac{1}{t^2}\right)\left(2t^3 - 3^t - \pi^2\right) + \left(3t^4 - \frac{1}{t} + 2\right)\left(6t^2 - 3^t \ln(3)\right)\right]</m>.
+          </p>
+        </li>
+        <li workspace="1.1in">
+          <p>
+            <em>(Exercise)</em> <m>\displaystyle r(x) = \frac{(19x - \sqrt[4]{x} + 27)^5}{6x^2 - \pi^e}</m> <mdash/> <em>Two big rules: <fillin characters="12"/> and <fillin characters="12"/></em>
+          </p>
+          <p>
+            <em>Answer:</em> <m>\displaystyle r'(x) = \frac{5(19x - x^{1/4} + 27)^4 \left(19 - \frac{1}{4}x^{-3/4}\right)(6x^2 - \pi^e) - (19x - x^{1/4} + 27)^5(12x)}{(6x^2 - \pi^e)^2}</m>.
+          </p>
+        </li>
+      </ol>
+      <p>
+        <em>Note:</em> To find the derivative of <m>\displaystyle \frac{f(x)}{g(x)}</m>, we have <m>2</m> options here! We can also use the Product Rule and Chain Rule only, without using the Quotient Rule.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="def-absolute-extrema">
+      <title>Preview and Definition: Absolute / Global Extrema</title>
+      <p>
+        <term>(Preview)</term> Next, we explore how derivatives can be used to determine the absolute/local maxima/minima of a function.
+      </p>
+      <p>
+        We use the word <em>extremum</em> to refer to a maximum or minimum without specifying which it is.
+      </p>
+      <p>
+        Latin lesson of the day: For the words <q>maximum,</q> <q>minimum,</q> and <q>extremum,</q> the ending <q>-um</q> is singular and the ending <q>-a</q> (for example, <q>minima</q>) is plural.
+      </p>
+      <p>
+        <term>Definition:</term> A function <m>f(x)</m> has an <em>absolute/global maximum (minimum)</em> value at <m>x = c</m> if <m>f(c)</m> is the largest (smallest) value of <m>f</m> anywhere <fillin characters="20"/>.
+      </p>
+      <p>
+        That is,
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            <m>f</m> has an <em>absolute/global <fillin characters="4"/>imum</em> value at <m>c</m> if <m>f(c)</m> <fillin characters="4"/> <m>f(x)</m> for <em>all <m>x</m> in the (given) <fillin characters="8"/> of</em> <m>f</m>.
+          </p>
+          <p>
+            Graphically, this is the <fillin characters="8"/> point on the graph over its (given) <fillin characters="8"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f</m> has an <em>absolute/global <fillin characters="4"/>imum</em> value at <m>c</m> if <m>f(c)</m> <fillin characters="4"/> <m>f(x)</m> for <em>all <m>x</m> in the (given) <fillin characters="8"/> of</em> <m>f</m>.
+          </p>
+          <p>
+            Graphically, this is the <fillin characters="8"/> point on the graph over its (given) <fillin characters="8"/>.
+          </p>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-extrema-graphs">
+      <title>Problem 4</title>
+      <p>
+        <em>Note:</em> This problem has three parts. For each part, two of the graphs are assigned as exercises.
+      </p>
+      <ol marker="i)">
+        <li>
+          <p>For each graph, does <m>f(x)</m> have an absolute minimum and an absolute maximum on <m>[a,b]</m>? If so, where?</p>
+          <sidebyside width="95%">
+            <image source="pictures/maxminpic1.png">
+              <shortdescription>
+                Series of four graphs on the interval from a to b showing different endpoint behaviors, interior peaks, valleys, and discontinuities for analyzing extrema.
+              </shortdescription>
+            </image>
+          </sidebyside>
+        </li>
+        <li>
+          <p>For each graph, does <m>f(x)</m> have an absolute minimum and an absolute maximum on <m>(a,b)</m>? If so, where?</p>
+          <sidebyside width="95%">
+            <image source="pictures/maxminpic1.png">
+              <shortdescription>
+                Series of four graphs on the open interval (a, b) showing different endpoint behaviors, interior peaks, valleys, and discontinuities for analyzing extrema.
+              </shortdescription>
+            </image>
+          </sidebyside>
+        </li>
+      </ol>
+    </paragraphs>
+
+    <paragraphs xml:id="p-day10-notes">
+      <title>Notes</title>
+      <ul>
+        <li>
+          <p>Finding the absolute maximum or minimum of a function can be a difficult task, especially algebraically.</p>
+        </li>
+        <li>
+          <p>Recall that <fillin characters="12"/> only tell us about the <fillin characters="8"/> behavior of a function <em>at a point</em>, so we <fillin characters="8"/> use them alone to find the absolute/global extrema of a function.</p>
+        </li>
+        <li>
+          <p>However, <fillin characters="12"/> are very useful in finding <em><fillin characters="8"/></em> extrema, so this is often a great way to start.</p>
+        </li>
+      </ul>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="def-local-extrema">
+      <title>Definition: Local Extrema</title>
+      <p>
+        <term>Definition:</term> A <em>local maximum (minimum)</em> point is a point which is at least as <fillin characters="8"/> (<fillin characters="8"/>) as the points <fillin characters="8"/>.
+      </p>
+      <p>
+        That is,
+      </p>
+      <ol marker="a)">
+        <li>
+          <p>
+            <m>f</m> has a <em>local</em> maximum value at <m>c</m> if <m>f(c)</m> <fillin characters="4"/> <m>f(x)</m> <em>for <m>x</m> in some small open <fillin characters="8"/> containing</em> <m>c</m> (or a <fillin characters="8"/> interval, if <m>c</m> is an endpoint of a closed or half-open interval domain).
+          </p>
+          <p>
+            Graphically, this corresponds to the <fillin characters="8"/> point inside a tall, narrow <fillin characters="12"/> that contains the point (or has it on its boundary).
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f</m> has a <em>local</em> minimum value at <m>c</m> if <m>f(c)</m> <fillin characters="4"/> <m>f(x)</m> <em>for <m>x</m> in some small open <fillin characters="8"/> containing</em> <m>c</m> (or a <fillin characters="8"/> interval, if <m>c</m> is an endpoint of a closed or half-open interval domain).
+          </p>
+          <p>
+            Graphically, this corresponds to the <fillin characters="8"/> point inside a tall, narrow <fillin characters="12"/> that contains the point (or has it on its boundary).
+          </p>
+        </li>
+      </ol>
+      <p>
+        <term>Note:</term> Absolute/global extrema are also local extrema, but the reverse is not necessarily true.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="prob-extrema-graphs-cont">
+      <title>Problem 4 (cont.)</title>
+      <p>
+        <strong>iii)</strong> For each graph, mark the points that are local maxima and local minima on the interval <m>[a,b]</m>.
+      </p>
+      <sidebyside width="95%">
+        <image source="pictures/maxminpic1.png">
+          <shortdescription>
+            Series of four graphs on the interval [a, b] for marking all local maxima and local minima.
+          </shortdescription>
+        </image>
+      </sidebyside>
+    </paragraphs>
+  </page>
+</handout>
