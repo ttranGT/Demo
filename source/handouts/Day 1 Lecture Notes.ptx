@@ -79,7 +79,7 @@
   </stack>
 </sidebyside>
 
-<sidebyside widths="45%" valign="middle">
+<sidebyside widths="60%" valign="middle">
   <image source="pictures/sec11page2.png">
     <shortdescription>
       Table of input and output values representing a function.
@@ -90,12 +90,12 @@
 <ul>
   <li>
     <p>
-      One nice way to check graphically that something is a function is the <fillin characters="24"/> test, which says that:
+      One nice way to check graphically that something is a function is the <fillin characters="30"/> test, which says that:
     </p>
     <p>
-      A curve is the graph of a function if no vertical line intersects it more than <fillin characters="10"/>.
+      A curve is the graph of a function if no vertical line intersects it more than <fillin characters="12"/>.
     </p>
-    <image source="pictures/pic3.png" width="45%">
+    <image source="pictures/pic3.png" width="60%">
       <shortdescription>
         Coordinate graphs comparing a curve intersected once by a vertical line against a curve intersected twice.
       </shortdescription>
@@ -115,7 +115,7 @@
         <p>How would you describe the circle algebraically?</p>
       </li>
       <li workspace="0.75in">
-        <p>How would you describe the upper-half of the circle algebraically?</p>
+        <p>How would you describe the upper half of the circle algebraically?</p>
       </li>
     </ol>
   </statement>
@@ -125,10 +125,10 @@
         <statement>
           <ol marker="i)">
             <li>
-              <p>The <fillin characters="10"/> of a function is the set of its <fillin characters="10"/> <m>x</m>.</p>
+              <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>x</m>.</p>
             </li>
             <li>
-              <p>The <fillin characters="10"/> of a function is the set of its <fillin characters="10"/> <m>y</m> or <m>f(x)</m>.</p>
+              <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>y</m> or <m>f(x)</m>.</p>
             </li>
           </ol>
         </statement>
