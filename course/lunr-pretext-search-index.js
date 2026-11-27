@@ -829,6 +829,321 @@ var ptx_lunr_docs = [
   "body": "Second Derivative Test: "
 },
 {
+  "id": "day-12-13-notes",
+  "level": "1",
+  "url": "day-12-13-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Days 12 &amp; 13: Sections 4.1b and 4.6 - Extreme Value Theorem, Closed Interval Method, and Introduction to Optimization Problems",
+  "body": " Days 12 & 13: Sections 4.1b and 4.6 - Extreme Value Theorem, Closed Interval Method, and Introduction to Optimization Problems    Last Time: We defined extrema and covered geometric methods for finding them, along with algebraic techniques for local extrema.   Today: We'll wrap up the Extreme Value Theorem and the Closed Interval Method for absolute extrema before starting optimization problems and practicing the setup step.     The Extreme Value Theorem (EVT)  First, we examine the conditions sufficient for the existence of both absolute extrema.     Graph of f(x) = 1\/x on the closed interval [-2, 2], illustrating a vertical asymptote at x = 0 and no absolute maximum or minimum.   Figure 1: on .     Graph of g(x) = x^2 on the open interval (-2, 2) with open circles at (-2, 4) and (2, 4), illustrating an absolute minimum at (0, 0) but no absolute maximum.   Figure 2: on .    We observe that:   Neither of the two graphs has both absolute extrema.  The function is not continuous on the closed interval .  The function is continuous on , but the interval is not closed.   To guarantee both absolute extrema, we can use the , stated below.   The Extreme Value Theorem (EVT): If is on a  , then attains an absolute maximum and an absolute minimum on .    Closed Interval Method  Now, how can we determine these absolute extreme values?  Recall that extreme values can only occur at or . Therefore, by the Extreme Value Theorem, we can apply the Closed Interval Method to find them.   Closed Interval Method: Suppose is a continuous function on a closed interval . To find the absolute maximum and minimum values of on :   Step 1) Find the values of at all in the open interval .   Step 2) Find the values of at the .   Step 3) Compare these values from Steps 1) and 2):   the value is the absolute value,  and the value is the absolute value.     Problem 1  It can be verified that the following function has exactly one critical point at on the interval :    Case 1: Does have an absolute maximum and absolute minimum on ? If so, where? Note that , , and . Hint: Is the function continuous on ? Does the Extreme Value Theorem apply?    Case 2: Next, does have an absolute maximum and absolute minimum on ? If so, where? Note that , , , and . Hint: Is the function continuous on ? Does the Extreme Value Theorem apply?       Introduction to Optimization Problems  Next, we will discuss optimization problems and explore the process of using optimization to solve applied problems.  First, let's recap our strategy for finding absolute extrema of a function on a given domain in Problem 1.   Case 1: If the function is continuous on a closed interval:   Find the critical points of .  Find the endpoints of the interval.  Plug each point you found above into . The largest -value is the absolute maximum value, and the smallest -value is the absolute minimum value.    Case 2: If the domain is not a closed interval:   Find the critical points of .  Use the First or Second Derivative Test at each critical point to determine any local extrema.  Consider the behavior (increasing\/decreasing or concavity) of the function over the domain, as well as its values or limits at critical points and endpoints, if applicable, to determine any absolute extrema.   Finding absolute extrema has practical applications in many areas of life. Here is an example:   A soda company wants its aluminum soft drink cans to have a volume of cubic centimeters. The company's factory can only manufacture cans that are at least cm tall and have a radius of at least cm. In order to conserve resources, the company wants to minimize the amount of aluminum needed for a single can. What dimensions should they make their cans? Be sure to include units in your answers.    This is an example of an optimization word problem.   How do we approach this type of problem?   Read through the problem carefully, ideally sentence by sentence.  Translate each statement into mathematical expressions.  Identify the primary goal and apply calculus tools to solve it.     While we already have the calculus tools to solve these problems, the key challenge lies in the setup:   translating the given narrative into a single-variable objective function to be maximized or minimized.     It is helpful to keep a step-by-step strategy in mind and to get plenty of practice.   We will formalize this strategy after working through the example above.         Problem 2  Suppose we want to solve the following problem:   A soda company wants its aluminum soft drink cans to have a volume of cubic centimeters. The company's factory can only manufacture cans that are at least cm tall and have a radius of at least cm. In order to conserve resources, the company wants to minimize the amount of aluminum needed for a single can. What dimensions should they make their cans? Be sure to include units in your answers.     What is your goal in this problem?    Draw a couple of different possible cans. What are some useful variables to label?    Write a formula for the quantity you're trying to optimize.    Identify a constraint in the problem to relate the variables. Then rewrite the formula to be optimized as a function of a single variable.    What is the domain of the function you wrote down in part iv), in the context of this problem?    We have now set up the optimization problem: the function on the domain .   vi) What dimensions should the soda company make their cans? Hint: See Problem 1.   Suppose the company's factory gets an upgrade so that it can now manufacture cans with any dimensions. How would that change your answers? Hint: See Problem 1.       6-Step Strategy to Solve Optimization Problems  We can extend the framework from Problem 2 to develop a 6-Step Strategy to Solve Optimization Problems:    Step 1) Carefully read the problem, and identify the goal, i.e., the thing you need to optimize.   Step 2) Clearly define your variables. It's often really helpful to draw a picture to figure out which ones are important and how they're related.   Step 3) Write a formula for the thing you're optimizing. It's okay if multiple variables are involved.   Step 4) Express your formula from Step 3) in terms of a single-variable function.   This step usually involves using a relationship between variables, known as a constraint equation , to make a substitution.  The objective function and the constraint equation are fundamentally different.    Step 5) Find the domain of the function you're optimizing. It helps to think about what the independent variable in your function represents, and any physical or explicitly stated limitations.   Step 6) Optimize your function from Step 4) over the domain in Step 5) using the correct method, either Case 1 or Case 2 shown on Page 2 the strategy for finding absolute extrema of a function on a given domain.  The implementation of these steps will look slightly different in every problem, but the structure is always the same. Do lots of practice, keep your critical thinking skills handy, and don't be afraid to ask for help!    Problem 3   Notes: Here are some additional optimization problems to practice using Steps 1 through 5. Step 6 (finding absolute extrema) will be part of your exercises, and the solutions for Step 6 will be posted later.   Steps 1 5: For each problem: identify the goal, use a diagram to develop intuition and define your variables, then write a formula and use a substitution to express it as a single-variable function to optimize, including its domain.  Step 6: Determine which technique can be used to find the absolute extremum of the single-variable function on its domain. Refer to Problem 1 for details, and the solutions will be posted.     Sarah wants to fence in a play area in her backyard for her new puppy. She plans to use the house as one side of the rectangular area and buys 40 feet of fencing to make the other three sides. The side along the house cannot exceed the length of the house, which is 30 feet. In order for the puppy to have adequate space, each dimension of the rectangular play area must be at least 5 feet. What is the largest area she could have? Is there a smallest area she could have if she wants to use all 40 feet of fencing? Be sure to include units in your answers.      Diagram showing a rectangle inscribed in the upper semicircle of radius 2 centered at the origin.   A rectangle is to be inscribed in a semicircle of radius . What is the largest area the rectangle can have, and what are its dimensions? Note that both the width and the length of the rectangle are strictly positive.         Problem 3a  Sarah wants to fence in a play area in her backyard for her new puppy. She plans to use the house as one side of the rectangular area and buys 40 feet of fencing to make the other three sides. The side along the house cannot exceed the length of the house, which is 30 feet. In order for the puppy to have adequate space, each dimension of the rectangular play area must be at least 5 feet. What is the largest area she could have? Is there a smallest area she could have if she wants to use all 40 feet of fencing? Be sure to include units in your answers.   Step 1) Identify the .   Step 2) Draw a diagram to develop intuition and define your .   Step 3) Write a for the thing you're optimizing. It's okay if multiple variables are involved.   Step 4) Express your formula from Step 3) in terms of a function by using a constraint equation and substitution.   Step 5) Find the of the function you're optimizing.   Step 6)  your function from Step 4) over the domain in Step 5) using the correct method: .      Problem 3b    Diagram showing a rectangle inscribed in the upper semicircle of radius 2 centered at the origin.   A rectangle is to be inscribed in a semicircle of radius . What is the largest area the rectangle can have, and what are its dimensions? Note that both the width and the length of the rectangle are strictly positive.    Step 1) Identify the .   Step 2) Draw a diagram to develop intuition and define your .   Step 3) Write a for the thing you're optimizing. It's okay if multiple variables are involved.   Step 4) Express your formula from Step 3) in terms of a function by using a constraint equation and substitution.   Step 5) Find the of the function you're optimizing.   Step 6)  your function from Step 4) over the domain in Step 5) using the correct method: .    "
+},
+{
+  "id": "day-12-13-notes-2-1",
+  "level": "2",
+  "url": "day-12-13-notes.html#day-12-13-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-12-13-notes-2-2",
+  "level": "2",
+  "url": "day-12-13-notes.html#day-12-13-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "thm-extreme-value-theorem-7",
+  "level": "2",
+  "url": "day-12-13-notes.html#thm-extreme-value-theorem-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "The Extreme Value Theorem (EVT): "
+},
+{
+  "id": "p-closed-interval-method-4",
+  "level": "2",
+  "url": "day-12-13-notes.html#p-closed-interval-method-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Closed Interval Method: "
+},
+{
+  "id": "day-14-notes",
+  "level": "1",
+  "url": "day-14-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 14: Section 3.11: Linear Approximation",
+  "body": " Day 14: Section 3.11: Linear Approximation    Last Time: We finished our study of optimization, which is an application of derivatives.   Today: We continue our exploration of the applications of derivatives, focusing on tangent lines and their uses.     Linearization  At the beginning of the semester, our discovery of derivatives was motivated by the idea that we wanted exact instantaneous rates of change, not just approximations. Today we're going in the opposite direction: sometimes a careful estimate is sufficient and easier to compute.   Goal: Learn how to use derivatives to approximate a function near a specific point , using the technique of linearization.    Problem 1  Find an equation for the line tangent to at the point (assuming is differentiable at ).    Graph of a smooth curve y = f(x) with its tangent line L(x) drawn at the point (a, f(a)), showing how L(x) approximates f(x) near x = a.    This general tangent line we've just found has a name:   Definition: If is differentiable at , then the of at is the tangent line   Knowing this equation is one of your important takeaways from today. You can use it to find any tangent line for the rest of the semester!    Why Do We Care?  Linearizations are useful in many contexts and fields. For example:    Math: If we don't have a general formula for but can find a tangent line, or have but evaluating it requires many calculations and we only need an approximation, we can use the fact that as long as and are together. That is, we have the useful standard linear approximation of by : where is the of the approximation .   At :   .  The approximation is most accurate the center.  When possible, the center is often chosen to make calculations simpler (for example, an integer or a point where is easy to compute without a calculator).     Gaussian Optics: We can use paraxial approximation (linear approximation applied to trig functions) to simplify parameters enough to make functionally useful imaging systems.    Oscillation: The mathematical expressions describing movement of pendulums that take local gravity into consideration are really complicated, but when the pendulum is only making small swings we can get really good approximations since the variation is so small. Linearization allows us to make those approximations, which helps pendulums practically be useful for things like keeping time.    Electrical Resistivity: Similarly, electrical resistivity (which depends on temperature) is difficult to calculate. In the case where temperature is well controlled, a simple linear approximation is quite sufficient and much easier.      Problem 2  We'll focus on the first of these uses of linear approximation.    Find the linearization of with the center of approximation .    Use your linearization to approximate . Note that    Sketch a graph of and use it to explain what you're doing in parts (a) and (b).   c-i) Is your approximation an overestimate or underestimate of ? Why or why not?   c-ii) Is your linearization useful in approximating ? Why or why not?        Concavity and Over\/Underestimates  Let's take a quick detour based on this last question: we can always graph a function and its linearization to answer questions about what kind of estimate we've found. But there's a better way!  Remember that:    The first derivative tells you whether is or .    The derivative, , tells you about the function's concavity , that is, which way the graph curves. This information also helps you decide whether the linearization is an under- or over-approximation of . In particular:   Case 1: If , is , and therefore for near . In this case yields an .   Case 2: If , is , and therefore for near . In this case yields an .   Case 3: If , we can't determine the concavity at just from the second derivative. We'll need to use other tools to figure out what's happening.    Let's not forget that is the derivative of , and so tells us something about whether is increasing or decreasing all three functions are closely related. Here's a helpful table to keep track!            Positive\/Negative  X  X    Increasing\/Decreasing  Positive\/Negative  X    Concave Up\/Down  Increasing\/Decreasing  Positive\/Negative    X  Concave Up\/Down  Increasing\/Decreasing    X  X  Concave Up\/Down    And so on to read this table, remember that the facts in each row are equivalent (X's stand for no relevant information).      Problem 3  Answer the following:    Find the linear approximation of .    What is a good choice for the center of approximation ?    What function should you choose so that ?    (Exercise) Find the linearization of at . Hint: Use the formula for .    (Exercise) Use to approximate . Hint: Recall that for near .       (Exercise) Use the second derivative to decide whether your estimate is an overestimate or underestimate. Hint: Consider the sign of and make a conclusion accordingly.       "
+},
+{
+  "id": "day-14-notes-2-1",
+  "level": "2",
+  "url": "day-14-notes.html#day-14-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-14-notes-2-2",
+  "level": "2",
+  "url": "day-14-notes.html#day-14-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "p-linearization-intro-3",
+  "level": "2",
+  "url": "day-14-notes.html#p-linearization-intro-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Goal: "
+},
+{
+  "id": "prob-tangent-line-equation-5",
+  "level": "2",
+  "url": "day-14-notes.html#prob-tangent-line-equation-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Definition: "
+},
+{
+  "id": "day-15-notes",
+  "level": "1",
+  "url": "day-15-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 15: Sections 4.7 and 3.4a: Newton’s Method and Derivatives as Rates of Change (Part 1)",
+  "body": " Day 15: Sections 4.7 and 3.4a: Newton's Method and Derivatives as Rates of Change (Part 1)    Last Time: We learned how to use linear approximation (linearization) to estimate functions.   Today: Another specific use of linearization, where it does some cool things. That is, one reason why Isaac Newton thought linear approximation was cool.     From Linear Approximation to Newton's Method  Let's recap the idea of how we learned to use linear approximation:    Graph showing a curve y = f(x) and its tangent line L(x) at (a, f(a)), illustrating how L(x) approximates f(x) for an x-value close to a.     a) The basic procedure is that we find the to our function at some point .   b) We can then choose an -value to and approximate using .    But there's nothing special about which coordinate we chose here! We could just as well choose a -value and use the tangent line to approximate the corresponding -value such that .    Graph showing a curve y = f(x) and its tangent line intersecting the horizontal line y = y_0 at x = b to approximate the exact solution x = c where f(c) = y_0.     c) That is, we can fix a value, find so that by solving the equation .   d) We can then use that value as an for the value , where .      This is really the idea of . In particular, this process tells us how to estimate  of functions (i.e., estimate the values of where , considering ).    Why do we care about estimating a solution of ?    It is particularly useful when solving the equation exactly is . For example, solving or .    In such cases, applying , we instead solve the simpler equation , and use its solution as an approximation to the solution of .          Problem 1  Let's work out the process by estimating the root of (which has only one root that isn't very nice).    Graph of f(x) = x^3 - x - 1 showing the initial guess x_0 = 1 and its tangent line intersecting the x-axis at x_1, closer to the root.     a) Make a guess for which -value might be close to the root. It doesn't have to be a good guess! We'll guess that . For most of these problems, the value for will be provided.   b) Find the tangent line to at .   c) Find the value where the tangent line at intersects the -axis.    We see that is to the actual root of our function than our original guess, so we have generated a more accurate approximation. Now we can repeat the process to improve further!    Zoomed-in graph of f(x) = x^3 - x - 1 showing the second tangent line drawn at x_1 intersecting the x-axis at x_2, much closer to the root.     a-b-c)  Using Newton's method with , we found  .    d)  The tangent line to at is given by     e)  Find the -intercept of this new tangent line to get an improved approximation . We do this by solving the equation       to get that , which is way closer to the root of .     Questions \/ Answers    How long do we keep going? Answer: As long as necessary, until your approximation is sufficiently accurate for the context you're working in. If you do iterations and find that , you've actually found the exact root!     Can we always find an exact root by doing enough iterations? Answer: No in most cases you can get an arbitrarily good approximation, but that's different than an exact answer. There are also a few ways Newton's method can break more on that in a minute.     Can we use a calculator? Answer: Yes. Please do for WeBWorK. When we ask you questions about this on quizzes and exams, we'll be very careful in our writing so that doing them without a calculator is reasonable.     It feels like we're doing the same work of finding tangent lines and solving for roots over and over... can we find patterns to be more efficient? Answer: Yes!         General Formula for Newton's Method   What can we say about the process overall?     Diagram showing the general n-th iteration of Newton's method: the tangent line at (x_n, f(x_n)) crosses the x-axis at x_(n+1).     Given , use Newton's Method to approximate a root of or a solution of the equation .   Suppose we've found several approximations, , with being the most recent. The tangent line to at is:     Find the -intercept of this tangent line to get an improved approximation . We do this by solving the equation       So, the next approximation is given by:   This formula gives us a really fast and efficient way to use Newton's method.    Problem 2  Use Newton's method to approximate a solution to the equation , starting with to find and . No need to simplify .    Identify before applying the formula.    Use the formula to find and . No need to simplify .        When Newton's Method Fails  We mentioned a few ways Newton's method can break down. While we will mostly stick to well-behaved problems in this course, it is important to understand the limitations of our tools. You are expected to master Case 1 (see below) for assessments; the remaining cases are provided for your reference.  Newton's method runs into problems when:   Case 1:     Graph showing a horizontal tangent line at a local extremum x_n where f'(x_n) = 0, failing to intersect the x-axis.     Recall that  When  the formula is .  Geometrically, the tangent line, , might cross the -axis.      Case 2: When for , we get stuck in a loop!    Graph showing Newton's method oscillating back and forth between two points x_0 and x_1 in an infinite cycle without converging to a root.     Case 3: We may miss the root we want.    Graph showing a poorly chosen initial guess x_0 whose tangent line sends x_1 far away toward a different root rather than the intended nearby root.        (Preview) Derivatives as Rates of Change  Let's finish today by taking a step back and thinking about an application of derivatives. The big idea here is that derivatives model the rates at which things change.  One of the real-world reasons people care about derivatives is that they help us relate tons of things to each other. For example, position, velocity, and acceleration:    Notes: Velocity is speed with direction. That is, , and the sign of a velocity tells you which direction your object is traveling.    Problem 3  A dynamite blast blows a heavy rock straight up with an initial velocity of . It reaches a height of after seconds.    Vertical trajectory diagram of a rock launched straight up from the ground, reaching a maximum height before falling back down.     a) What are the velocity and acceleration of the rock at any time during its flight (after the blast)?   b) When does the rock reach its highest point, and how high does it go?     c) What are the velocity and speed of the rock when it is 16 ft above the ground on the way up? On the way down?   d) When does the rock hit the ground again?    "
+},
+{
+  "id": "day-15-notes-2-1",
+  "level": "2",
+  "url": "day-15-notes.html#day-15-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-15-notes-2-2",
+  "level": "2",
+  "url": "day-15-notes.html#day-15-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "p-newtons-method-formula-2",
+  "level": "2",
+  "url": "day-15-notes.html#p-newtons-method-formula-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "What can we say about the process overall? "
+},
+{
+  "id": "p-rates-of-change-intro-4",
+  "level": "2",
+  "url": "day-15-notes.html#p-rates-of-change-intro-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Notes: "
+},
+{
+  "id": "day-16-notes",
+  "level": "1",
+  "url": "day-16-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 16: Sections 1.3, 3.4b, 3.5: Derivatives of Trigonometric Functions and Derivatives as Rates of Change",
+  "body": " Day 16: Sections 1.3, 3.4b, 3.5: Derivatives of Trigonometric Functions and Derivatives as Rates of Change    Last Time: We learned about Newton's method, an iterative method used to approximate the roots of functions (or solutions of equations).   Today: We want to do a quick recap of trig functions and learn how to differentiate them, and then we'll take a look at derivatives in a bigger context.     Derivative Formulas of the Day  Here are the derivatives you are expected to know:     Trigonometric Review  Before exploring trigonometric derivatives, let's take a moment to review trigonometric functions.  Geometrically, we define the trigonometric functions of an acute angle using the side ratios of a right triangle.    Right triangle labeled with angle theta, opposite side, adjacent side, and hypotenuse, along with the six primary trigonometric ratios.    There are also a few identities that will be helpful to remember:     The unit circle, special triangles, and the ASTC ( All Students Take Calculus ) rule shown below can help organize and recall common values of and . We recommend reviewing these topics. While you are expected to know trigonometric values at key angles, you don't need to memorize the whole unit circle.    Unit circle diagram showing key angles in radians and degrees with their (cos, sin) coordinates.    Special 45-45-90 and 30-60-90 right triangles showing exact side length ratios.    Four-quadrant ASTC chart indicating where All, Sine, Tangent, and Cosine functions are positive.        Derivatives of Sine and Cosine  For now, let's move on to differentiating trig functions. We'll start by looking at the graphs of and below and exploring the derivative of the sine function.  Recall the relationship between and in the following table:          Increasing\/Decreasing  \/    Concave Up\/Down  \/    Consider and on the interval . Answer the following questions:    i)    Graph of y = sin(x) over the interval [0, 2pi].   ii)    Graph of y = cos(x) over the interval [0, 2pi].     a) Where is increasing\/decreasing?  b) Where is positive\/negative?  c) Where is concave up\/concave down?  d) Where is increasing\/decreasing?     e) Where does have horizontal tangent lines?  f) Where does have roots?    Upshot: From parts a) f), we might guess that  , but we can actually prove it algebraically.  Let's use the limit definition of the derivative to do that:   Evaluating this limit relies on the following trigonometric identity and special limits:   (The full algebraic proof is omitted. You do not need to know how to carry out this derivation on assessments.)  So we see that indeed,  .  Thankfully, the other 5 trig functions are easier to differentiate.  We previously know that and have a wave-like shape. By applying transformations, such as shifting by and reflecting over the -axis, we get the following: Using the derivative of and the Chain Rule, we obtain   Knowing the derivatives of and , we can use the Quotient Rule to find the derivative of !  The remaining three trigonometric functions ( , , and ) can also be written in terms of and , so we can find their derivatives using similar strategies (we'll omit that work for the sake of time, but it's a GREAT thing to try to work out if you want more practice you can do it!).    Summary and Patterns of Trigonometric Derivatives  Here are the derivatives we expect you to know, along with patterns that will help us remember them:                                                                                                        This wraps up almost all of our tools for finding derivatives. Next week, we'll discuss implicit differentiation, which helps us find the derivatives of logarithmic functions.      Derivatives as Rates of Change  Let's finish today by taking a step back and thinking about an application of derivatives. The big idea here is that derivatives model the rates at which things change.  One of the real-world reasons people care about derivatives is that they help us relate tons of things to each other. For example, position, velocity, and acceleration:    Notes: Velocity is speed with direction. That is, , and the sign of a velocity tells you which direction your object is traveling.    Problem 1   (Note: This problem may have already been discussed on Monday.) A dynamite blast blows a heavy rock straight up with an initial velocity of . It reaches a height of after seconds.    Vertical trajectory diagram of a rock launched straight up from the ground, reaching a maximum height before falling back down.     a) What are the velocity and acceleration of the rock at any time during its flight (after the blast)?   b) When does the rock reach its highest point, and how high does it go?     c) What are the velocity and speed of the rock when it is 16 ft above the ground on the way up? On the way down?   d) When does the rock hit the ground again?      Problem 2  When extra nutrients were added to a broth in which bacteria were growing, the size of the population at time (in hours) was    a) Find the rates of change of the population at hours, hour, and hour.   b) Based on your results from part (a), which of the following best describes the bacterial population during the first hour ( )?   The population is increasing, and the growth rate is increasing.  The population is increasing, but the growth rate is decreasing.  The population is decreasing, and the growth rate is increasing.  The population is decreasing, but the growth rate is decreasing.     "
+},
+{
+  "id": "day-16-notes-2-1",
+  "level": "2",
+  "url": "day-16-notes.html#day-16-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-16-notes-2-2",
+  "level": "2",
+  "url": "day-16-notes.html#day-16-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "p-exploring-sin-cos-derivatives-8",
+  "level": "2",
+  "url": "day-16-notes.html#p-exploring-sin-cos-derivatives-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Upshot: "
+},
+{
+  "id": "p-rates-of-change-day16-4",
+  "level": "2",
+  "url": "day-16-notes.html#p-rates-of-change-day16-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Notes: "
+},
+{
+  "id": "day-17-notes",
+  "level": "1",
+  "url": "day-17-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 17: Section 3.7: Implicit Differentiation",
+  "body": " Day 17: Section 3.7: Implicit Differentiation    Last Time: We learned how to differentiate trigonometric functions, and got a sneak peek of derivatives showing up in a non-mathematical context.   Today: We want to learn about implicit differentiation, how it's used, and how it helps us differentiate logarithmic functions.     Explicit vs. Implicit Differentiation  What are we doing when we take derivatives?  We differentiate functions that look like to find (equivalently written as , , , or ). For example: Find , where .    Problem 1  Use the Chain Rule to find , where for an unspecified differentiable function .  But what if we treat as a function of , so ? Then this problem is equivalent to finding . Let's re-examine the problem using this notation.  This is really the idea of : We want to find the (or derivative) of an expression, but one variable is NOT written as a function of the other variable. For example:    Problem 2  Consider the circle , pictured below. Find the equation of the tangent line to the circle at the point .    Circle of radius 5 centered at the origin (x^2 + y^2 = 25) with the point (4, -3) marked in the fourth quadrant and its tangent line drawn.      We can set up the equation using the point-slope formula:    We can finish this problem using the tools we already have. The function that gives us the lower half of the circle is Using the Chain Rule to differentiate, we can then find the slope of the tangent line.        But is there an easier way?        Problem 2 (cont.)  A circle is a simple, symmetric shape, so it would be nice if we could find a single equation for the slope of the tangent line at any point on the circle, without having to split it into top and bottom halves.   lets us do exactly that!  We can differentiate both sides of the equation with respect to , remembering that because is an function of , we must apply the whenever acts as the function of a composition.  Now, by plugging in our point , we can quickly find the slope of the tangent line and complete the problem.    Steps for Implicit Differentiation  So the main takeaway of implicit differentiation is that we can find the slopes of tangent lines to any curve, even if it is not the graph of a function! We just follow these steps:   Step 1: Choose to differentiate with respect to ; that is, choose the independent variable (like ) that appears in the denominator of the derivative operator (like ).   Step 2: Differentiate (both sides!) with respect to the chosen independent variable. Apply standard derivative rules (Product, Quotient, Chain), treating every dependent variable (like ) as an function and multiplying by its whenever it is differentiated.  Next, depending on what the problem asks for:    General Derivative Expression: Solve algebraically for the corresponding derivative symbol (like ).    Slope at a Specific Point: Substitute the given coordinates into your equation from Step 2 and solve for the slope (you do not need to isolate first!).      Problem 3    Graph of the Folium of Descartes x^3 + y^3 = (9\/2)xy showing its loop in the first quadrant and the point (1, 2) on the curve.    The curve , called the Folium of Descartes , was defined by Descartes in a doomed attempt to find a function his rival Fermat couldn't differentiate. Find the slope of the tangent line to this curve at .        Problem 4  The other thing implicit differentiation allows us to do is find the derivative of logarithmic functions. For example:  Find the derivative of .  We don't know how to differentiate this directly yet, but we can rewrite it exponentially as  .  Now differentiate implicitly with respect to !    Derivatives and Properties of Logarithmic Functions  The number was not special here (but is special): In general, for any constant base , where and ,   Since we are using logarithms, let's review a few key properties that help us rewrite logarithmic expressions:       However,      Problem 5 (Exercise)  Find the derivative of .    First approach: Use derivative rules directly.    Second approach: Simplify the function using logarithmic properties before applying derivative rules.        Problem 6  One other huge reason we care about implicit differentiation is that it helps us explore situations where we have equations that model quantities that change over time.  Let's practice differentiating some of those functions today, and we'll see next time where they come from.    Differentiate both sides of the equation with respect to , where and are functions of .    Find , where and are functions of .      "
+},
+{
+  "id": "day-17-notes-2-1",
+  "level": "2",
+  "url": "day-17-notes.html#day-17-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-17-notes-2-2",
+  "level": "2",
+  "url": "day-17-notes.html#day-17-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "day-18-notes",
+  "level": "1",
+  "url": "day-18-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 18: Section 3.10: Related Rates",
+  "body": " Day 18: Section 3.10: Related Rates    Last Time: We learned how to use implicit differentiation to differentiate with respect to different variables, particularly to find the derivatives of logarithmic functions.   Today: We want to use implicit differentiation to solve related rates problems.     Problem 1 (Warm-Up)  Let's start with a quick warm-up problem to remind ourselves how implicit differentiation works. (We may skip this problem if it was already discussed on Monday.)     Differentiate both sides of the equation with respect to , where and are functions of .    Find , where and are functions of .      What Are Related Rates Problems?   Related Rates problems are application problems that involve .    Solving a related rates problem relies heavily on after setting up the problem using algebra, geometry, trigonometry, etc.    In particular, let's remember that any derivative measures the (instantaneous) rate of change of with respect to , so finding rates of change is really just finding .    We'll deal almost entirely with finding rates of change as time passes, or derivatives with respect to .    Here's an example of a problem we might look at:   Problem 2: As a metal cube is heated, its side length expands at a constant rate of . How fast is the volume of the cube increasing when its side length is ?    Identify the Type of Problem Checkpoint  Select either Option 1 or Option 2 below. The problem asks: How fast is the volume of the cube increasing when its side length is ? Does this mean:   Option 1: Find the volume when its side length is    Option 2: Find the rate of change of the volume when its side length is       Problem 2  As a metal cube is heated, its side length expands at a constant rate of . How fast is the volume of the cube increasing when its side length is ?    Related Rates Strategy  Before we dive in, let's write down a general strategy for solving this type of problem there tend to be a lot of steps, so staying organized is key.   Step 1) Draw a of the overall situation. Label quantities with numbers and changing over time quantities with .   Step 2) Identify your (finding the rate of change of which at a instant) and any rates of change in the problem.   Step 3) Write an that relates the variables  we really want . You should not include any rates in this step!     3.1 (Useful Hint:) You may have to combine two or more equations to get a single equation that relates the variable whose rate to the variables whose rates .     Step 4)   your equation from Step 3) with respect to  to find an equation involving rates.   Step 5)  the given information, including any values from the specific instant, and for the unknown rate! Include units in your answer.       Problem 2 (Walkthrough)  Let's work through these steps in Problem 2. Here's the statement again:  As a metal cube is heated, its side length expands at a constant rate of . How fast is the volume of the cube increasing when its side length is ?   Step 1: Draw a and label and .   Step 2: Identify your :   Find when .  Given rate(s) of change in the problem:    Step 3: Relate the variable whose rate to the variable(s) whose rate(s) are .   Step 4: Implicitly differentiate with respect to .   Step 5: Plug in and solve! Include units in your answer.   There are different pictures that will show up in different related rates problems, and different formulas we'll need to use for the setup this is where being careful in our physical interpretation of the problem is really important. The best way to get good at these is to do lots of practice until the strategy and steps become your own! Let's try a few more.      Problem 3  Ryan is parked feet away from the side of I-75 with their radar gun, patrolling for speeding cars. A Tesla zips by quickly in the left lane, and the batteries in Ryan's radar gun die so they can't get a reading of the car's speed. Using the dashboard camera, they can determine that a few seconds later, the angle between Ryan, the Tesla, and the straight road is and changing at a rate of radians per minute. How fast is the Tesla driving at this instant?   Step 1: Draw a and label and .   Step 2: Identify your :   Find when .  Given rate(s) of change in the problem:    Step 3: Relate the variable whose rate to the variable(s) whose rate(s) are .   Step 4: Implicitly differentiate with respect to .   Step 5: Plug in and solve! Include units in your answer.       Problem 4 (Preview)  An oil tank in the shape of an inverted cone has a height of m and a radius of m. When the oil is m deep, the tank is leaking oil from the tip at a rate of per day. How quickly is the depth of the oil in the tank decreasing at this moment?   Step 1: Draw a and label and .   Step 2: Identify your :   Find when .  Given rate(s) of change in the problem:    Step 3: Relate the variable whose rate to the variable(s) whose rate(s) are .   Step 4: Implicitly differentiate with respect to .   Step 5: Plug in and solve! Include units in your answer.   Remember, these problems take practice! Keep working on them and looking for patterns they all follow the same basic framework, which is the 5-step strategy.    "
+},
+{
+  "id": "day-18-notes-2-1",
+  "level": "2",
+  "url": "day-18-notes.html#day-18-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-18-notes-2-2",
+  "level": "2",
+  "url": "day-18-notes.html#day-18-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "p-related-rates-intro-2",
+  "level": "2",
+  "url": "day-18-notes.html#p-related-rates-intro-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Related Rates "
+},
+{
+  "id": "day-19-notes",
+  "level": "1",
+  "url": "day-19-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 19: Sections 3.8, 1.6, and 3.9: Logarithmic Differentiation and Derivatives of Inverse Trigonometric Functions (Preview)",
+  "body": " Day 19: Sections 3.8, 1.6, and 3.9: Logarithmic Differentiation and Derivatives of Inverse Trigonometric Functions (Preview)    Last Time: We used implicit differentiation to solve related rates problems.   Today: We wrap up related rates (refer to Day 18). We then introduce our final differentiation technique, logarithmic differentiation , and apply it to derive derivatives of inverse trigonometric functions (if time permits).     Problem 1 (Warm-Up)  Find the following derivatives, if you can.    a)   c)     b)   d)      What do we learn from Problem 1? So far, we have only studied how to differentiate 3 of the 4 possible forms involving exponents. How do we take the derivative when a variable is in both the base and the exponent? None of our derivative rules apply!  We discussed logarithmic functions last week, and it turns out they are the key! Let's recall one more logarithm property that we didn't review: This log property allows us to rewrite as .  Using this property along with implicit differentiation, we can now compute the derivative in Problem 1-d). To organize this process, we outline the step-by-step strategy below:    Problem 2  Find .   Step 1) Let   . In this notation, our goal is to find .   Step 2) Take the of sides and use the .   Step 3) Differentiate sides with respect to using implicit differentiation and derivative rules.   Step 4) Solve for and substitute the original formula for to eliminate from your final answer.      Logarithmic Differentiation  The process we just used is called .     Scope: It is an effective method for differentiating expressions with a variable in the base and the exponent, and it can also be helpful in other complex differentiation problems.     Limitation: Recall that the domain of is , so is undefined whenever  . Therefore, logarithmic differentiation technically requires  .     Context: In this course, we will focus on domains where this condition holds, but it is important to keep this restriction in mind as you move forward in calculus.      Problem 3 (Think - Pair - Share)  Let's apply logarithmic differentiation to another example: Find the derivative of .   Step 1) Let   . In this notation, our goal is to find .   Step 2) Take the of sides and use the .   Step 3) Differentiate sides with respect to using implicit differentiation and derivative rules.   Step 4) Solve for and substitute the original formula for to eliminate from your final answer.    Problem 4  While logarithmic differentiation is not mandatory for every problem, it can our work significantly by using to transform hard operations into easy ones:   Products   Sums  Quotients   Differences  Exponents   Factors   This allows us to bypass tedious Product, Quotient, and Chain Rule algebra. Consider the following examples:    a)   c)     b)   d)     Use logarithmic differentiation to find the derivative of each of the following functions. Three of the four functions are assigned as exercises.    a)   c)     b)   d)         (Preview) Inverse Trigonometric Functions  Next, we recall the inverse trigonometric functions and use the idea of logarithmic differentiation to find their derivatives.    Graphs of the restricted sine, cosine, and tangent functions showing their one-to-one domains used to define inverse trigonometric functions.    Figure 1: Sine\/Cosine\/Tangent Functions    Graphs of the inverse sine, inverse cosine, and inverse tangent functions showing their domains and ranges.    Figure 2: Inverse Sine\/Cosine\/Tangent Functions    Problem 5  Find the following (sketching triangles may be helpful):   a)   b)  (Exercise)    This is another topic where a bit of Precalculus review might be helpful it's likely you've forgotten a few things, but we don't have time to review them all. Please feel free to review it on your own and reach out if you need help.      Problem 6 (Preview)  Let's see how we can differentiate inverse trig functions using the idea behind logarithmic differentiation:   Apply an appropriate function to to make differentiation easier!     Find where .  It's straightforward to find in terms of , but we want our answer in terms of . So we go back to the triangle given by the relationship to help us substitute.    (Exercise) Find the derivative of .      Summary of Inverse Trigonometric Derivatives  In summary, we have the following derivatives that we need to remember:                        "
+},
+{
+  "id": "day-19-notes-2-1",
+  "level": "2",
+  "url": "day-19-notes.html#day-19-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-19-notes-2-2",
+  "level": "2",
+  "url": "day-19-notes.html#day-19-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "day-20-notes",
+  "level": "1",
+  "url": "day-20-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 20: Section 4.4b: Curve Sketching (Part I)",
+  "body": " Day 20: Section 4.4b: Curve Sketching (Part I)    Last Time: We learned our last bit of differentiation theory: how to use logarithmic differentiation to tackle challenging functions, including inverse trigonometric functions.   Today: We cover derivatives of inverse trigonometric functions (refer to Day 19). We will then revisit concavity to study inflection points and review how to extract important features of graphs from first and second derivatives. Next week, we will also pick up another valuable tool: the idea of symmetry .     Problem 1 (Warm-Up)  Suppose you want to sketch the graph of a function . Match each mathematical property on the left with its corresponding graphical feature on the right.    Mathematical Property   Point(s) where  The point where and  Sign of on an interval  Sign of on an interval  or  or     Graphical Feature   Concave Up \/ Concave Down  -intercept  Horizontal asymptote ( )  -intercept(s) (root(s))  Increasing \/ Decreasing  Vertical asymptote ( )       Inflection Points  Also, the derivative allows us to locate points the candidates for extrema. We then classify each critical point as a local maximum, local minimum, or neither using the Test.  Now, the derivative allows us to locate candidates for points.   Definition: A point where the graph of has and where or is a point of inflection .   Examples:     Example graph showing a smooth inflection point where concavity changes from concave down to concave up with a non-vertical tangent line.    Example graph showing an inflection point with a vertical tangent line where concavity changes across the point.    Example graph showing a corner or cusp where concavity changes, illustrating a point that is not an inflection point because no unique tangent line exists.        Problem 2  In the graphs below, identify the critical points and points of inflection (as well as the roots) if they exist.    First curve-sketching graph for identifying roots, critical points, and points of inflection.    Second curve-sketching graph for identifying roots, critical points, and points of inflection.      Algebraic Steps for Finding Inflection Points  While it can be helpful to start by identifying these features on a given graph, we usually want to describe them algebraically first, then use that knowledge to sketch a graph.  By definition, a point where the graph of has a unique tangent line and where concavity changes is a point of inflection . Algebraically, to find the inflection points of a function, we follow these steps:   Step 1: Find all values in the domain of where or .   Step 2: Construct a sign chart for using these candidate points from Step 1.   Step 3: Identify points where the sign of .   Step 4: Confirm that either  or the graph has a vertical tangent line at (i.e., is continuous at and the limit of as approaches is infinite).    Problem 3  Let .    What is the -intercept of ? Is it easy to find the -intercept?    (Exercise) What are the critical points of ? On what intervals is increasing\/decreasing? Identify any local extrema. Does it have any vertical or horizontal asymptotes?    (Preview) On what intervals is concave up\/down? Where are the inflection points?    (Preview) Make a rough sketch of .    Based on the sketch, can you determine how many roots has?        Problem 3 (Workthrough)  Let .    What is the -intercept of ? Is it easy to find the -intercept?    (Exercise) What are the critical points of ? On what intervals is increasing\/decreasing? Identify any local extrema. Does it have any vertical or horizontal asymptotes?    On what intervals is concave up\/down? Where are the inflection points?    (Preview) Make a rough sketch of on .    Coordinate grid on the interval (-6, 4) for sketching the graph of f(x) = (1\/72)x^5 + (5\/72)x^4 + 2.    Recall the previous results:   Increasing:   Decreasing:   Local max at  Local min at  Asymptotes: None  Concave up:  Concave down:  Inflection Point(s):       Can you determine how many roots has?      "
+},
+{
+  "id": "day-20-notes-2-1",
+  "level": "2",
+  "url": "day-20-notes.html#day-20-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-20-notes-2-2",
+  "level": "2",
+  "url": "day-20-notes.html#day-20-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "p-inflection-points-definition-4",
+  "level": "2",
+  "url": "day-20-notes.html#p-inflection-points-definition-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Definition: "
+},
+{
+  "id": "p-inflection-points-definition-5",
+  "level": "2",
+  "url": "day-20-notes.html#p-inflection-points-definition-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Examples: "
+},
+{
   "id": "homework",
   "level": "1",
   "url": "homework.html",
