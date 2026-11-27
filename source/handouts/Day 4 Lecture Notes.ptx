@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handout xml:id="day-4-notes">
+  <title>Day 4 - Sections 2.4 and 2.6a: One-Sided and Infinite Limits</title>
+
+  <introduction>
+    <p>
+      <term>Last Time:</term> We learned how to find limits of relatively nice functions, using graphs and algebra.
+    </p>
+    <p>
+      <term>Today:</term> We'll learn about one-sided limits, when limits exist, and how to deal with infinity.
+    </p>
+  </introduction>
+
+  <page>
+    <paragraphs xml:id="checkpoint-warmup-limits">
+      <title>Checkpoint (Warm Up)</title>
+      <p>
+        The graph of a function <m>f(x)</m> is shown below. Find the following limits. If you aren't sure what the answer should be, discuss with a neighbor.
+      </p>
+
+      <sidebyside widths="58% 38%" valign="top">
+        <image source="pictures/secs2224pic1.png">
+          <shortdescription>
+            Graph of a piecewise function f(x) showing continuous behavior near x = 2 and a jump discontinuity at x = 0.
+          </shortdescription>
+        </image>
+        <stack>
+          <ol marker="1)">
+            <li workspace="0.8in">
+              <p><m>\displaystyle \lim_{x \to 2} f(x)</m></p>
+            </li>
+            <li workspace="0.8in">
+              <p><m>\displaystyle \lim_{x \to 0} f(x)</m></p>
+            </li>
+          </ol>
+        </stack>
+      </sidebyside>
+
+      <p>
+        The first limit above should be straightforward, but the other is a new situation we want to learn about today.
+      </p>
+      <p>
+        The issue we see with part 2) of the problem above is also a really important one. What do we do with a limit when it approaches different values from the left and right?
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="def-one-sided-limits">
+      <title>Definition</title>
+      <p>
+        A <fillin characters="14"/> limit is a limit <m>\displaystyle \lim_{x \to a} f(x)</m> that only considers the case <fillin characters="6"/> or <fillin characters="6"/>.
+      </p>
+      <ol marker="i)">
+        <li>
+          <p>
+            <m>\displaystyle \lim_{x \to a^-} f(x)</m> is the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> from the <fillin characters="6"/>. It is called the <fillin characters="14"/> limit.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\displaystyle \lim_{x \to a^+} f(x)</m> is the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> from the <fillin characters="6"/>. It is called the <fillin characters="14"/> limit.
+          </p>
+        </li>
+      </ol>
+      <p>
+        <term>Note:</term> We recall that for <m>\displaystyle \lim_{x \to a} f(x) = L</m>, where <m>L</m> is a real number, the values of <m>f(x)</m> must get infinitely close to <m>L</m> as <m>x</m> approaches <m>a</m> from <fillin characters="10"/> left-hand and right-hand sides.
+      </p>
+      <p>
+        For this reason, the ordinary limit <m>\displaystyle \lim_{x \to a} f(x)</m> is called a <fillin characters="16"/> limit.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="fact-two-sided-limit">
+      <title>Fact</title>
+      <p>
+        Now, the definitions of two-sided and one-sided limits, together with the warm-up problem, lead us to an important fact:
+      </p>
+      <p>
+        The two-sided limit <m>\displaystyle \lim_{x \to a} f(x)</m> exists if and only if (exactly when):
+      </p>
+      <ol marker="1.">
+        <li>
+          <p>The <fillin characters="20"/> exists</p>
+        </li>
+        <li>
+          <p>AND The <fillin characters="20"/> exists</p>
+        </li>
+        <li>
+          <p>AND <fillin characters="14"/> <m>=</m> <fillin characters="14"/></p>
+        </li>
+      </ol>
+      <p>
+        That is, any time our one-sided limits <fillin characters="10"/> match, the two-sided limit <fillin characters="18"/>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-piecewise-one-sided">
+      <title>One-Sided Limits of Piecewise Functions</title>
+      <p>
+        One common place where one-sided limits appear is in <fillin characters="14"/> functions. In such cases, we evaluate the limit using the <fillin characters="14"/> of the function that corresponds to the appropriate side of <m>a</m> as <m>x</m> approaches <m>a</m>. For example:
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-piecewise-limit">
+      <title>Checkpoint</title>
+      <p workspace="1.5in">
+        Given that
+        <me>f(x)=\begin{cases}e^x-2 \amp \text{if } x \leq 0\\ x^2-\ln(x+1)+1 \amp \text{if } x \gt 0\end{cases},</me>
+        find <m>\displaystyle \lim_{x \to 0^+} f(x)</m>, <m>\displaystyle \lim_{x \to 0^-} f(x)</m>, and <m>\displaystyle \lim_{x \to 0} f(x)</m>.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="checkpoint-graph-infinite-limits">
+      <title>Checkpoint</title>
+      <p>
+        Next, let's examine the following problem and explore the interaction between infinite and one-sided limits a bit. Consider the function <m>f(x)</m> below. Find each limit.
+      </p>
+
+      <sidebyside widths="58% 38%" valign="top">
+        <image source="pictures/Day4fa25pic1.png">
+          <shortdescription>
+            Graph of a function f(x) exhibiting a jump discontinuity at x = 1, vertical asymptotes at x = -1 and x = 5, with opposite infinite behaviors at x = -1 and matching infinite behavior at x = 5.
+          </shortdescription>
+        </image>
+        <stack>
+          <ol marker="1.">
+            <li><p><m>\displaystyle \lim_{x \to 1^-} f(x) =</m> <fillin characters="6"/></p></li>
+            <li><p><m>\displaystyle \lim_{x \to 1^+} f(x) =</m> <fillin characters="6"/></p></li>
+            <li><p><m>\displaystyle \lim_{x \to 1} f(x) =</m> <fillin characters="6"/></p></li>
+            <li><p><m>\displaystyle \lim_{x \to -1^-} f(x) =</m> <fillin characters="6"/></p></li>
+            <li><p><m>\displaystyle \lim_{x \to -1^+} f(x) =</m> <fillin characters="6"/></p></li>
+            <li><p><m>\displaystyle \lim_{x \to -1} f(x) =</m> <fillin characters="6"/></p></li>
+            <li><p><m>\displaystyle \lim_{x \to 5^-} f(x) =</m> <fillin characters="6"/></p></li>
+            <li><p><m>\displaystyle \lim_{x \to 5^+} f(x) =</m> <fillin characters="6"/></p></li>
+            <li><p><m>\displaystyle \lim_{x \to 5} f(x) =</m> <fillin characters="6"/></p></li>
+          </ol>
+        </stack>
+      </sidebyside>
+
+      <p>
+        So we see that <fillin characters="6"/> of the 3 two-sided limits above exist, but the amount of information we can give about them varies, and our final answer is always as informative as possible.
+      </p>
+      <p>
+        We can guess from the graph that <m>\displaystyle \lim_{x \to 5} f(x) =</m> <fillin characters="8"/>.
+      </p>
+      <p>
+        But what does it mean for a limit to be <fillin characters="10"/>?
+      </p>
+      <p>
+        We say that <m>\displaystyle \lim_{x \to a} f(x) = \pm \infty</m> if <m>f(x)</m> becomes arbitrarily <fillin characters="10"/> and <fillin characters="10"/> / <fillin characters="10"/> as <m>x</m> approaches <m>a</m>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="fact-infinite-limits">
+      <title>Fact</title>
+      <p>
+        But wait... <m>\infty</m> is not a <fillin characters="14"/>! Our definition says that a limit exists only if it's equal to <fillin characters="14"/>. That means we have an important distinction to make here:
+      </p>
+      <p>
+        <strong>Infinite limits</strong> <fillin characters="18"/>.
+      </p>
+      <p>
+        That is, saying <m>\displaystyle \lim_{x \to a} f(x) = \pm\infty</m> is just a <fillin characters="8"/> <fillin characters="12"/> way of saying that <m>\displaystyle \lim_{x \to a} f(x)</m> DNE<mdash/>and we always want to be as specific as possible!
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-algebraic-infinite-limits">
+      <title>Finding Infinite Limits Algebraically</title>
+      <p>
+        We'll spend the rest of the day looking at how we can find limits of this type algebraically<mdash/>they're easy to recognize on a graph, but we want to be able to do both.
+      </p>
+      <p>
+        Let's consider the following limit. First, we can use direct substitution to observe that
+        <me>\displaystyle \lim_{x \to 3}\frac{x^2-9}{(x-3)^2} = \Big( \underline{\hspace{0.6in}} \Big),</me>
+        and then applying <fillin characters="14"/> to simplify:
+        <me>\displaystyle \lim_{x \to 3}\frac{x^2-9}{(x-3)^2} = \underline{\hspace{1.8in}} = \underline{\hspace{1.4in}} = \Big( \underline{\hspace{0.6in}} \Big)</me>
+      </p>
+      <p>
+        <strong>Q:</strong> What do we do with something that looks like <m>\left(\dfrac{\text{nonzero \#}}{0}\right)</m>?
+      </p>
+      <p>
+        <strong>A:</strong> Answers like this are a sign that we have an <fillin characters="14"/> limit!
+      </p>
+      <p>
+        As we saw in parts (4 to 6) and (7 to 9) of the previous checkpoint, this means that:
+      </p>
+      <ol marker="i)">
+        <li>
+          <p>If the one-sided limits are both <fillin characters="6"/>, the corresponding two-sided limit is <fillin characters="6"/>.</p>
+        </li>
+        <li>
+          <p>If the one-sided limits are both <fillin characters="8"/>, the corresponding two-sided limit is <fillin characters="8"/>.</p>
+        </li>
+        <li>
+          <p>If the one-sided limits are infinite with <fillin characters="14"/> signs (or only one is infinite), the corresponding two-sided limit <fillin characters="10"/>.</p>
+        </li>
+      </ol>
+      <p>
+        Thus our approach in this case will be to evaluate <fillin characters="14"/> limits and see what we can learn.
+      </p>
+      <p workspace="1.5in">
+        So let's keep going, looking at the one-sided limits of <fillin characters="18"/> to see what we can learn:
+      </p>
+      <p>
+        Thus, the limit <fillin characters="18"/> <fillin characters="10"/>. And so <m>\displaystyle \lim_{x \to 3}\dfrac{x^2-9}{(x-3)^2}</m> <fillin characters="10"/>.
+      </p>
+    </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs xml:id="p-big-idea-day-4">
+      <title>Big Idea of the Day</title>
+      <p workspace="1.2in">
+        Whenever
+      </p>
+      <ol marker="a)">
+        <li>
+          <p><fillin characters="14"/> limits are involved,</p>
+        </li>
+        <li>
+          <p><em>or</em> you encounter a limit that you are <fillin characters="8"/> sure how to evaluate algebraically,</p>
+        </li>
+      </ol>
+      <p>
+        then looking at the <fillin characters="14"/> limits at that point can be a very helpful strategy.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-notation-warning-day-4">
+      <title>Notation Warning</title>
+      <ul>
+        <li>
+          <p>
+            When finding a limit, be sure to use <fillin characters="18"/> around <fillin characters="14"/> that involve undefined notations (e.g., <m>0^+</m>, <m>0^-</m>, <m>\infty</m>, <m>-\infty</m>, or <m>0</m> in the denominator) in <em>any intermediate substitution</em>, before arriving at the final answer for the limit.
+          </p>
+        </li>
+        <li>
+          <p>
+            Points will be deducted on quizzes and midterms for incorrect or improper use of mathematical notation.
+          </p>
+        </li>
+        <li>
+          <p>Here are some examples:</p>
+        </li>
+      </ul>
+
+      <p>
+        <md>
+          <mrow>\displaystyle \lim_{x \to 3}\frac{x^2-9}{(x-3)^2} \amp = \Big( \frac{0}{0} \Big) = \text{DNE},</mrow>
+          <mrow>\displaystyle \lim_{x \to 3^-}\frac{x}{(x-3)^2} \amp = \left( \frac{3}{0^+} \right) = \infty, \qquad \displaystyle \lim_{x \to 3^+}\frac{x-4}{(x-3)^3} = \left( \frac{-1}{0^+} \right) = -\infty,</mrow>
+          <mrow>\displaystyle \lim_{x \to \infty}\frac{2^{3x} - 2^x + 5}{2^{2x}+7} \amp = \left( \frac{\infty}{\infty} \right) = \ldots \text{(on next Monday's lecture)} \ldots = \left( \frac{1-0+0}{0^++0^+} \right) = \left( \frac{1}{0^+} \right) = \infty,</mrow>
+          <mrow>\text{and } \displaystyle \lim_{x \to -\infty}\frac{x^2-2x+4}{3x^2-5} \amp = \left( \frac{\infty}{\infty} \right) = \ldots \text{(on next Monday's lecture)} \ldots = \frac{1}{3}</mrow>
+        </md>
+      </p>
+    </paragraphs>
+  </page>
+</handout>
