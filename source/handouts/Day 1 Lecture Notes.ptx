@@ -57,98 +57,6 @@
 </sidebyside>
 
 
-<ul>
-  <li>
-    <p>Some common ways to describe functions: a corresponding diagram, a table, or an equation.</p>
-  </li>
-</ul>
-
-<sidebyside widths="32% 30% 34%" valign="middle">
-  <image>
-    <shortdescription>
-      Arrow diagram mapping inputs 0, 1, 2, and 3 in set D to outputs -1, 1, 3, and 5 in set Y.
-    </shortdescription>
-    <description>
-      <p>
-        Two ovals sit side by side. The left oval, labeled <m>D</m> (Inputs), contains the numbers <m>0, 1, 2, 3</m>. The right oval, labeled <m>Y</m> (Outputs), contains the numbers <m>-1, 1, 3, 5</m>. Horizontal arrows connect each input to its corresponding output: <m>0 \to -1</m>, <m>1 \to 1</m>, <m>2 \to 3</m>, and <m>3 \to 5</m>.
-      </p>
-    </description>
-    <latex-image>
-      \begin{tikzpicture}[scale=0.95]
-        % Domain and Range ovals
-        \draw[fill=blue!8, draw=blue!60, thick] (0,0) ellipse (0.75cm and 1.75cm);
-        \draw[fill=teal!8, draw=teal!60, thick] (2.8,0) ellipse (0.75cm and 1.75cm);
-
-        % Headers
-        \node[above, font=\bfseries] at (0, 1.8) {$D$};
-        \node[above, font=\bfseries] at (2.8, 1.8) {$Y$};
-
-        % Domain elements
-        \node (d1) at (0, 1.05) {$0$};
-        \node (d2) at (0, 0.35) {$1$};
-        \node (d3) at (0, -0.35) {$2$};
-        \node (d4) at (0, -1.05) {$3$};
-
-        % Range elements
-        \node (r1) at (2.8, 1.05) {$-1$};
-        \node (r2) at (2.8, 0.35) {$1$};
-        \node (r3) at (2.8, -0.35) {$3$};
-        \node (r4) at (2.8, -1.05) {$5$};
-
-        % Mapping arrows
-        \draw[->, thick, red!75!black] (d1) -- (r1);
-        \draw[->, thick, red!75!black] (d2) -- (r2);
-        \draw[->, thick, red!75!black] (d3) -- (r3);
-        \draw[->, thick, red!75!black] (d4) -- (r4);
-      \end{tikzpicture}
-    </latex-image>
-  </image>
-
-  <image>
-    <shortdescription>
-      Two-column input-output table listing x values 0, 1, 2, 3 and corresponding f(x) values -1, 1, 3, 5.
-    </shortdescription>
-    <description>
-      <p>
-        A two-column table with headers <m>x</m> and <m>f(x)</m>. The four rows list the ordered pairs <m>(0, -1)</m>, <m>(1, 1)</m>, <m>(2, 3)</m>, and <m>(3, 5)</m>.
-      </p>
-    </description>
-    <latex-image>
-      \begin{tikzpicture}[scale=0.95]
-        % Outer table border and header fill
-        \fill[gray!15] (0, 2.1) rectangle (2.6, 2.8);
-        \draw[thick] (0, 0) rectangle (2.6, 2.8);
-        
-        % Vertical divider
-        \draw[thick] (1.2, 0) -- (1.2, 2.8);
-        
-        % Horizontal dividers
-        \draw[thick] (0, 2.1) -- (2.6, 2.1);
-        \draw[gray!60] (0, 1.575) -- (2.6, 1.575);
-        \draw[gray!60] (0, 1.05) -- (2.6, 1.05);
-        \draw[gray!60] (0, 0.525) -- (2.6, 0.525);
-
-        % Headers
-        \node[font=\bfseries] at (0.6, 2.45) {$x$};
-        \node[font=\bfseries] at (1.9, 2.45) {$f(x)$};
-
-        % Table entries
-        \node at (0.6, 1.83) {$0$}; \node at (1.9, 1.83) {$-1$};
-        \node at (0.6, 1.31) {$1$}; \node at (1.9, 1.31) {$1$};
-        \node at (0.6, 0.78) {$2$}; \node at (1.9, 0.78) {$3$};
-        \node at (0.6, 0.26) {$3$}; \node at (1.9, 0.26) {$5$};
-      \end{tikzpicture}
-    </latex-image>
-  </image>
-
-  <stack>
-    <md>
-      <mrow>f(x) \amp = 2x-1</mrow>
-      <mrow>y \amp = x^2+x-2</mrow>
-      <mrow>g(t) \amp = \sqrt{t^3-8}</mrow>
-    </md>
-  </stack>
-</sidebyside>
 
 
 <ul>
@@ -158,12 +66,12 @@
 </ul>
 
 <sidebyside widths="30% 30% 35%" valign="middle">
-  <image source="sec11page1.png">
+  <image source="pictures/sec11page1.png">
     <shortdescription>
       Mapping diagram illustrating a function as an input-output correspondence between two sets.
     </shortdescription>
   </image>
-  <image source="sec11page2.png">
+  <image source="pictures/sec11page2.png">
     <shortdescription>
       Table of input and output values representing a function.
     </shortdescription>
