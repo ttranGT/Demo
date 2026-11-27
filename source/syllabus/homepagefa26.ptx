@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="homepage-math-1551">
+  <title>Welcome to MATH 1551!</title>
+
+  <introduction>
+    <p>
+      We're looking forward to working with you this semester. On this page, you can find lots of useful facts<mdash/>please save everyone an email by looking here first if you have a question. If you don't find the answer you need, reach out to your instructor.
+    </p>
+  </introduction>
+
+  <subsection xml:id="homepage-helpful-links">
+    <title>Helpful Links</title>
+    <ul>
+      <li>
+        <p>
+          <term>Syllabus:</term> Contains all the policies and overview of the course, as well as some important dates and logistics and a tentative course schedule.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Lecture and Studio Materials:</term> Contains a lot of this material, as well as notes for each lecture and studio worksheets and answers. <em>Note that the textbook/MyMathLab package is NOT required for the course<mdash/>it's just an optional extra help.</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>WeBWork Homework Page:</term> Contains a link to the online homework for ALL MATH 1551 students, regardless of their lecture sections. See the Homework section below for homework FAQ, and Piazza for a message board where you can chat with your classmates about problems.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Core IMPACTS:</term> Contains the required standard USG and GT syllabus information for the course. The module will serve to remind students that the course is designed to fulfill part of their general education, and of the purpose and rationale of the Core IMPACTS curriculum.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>1551 Student Advice:</term> We have compiled a list of advice and reflections on the course from past students on Canvas.
+        </p>
+      </li>
+    </ul>
+  </subsection>
+
+  <subsection xml:id="homepage-office-hours">
+    <title>Office Hours</title>
+
+    <paragraphs xml:id="homepage-instructor-office-hours">
+      <title>Instructor Office Hours</title>
+      <p>
+        Your instructor has office hours every week, where you can come by (no appointment required!) and ask questions about the course, both mathematical and logistical. You can even drop by to talk about your homework or review what's happening in class<mdash/>and it's okay if you don't have specific questions too, we're always happy to help however we can. This is one of the best ways to get more help with the course<mdash/>you can find the schedule below:
+      </p>
+      <ul>
+        <li>
+          <p>
+            <term>Sections A/C:</term> Prof. Matteo Raffaelli (<url href="mailto:raffaelli@math.gatech.edu">raffaelli@math.gatech.edu</url>) <mdash/> Fridays 2:30 – 4:30 pm in Groseclose 226
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Section F:</term> Prof. Pranav Chinmay (<url href="mailto:pchinmay6@gatech.edu">pchinmay6@gatech.edu</url>) <mdash/> Monday/Wednesday 10:00 – 11:00 am in Clough 248
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Section H:</term> Prof. Fei Peng (<url href="mailto:fpeng33@gatech.edu">fpeng33@gatech.edu</url>) <mdash/> Wednesdays 2:00 – 4:00 pm in Clough 248
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Sections K/M:</term> Prof. Maya Thompson (<url href="mailto:mayathompson@gatech.edu">mayathompson@gatech.edu</url>) <mdash/> Mondays 10:00 am – 12:00 pm in Clough 248
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Sections G/HP:</term> Prof. Thomas Tran (<url href="mailto:thomas.tran@math.gatech.edu">thomas.tran@math.gatech.edu</url>) <mdash/> Drop-in: Mondays and Wednesdays, 2:00 – 3:00 pm in Skiles 229 (or schedule an appointment via email; MS Teams available if needed)
+          </p>
+        </li>
+      </ul>
+      <p>
+        Please refer to the Canvas homepage link for TA and PLUS Leader contact information, along with their office hour and PLUS study session schedules.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="homepage-ta-office-hours">
+      <title>TAs Office Hours</title>
+      <p>
+        One-on-one and small group tutoring sessions with our UTAs will start in the second week of the course. The UTAs will hold a 30-minute drop-in session for the students in their studio section, followed by a 30-minute bookable appointment. If no one books them, then they will continue with drop-in office hours. Appointments can be booked with them or other UTAs via UTA Tutoring on Canvas.
+      </p>
+      <p>
+        To find out more information about other tutoring services offered on campus, please see the Additional Tutoring and Academic Support section below.
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="homepage-common-questions">
+    <title>Common Course Questions</title>
+
+    <paragraphs xml:id="faq-office-hours">
+      <title>Q: When should I come to office hours?</title>
+      <p>
+        <term>A:</term> Anytime you have a question or something you want to talk about! We would especially like you to ask for help (from us or one of your other resources) in the following circumstances, as they're early indications that the course may not be going in a good direction for you:
+      </p>
+      <ul>
+        <li><p>You're confused about something we did in lecture.</p></li>
+        <li><p>You don't understand how to do some of the homework (after giving it an honest attempt).</p></li>
+        <li><p>You received a quiz or exam grade that's lower than the final grade you hope to earn.</p></li>
+        <li><p>There is something going on in your life that has the potential to severely impact your class performance<mdash/>we don't need to know the details, but we have much more ability to help you if you reach out before you're behind or have done poorly on assessments.</p></li>
+      </ul>
+      <p>
+        Reaching out early can keep your challenges from compounding, and can make you much more successful in this course.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-exam-prep">
+      <title>Q: How do I prepare for exams?</title>
+      <p>
+        <term>A:</term> To prepare for exams, students are expected to thoroughly review the course materials, including lecture notes, WeBWork solutions, quiz solutions, practice problems from non-studio weeks, and studio worksheets (with available answer keys and hints), before working through problems from past exams.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-feedback">
+      <title>Q: How do I receive feedback on my quizzes and exams?</title>
+      <p>
+        <term>A:</term> Quizzes and exams will be graded electronically and returned to you via Gradescope. Once in Gradescope, you can see which rubric items were applied to your submission and which points you earned by clicking the question number in the column on the right to expand.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-missed-class">
+      <title>Q: I'm going to miss a class or assignment. What should I do?</title>
+      <p>
+        <term>A:</term> That depends on what you're going to miss and why:
+      </p>
+      <ul>
+        <li>
+          <p>
+            <term>Lecture:</term> Lecture attendance is not mandatory but strongly encouraged.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Studio/Quiz:</term> Studio attendance is required (because these sessions are REALLY helpful!). There are 11 studio meetings throughout the semester. Students are allowed to miss up to three studios, regardless of the reason; in other words, the three lowest quiz scores will be dropped. If you have extenuating circumstances that require additional absences beyond this generous buffer, please reach out individually to your instructor or the course coordinator. Absences not discussed by 1 week after the absence may not be excused, even if they were for a good reason.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Exam:</term> Please fill out the Exam Makeup Request Form (linked on Canvas) by the Wednesday before the exam for a planned absence, and as soon as possible (no later than noon the following Monday) otherwise. There will be common makeup exams from 11:00 am to 12:15 pm each Tuesday following an exam for students who must miss the exam for an excused reason. Note that you may not be allowed to make up an exam if you fail to provide timely notification and documentation of your excused absence.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-grade-calculation">
+      <title>Q: How is my grade calculated?</title>
+      <p>
+        <term>A:</term> This is written clearly in the syllabus<mdash/>please look there for calculations and all related policies.
+      </p>
+      <p>
+        Canvas will NOT show your current/projected total grade at any point, since there's no way to program it to take the better of two options as described in the syllabus while also accounting for the WeBWork extra points. However, you can calculate your current grade by following the instructions to enter your current/projected assignment grades into the <term>1551 Grade Approximator.xlsx</term> spreadsheet on Canvas.
+      </p>
+      <p>
+        <em>Please note:</em> This calculator is to be used for estimation purposes only, and the calculator and its outputs should not be taken as a guarantee that you will receive a particular grade in the course. You will need to download the calculator in order to use it. Canvas does NOT accurately reflect quiz or midterm or final exam averages, because any missed assignments are recorded as <q>0,</q> and Canvas includes these in the calculation.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-extra-credit">
+      <title>Q: Is there extra credit? Do we drop (quizzes, exams, etc.) in this course? How can I improve my grade?</title>
+      <p>
+        <term>A:</term> There is NO extra credit in this course beyond the weekly review sessions and the CIOS incentive offered in the syllabus, either individual or collective. We drop 3 studio participation quizzes.
+      </p>
+      <p>
+        There are no retakes or opportunities to change your grade on a correctly graded assignment (though we do encourage you to learn from your mistakes). If there are circumstances in your life that you feel will affect an upcoming quiz or exam, please reach out to your instructor beforehand<mdash/>we want to help, but can't do so if you go ahead and take the assessment.
+      </p>
+      <p>
+        The best way to improve your grade is by developing your study skills, strengthening your understanding of the concepts, and preparing effectively for exams. We are here to support you<mdash/>please seek help whenever you need it.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-exam-time-location">
+      <title>Q: When/where is our exam?</title>
+      <p>
+        <term>A:</term> This semester, we will have 3 common exams during the exam period on Friday evenings, from 5:00 pm to 6:15 pm. You can find the dates in our calendar, and should note them at the beginning of the semester so you can plan accordingly and notify your instructor as soon as possible if you will be absent (see above).
+      </p>
+      <p>
+        Note that there will be no studio on exam days. Please check your final exam schedule carefully, and let us know about any conflicts with at least 2 weeks' notice. We will provide you with reminders that exams are coming up, but it is ultimately your responsibility to keep informed about the course schedule and prepare for your exams.
+      </p>
+      <p>
+        <em>Note:</em> Students with extended time accommodations should refer to the question below: <q>Q: I have accommodations for this course. How do I use them?</q>
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-calculators">
+      <title>Q: Can I use a calculator?</title>
+      <p>
+        <term>A:</term> For quizzes and exams, no. We will write problems where numbers work out nicely though, so don't worry about it. You may run into some messier numbers on your WeBWork homework or studio worksheets, so using a calculator there is just fine (just make sure you're learning the process too so you won't be lost without it on the exams).
+      </p>
+      <p>
+        Please note that WeBWork does <em>not</em> accept decimal answers. Keep your answers as they are (i.e., in rational form, as roots, etc.).
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-accommodations">
+      <title>Q: I have accommodations for this course. How do I use them?</title>
+      <p>
+        <term>A:</term> First, please reach out to your instructor as soon as possible in order to set up a plan and discuss what help you may need from us.
+      </p>
+      <ul>
+        <li>
+          <p>
+            <term>For studio participation quizzes:</term> You can ask your TA if they're willing to stay a few minutes (typically at most 5 minutes) after class to provide you your full allotment of time. Please note you must make this request in advance, and your TA is not required to accommodate you. If the TA is unavailable to accommodate your request or if you have any questions, please contact your instructor.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>For midterm exams:</term>
+          </p>
+          <ul>
+            <li><p>Please schedule your midterm exam with extended time at the Testing Center on the same day as the class exam and at a time as close as possible to the scheduled exam time. For example, for Friday exams, if you have a 1.5X time accommodation, you should plan to begin at 2:45 pm.</p></li>
+            <li><p>If that is not feasible, please contact your instructor to obtain approval to schedule your exams on the Friday of the exam week, during the Testing Center's business hours, at a time that best fits your schedule. Please let the Testing Center know that we have approved this flexible timing.</p></li>
+            <li><p>If you need to take a makeup exam, you must first obtain permission from your instructor or the course coordinator. Makeup exams should be scheduled at the Testing Center on Tuesday, the designated day for common makeup exams, beginning as close to 11:00 am as possible.</p></li>
+            <li><p><em>ODS Policy:</em> <q>Students must schedule exams (tests, quizzes, and midterms) at least five business days in advance. Requests must be submitted through AIM. Please note: weekends are not included in business days.</q></p></li>
+            <li><p><em>Important:</em> Due to the 5 business day notice policy, you may want to schedule both the regular Friday and the makeup Tuesday exams as a precaution. After completing the regular exam, please cancel the Tuesday exam no later than the following Monday.</p></li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            <term>For the final exam:</term>
+          </p>
+          <ul>
+            <li><p>Please schedule your final exam at the Testing Center as soon as possible.</p></li>
+            <li><p><em>ODS Policy:</em> <q>Students must schedule final exams through AIM at least 30 business days in advance. The available blocks for scheduling final exams are 8 a.m., 11:30 a.m., and 2:45 p.m. Students may not schedule final exams that will occur during reading periods.</q></p></li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        <term>Please note:</term>
+      </p>
+      <ol>
+        <li><p>You must take care to abide by the testing center's policies and scheduling deadlines in order to use their services (see <url href="https://disabilityservices.gatech.edu">Office of Disability Services Scheduling</url>).</p></li>
+        <li><p>When scheduling at the testing center, you should schedule under your lecture section (i.e., G or M) and NOT your studio section (e.g., G01 or M02). This allows our coordinator to correctly send work to the testing center for you to complete.</p></li>
+      </ol>
+      <p>
+        If you have any other questions or concerns, or need help navigating this process, please reach out to your instructor or the course coordinator.
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="homepage-homework">
+    <title>Homework</title>
+
+    <paragraphs xml:id="faq-webwork-location">
+      <title>Q: Where do we complete homework this semester?</title>
+      <p>
+        <term>A:</term> We will use the WeBWork system to do our graded online homework<mdash/>just click the link on the Canvas homepage. You don't need to <q>submit</q> this homework or tell us you've completed it<mdash/>WeBWork automatically saves your best question scores and will update that grade in Canvas, though this syncing may not happen quickly so please don't panic. Just keep an eye on your grade in WeBWork weekly, and we'll ask you at the end of the semester to double check that everything looks okay.
+      </p>
+      <p>
+        If you encounter any technical errors while working on WeBWork, please contact your instructor immediately for guidance. Issues reported after the deadline have passed will not be considered for any reason. Please note that WeBWork does <em>not</em> accept decimal answers. Keep your answers as they are (i.e., in rational form, as roots, etc.).
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-homework-help">
+      <title>Q: How can I get help on my homework?</title>
+      <p>
+        <term>A:</term> You have lots of options! In person, you can stop by your instructor's office hours, book one-on-one or small group tutoring sessions with TAs, ask a friend, or post questions on Piazza.
+      </p>
+      <p>
+        <em>For Piazza:</em> Be sure to ask as specific a question as possible (e.g., <q>Please do this problem for me</q> is not really a question, and you should include your own thoughts). If applicable, attach a screenshot of your work. Please also scroll through to see if someone has already answered your question before you post!
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-homework-extension">
+      <title>Q: Can I have a homework extension?</title>
+      <p>
+        <term>A:</term> No. Homework deadlines are there to keep you on schedule, and you will always have several days between covering the content of a homework set and it being due. These deadlines are firm in all individual circumstances. We offer a number of homework extra points, as detailed in the syllabus, so it is still possible to achieve a perfect score even if you do not fully complete a small number of assignments.
+      </p>
+      <p>
+        However, if you notice that homework you did has not saved in WeBWork (and this persists for 20 minutes or more), please contact your instructor or the course coordinator immediately.
+      </p>
+    </paragraphs>
+
+    <paragraphs xml:id="faq-more-practice">
+      <title>Q: Are there more practice problems I can do?</title>
+      <p>
+        <term>A:</term> Always! It's often effective to search for problems on the topic we're working on since Calculus is widely studied. Some specific resources we like are:
+      </p>
+      <ul>
+        <li>
+          <p>
+            <term>Examples and exercises from the textbook:</term> An older version of the textbook is available under Day 1 in the <q>Lecture and Studio Materials</q> section.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Paul's Online Math Notes:</term> This site is essentially a free textbook, with brief explanations and some good practice problems with nice solutions.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Optional MyMathLab Course:</term> We also have set up an optional MyMathLab course, titled <q>Differential Calculus - MATH-1551 - A/C/F/G/H/HP/K/M</q>, which includes an electronic copy of our textbook and some more problems in an online homework system<mdash/>find more information on the MyMathLab Information page on Canvas.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="homepage-help-resources">
+    <title>Help and Resources</title>
+
+    <paragraphs xml:id="homepage-tutoring-support">
+      <title>Additional Tutoring and Academic Support</title>
+      <ul>
+        <li>
+          <p>
+            <term>Precalculus &amp; Algebra Review:</term> You may find that you're a little uncertain you're prepared for this course, or that some of the background is giving you trouble<mdash/>in this case, check out our Precalc &amp; Algebra Review Help page on Canvas for more careful suggestions.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>The Math Lab:</term> Staffed by graduate students in the Math program<mdash/>including some of your TAs! They offer free drop-in tutoring in Clough 280; see the posted hours and schedule at <url href="https://www.math.gatech.edu/tutors-and-labs">math.gatech.edu/tutors-and-labs</url>. Anyone who is listed as a 1551 tutor can help you, and anyone who isn't probably can too.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>1-to-1 Tutoring &amp; Knack:</term> 1-to-1 Tutoring is a Tech-wide service offering free private tutoring by appointment through Tutoring &amp; Academic Support. You can also access free in-person and online tutoring through the Tech Knack site at <url href="https://www.joinknack.com/school/georgia-institute-of-technology">joinknack.com/school/georgia-institute-of-technology</url>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>PLUS (Peer-Led Undergraduate Study) Sessions:</term> A great way to enhance your study time<mdash/>a peer leader will prepare some extra problems for you to work through with your peers to solidify your understanding of concepts and meet people to form other study groups. Keep your eyes open for announcements about the schedule for our course.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>OMED Academic Support:</term> Offers free drop-in tutoring as well as other general academic services through OMED Educational Services.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Office of Undergraduate Education (OUE) &amp; Academic Advising:</term> Offers the <q>First-Year Student Success</q> talk series, general tutoring through Tutoring &amp; Academic Support, and academic advising appointments through Advising &amp; Transition.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+
+    <paragraphs xml:id="homepage-mental-health">
+      <title>Mental Health and Personal Resources</title>
+      <p>
+        You are a student, but first and foremost you are a valuable person, and we want to make sure you and your needs are taken care of. There are some resources listed below; if you are having trouble finding or navigating any resource you need, please reach out to your instructor or the Dean of Students and we'll be happy to help you. Please take the time to be well!
+      </p>
+      <ul>
+        <li>
+          <p>
+            <term>Office of the Dean of Students:</term> Can help you find and navigate resources on campus and coordinate extended absences or extenuating circumstances with your professors. Stop by the second floor of the Smithgall Student Services Building (the Flag Building), call (404) 894-2565 during business hours, or fill out the help request form online anytime.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Center for Mental Health Care &amp; Resources (Counseling Center):</term> Available to help you navigate mental health and counseling issues, offering short-term individual counseling, group counseling, couples counseling, testing and assessment, referral services, and crisis intervention. Stop by the first floor of the Smithgall Student Services Building (the Flag Building), suite 102B, or call CARE at (404) 894-3498 during business hours.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>After-Hours Counseling &amp; Emergencies:</term> If you need to speak to a counselor after hours or on a weekend, call (404) 894-2575 or (404) 894-3498 and select the option to speak to the after-hours counselor. If you're experiencing a serious or life-threatening emergency, contact GT Police at (404) 894-2500.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>QPR (Question, Persuade, Refer) Training:</term> Support yourself, your classmates, and your cohort by learning more at <url href="https://mentalhealth.gatech.edu/outreach-programs/qpr-training">mentalhealth.gatech.edu/outreach-programs/qpr-training</url>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Stamps Health Services:</term> Offers primary care, pharmacy, women's health, psychiatry, immunization and allergy, health promotion, and nutrition services. Call (404) 894-1420 or visit the Stamps Health Services website.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>GT Student Resources:</term> Check out the <q>GT Student Resources</q> tab on Canvas for a more complete list of resources.
+          </p>
+        </li>
+      </ul>
+    </paragraphs>
+  </subsection>
+</section>

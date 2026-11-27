@@ -17,6 +17,7 @@
       <title>Course Documents</title>
 
       <!-- Course syllabus -->
+      <xi:include href="./syllabus/homepagefa26.ptx" />
       <xi:include href="./syllabus/syllabus-fa26.ptx" />
       <!-- Other documents could go here, like a schedule, project description, etc. -->
     </chapter>
