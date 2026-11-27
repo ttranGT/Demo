@@ -1144,6 +1144,150 @@ var ptx_lunr_docs = [
   "body": "Examples: "
 },
 {
+  "id": "day-21-notes",
+  "level": "1",
+  "url": "day-21-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Day 21: Curve Sketching (Part II)",
+  "body": " Day 21: Curve Sketching (Part II)    Last Time: We revisited concavity to study inflection points and reviewed how to extract important features of graphs from first and second derivatives.   Today: We will also pick up another tool that can be really helpful when it applies: the idea of symmetry .     Definition: Symmetry  A mathematical object has a symmetry if it remains after undergoing a transformation, such as a reflection or a rotation. For example,     Symmetric isosceles triangle centered on a vertical axis of reflection, illustrating that reflecting across the axis maps the triangle directly back onto itself.     Figure 1: Reflecting across the axis maps the object directly back onto itself.      Asymmetric triangle to the left of a vertical axis of reflection mapped to a dashed mirror-image triangle on the right, showing a distinct object in a different position.     Figure 2: Reflecting across the axis creates a distinct object in a different position.     Applying these geometric ideas to functions, there are two primary symmetries a function's graph can have:    An even function  satisfies the algebraic condition  . Graphically, its graph is unchanged under reflection across . That is, it is symmetric about .    An odd function  satisfies the algebraic condition  . Graphically, its graph is unchanged after a rotation about . That is, it is symmetric about .       Graph of y = x^2 showing symmetric points (-x, y) and (x, y) reflected across the y-axis.    Function:  Geometrically: Symmetric about .  Algebraically: Satisfies  . Indeed, .     Graph of y = x^3 showing symmetric points (-x, -y) and (x, y) rotated 180 degrees about the origin.    Function:  Geometrically: Symmetric about .  Algebraically: Satisfies  . Indeed, .      Why Is Symmetry Helpful in Curve Sketching?  Identifying whether a function is even or odd streamlines the entire curve sketching process:     Cuts the work in half: You can just sketch the left or right half of the graph and then reflect it across the -axis (even) or rotate it about the origin (odd) to complete the curve.       Graph of y = x^2 with a solid curve for x greater than or equal to 0 and a dashed reflected curve for x less than 0.    Even Function     Graph of y = x^3 with a solid curve for x greater than or equal to 0 and a dashed rotated curve for x less than 0.    Odd Function     Domain and Symmetry:    A function's domain is about if is in the domain whenever is.  If the domain is not symmetric about (e.g., or ), the function is .     Problem 1  We'd like to get an accurate graph of . Use the steps below to analyze and sketch its graph.    What is the domain of ?    Does have any useful symmetry?    Now analyze the function on and sketch that half of the graph, and then use symmetry to complete the rest.    Before completing part c), let's recap the procedure for sketching :  Step 1: Identify the domain of and any symmetries the curve may have.  Step 2: Use to find critical points, where increases or decreases, and local extrema.  Step 3: Use to find inflection points and where is concave up or down.  Step 4: Identify any asymptotes and - and -intercepts.  Step 5: Sketch the curve (using symmetry from Step 1 if applicable).      Problem 1c (cont.)  We'd like to get an accurate graph of .   c) Now analyze the function on and sketch that half of the graph, and then use symmetry to complete the rest.   Step 2: Use to find critical points, where increases or decreases, and local extrema.   Step 3: Use to find inflection points and where is concave up or down.   Step 4: Identify any asymptotes and - and -intercepts.   Step 5: Sketch the curve on the next page (using symmetry from Step 1 if applicable).      Problem 1c (Sketching Grid & Multiple Choice)  Recall the previous results on :     Shape: Increasing on , decreasing on (local max at ); concave down on , concave up on (inflection point at ).     Asymptotes & Intercepts: Vertical at , horizontal at ; -intercept at , no -intercept.      Coordinate grid from x = -7.6 to 7.6 and y = -0.45 to 0.48 with plotted dots at the local maximum (3, 2\/9) and inflection point (sqrt(18), 5*sqrt(2)\/36).      Step 5: Sketch the curve (using symmetry from Step 1 if applicable). Circle the correct graph below:    Graph option (A) showing an odd curve reflected across the x-axis with a local minimum at x = 3 and local maximum at x = -3.     Graph option (B) showing an even curve symmetric across the y-axis with local maxima at x = -3 and x = 3.       Graph option (C) showing a continuous odd curve passing through the origin with no vertical asymptote.     Graph option (D) showing the odd function f(x) = (x^2 - 3)\/x^3 with vertical asymptote x = 0, horizontal asymptote y = 0, x-intercepts at plus\/minus sqrt(3), local max at x = 3, and local min at x = -3.       Graph option (E) showing an even curve symmetric across the y-axis with local minima at x = -3 and x = 3.     Graph option (F) showing a curve with a slant asymptote instead of a horizontal asymptote.         Problem 2  Suppose is an even, differentiable function for all real numbers. Show that its derivative is an odd function.    Problem 3 (Exercise)  For each function below:    Determine algebraically whether the function is even , odd , or neither by evaluating .    Confirm your answer by using a Desmos demonstration by plotting , , and :   If overlaps , the function is even .  If overlaps , the function is odd .  If overlaps neither curve, the function is neither .     Part I: Foundational Parent Functions    a)   b)   c)   d)     e)   f)   g)   h)     Part II: Algebraic Combinations    i)   j)   k)   l)   m)   n)   o)     p)   q)   r)   s)   t)   u)       "
+},
+{
+  "id": "day-21-notes-2-1",
+  "level": "2",
+  "url": "day-21-notes.html#day-21-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-21-notes-2-2",
+  "level": "2",
+  "url": "day-21-notes.html#day-21-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "p-why-symmetry-helpful-5",
+  "level": "2",
+  "url": "day-21-notes.html#p-why-symmetry-helpful-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Domain and Symmetry: "
+},
+{
+  "id": "day-22-notes",
+  "level": "1",
+  "url": "day-22-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Days 22 &amp; 23a: Section 4.2: Rolle’s Theorem and Mean Value Theorem",
+  "body": " Days 22 & 23a: Section 4.2: Rolle's Theorem and Mean Value Theorem    Last Time: We studied curve sketching by extracting key features of graphs from first and second derivatives, along with the idea of symmetry.   Today: We explore our final applications of derivatives: Rolle's Theorem and the Mean Value Theorem.     Secant Lines, Tangent Lines, and Rates of Change  We have worked with secant lines and tangent lines multiple times in different contexts. Recall how they connect to rates of change by filling in the blanks below:     The of the secant line is the rate of change.    The of the tangent line is the rate of change.    The of the average rate of change is the instantaneous rate of change.     Graph showing a curve y = f(x) with a secant line connecting two points and a tangent line at a single point, illustrating average versus instantaneous rate of change.    Today we want to see how secant and tangent lines relate to each other on the graph of a continuous and differentiable function. Let's start with a simple case and suppose is a function defined on satisfying the following:  Condition 1:  is on the closed interval ,  Condition 2:  is on the open interval , and  Condition 3:   .    Here's a sketch of our coordinate plane, with a function that satisfies all these three properties.   Graph of a continuous and differentiable curve on [a, b] with f(a) = f(b) and a horizontal tangent line at an interior point c in (a, b).     Questions:    Is the secant line through the endpoints and horizontal?    Is it possible to draw a horizontal tangent line at some number in ?    Conclusion: Given the three conditions, there is one number in where the slope of the tangent line is .      This visual observation holds for the graph of any continuous and differentiable function whose endpoints are at the same height. We formalize this guarantee below:      Rolle's Theorem   Rolle's Theorem: Suppose is  Condition 1: a function on ,  Condition 2:  over , and  Condition 3:   .  Then there is one value in at which  .  Geometrically, under these three conditions, there must be at least one point on the graph between and where is equal to .    Application: Proving a Unique Root (Problem 1)  One classic use of Rolle's Theorem is proving that an equation has exactly one solution on an interval. To prove this, we split the job between two theorems:   Step 1:  Existence (at least one): Use the Intermediate Value Theorem to show the equation has a solution.   Step 2:  Uniqueness (at most one): Use Rolle's Theorem to show the equation cannot have two solutions.   Problem 1: Show that the equation has exactly one solution on .   Step 1:  Existence (at least one solution): Let . Explain why the Intermediate Value Theorem applies to on , and use it to show that has at least one solution in this interval. Fill in the blanks.  Since is a , it is continuous everywhere, so the Intermediate Value Theorem applies on . Also,      . Therefore, the theorem guarantees that  has  on .   Step 2:  Uniqueness (at most one solution): Suppose, by contradiction, that has two distinct solutions and in , with .    Since and are solutions of , what are the values of and ?    Since is a , it is continuous on and differentiable on . Combining this with part (i), what does Rolle's Theorem guarantee about ?    Finding the contradiction: Compute . Based on your formula for , is the guarantee from part (ii) actually possible? Explain why or why not.     Conclusion: Since part (iii) gave us a , our initial assumption in part (ii) must be meaning cannot have solutions. Combining this with Step 1, which showed has at least one solution on , we conclude that the solution is (there is one solution on ).      Quick Check: What Happens When a Hypothesis Fails?  Rolle's Theorem only guarantees a number in where when all three conditions hold. If even one condition fails, that guarantee disappears meaning there might be no such , or one might still exist anyway !     V-shaped absolute value graph from (-1, 1) to (0, 0) to (1, 1) with a sharp corner at x = 0.     Condition fails: Not differentiable on .  Does hold anywhere in ?      Piecewise parabolic curve from (-1, 1) to (1, 1) with corners at x = -0.5 and x = 0.5 and a smooth local maximum with horizontal tangent at x = 0.     Condition fails: Not differentiable on .  Does hold anywhere in ?        Straight increasing line segment from (-1, 0.3) to an open circle at (1, 1.3) with a filled endpoint dot at (1, 0.3), showing a jump discontinuity at x = 1.     Condition fails: Not continuous on .  Does hold anywhere in ?      Parabolic curve from (-1, 1) dipping smoothly to a horizontal tangent at (0, 0.3) and rising to an open circle at (1, 1.6) with a filled endpoint dot at (1, 1).     Condition fails: Not continuous on .  Does hold anywhere in ?       From Rolle's Theorem to the Mean Value Theorem  Notice that in Rolle's theorem, the conditions that is continuous and differentiable are important in forcing the function to behave the way we want it to.     But the only reason we needed was to get a for our tangent lines to be parallel to.     Sinusoidal wave curve passing through two points (a, f(a)) and (b, f(b)) at equal heights.       In fact, we can draw a straight line connecting any two points, and the line does need to be horizontal; that is, its slope does need to be zero. If we drop the third condition, , we obtain the Mean Value Theorem .       Mean Value Theorem (MVT): Suppose is  Condition 1: a function on  Condition 2: and is over .  Then there is one value in at which     Smooth curve passing through two points (a, f(a)) and (b, f(b)) at different heights, illustrating the Mean Value Theorem.     Geometrically, under these two conditions, there must be at least one number inside the interval where the of the is equal to the of the passing through the endpoints.      Application: How Can We Use the MVT in Real Life? (Problem 2)  The following is a simple application of the MVT, but it's powerful it is the exact math behind automated toll-road and highway speeding tickets!   A trucker drives west a distance of miles, stopping only once to get gas. She begins the trip parked at a truck stop and ends the trip parked at another truck stop. The trip takes her hours. Let be the truck's position (in miles west of the starting truck stop) after hours, as shown in the graph.   Position-versus-time graph s(t) starting at (0, 0), flattening horizontally during a mid-trip gas stop, and ending at (4, 244).       Compute the trucker's average velocity over the -hour trip (include units):    Explain why the Mean Value Theorem applies to on , and state what it guarantees in the context of this problem:    Did she ever exceed the speed limit? Explain your reasoning clearly.        Problem 3  Let's finish with a few algebraic problems and some mathematical consequences of our theorem.  Determine whether each of the following functions meets the conditions of the Mean Value Theorem (MVT) on the given interval. If it does, find the value(s) guaranteed by the theorem.    on .    Is continuous on ? Why or why not? Hint: What is the domain of ?    Is differentiable on ? Why or why not? Hint: Is defined on ?    If YES for both parts i) and ii), fill in the following blanks: By the MVT, there is one value in at which  .    Find all such values of in :      (Exercise) on . Hint: Check BOTH conditions of the MVT! Is differentiable on ?        Mathematical Consequences of the Mean Value Theorem  Here are a couple of other nice mathematical consequences of the MVT. (Proofs are for your information, not for testing.)   Corollary 1: If at every point in , then for all in , where is a constant.   Quick Proof: Pick any two points in . By the MVT, there is some in such that Thus takes the value everywhere on , so is a function!   Corollary 2: If at every point in , then for all in , where is a constant.   Quick Proof: Let . Then  . By Corollary 1,  , so  .   Notes:     Corollary 2 tells us that if two functions have the derivative, they differ by .    In other words, given a derivative function , we can find all functions whose derivative is (by finding just one and adding ). This leads directly to antiderivatives (which will be the final topic of this course and studied in more depth in MATH 1552).      Applications of Corollary 2     Antiderivatives Finding Velocity and Position from Acceleration: Suppose a ball is thrown upward with acceleration , initial velocity , and initial height . Find using the steps below, then find as an exercise.  Step 1: Recall that . Find a function in terms of whose derivative is :  Step 2: By Corollary 2,   .  Step 3: Now use the initial velocity to find and conclude :  (Exercise) Find :     Deriving the Properties of Logarithms (for , , and any real number ):      Hint: Consider and , show that , then plug in to find .     (Exercise)  Hint: Consider and .     (Exercise)  Hint: Consider and .         "
+},
+{
+  "id": "day-22-notes-2-1",
+  "level": "2",
+  "url": "day-22-notes.html#day-22-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-22-notes-2-2",
+  "level": "2",
+  "url": "day-22-notes.html#day-22-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "thm-rolles-theorem-2",
+  "level": "2",
+  "url": "day-22-notes.html#thm-rolles-theorem-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Rolle's Theorem: "
+},
+{
+  "id": "prob-unique-root-rolles-5",
+  "level": "2",
+  "url": "day-22-notes.html#prob-unique-root-rolles-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Problem 1: "
+},
+{
+  "id": "thm-mean-value-theorem-5-1-1",
+  "level": "2",
+  "url": "day-22-notes.html#thm-mean-value-theorem-5-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Mean Value Theorem (MVT): "
+},
+{
+  "id": "p-mvt-corollaries-7",
+  "level": "2",
+  "url": "day-22-notes.html#p-mvt-corollaries-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Notes: "
+},
+{
+  "id": "day-23-notes",
+  "level": "1",
+  "url": "day-23-notes.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Days 23b &amp; 24: Section 4.8: Antiderivatives",
+  "body": " Days 23b & 24: Section 4.8: Antiderivatives    Last Time: We learned Rolle's Theorem and the Mean Value Theorem, wrapping up our study of derivatives and their applications.   Today: We want to start doing it all backwards! We can undo derivatives using antiderivatives .     Definition: Antiderivative  A function is an antiderivative of if  .  We use the notation to represent antiderivatives of or antiderivative of . This is also called the of .  In light of the definition and notation above, we have:     Problem 1 (Definition Checkpoint)  Given a function , match each question in the first column with its corresponding answer in the second column.    How many antiderivatives does have?  How do they all differ?  What do they all have in common?  What does this mean in terms of the graph?    By a constant  The same derivative  Infinitely many  A vertical (upward\/downward) shift      Problem 2 (Useful Formulas)  The following problem covers the basic indefinite integrals you should know these! And you probably already do: just ask yourself which function you know whose derivative equals the given function.  Find the following antiderivatives (1) through (12). Pro tip: Differentiate to CHECK your answer it should match the original function!    (1) Reversing the Power Rule for derivatives: For , find  by answering the following questions:    Choose . Guess a power function whose derivative contains , then differentiate your guess and adjust the coefficient so the derivative equals . Repeat the process for .    Pay attention to the powers and coefficients of the -terms to generalize to an antiderivative of . Don't forget to add the arbitrary constant to your final answer!        Problem 2 (Useful Formulas, cont.)   (1) So, for ,  .   Differentiation gives , while antidifferentiation reverses it: .   (2) Recall that  . Then,  .   (3) Recall that for ,  . Then,  .   (4) Recall that for ,  . Then,  .   (5) Recall that  . Then,  .   (6) Recall that  . Then,  .   (7) Recall that  . Then,  .   (8) Recall that  . Then,  .   (9) Recall that  . Then,  .   (10) Recall that  . Then,  .   (11) Recall that  . Then,  .   (12) Recall that  . Then,  .      Problem 3  Assume that is an antiderivative of and is a constant. Show that     Problem 4  Based on Problem 3, fill in the blanks (assume is a constant):       Summary of -Generalized Antiderivatives  In summary, it is useful to remember the following -generalized antiderivatives, where is a non-zero constant:     Some Antiderivative Rules  Let's spend a few minutes thinking about some basic antiderivative rules. Assume that is an antiderivative of , is an antiderivative of , and is a constant.    Then is an antiderivative of . Indeed,  In indefinite integral notation,     Then is an antiderivative of . Indeed,  In indefinite integral notation,      Note: The basic derivative rules for sums, differences, and constant multiples carry over directly to antiderivatives. Notice, however, that we do not have a simple Product Rule or Quotient Rule for antiderivatives more advanced integration techniques will be covered in MATH 1552.      Problem 5  Evaluate the following integrals. Additional practice may be assigned as exercises.       Find . Choose one of the following options:  Option 1:   Option 2:   Option 3:   Option 4:      Additional practice:     a)   c)   e)     b)   d)   f)       "
+},
+{
+  "id": "day-23-notes-2-1",
+  "level": "2",
+  "url": "day-23-notes.html#day-23-notes-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Last Time: "
+},
+{
+  "id": "day-23-notes-2-2",
+  "level": "2",
+  "url": "day-23-notes.html#day-23-notes-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Today: "
+},
+{
+  "id": "p-linearity-rules-antiderivatives-4",
+  "level": "2",
+  "url": "day-23-notes.html#p-linearity-rules-antiderivatives-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Note: "
+},
+{
+  "id": "prob-evaluating-antiderivatives-4",
+  "level": "2",
+  "url": "day-23-notes.html#prob-evaluating-antiderivatives-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Additional practice: "
+},
+{
   "id": "homework",
   "level": "1",
   "url": "homework.html",
