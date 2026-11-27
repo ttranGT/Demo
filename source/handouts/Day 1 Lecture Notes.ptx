@@ -15,15 +15,7 @@
       </p>
     </introduction>
 
-    <p>My instructor's name is <fillin characters="25"/>.</p>
-    <p>My instructor's email address is <fillin characters="25"/>.</p>
-    <p workspace="0.6in">If I have questions about the course policies, I should look<ellipsis/></p>
-    <p workspace="0.6in">If I have questions about the schedule, I should look<ellipsis/></p>
-    <p workspace="0.6in">When I have questions about the homework or course material, I should<ellipsis/></p>
-    <p workspace="0.6in">If I have a question and I'm not sure where to look, I should start by<ellipsis/></p>
-    <p workspace="0.6in">One goal I have for this semester is<ellipsis/></p>
-    <p workspace="0.6in">One thing I'm going to do to help myself achieve that goal is<ellipsis/></p>
-
+    
     <p>
       One thing people often don't realize is that it can be really helpful to do math <em>in community</em>. We all bring valuable ideas and perspectives to the class! We want to actively practice appreciating each others' input this semester.
     </p>
