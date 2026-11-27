@@ -34,33 +34,74 @@
       <title>Functions, Domain, and Range</title>
 
       <definition xml:id="def-function">
-        <statement>
-          <p>
-            A <em>function</em> <m>f</m> from a set <m>D</m> to a set <m>Y</m> is a rule that assigns a <fillin characters="12"/> element <m>f(x)</m> in <m>Y</m> to each element <m>x</m> in <m>D</m>.
-          </p>
-        </statement>
-      </definition>
+  <statement>
+    <p>
+      A <em>function</em> <m>f</m> from a set <m>D</m> to a set <m>Y</m> is a rule that assigns a <fillin characters="8"/> element <m>f(x)</m> in <m>Y</m> to each element <m>x</m> in <m>D</m>.
+    </p>
+  </statement>
+</definition>
 
-      <image source="pic1-2.png" width="40%">
-        <shortdescription>Mapping diagram illustrating a function assigning elements from domain D to codomain Y.</shortdescription>
-      </image>
+<image source="pic1-2.png" width="40%">
+  <shortdescription>
+    Arrow diagram mapping elements from set D to unique elements in set Y to illustrate a function.
+  </shortdescription>
+</image>
 
-      <ul>
-        <li>
-          <p>Some common ways to describe functions: a corresponding diagram, a table, or an equation.</p>
-        </li>
-        <li>
-          <p>
-            One nice way to check graphically that something is a function is the <fillin characters="8"/> line test, which says that:
-          </p>
-          <p>
-            A curve is the graph of a function if no vertical line intersects it more than <fillin characters="8"/>.
-          </p>
-          <image source="pic3.png" width="45%">
-            <shortdescription>Graphs illustrating the vertical line test for functions.</shortdescription>
-          </image>
-        </li>
-      </ul>
+<ul>
+  <li>
+    <p>Some common ways to describe functions: a corresponding diagram, a table, or an equation.</p>
+  </li>
+</ul>
+
+<sidebyside widths="30% 30% 35%" valign="middle">
+  <image source="sec11page1.png">
+    <shortdescription>
+      Mapping diagram illustrating a function as an input-output correspondence between two sets.
+    </shortdescription>
+  </image>
+  <image source="sec11page2.png">
+    <shortdescription>
+      Table of input and output values representing a function.
+    </shortdescription>
+  </image>
+  <stack>
+    <md>
+      <mrow>f(x) \amp = 2x-1</mrow>
+      <mrow>y \amp = x^2+x-2</mrow>
+      <mrow>g(t) \amp = \sqrt{t^3-8}</mrow>
+    </md>
+  </stack>
+</sidebyside>
+
+<ul>
+  <li>
+    <p>
+      One nice way to check graphically that something is a function is the <fillin characters="14"/> test, which says that:
+    </p>
+    <p>
+      A curve is the graph of a function if no vertical line intersects it more than <fillin characters="8"/>.
+    </p>
+    <image source="pic3.png" width="45%">
+      <shortdescription>
+        Coordinate graphs comparing a curve intersected once by a vertical line against a curve intersected twice.
+      </shortdescription>
+      <description>
+        <p>
+          Two coordinate graphs illustrate the vertical line test: one shows a function where every vertical line crosses the graph at most once, and the other shows a non-function (such as a circle or sideways parabola) where a vertical line crosses the graph at two points.
+        </p>
+      </description>
+    </image>
+  </li>
+</ul>
+
+<ol marker="a)">
+  <li>
+    <p>How would you describe the circle algebraically?</p>
+  </li>
+  <li>
+    <p>How would you describe the upper-half of the circle algebraically?</p>
+  </li>
+</ol>
 
       <definition xml:id="def-domain-range">
         <statement>
