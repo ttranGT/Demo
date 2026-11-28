@@ -84,17 +84,17 @@
       </p>
       <ol marker="1.">
         <li>
-          <p>The <fillin characters="30"/> exists</p>
+          <p workspace="0.1in">The <fillin characters="30"/> exists</p>
         </li>
         <li>
-          <p>AND The <fillin characters="30"/> exists</p>
+          <p workspace="0.1in">AND The <fillin characters="30"/> exists</p>
         </li>
         <li>
-          <p>AND <fillin characters="24"/> <m>=</m> <fillin characters="24"/></p>
+          <p workspace="0.1in">AND <fillin characters="24"/> <m>=</m> <fillin characters="24"/></p>
         </li>
       </ol>
       <p workspace="0.3in">
-        That is, any time our one-sided limits <fillin characters="20"/> match, the two-sided limit <fillin characters="38"/>.
+        That is, any time our one-sided limits <fillin characters="20"/> match, the two-sided limit <fillin characters="5"/>.
       </p>
     </paragraphs>
 
@@ -103,8 +103,12 @@
         <term>One-Sided Limits of Piecewise Functions</term>
       </p>
       <p workspace="0.25in">
-        One common place where one-sided limits appear is in <fillin characters="24"/> functions. In such cases, we evaluate the limit using the <fillin characters="24"/> of the function that corresponds to the appropriate side (left or right) of <m>a</m> as <m>x</m> approaches <m>a</m>. For example:
+        One common place where one-sided limits appear is in <fillin characters="24"/> functions.
       </p>
+      <p workspace="0.1in">
+        In such cases, we evaluate the limit using the <fillin characters="24"/> of the function that corresponds to the appropriate side (left or right) of <m>a</m> as <m>x</m> approaches <m>a</m>. For example:
+      </p>
+
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-piecewise-limit">
@@ -216,7 +220,7 @@
           <p>If the one-sided limits are both <fillin characters="8"/>, the corresponding two-sided limit is <fillin characters="8"/>.</p>
         </li>
         <li>
-          <p>If the one-sided limits are infinite with <fillin characters="20"/> signs (or only one is infinite), the corresponding two-sided limit <fillin characters="10"/>.</p>
+          <p>If the one-sided limits are infinite with <fillin characters="25"/> signs (or only one is infinite), the corresponding two-sided limit <fillin characters="10"/>.</p>
         </li>
       </ol>
       <p>
@@ -259,8 +263,11 @@
       </p>
       <ul>
         <li>
-          <p>
-            When finding a limit, be sure to use <fillin characters="28"/> around <fillin characters="24"/> that involve undefined notations (e.g., <m>0^+</m>, <m>0^-</m>, <m>\infty</m>, <m>-\infty</m>, or <m>0</m> in the denominator) in <em>any intermediate substitution</em>, before arriving at the final answer for the limit.
+          <p workspace="0.2in">
+            When finding a limit, be sure to use <fillin characters="38"/> 
+          </p>
+          <p workspace="0.1in">
+            around <fillin characters="24"/> that involve undefined notations (e.g., <m>0^+</m>, <m>0^-</m>, <m>\infty</m>, <m>-\infty</m>, or <m>0</m> in the denominator) in <em>any intermediate substitution</em>, before arriving at the final answer for the limit.
           </p>
         </li>
         <li>
@@ -282,6 +289,6 @@
         </md>
       </p>
     </paragraphs>
-    <p workspace="stretch"/>
+  <p workspace="stretch"> </p>
   </page>
 </handout>
