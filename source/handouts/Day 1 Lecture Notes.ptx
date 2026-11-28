@@ -392,7 +392,7 @@
         </stack>
       </sidebyside>
     </paragraphs>
-
+  
     <paragraphs xml:id="checkpoint-sketch-piecewise">
       <title>Problem 3</title>
       <p>
@@ -408,22 +408,23 @@
         </stack>
         <image>
           <shortdescription>
-            Blank Cartesian coordinate grid with x-axis from -4 to 5 and y-axis from -4 to 3, labeled with integer tick marks.
+            Blank Cartesian coordinate grid with x-axis from -4 to 5 and y-axis from -1 to 5, labeled with integer tick marks.
           </shortdescription>
           <latex-image>
-            \begin{tikzpicture}[scale=0.5]
-              \draw[very thin, gray!35] (-4,-4) grid (5,3);
+            \begin{tikzpicture}[scale=0.55]
+              \draw[very thin, gray!35] (-4,-1) grid (5,5);
               \draw[->, thick] (-4.3,0) -- (5.4,0) node[right] {$x$};
-              \draw[->, thick] (0,-4.3) -- (0,3.4) node[above] {$y$};
+              \draw[->, thick] (0,-1.3) -- (0,5.4) node[above] {$y$};
               \foreach \x in {-4,-3,-2,-1,1,2,3,4,5}
                 \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
-              \foreach \y in {-4,-3,-2,-1,1,2,3}
+              \foreach \y in {-1,1,2,3,4,5}
                 \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
             \end{tikzpicture}
           </latex-image>
         </image>
       </sidebyside>
     </paragraphs>
+
     <p workspace="stretch"/>
   </page>
 

@@ -183,7 +183,23 @@
       <p>
         We are reviewing the following 3 common ways to deal with this issue of a <m>\left(\dfrac{0}{0}\right)</m> form:
       </p>
+      <li>
+          <p>
+            <term>Factor and Cancel:</term> 
+            </p>
+        </li>
+        <li>
+          <p>
+            <term>Find a Common Denominator:</term>  </p>
+          
+        </li>
+        <li >
+          <p>
+            <term>Multiply by a Conjugate:</term>  </p>
+        </li>
     </paragraphs>
+
+  
 
     <paragraphs xml:id="p-notation-warning">
       <title>Notation Warning</title>
@@ -194,7 +210,6 @@
         In many of the problems we'll do this semester, some combination or variation of these techniques will be sufficient to find limits algebraically. But it takes lots of practice, and there are a few weird cases to consider.
       </p>
     </paragraphs>
-    <p workspace="stretch"/>
   </page>
 
   <!-- PAGE 3 -->
@@ -202,7 +217,7 @@
     <paragraphs xml:id="checkpoint-algebraic-limits">
       <title>Problem 3</title>
       <ol marker="i)">
-        <li workspace="2.2in">
+        <li workspace="stretch">
           <p>
             <term>Factor and Cancel:</term> <m>\displaystyle \lim_{x \to 1} \dfrac{x^2-1}{x-1}</m>
           </p>
@@ -210,7 +225,7 @@
             <em>Note that:</em> <m>a^2-b^2 =</m> <fillin characters="18"/>.
           </p>
         </li>
-        <li workspace="2.4in">
+        <li  workspace="stretch">
           <p>
             <term>Find a Common Denominator:</term> <m>\displaystyle \lim_{x \to -1} \dfrac{\frac{1}{4x+5}-\frac{1}{x^2}}{x+1}</m>
           </p>
@@ -218,7 +233,7 @@
             <em>Note that:</em> <m>\dfrac{a/b}{c/d} =</m> <fillin characters="12"/> <m>=</m> <fillin characters="10"/>.
           </p>
         </li>
-        <li workspace="2.2in">
+        <li  workspace="stretch">
           <p>
             <term>Multiply by a Conjugate:</term> <em>(Exercise)</em> <m>\displaystyle \lim_{x \to 4} \dfrac{\sqrt{x}-2}{x-4}</m>
           </p>
@@ -228,6 +243,6 @@
         </li>
       </ol>
     </paragraphs>
-    <p workspace="stretch"/>
+   
   </page>
 </handout>
