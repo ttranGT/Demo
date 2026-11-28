@@ -168,9 +168,13 @@
       <p>
         <term>Infinite Limits</term>
       </p>
-      <p>
-        But wait... <m>\infty</m> is not a <fillin characters="34"/>! Our definition says that a limit exists only if it's equal to <fillin characters="34"/>. That means we have an important distinction to make here:
-      </p>
+      <p workspace="0.1in">
+  But wait... <m>\infty</m> is not a <fillin characters="34"/>!
+</p>
+<lines>
+  <line>Our definition says that a limit exists only if</line>
+  <line>it's equal to <fillin characters="34"/>. That means we have an important distinction to make here:</line>
+</lines>
       <p>
         <strong>Infinite limits</strong> <fillin characters="38"/>.
       </p>
