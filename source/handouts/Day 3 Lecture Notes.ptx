@@ -14,7 +14,7 @@
   <!-- PAGE 1 -->
   <page>
     <paragraphs xml:id="def-limit">
-      <p>
+      <p workspace="0.1in">
         <term>Definition:</term> The <fillin characters="15"/> of <m>f(x)</m> as <m>x</m> approaches <m>a</m>, written
         <me>\lim_{x \to a} f(x),</me>
         is the <fillin characters="20"/> that <m>f(x)</m> <fillin characters="35"/> to as <m>x</m> approaches <m>a</m>.
@@ -28,22 +28,22 @@
         </image>
         <stack>
           <ul>
-            <li>
+            <li workspace="0.08in">
               <p>
                 If there <fillin characters="5"/> such a number, we say this limit <fillin characters="15"/> and <fillin characters="15"/> to that number.
               </p>
             </li>
-            <li>
+            <li workspace="0.08in">
               <p>
                 If there <fillin characters="10"/>, we say the limit <fillin characters="35"/>.
               </p>
             </li>
-            <li>
+            <li workspace="0.08in">
               <p>
                 <q><m>x</m> approaches <m>a</m></q> but <fillin characters="25"/> to <m>a</m>. That is, <fillin characters="20"/> in computing the limit <m>\displaystyle \lim_{x \to a} f(x)</m>.
               </p>
             </li>
-            <li>
+            <li workspace="0.25in">
               <p>
                 For example (numerical approach): The table on the left indicates that
                 <me>\lim_{x \to 1} \frac{x^2-1}{x-1} = \underline{\hspace{0.8in}}</me>
@@ -55,11 +55,13 @@
     </paragraphs>
 
     <paragraphs xml:id="p-limits-with-graphs">
-      <title>Finding Limits with Graphs</title>
-      <p>
+      <p workspace="0.1in">
+        <term>Finding Limits with Graphs</term>
+      </p>
+      <p workspace="0.1in">
         If we have a good (well-labeled and detailed) graph of <m>y=f(x)</m>, we can find the limit <m>\displaystyle \lim_{x \to a} f(x)</m> by observing the number that <m>y</m> gets infinitely close to as <m>x</m> approaches <m>a</m>.
       </p>
-      <p>
+      <p workspace="0.1in">
         For example: Let's revisit the function <m>f(x)=\dfrac{x^2-1}{x-1}</m> introduced above. Its graph is shown below.
       </p>
 
@@ -77,15 +79,15 @@
             <li>
               <p>Now,</p>
               <ul>
-                <li>
+                <li workspace="0.08in">
                   <p>As <m>x</m> approaches <m>1</m> from the <fillin characters="10"/>, <m>f(x)</m> gets infinitely close to <fillin characters="6"/>.</p>
                 </li>
-                <li>
+                <li workspace="0.08in">
                   <p>As <m>x</m> approaches <m>1</m> from the <fillin characters="10"/>, <m>f(x)</m> gets infinitely close to <fillin characters="6"/>.</p>
                 </li>
               </ul>
             </li>
-            <li>
+            <li workspace="0.25in">
               <p>Thus, as <m>x</m> approaches <m>1</m>, the limit of <m>f(x)</m> is <fillin characters="6"/>.</p>
             </li>
           </ul>
@@ -94,7 +96,9 @@
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-graphical-limits">
-      <title>Problem 1</title>
+      <p workspace="0.1in">
+        <term>Problem 1</term>
+      </p>
       <ol marker="i)">
         <li workspace="0.8in">
           <p>
@@ -138,19 +142,24 @@
   <!-- PAGE 2 -->
   <page>
     <paragraphs xml:id="p-limits-algebraically">
-      <title>Finding Limits Algebraically</title>
-      <p>
-        Because graphs depend on visual precision, they are best for <em>estimating</em> limits rather than distinguishing between values like <m>5</m> and <m>5.0000001</m>. To find <em>exact</em> limits, we use algebra.    </p>
-      <p>
+      <p workspace="0.1in">
+        <term>Finding Limits Algebraically</term>
+      </p>
+      <p workspace="0.1in">
+        Because graphs depend on visual precision, they are best for <em>estimating</em> limits rather than distinguishing between values like <m>5</m> and <m>5.0000001</m>. To find <em>exact</em> limits, we use algebra.
+      </p>
+      <p workspace="0.1in">
         <term>Step 1: Direct Substitution</term> <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
       </p>
-      <p>
+      <p workspace="0.25in">
         Often (especially for common functions), we can find a limit simply by substituting <m>x=a</m> in our function. This method is effective for functions that are <em>continuous</em> at the point of interest.
       </p>
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-direct-substitution">
-      <title>Problem 2</title>
+      <p workspace="0.1in">
+        <term>Problem 2</term>
+      </p>
       <ol marker="i)">
         <li>
           <p>
@@ -170,59 +179,65 @@
         </li>
       </ol>
 
-      <p>
+      <p workspace="0.1in">
         What do we do with something that looks like <m>\left(\dfrac{0}{0}\right)</m>? This is an <fillin characters="25"/> form, meaning we can't determine what's going on<mdash/>we don't even know whether the limit exists!
       </p>
-      <p>
+      <p workspace="0.1in">
         <term>Step 2: Algebraic Manipulation</term> <em><mdash/> try simplifying the function <m>f(x)</m> using algebraic techniques while evaluating the limit.</em>
       </p>
-      <p>
+      <p workspace="0.1in">
         If, by using algebraic manipulation, we can get rid of the <fillin characters="25"/> form, we can try Step 1 again.
       </p>
-      <p>
-  We are reviewing the following 3 common ways to deal with this issue of a <m>\left(\dfrac{0}{0}\right)</m> form:
-</p>
-<ol cols="3">
-  <li><p><term>Factoring</term></p></li>
-  <li><p><term>Finding a Common Denominator</term></p></li>
-  <li><p><term>Multiplying by a Conjugate</term></p></li>
-</ol>
+      <p workspace="0.1in">
+        We are reviewing the following 3 common ways to deal with this issue of a <m>\left(\dfrac{0}{0}\right)</m> form:
+      </p>
+      <ol cols="3">
+        <li><p><term>Factoring</term></p></li>
+        <li><p><term>Finding a Common Denominator</term></p></li>
+        <li><p><term>Multiplying by a Conjugate</term></p></li>
+      </ol>
 
- <p>
+      <p workspace="0.3in">
         In many of the problems we'll do this semester, some combination or variation of these techniques will be sufficient to find limits algebraically. But it takes lots of practice, and there are a few weird cases to consider.
       </p>
     </paragraphs>
 
     <paragraphs xml:id="p-notation-warning">
+      <p workspace="0.1in">
+        <term>Notation Warning:</term> Make sure every step of your work has <fillin characters="10"/> a limit operator (<m>\displaystyle \lim_{x \to a}</m>) and an argument (<m>f(x)</m>) until you've successfully <fillin characters="15"/> the limit.
+      </p>
       <p>
-        <term>Notation Warning</term>: Make sure every step of your work has <fillin characters="10"/> a limit operator (<m>\displaystyle \lim_{x \to a}</m>) and an argument (<m>f(x)</m>) until you've successfully <fillin characters="15"/> the limit. That is, the variable and the operator should always disappear in the same step.    </p>
-
+        That is, the variable and the operator should always disappear in the same step.
+      </p>
     </paragraphs>
+    <p workspace="stretch"/>
   </page>
 
   <!-- PAGE 3 -->
   <page>
     <paragraphs xml:id="checkpoint-algebraic-limits">
-      <title>Problem 3</title>
+      <p workspace="0.1in">
+        <term>Problem 3</term>
+      </p>
       <ol marker="i)">
         <li workspace="stretch">
-          <p>
+          <p workspace="0.08in">
             <term>Factoring:</term> <m>\displaystyle \lim_{x \to 1} \dfrac{x^2-1}{x-1}</m>
           </p>
           <p>
             <em>Note that:</em> <m>a^2-b^2 =</m> <fillin characters="18"/>.
           </p>
         </li>
-        <li  workspace="stretch">
-          <p>
+        <li workspace="stretch">
+          <p workspace="0.08in">
             <term>Finding a Common Denominator:</term> <m>\displaystyle \lim_{x \to -1} \dfrac{\frac{1}{4x+5}-\frac{1}{x^2}}{x+1}</m>
           </p>
           <p>
             <em>Note that:</em> <m>\dfrac{a/b}{c/d} =</m> <fillin characters="12"/> <m>=</m> <fillin characters="10"/>.
           </p>
         </li>
-        <li  workspace="stretch">
-          <p>
+        <li workspace="stretch">
+          <p workspace="0.08in">
             <term>Multiplying by a Conjugate:</term> <em>(Exercise)</em> <m>\displaystyle \lim_{x \to 4} \dfrac{\sqrt{x}-2}{x-4}</m>
           </p>
           <p>
@@ -231,6 +246,5 @@
         </li>
       </ol>
     </paragraphs>
-   
   </page>
 </handout>

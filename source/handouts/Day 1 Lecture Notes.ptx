@@ -17,7 +17,9 @@
   <!-- PAGE 1 -->
   <page>
     <paragraphs xml:id="p-math-in-community">
-      <title>Math in Community</title>
+      <p workspace="0.1in">
+        <term>Math in Community</term>
+      </p>
       <p workspace="stretch">
         One thing people often don't realize is that it can be really helpful to do math <em>in community</em>. We all bring valuable ideas and perspectives to the class! We want to actively practice appreciating each others' input this semester.
       </p>
@@ -27,16 +29,17 @@
   <!-- PAGE 2 -->
   <page>
     <paragraphs xml:id="p-functions-domain-range">
-      <title>Functions, Domain, and Range</title>
-      <p>
+      <p workspace="0.1in">
+        <term>Functions, Domain, and Range</term>
+      </p>
+      <p workspace="0.25in">
         Let's review the formal definition of a function and how functions can be represented.
       </p>
     </paragraphs>
 
     <paragraphs xml:id="def-function">
-      <title>Definition</title>
-      <p>
-        A <em>function</em> <m>f</m> from a set <m>D</m> to a set <m>Y</m> is a rule that assigns a <fillin characters="8"/> element <m>f(x)</m> in <m>Y</m> to each element <m>x</m> in <m>D</m>.
+      <p workspace="0.1in">
+        <term>Definition:</term> A <em>function</em> <m>f</m> from a set <m>D</m> to a set <m>Y</m> is a rule that assigns a <fillin characters="8"/> element <m>f(x)</m> in <m>Y</m> to each element <m>x</m> in <m>D</m>.
       </p>
 
       <sidebyside width="36%">
@@ -93,10 +96,10 @@
 
       <ul>
         <li>
-          <p>
+          <p workspace="0.08in">
             One nice way to check graphically that something is a function is the <fillin characters="30"/> test, which says that:
           </p>
-          <p>
+          <p workspace="0.08in">
             A curve is the graph of a function if no vertical line intersects it more than <fillin characters="12"/>.
           </p>
           <sidebyside width="44%">
@@ -119,7 +122,9 @@
   <!-- PAGE 3 -->
   <page>
     <paragraphs xml:id="checkpoint-circle">
-      <title>Checkpoint</title>
+      <p workspace="0.1in">
+        <term>Checkpoint</term>
+      </p>
       <ol marker="a)">
         <li workspace=".45in">
           <p>How would you describe the circle algebraically?</p>
@@ -131,37 +136,43 @@
     </paragraphs>
 
     <paragraphs xml:id="def-domain-range">
-      <title>Finding the Domain</title>
+      <p workspace="0.1in">
+        <term>Finding the Domain</term>
+      </p>
       <ol marker="i)">
-        <li>
+        <li workspace="0.08in">
           <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>x</m>.</p>
         </li>
-        <li>
+        <li workspace="0.08in">
           <p>
             A strategy for finding the <em>domain</em> of a function is to look for <fillin characters="14"/>!
           </p>
         </li>
       </ol>
 
-      <p>Common ones include:</p>
+      <p workspace="0.08in">Common ones include:</p>
       <ol>
-        <li><p><fillin characters="60"/></p></li>
-        <li><p><fillin characters="60"/></p></li>
-        <li><p><fillin characters="60"/></p></li>
+        <li workspace="0.08in"><p><fillin characters="60"/></p></li>
+        <li workspace="0.08in"><p><fillin characters="60"/></p></li>
+        <li workspace="0.25in"><p><fillin characters="60"/></p></li>
       </ol>
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-domain-functions">
-      <title>Problem 1</title>
+      <p workspace="0.1in">
+        <term>Problem 1</term>
+      </p>
       <p workspace="stretch">
         Find the domains of <m>f(x)=\ln(x+1)</m> and <m>g(x) = \dfrac{1}{\sqrt{4-x^2}}</m>.
       </p>
     </paragraphs>
 
     <paragraphs xml:id="p-ranges-and-graphs">
-      <title>Ranges and Graphs</title>
+      <p workspace="0.1in">
+        <term>Ranges and Graphs</term>
+      </p>
       <ol marker="i)">
-        <li>
+        <li workspace="0.08in">
           <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>y</m> or <m>f(x)</m>.</p>
         </li>
         <li>
@@ -176,8 +187,10 @@
   <!-- PAGE 4: Graphs 1 (x^2), 5 (ln(x)), 3 (e^x), and 7 (x^3) -->
   <page>
     <paragraphs xml:id="checkpoint-match-graphs-p1">
-      <title>Problem 2</title>
-      <p>
+      <p workspace="0.1in">
+        <term>Problem 2</term>
+      </p>
+      <p workspace="0.1in">
         Match each graph below with its corresponding function from the bank, and state its domain and range.
       </p>
 
@@ -287,20 +300,22 @@
     <p workspace="stretch"/>
   </page>
 
-  <!-- PAGE 5: Remaining Graphs 2 (sin(x)), 6 (cos(x)), 4 (|x|), 8 (sqrt(x)) & Problem 3 -->
+  <!-- PAGE 5: Remaining Graphs 2 (sqrt(x)), 6 (cos(x)), 4 (|x|), 8 (sin(x)) & Problem 3 -->
   <page>
     <paragraphs xml:id="checkpoint-match-graphs-p2">
-      <title>Problem 2 (continued)</title>
+      <p workspace="0.1in">
+        <term>Problem 2 (continued)</term>
+      </p>
 
       <sidebyside widths="46% 46%" margins="1% 1%">
-        <!-- Left Column: Graphs 2 (sin(x)) & 6 (cos(x)) -->
+        <!-- Left Column: Graphs 2 & 6 -->
         <stack>
           <p>
             <strong>Graph 2:</strong> <fillin characters="6"/><br/>
             Domain: <fillin characters="14"/><br/>
             Range: <fillin characters="14"/>
           </p>
-           <image>
+          <image>
             <shortdescription>
               Graph of a concave-down increasing curve starting at a solid endpoint at the origin (0,0) and passing through (1,1) and (4,2) in the first quadrant.
             </shortdescription>
@@ -316,7 +331,7 @@
               \end{tikzpicture}
             </latex-image>
           </image>
-          
+
           <p>
             <strong>Graph 6:</strong> <fillin characters="6"/><br/>
             Domain: <fillin characters="14"/><br/>
@@ -342,7 +357,7 @@
           </image>
         </stack>
 
-        <!-- Right Column: Graphs 4 (|x|) & 8 (sqrt(x)) -->
+        <!-- Right Column: Graphs 4 & 8 -->
         <stack>
           <p>
             <strong>Graph 4:</strong> <fillin characters="6"/><br/>
@@ -370,7 +385,7 @@
             Domain: <fillin characters="14"/><br/>
             Range: <fillin characters="14"/>
           </p>
-         <image>
+          <image>
             <shortdescription>
               Graph of a smooth periodic wave passing through the origin (0,0), peaking at (pi/2, 1), crossing zero at (pi, 0), and reaching a minimum at (-pi/2, -1).
             </shortdescription>
@@ -388,14 +403,16 @@
               \end{tikzpicture}
             </latex-image>
           </image>
-
         </stack>
       </sidebyside>
+      <p workspace="0.25in"/>
     </paragraphs>
-  
+
     <paragraphs xml:id="checkpoint-sketch-piecewise">
-      <title>Problem 3</title>
-      <p>
+      <p workspace="0.1in">
+        <term>Problem 3</term>
+      </p>
+      <p workspace="0.1in">
         Sketch the graph of the piecewise function below on the provided coordinate plane, and find its domain and range. (Remember, this is called a piecewise function!)
       </p>
       <sidebyside widths="48% 46%" valign="middle">
@@ -403,25 +420,25 @@
           <p>
             <me>y=\begin{cases}\sqrt{x} \amp \text{if } x\geq 0\\ -x \amp \text{if } x\lt 0\end{cases}</me>
           </p>
-          <p>Domain: <fillin characters="18"/></p>
+          <p workspace="0.08in">Domain: <fillin characters="18"/></p>
           <p>Range: <fillin characters="18"/></p>
         </stack>
         <image>
-  <shortdescription>
-    Blank Cartesian coordinate grid with x-axis from -4 to 5 and y-axis from -1 to 3, labeled with integer tick marks.
-  </shortdescription>
-  <latex-image>
-    \begin{tikzpicture}[scale=0.55]
-      \draw[very thin, gray!35] (-4,-1) grid (5,3);
-      \draw[->, thick] (-4.3,0) -- (5.4,0) node[right] {$x$};
-      \draw[->, thick] (0,-1.3) -- (0,3.4) node[above] {$y$};
-      \foreach \x in {-4,-3,-2,-1,1,2,3,4,5}
-        \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
-      \foreach \y in {-1,1,2,3}
-        \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
-    \end{tikzpicture}
-  </latex-image>
-</image>
+          <shortdescription>
+            Blank Cartesian coordinate grid with x-axis from -4 to 5 and y-axis from -1 to 3, labeled with integer tick marks.
+          </shortdescription>
+          <latex-image>
+            \begin{tikzpicture}[scale=0.55]
+              \draw[very thin, gray!35] (-4,-1) grid (5,3);
+              \draw[->, thick] (-4.3,0) -- (5.4,0) node[right] {$x$};
+              \draw[->, thick] (0,-1.3) -- (0,3.4) node[above] {$y$};
+              \foreach \x in {-4,-3,-2,-1,1,2,3,4,5}
+                \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+              \foreach \y in {-1,1,2,3}
+                \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
       </sidebyside>
     </paragraphs>
 
@@ -431,32 +448,34 @@
   <!-- PAGE 6 -->
   <page>
     <paragraphs xml:id="p-function-transformations">
-      <title>(Self-Review) Function Transformations</title>
-      <p>
+      <p workspace="0.1in">
+        <term>(Self-Review) Function Transformations</term>
+      </p>
+      <p workspace="0.1in">
         We can stretch functions and move them around in the coordinate plane by making changes to their equations.
       </p>
 
-      <p><term>Shift Formulas:</term> Given the graph of <m>y=f(x)</m>. Then,</p>
+      <p workspace="0.08in"><term>Shift Formulas:</term> Given the graph of <m>y=f(x)</m>. Then,</p>
       <sidebyside widths="48% 48%" valign="top">
         <stack>
           <p>Vertical Shifts: <m>y=f(x)+k</m></p>
           <ul>
-            <li><p><m>k \gt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>k</m> units.</p></li>
+            <li workspace="0.08in"><p><m>k \gt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>k</m> units.</p></li>
             <li><p><m>k \lt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>k</m> units.</p></li>
           </ul>
         </stack>
         <stack>
           <p>Horizontal Shifts: <m>y=f(x+h)</m></p>
           <ul>
-            <li><p><m>h \gt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>h</m> units.</p></li>
+            <li workspace="0.08in"><p><m>h \gt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>h</m> units.</p></li>
             <li><p><m>h \lt 0</m>: Shifts the graph of <m>f</m> <fillin characters="5"/> <m>h</m> units.</p></li>
           </ul>
         </stack>
       </sidebyside>
 
-      <p><term>Vertical Scaling Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c \gt 1</m>, the graph is scaled:</p>
+      <p workspace="0.08in"><term>Vertical Scaling Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c \gt 1</m>, the graph is scaled:</p>
       <ul>
-        <li>
+        <li workspace="0.08in">
           <p><m>y=c \cdot f(x)</m>: <fillin characters="10"/> the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
         </li>
         <li>
@@ -464,9 +483,9 @@
         </li>
       </ul>
 
-      <p><term>Horizontal Scaling Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c \gt 1</m>, the graph is scaled:</p>
+      <p workspace="0.08in"><term>Horizontal Scaling Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c \gt 1</m>, the graph is scaled:</p>
       <ul>
-        <li>
+        <li workspace="0.08in">
           <p><m>y=f(cx)</m>: Compresses the graph of <m>f</m> <fillin characters="10"/> by a factor of <m>c</m>.</p>
         </li>
         <li>
@@ -474,20 +493,22 @@
         </li>
       </ul>
 
-      <p><term>Reflecting Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c = -1</m>, the graph is reflected:</p>
+      <p workspace="0.08in"><term>Reflecting Formulas:</term> Given the graph of <m>y=f(x)</m>. Then, for <m>c = -1</m>, the graph is reflected:</p>
       <ul>
-        <li>
+        <li workspace="0.08in">
           <p><m>y=-f(x)</m>: Reflects the graph of <m>f</m> across the <fillin characters="5"/>-axis.</p>
         </li>
-        <li>
+        <li workspace="0.25in">
           <p><m>y=f(-x)</m>: Reflects the graph of <m>f</m> across the <fillin characters="5"/>-axis.</p>
         </li>
       </ul>
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-function-transformations">
-      <title>Checkpoint</title>
-      <p>
+      <p workspace="0.1in">
+        <term>Checkpoint</term>
+      </p>
+      <p workspace="0.1in">
         Let <m>a</m> be a positive constant and <m>c \gt 1</m>. Match the descriptive and algebraic changes below (you might find it helpful to look at some of the equations above in a graphing calculator like <url href="https://www.desmos.com/calculator" visual="desmos.com/calculator">Desmos.com</url>).
       </p>
       <sidebyside widths="52% 44%" valign="top">
@@ -515,16 +536,17 @@
   <!-- PAGE 7 -->
   <page>
     <paragraphs xml:id="p-function-composition">
-      <title>Function Composition</title>
-      <p>
+      <p workspace="0.1in">
+        <term>Function Composition</term>
+      </p>
+      <p workspace="0.25in">
         In addition to function transformations and basic arithmetic operations (addition, subtraction, multiplication, and division), functions can also be combined using composition.
       </p>
     </paragraphs>
 
     <paragraphs xml:id="def-composition">
-      <title>Definition</title>
-      <p>
-        If <m>f</m> and <m>g</m> are functions, the <fillin characters="20"/> function <m>f \circ g</m> (<q><m>f</m> composed with <m>g</m></q>) is defined by
+      <p workspace="0.1in">
+        <term>Definition:</term> If <m>f</m> and <m>g</m> are functions, the <fillin characters="20"/> function <m>f \circ g</m> (<q><m>f</m> composed with <m>g</m></q>) is defined by
         <m>(f \circ g)(x) = </m> <fillin characters="15"/>.
       </p>
 
@@ -538,7 +560,7 @@
       </sidebyside>
 
       <ul>
-        <li>
+        <li workspace="0.25in">
           <p>
             The domain of <m>f \circ g</m> consists of all values of <m>x</m> in the <fillin characters="30"/> for which <fillin characters="10"/> lies in the <fillin characters="30"/>.
           </p>
@@ -547,8 +569,10 @@
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-composite-functions-1">
-      <title>Problem 4</title>
-      <p>
+      <p workspace="0.1in">
+        <term>Problem 4</term>
+      </p>
+      <p workspace="0.1in">
         If <m>f(x)=\sqrt{x}</m> and <m>g(x)=x+1</m>, find the following composite functions and their domains.
       </p>
       <ol marker="a)" cols="2">
@@ -558,8 +582,10 @@
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-composite-functions-2">
-      <title>Problem 5</title>
-      <p workspace="1.5in">
+      <p workspace="0.1in">
+        <term>Problem 5</term>
+      </p>
+      <p workspace="stretch">
         If <m>k(x)=x^2</m> and <m>h(x)=\sqrt{x}</m>, find <m>k \circ h</m> and its domain.
       </p>
     </paragraphs>
