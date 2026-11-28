@@ -113,6 +113,10 @@
       </ul>
     </paragraphs>
 
+  </page>
+
+  <page>
+
     <paragraphs xml:id="checkpoint-circle">
       <title>Checkpoint</title>
       <ol marker="a)">
@@ -157,6 +161,7 @@
   </page>
 
   <page>
+
     <paragraphs xml:id="p-ranges-and-graphs">
       <title>Ranges and Graphs</title>
 
@@ -393,8 +398,9 @@
 <p workspace="stretch"/>
 </page>
 
+</page>
 
-  
+  <page>
 
 
     <paragraphs xml:id="checkpoint-sketch-piecewise">
