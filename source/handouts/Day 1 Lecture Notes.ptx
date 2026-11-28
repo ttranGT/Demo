@@ -97,7 +97,7 @@
           <p>
             A curve is the graph of a function if no vertical line intersects it more than <fillin characters="12"/>.
           </p>
-          <sidebyside width="60%">
+          <sidebyside width="50%">
             <image source="pictures/pic3.png">
               <shortdescription>
                 Coordinate graphs comparing a curve intersected once by a vertical line against a curve intersected twice.
@@ -180,6 +180,7 @@
       
     </paragraphs>
 
+   </page>
    <page>
   <paragraphs xml:id="checkpoint-match-graphs-p1">
     <title>Problem 2</title>
@@ -398,7 +399,7 @@
 <p workspace="stretch"/>
 </page>
 
-</page>
+
 
   <page>
 
