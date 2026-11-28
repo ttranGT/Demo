@@ -156,7 +156,7 @@
           <p>
             Find <m>\displaystyle \lim_{x \to 2} (x^2-x+5)</m>.
           </p>
-          <p workspace="stretch">
+          <p workspace="1in">
             Step 1: Direct Substitution
           </p>
         </li>
@@ -164,7 +164,7 @@
           <p>
             Find <m>\displaystyle \lim_{x \to 1} \dfrac{x^2-1}{x-1}</m> (<em>Numerically and graphically, we observed that the limit is 2. How about finding it algebraically?</em>)
           </p>
-          <p workspace="stretch">
+          <p workspace="1in">
             Step 1: Direct Substitution
           </p>
         </li>
@@ -183,9 +183,9 @@
   We are reviewing the following 3 common ways to deal with this issue of a <m>\left(\dfrac{0}{0}\right)</m> form:
 </p>
 <ol cols="3">
-  <li><p><term>Factor and Cancel</term></p></li>
-  <li><p><term>Find a Common Denominator</term></p></li>
-  <li><p><term>Multiply by a Conjugate</term></p></li>
+  <li><p><term>Factoring</term></p></li>
+  <li><p><term>Finding a Common Denominator</term></p></li>
+  <li><p><term>Multiplying by a Conjugate</term></p></li>
 </ol>
 
  <p>
@@ -207,7 +207,7 @@
       <ol marker="i)">
         <li workspace="stretch">
           <p>
-            <term>Factor and Cancel:</term> <m>\displaystyle \lim_{x \to 1} \dfrac{x^2-1}{x-1}</m>
+            <term>Factoring:</term> <m>\displaystyle \lim_{x \to 1} \dfrac{x^2-1}{x-1}</m>
           </p>
           <p>
             <em>Note that:</em> <m>a^2-b^2 =</m> <fillin characters="18"/>.
@@ -215,7 +215,7 @@
         </li>
         <li  workspace="stretch">
           <p>
-            <term>Find a Common Denominator:</term> <m>\displaystyle \lim_{x \to -1} \dfrac{\frac{1}{4x+5}-\frac{1}{x^2}}{x+1}</m>
+            <term>Finding a Common Denominator:</term> <m>\displaystyle \lim_{x \to -1} \dfrac{\frac{1}{4x+5}-\frac{1}{x^2}}{x+1}</m>
           </p>
           <p>
             <em>Note that:</em> <m>\dfrac{a/b}{c/d} =</m> <fillin characters="12"/> <m>=</m> <fillin characters="10"/>.
@@ -223,7 +223,7 @@
         </li>
         <li  workspace="stretch">
           <p>
-            <term>Multiply by a Conjugate:</term> <em>(Exercise)</em> <m>\displaystyle \lim_{x \to 4} \dfrac{\sqrt{x}-2}{x-4}</m>
+            <term>Multiplying by a Conjugate:</term> <em>(Exercise)</em> <m>\displaystyle \lim_{x \to 4} \dfrac{\sqrt{x}-2}{x-4}</m>
           </p>
           <p>
             <em>Note that:</em> The conjugate of <m>(a-b)</m> is <fillin characters="12"/> and vice versa.
