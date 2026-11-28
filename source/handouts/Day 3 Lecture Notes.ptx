@@ -153,19 +153,19 @@
     <paragraphs xml:id="checkpoint-direct-substitution">
       <title>Problem 2</title>
       <ol marker="i)">
-        <li workspace="1.2in">
+        <li>
           <p>
             Find <m>\displaystyle \lim_{x \to 2} (x^2-x+5)</m>.
           </p>
-          <p>
+          <p workspace="stretch">
             Step 1: Direct Substitution <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
           </p>
         </li>
-        <li workspace="1.3in">
+        <li>
           <p>
             Find <m>\displaystyle \lim_{x \to 1} \dfrac{x^2-1}{x-1}</m> (<em>Numerically and graphically, we observed that the limit is 2. How about finding it algebraically?</em>)
           </p>
-          <p>
+          <p workspace="stretch">
             Step 1: Direct Substitution <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
           </p>
         </li>
@@ -181,22 +181,13 @@
         If, by using algebraic manipulation, we can get rid of the <fillin characters="25"/> form, we can try Step 1 again.
       </p>
       <p>
-        We are reviewing the following 3 common ways to deal with this issue of a <m>\left(\dfrac{0}{0}\right)</m> form:
-      </p>
-      <li>
-          <p>
-            <term>Factor and Cancel:</term> 
-            </p>
-        </li>
-        <li>
-          <p>
-            <term>Find a Common Denominator:</term>  </p>
-          
-        </li>
-        <li >
-          <p>
-            <term>Multiply by a Conjugate:</term>  </p>
-        </li>
+  We are reviewing the following 3 common ways to deal with this issue of a <m>\left(\dfrac{0}{0}\right)</m> form:
+</p>
+<ol cols="3">
+  <li><p><term>Factor and Cancel</term></p></li>
+  <li><p><term>Find a Common Denominator</term></p></li>
+  <li><p><term>Multiply by a Conjugate</term></p></li>
+</ol>
     </paragraphs>
 
   
