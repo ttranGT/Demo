@@ -157,7 +157,7 @@
             Find <m>\displaystyle \lim_{x \to 2} (x^2-x+5)</m>.
           </p>
           <p workspace="stretch">
-            Step 1: Direct Substitution <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
+            Step 1: Direct Substitution
           </p>
         </li>
         <li>
@@ -165,7 +165,7 @@
             Find <m>\displaystyle \lim_{x \to 1} \dfrac{x^2-1}{x-1}</m> (<em>Numerically and graphically, we observed that the limit is 2. How about finding it algebraically?</em>)
           </p>
           <p workspace="stretch">
-            Step 1: Direct Substitution <em><mdash/> try plugging in the value that <m>x</m> is approaching.</em>
+            Step 1: Direct Substitution
           </p>
         </li>
       </ol>
@@ -187,18 +187,16 @@
   <li><p><term>Find a Common Denominator</term></p></li>
   <li><p><term>Multiply by a Conjugate</term></p></li>
 </ol>
-    </paragraphs>
 
-  
-
-    <paragraphs xml:id="p-notation-warning">
-      <title>Notation Warning</title>
-      <p>
-        There are some notational things to be careful of with limits. In short, make sure every step of your work has both a limit operator (<m>\displaystyle \lim_{x \to a}</m>) and an argument (<m>f(x)</m>) until you've successfully evaluated the limit. That is, the variables and the operator should always disappear in the same step.
-      </p>
-      <p>
+ <p>
         In many of the problems we'll do this semester, some combination or variation of these techniques will be sufficient to find limits algebraically. But it takes lots of practice, and there are a few weird cases to consider.
       </p>
+    </paragraphs>
+
+    <paragraphs xml:id="p-notation-warning">
+      <p>
+        <term>Notation Warning</term>: Make sure every step of your work has <fillin characters="10"/> a limit operator (<m>\displaystyle \lim_{x \to a}</m>) and an argument (<m>f(x)</m>) until you've successfully <fillin characters="15"/> the limit. That is, the variable and the operator should always disappear in the same step.    </p>
+
     </paragraphs>
   </page>
 
