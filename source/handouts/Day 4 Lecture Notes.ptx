@@ -14,7 +14,9 @@
   <!-- PAGE 1 -->
   <page>
     <paragraphs xml:id="checkpoint-warmup-limits">
-      <title>Problem 1 (Warm Up)</title>
+      <p>
+        <term>Problem 1 (Warm Up)</term>
+      </p>
       <p>
         The graph of a function <m>f(x)</m> is shown below. Find the following limits. If you aren't sure what the answer should be, discuss with a neighbor.
       </p>
@@ -27,10 +29,10 @@
         </image>
         <stack>
           <ol marker="1)">
-            <li workspace="0.7in">
+            <li workspace="0.65in">
               <p><m>\displaystyle \lim_{x \to 2} f(x)</m></p>
             </li>
-            <li workspace="0.7in">
+            <li workspace="0.65in">
               <p><m>\displaystyle \lim_{x \to 0} f(x)</m></p>
             </li>
           </ol>
@@ -40,7 +42,7 @@
       <p>
         The first limit above should be straightforward, but the other is a new situation we want to learn about today.
       </p>
-      <p workspace="0.15in">
+      <p workspace="0.25in">
         The issue we see with part 2) of the problem above is also a really important one. What do we do with a limit when it approaches different values from the left and right?
       </p>
     </paragraphs>
@@ -91,20 +93,24 @@
           <p>AND <fillin characters="24"/> <m>=</m> <fillin characters="24"/></p>
         </li>
       </ol>
-      <p workspace="0.2in">
+      <p workspace="0.3in">
         That is, any time our one-sided limits <fillin characters="20"/> match, the two-sided limit <fillin characters="38"/>.
       </p>
     </paragraphs>
 
     <paragraphs xml:id="p-piecewise-one-sided">
-      <title>One-Sided Limits of Piecewise Functions</title>
-      <p workspace="0.15in">
+      <p>
+        <term>One-Sided Limits of Piecewise Functions</term>
+      </p>
+      <p workspace="0.25in">
         One common place where one-sided limits appear is in <fillin characters="24"/> functions. In such cases, we evaluate the limit using the <fillin characters="24"/> of the function that corresponds to the appropriate side (left or right) of <m>a</m> as <m>x</m> approaches <m>a</m>. For example:
       </p>
     </paragraphs>
 
     <paragraphs xml:id="checkpoint-piecewise-limit">
-      <title>Problem 2</title>
+      <p>
+        <term>Problem 2</term>
+      </p>
       <p workspace="stretch">
         Given that
         <me>f(x)=\begin{cases}e^x-2 \amp \text{if } x \leq 0\\ x^2-\ln(x+1)+1 \amp \text{if } x \gt 0\end{cases},</me>
@@ -116,7 +122,9 @@
   <!-- PAGE 3 -->
   <page>
     <paragraphs xml:id="checkpoint-graph-infinite-limits">
-      <title>Problem 3</title>
+      <p>
+        <term>Problem 3</term>
+      </p>
       <p>
         Next, let's examine the following problem and explore the interaction between infinite and one-sided limits a bit. Consider the function <m>f(x)</m> below. Find each limit.
       </p>
@@ -151,13 +159,15 @@
       <p>
         But what does it mean for a limit to be <fillin characters="10"/>?
       </p>
-      <p workspace="0.2in">
+      <p workspace="0.3in">
         We say that <m>\displaystyle \lim_{x \to a} f(x) = \pm \infty</m> if <m>f(x)</m> becomes arbitrarily <fillin characters="15"/> and <fillin characters="20"/> / <fillin characters="20"/> as <m>x</m> approaches <m>a</m>.
       </p>
     </paragraphs>
 
     <paragraphs xml:id="fact-infinite-limits">
-      <title>Infinite Limits</title>
+      <p>
+        <term>Infinite Limits</term>
+      </p>
       <p>
         But wait... <m>\infty</m> is not a <fillin characters="34"/>! Our definition says that a limit exists only if it's equal to <fillin characters="34"/>. That means we have an important distinction to make here:
       </p>
@@ -174,7 +184,9 @@
   <!-- PAGE 4 -->
   <page>
     <paragraphs xml:id="p-algebraic-infinite-limits">
-      <title>Finding Infinite Limits Algebraically</title>
+      <p>
+        <term>Finding Infinite Limits Algebraically</term>
+      </p>
       <p>
         We'll spend the rest of the day looking at how we can find limits of this type algebraically<mdash/>they're easy to recognize on a graph, but we want to be able to do both.
       </p>
@@ -219,7 +231,9 @@
   <!-- PAGE 5 -->
   <page>
     <paragraphs xml:id="p-big-idea-day-4">
-      <title>Big Idea of the Day</title>
+      <p>
+        <term>Big Idea of the Day</term>
+      </p>
       <p workspace="0.2in">
         Whenever
       </p>
@@ -231,13 +245,15 @@
           <p><em>or</em> you encounter a limit that you are <fillin characters="8"/> sure how to evaluate algebraically,</p>
         </li>
       </ol>
-      <p workspace="0.25in">
+      <p workspace="0.3in">
         then looking at the <fillin characters="24"/> limits at that point can be a very helpful strategy.
       </p>
     </paragraphs>
 
     <paragraphs xml:id="p-notation-warning-day-4">
-      <title>Notation Warning</title>
+      <p>
+        <term>Notation Warning</term>
+      </p>
       <ul>
         <li>
           <p>
