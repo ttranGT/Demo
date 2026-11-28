@@ -3,26 +3,28 @@
   <title>Day 1: Syllabus, Important Facts, and a Review of Functions</title>
 
   <introduction>
-  <p >
-  Welcome to Differential Calculus! Each day, we'll provide you with partially filled-in notes to complete during lecture. This ensures you don't miss key concepts and cuts down on writing so you can focus on following along.
-</p>
     <p>
-  You can print these notes to write on paper, or if you have a tablet, feel free to annotate them digitally. Completed lecture notes will also be posted after class. Please let us know if you have any constructive feedback on how we can make them better!
-</p>
+      Welcome to Differential Calculus! Each day, we'll provide you with partially filled-in notes to complete during lecture. This ensures you don't miss key concepts and cuts down on writing so you can focus on following along.
+    </p>
+    <p>
+      You can print these notes to write on paper, or if you have a tablet, feel free to annotate them digitally. Completed lecture notes will also be posted after class. Please let us know if you have any constructive feedback on how we can make them better!
+    </p>
     <p>
       Let's start with some basic facts about the course that you should know<mdash/>they'll help you as you have questions throughout the semester.
     </p>
   </introduction>
 
+  <!-- PAGE 1 -->
   <page>
     <paragraphs xml:id="p-math-in-community">
       <title>Math in Community</title>
-     <p >
+      <p workspace="stretch">
         One thing people often don't realize is that it can be really helpful to do math <em>in community</em>. We all bring valuable ideas and perspectives to the class! We want to actively practice appreciating each others' input this semester.
       </p>
     </paragraphs>
   </page>
 
+  <!-- PAGE 2 -->
   <page>
     <paragraphs xml:id="p-functions-domain-range">
       <title>Functions, Domain, and Range</title>
@@ -37,7 +39,7 @@
         A <em>function</em> <m>f</m> from a set <m>D</m> to a set <m>Y</m> is a rule that assigns a <fillin characters="8"/> element <m>f(x)</m> in <m>Y</m> to each element <m>x</m> in <m>D</m>.
       </p>
 
-      <sidebyside width="45%">
+      <sidebyside width="36%">
         <image source="pictures/pic1-2.png">
           <shortdescription>
             Arrow diagram of a function mapping four elements in set D to three elements in set Y, with two elements in D mapping to f(a) and x mapping to f(x).
@@ -64,7 +66,7 @@
         </li>
       </ul>
 
-      <sidebyside widths="30% 35%" valign="middle">
+      <sidebyside widths="25% 32%" valign="middle">
         <image source="pictures/sec11page1.png">
           <shortdescription>
             Mapping diagram illustrating a function as an input-output correspondence between two sets.
@@ -81,7 +83,7 @@
         </stack>
       </sidebyside>
 
-      <sidebyside widths="60%" valign="middle">
+      <sidebyside widths="48%" valign="middle">
         <image source="pictures/sec11page2.png">
           <shortdescription>
             Table of input and output values representing a function.
@@ -97,7 +99,7 @@
           <p>
             A curve is the graph of a function if no vertical line intersects it more than <fillin characters="12"/>.
           </p>
-          <sidebyside width="50%">
+          <sidebyside width="44%">
             <image source="pictures/pic3.png">
               <shortdescription>
                 Coordinate graphs comparing a curve intersected once by a vertical line against a curve intersected twice.
@@ -112,18 +114,17 @@
         </li>
       </ul>
     </paragraphs>
-
   </page>
 
+  <!-- PAGE 3 -->
   <page>
-
     <paragraphs xml:id="checkpoint-circle">
       <title>Checkpoint</title>
       <ol marker="a)">
-        <li workspace="0.75in">
+        <li workspace="0.65in">
           <p>How would you describe the circle algebraically?</p>
         </li>
-        <li workspace="0.75in">
+        <li workspace="0.65in">
           <p>How would you describe the upper half of the circle algebraically?</p>
         </li>
       </ol>
@@ -137,13 +138,11 @@
         </li>
         <li>
           <p>
-        A strategy for finding the <em>domain</em> of a function is to look for <fillin characters="14"/>!
-      </p>
+            A strategy for finding the <em>domain</em> of a function is to look for <fillin characters="14"/>!
+          </p>
         </li>
-       
       </ol>
-    
-  
+
       <p>Common ones include:</p>
       <ol>
         <li><p><fillin characters="60"/></p></li>
@@ -154,255 +153,245 @@
 
     <paragraphs xml:id="checkpoint-domain-functions">
       <title>Problem 1</title>
-      <p workspace="1in">
+      <p workspace="0.9in">
         Find the domains of <m>f(x)=\ln(x+1)</m> and <m>g(x) = \dfrac{1}{\sqrt{4-x^2}}</m>.
       </p>
     </paragraphs>
-  </page>
-
-  <page>
 
     <paragraphs xml:id="p-ranges-and-graphs">
       <title>Ranges and Graphs</title>
-
       <ol marker="i)">
         <li>
           <p>The <fillin characters="20"/> of a function is the set of its <fillin characters="15"/> <m>y</m> or <m>f(x)</m>.</p>
         </li>
         <li>
-         <p>
-        Ranges can be a little trickier. It helps to look at <fillin characters="15"/>, so knowing the common ones (polynomial, power, exponential, logarithmic, trigonometric, and absolute value functions) is helpful.
-      </p>
+          <p>
+            Ranges can be a little trickier. It helps to look at <fillin characters="15"/>, so knowing the common ones (polynomial, power, exponential, logarithmic, trigonometric, and absolute value functions) is helpful.
+          </p>
         </li>
-       
+      </ol>
+    </paragraphs>
+    <p workspace="stretch"/>
+  </page>
+
+  <!-- PAGE 4 -->
+  <page>
+    <paragraphs xml:id="checkpoint-match-graphs-p1">
+      <title>Problem 2</title>
+      <p>
+        Match each graph below with its corresponding function from the bank, and state its domain and range.
+      </p>
+
+      <ol marker="a)" cols="4">
+        <li><p><m>y=x^2</m></p></li>
+        <li><p><m>y=x^3</m></p></li>
+        <li><p><m>y=\sqrt{x}</m></p></li>
+        <li><p><m>y=\sin(x)</m></p></li>
+        <li><p><m>y=\cos(x)</m></p></li>
+        <li><p><m>y=e^x</m></p></li>
+        <li><p><m>y=\ln(x)</m></p></li>
+        <li><p><m>y=|x|</m></p></li>
       </ol>
 
-      
+      <sidebyside widths="46% 46%" margins="1% 1%">
+        <!-- Left Column: Graphs 1 & 2 -->
+        <stack>
+          <p>
+            <strong>Graph 1:</strong> <fillin characters="6"/><br/>
+            Domain: <fillin characters="14"/><br/>
+            Range: <fillin characters="14"/>
+          </p>
+          <image>
+            <shortdescription>
+              Graph of an upward-opening parabola with vertex at the origin (0,0) passing through (-1,1), (1,1), (-2,4), and (2,4).
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.42]
+                \draw[very thin, gray!30] (-3,-1) grid (3,4);
+                \draw[->, thick] (-3.3,0) -- (3.3,0) node[right, font=\scriptsize] {$x$};
+                \draw[->, thick] (0,-1.3) -- (0,4.4) node[above, font=\scriptsize] {$y$};
+                \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+                \foreach \y in {1,2,3,4} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+                \draw[very thick, blue!80!black, domain=-2:2, samples=60] plot (\x, {\x*\x});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+
+          <p>
+            <strong>Graph 2:</strong> <fillin characters="6"/><br/>
+            Domain: <fillin characters="14"/><br/>
+            Range: <fillin characters="14"/>
+          </p>
+          <image>
+            <shortdescription>
+              Graph of a smooth periodic wave passing through the origin (0,0), peaking at (pi/2, 1), crossing zero at (pi, 0), and reaching a minimum at (-pi/2, -1).
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.42]
+                \draw[very thin, gray!30] (-3.5,-1.5) grid (3.5,1.5);
+                \draw[->, thick] (-3.8,0) -- (3.8,0) node[right, font=\scriptsize] {$x$};
+                \draw[->, thick] (0,-1.9) -- (0,1.9) node[above, font=\scriptsize] {$y$};
+                \draw (1.57,0.12) -- (1.57,-0.12) node[below, font=\tiny] {$\frac{\pi}{2}$};
+                \draw (3.14,0.12) -- (3.14,-0.12) node[below, font=\tiny] {$\pi$};
+                \draw (-1.57,0.12) -- (-1.57,-0.12) node[below, font=\tiny] {$-\frac{\pi}{2}$};
+                \draw (-3.14,0.12) -- (-3.14,-0.12) node[below, font=\tiny] {$-\pi$};
+                \foreach \y in {-1,1} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+                \draw[very thick, blue!80!black, domain=-3.5:3.5, samples=80] plot (\x, {sin(\x r)});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </stack>
+
+        <!-- Right Column: Graphs 5 & 8 -->
+        <stack>
+          <p>
+            <strong>Graph 5:</strong> <fillin characters="6"/><br/>
+            Domain: <fillin characters="14"/><br/>
+            Range: <fillin characters="14"/>
+          </p>
+          <image>
+            <shortdescription>
+              Graph of an increasing exponential curve staying entirely above the x-axis, passing through (0,1) and (1,e), with a horizontal asymptote along the negative x-axis.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.42]
+                \draw[very thin, gray!30] (-3,-1) grid (2,4);
+                \draw[->, thick] (-3.3,0) -- (2.4,0) node[right, font=\scriptsize] {$x$};
+                \draw[->, thick] (0,-1.3) -- (0,4.4) node[above, font=\scriptsize] {$y$};
+                \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+                \foreach \y in {1,2,3,4} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+                \draw[very thick, blue!80!black, domain=-3:1.4, samples=80] plot (\x, {exp(\x)});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+
+          <p>
+            <strong>Graph 8:</strong> <fillin characters="6"/><br/>
+            Domain: <fillin characters="14"/><br/>
+            Range: <fillin characters="14"/>
+          </p>
+          <image>
+            <shortdescription>
+              Graph of an S-shaped cubic curve passing through (-1,-1), the origin (0,0) with a horizontal inflection point, and (1,1), decreasing into quadrant three and increasing into quadrant one.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.42]
+                \draw[very thin, gray!30] (-2,-2.5) grid (2,2.5);
+                \draw[->, thick] (-2.3,0) -- (2.3,0) node[right, font=\scriptsize] {$x$};
+                \draw[->, thick] (0,-2.8) -- (0,2.8) node[above, font=\scriptsize] {$y$};
+                \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+                \foreach \y in {-2,-1,1,2} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+                \draw[very thick, blue!80!black, domain=-1.36:1.36, samples=80] plot (\x, {\x*\x*\x});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </stack>
+      </sidebyside>
     </paragraphs>
+    <p workspace="stretch"/>
+  </page>
 
-   </page>
-   <page>
-  <paragraphs xml:id="checkpoint-match-graphs-p1">
-    <title>Problem 2</title>
-    <p>
-      Match each graph below with its corresponding function from the bank, and state its domain and range.
-    </p>
-
-    <ol marker="a)" cols="4">
-      <li><p><m>y=x^2</m></p></li>
-      <li><p><m>y=x^3</m></p></li>
-      <li><p><m>y=\sqrt{x}</m></p></li>
-      <li><p><m>y=\sin(x)</m></p></li>
-      <li><p><m>y=\cos(x)</m></p></li>
-      <li><p><m>y=e^x</m></p></li>
-      <li><p><m>y=\ln(x)</m></p></li>
-      <li><p><m>y=|x|</m></p></li>
-    </ol>
-
-    <sidebyside widths="47% 47%" margins="1% 1%">
-      <!-- Left Column: Graphs 1 & 2 -->
-      <stack>
-        <p>
-          <strong>Graph 1:</strong> <fillin characters="6"/><br/>
-          Domain: <fillin characters="14"/><br/>
-          Range: <fillin characters="14"/>
-        </p>
-        <image>
-          <shortdescription>
-            Graph of an upward-opening parabola with vertex at the origin (0,0) passing through (-1,1), (1,1), (-2,4), and (2,4).
-          </shortdescription>
-          <latex-image>
-            \begin{tikzpicture}[scale=0.5]
-              \draw[very thin, gray!30] (-3,-1) grid (3,4);
-              \draw[->, thick] (-3.3,0) -- (3.3,0) node[right, font=\scriptsize] {$x$};
-              \draw[->, thick] (0,-1.3) -- (0,4.4) node[above, font=\scriptsize] {$y$};
-              \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
-              \foreach \y in {1,2,3,4} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
-              \draw[very thick, blue!80!black, domain=-2:2, samples=60] plot (\x, {\x*\x});
-            \end{tikzpicture}
-          </latex-image>
-        </image>
-
-        <p>
-          <strong>Graph 2:</strong> <fillin characters="6"/><br/>
-          Domain: <fillin characters="14"/><br/>
-          Range: <fillin characters="14"/>
-        </p>
-        <image>
-          <shortdescription>
-            Graph of a smooth periodic wave passing through the origin (0,0), peaking at (pi/2, 1), crossing zero at (pi, 0), and reaching a minimum at (-pi/2, -1).
-          </shortdescription>
-          <latex-image>
-            \begin{tikzpicture}[scale=0.5]
-              \draw[very thin, gray!30] (-3.5,-1.5) grid (3.5,1.5);
-              \draw[->, thick] (-3.8,0) -- (3.8,0) node[right, font=\scriptsize] {$x$};
-              \draw[->, thick] (0,-1.9) -- (0,1.9) node[above, font=\scriptsize] {$y$};
-              \draw (1.57,0.12) -- (1.57,-0.12) node[below, font=\tiny] {$\frac{\pi}{2}$};
-              \draw (3.14,0.12) -- (3.14,-0.12) node[below, font=\tiny] {$\pi$};
-              \draw (-1.57,0.12) -- (-1.57,-0.12) node[below, font=\tiny] {$-\frac{\pi}{2}$};
-              \draw (-3.14,0.12) -- (-3.14,-0.12) node[below, font=\tiny] {$-\pi$};
-              \foreach \y in {-1,1} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
-              \draw[very thick, blue!80!black, domain=-3.5:3.5, samples=80] plot (\x, {sin(\x r)});
-            \end{tikzpicture}
-          </latex-image>
-        </image>
-      </stack>
-
-      <!-- Right Column: Graphs 3 & 4 -->
-      <stack>
-        <p>
-          <strong>Graph 3:</strong> <fillin characters="6"/><br/>
-          Domain: <fillin characters="14"/><br/>
-          Range: <fillin characters="14"/>
-        </p>
-        <image>
-          <shortdescription>
-            Graph of an increasing curve staying entirely to the right of the y-axis, passing through (1,0) and (e,1), with a vertical asymptote along the negative y-axis.
-          </shortdescription>
-          <latex-image>
-            \begin{tikzpicture}[scale=0.5]
-              \draw[very thin, gray!30] (-1,-3) grid (4,2);
-              \draw[->, thick] (-1.3,0) -- (4.4,0) node[right, font=\scriptsize] {$x$};
-              \draw[->, thick] (0,-3.3) -- (0,2.4) node[above, font=\scriptsize] {$y$};
-              \foreach \x in {1,2,3,4} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
-              \foreach \y in {-2,-1,1,2} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
-              \draw[very thick, blue!80!black, domain=0.06:4, samples=80] plot (\x, {ln(\x)});
-            \end{tikzpicture}
-          </latex-image>
-        </image>
-
-        <p>
-          <strong>Graph 4:</strong> <fillin characters="6"/><br/>
-          Domain: <fillin characters="14"/><br/>
-          Range: <fillin characters="14"/>
-        </p>
-        <image>
-          <shortdescription>
-            Graph of a V-shaped curve with a sharp corner at the origin (0,0), consisting of two rays of slope -1 for negative x and slope 1 for positive x.
-          </shortdescription>
-          <latex-image>
-            \begin{tikzpicture}[scale=0.5]
-              \draw[very thin, gray!30] (-3,-1) grid (3,4);
-              \draw[->, thick] (-3.3,0) -- (3.3,0) node[right, font=\scriptsize] {$x$};
-              \draw[->, thick] (0,-1.3) -- (0,4.4) node[above, font=\scriptsize] {$y$};
-              \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
-              \foreach \y in {1,2,3,4} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
-              \draw[very thick, blue!80!black, domain=-3:3, samples=60] plot (\x, {abs(\x)});
-            \end{tikzpicture}
-          </latex-image>
-        </image>
-      </stack>
-    </sidebyside>
-  </paragraphs>
-</page>
-
-<page>
-  <paragraphs xml:id="checkpoint-match-graphs-p2">
-    <title>Problem 2 (continued)</title>
-
-    <sidebyside widths="47% 47%" margins="1% 1%">
-      <!-- Left Column: Graphs 5 & 6 -->
-      <stack>
-        <p>
-          <strong>Graph 5:</strong> <fillin characters="6"/><br/>
-          Domain: <fillin characters="14"/><br/>
-          Range: <fillin characters="14"/>
-        </p>
-        <image>
-          <shortdescription>
-            Graph of an increasing exponential curve staying entirely above the x-axis, passing through (0,1) and (1,e), with a horizontal asymptote along the negative x-axis.
-          </shortdescription>
-          <latex-image>
-            \begin{tikzpicture}[scale=0.5]
-              \draw[very thin, gray!30] (-3,-1) grid (2,4);
-              \draw[->, thick] (-3.3,0) -- (2.4,0) node[right, font=\scriptsize] {$x$};
-              \draw[->, thick] (0,-1.3) -- (0,4.4) node[above, font=\scriptsize] {$y$};
-              \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
-              \foreach \y in {1,2,3,4} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
-              \draw[very thick, blue!80!black, domain=-3:1.4, samples=80] plot (\x, {exp(\x)});
-            \end{tikzpicture}
-          </latex-image>
-        </image>
-
-        <p>
-          <strong>Graph 6:</strong> <fillin characters="6"/><br/>
-          Domain: <fillin characters="14"/><br/>
-          Range: <fillin characters="14"/>
-        </p>
-        <image>
-          <shortdescription>
-            Graph of a smooth periodic wave peaking at (0,1), crossing zero at (-pi/2, 0) and (pi/2, 0), and reaching a minimum at (-pi, -1) and (pi, -1).
-          </shortdescription>
-          <latex-image>
-            \begin{tikzpicture}[scale=0.5]
-              \draw[very thin, gray!30] (-3.5,-1.5) grid (3.5,1.5);
-              \draw[->, thick] (-3.8,0) -- (3.8,0) node[right, font=\scriptsize] {$x$};
-              \draw[->, thick] (0,-1.9) -- (0,1.9) node[above, font=\scriptsize] {$y$};
-              \draw (1.57,0.12) -- (1.57,-0.12) node[below, font=\tiny] {$\frac{\pi}{2}$};
-              \draw (3.14,0.12) -- (3.14,-0.12) node[below, font=\tiny] {$\pi$};
-              \draw (-1.57,0.12) -- (-1.57,-0.12) node[below, font=\tiny] {$-\frac{\pi}{2}$};
-              \draw (-3.14,0.12) -- (-3.14,-0.12) node[below, font=\tiny] {$-\pi$};
-              \foreach \y in {-1,1} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
-              \draw[very thick, blue!80!black, domain=-3.5:3.5, samples=80] plot (\x, {cos(\x r)});
-            \end{tikzpicture}
-          </latex-image>
-        </image>
-      </stack>
-
-      <!-- Right Column: Graphs 7 & 8 -->
-      <stack>
-        <p>
-          <strong>Graph 7:</strong> <fillin characters="6"/><br/>
-          Domain: <fillin characters="14"/><br/>
-          Range: <fillin characters="14"/>
-        </p>
-        <image>
-          <shortdescription>
-            Graph of a concave-down increasing curve starting at a solid endpoint at the origin (0,0) and passing through (1,1) and (4,2) in the first quadrant.
-          </shortdescription>
-          <latex-image>
-            \begin{tikzpicture}[scale=0.5]
-              \draw[very thin, gray!30] (-1,-1) grid (5,3);
-              \draw[->, thick] (-1.3,0) -- (5.4,0) node[right, font=\scriptsize] {$x$};
-              \draw[->, thick] (0,-1.3) -- (0,3.4) node[above, font=\scriptsize] {$y$};
-              \foreach \x in {1,2,3,4,5} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
-              \foreach \y in {1,2,3} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
-              \draw[very thick, blue!80!black, domain=0:5, samples=80] plot (\x, {sqrt(\x)});
-              \fill[blue!80!black] (0,0) circle (3pt);
-            \end{tikzpicture}
-          </latex-image>
-        </image>
-
-        <p>
-          <strong>Graph 8:</strong> <fillin characters="6"/><br/>
-          Domain: <fillin characters="14"/><br/>
-          Range: <fillin characters="14"/>
-        </p>
-        <image>
-          <shortdescription>
-            Graph of an S-shaped cubic curve passing through (-1,-1), the origin (0,0) with a horizontal inflection point, and (1,1), decreasing into quadrant three and increasing into quadrant one.
-          </shortdescription>
-          <latex-image>
-            \begin{tikzpicture}[scale=0.5]
-              \draw[very thin, gray!30] (-2,-2.5) grid (2,2.5);
-              \draw[->, thick] (-2.3,0) -- (2.3,0) node[right, font=\scriptsize] {$x$};
-              \draw[->, thick] (0,-2.8) -- (0,2.8) node[above, font=\scriptsize] {$y$};
-              \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
-              \foreach \y in {-2,-1,1,2} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
-              \draw[very thick, blue!80!black, domain=-1.36:1.36, samples=80] plot (\x, {\x*\x*\x});
-            \end{tikzpicture}
-          </latex-image>
-        </image>
-      </stack>
-    </sidebyside>
-  </paragraphs>
-<p workspace="stretch"/>
-</page>
-
-
-
+  <!-- PAGE 5 -->
   <page>
+    <paragraphs xml:id="checkpoint-match-graphs-p2">
+      <title>Problem 2 (continued)</title>
 
+      <sidebyside widths="46% 46%" margins="1% 1%">
+        <!-- Left Column: Graphs 3 & 6 -->
+        <stack>
+          <p>
+            <strong>Graph 3:</strong> <fillin characters="6"/><br/>
+            Domain: <fillin characters="14"/><br/>
+            Range: <fillin characters="14"/>
+          </p>
+          <image>
+            <shortdescription>
+              Graph of an increasing curve staying entirely to the right of the y-axis, passing through (1,0) and (e,1), with a vertical asymptote along the negative y-axis.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.38]
+                \draw[very thin, gray!30] (-1,-3) grid (4,2);
+                \draw[->, thick] (-1.3,0) -- (4.4,0) node[right, font=\scriptsize] {$x$};
+                \draw[->, thick] (0,-3.3) -- (0,2.4) node[above, font=\scriptsize] {$y$};
+                \foreach \x in {1,2,3,4} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+                \foreach \y in {-2,-1,1,2} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+                \draw[very thick, blue!80!black, domain=0.06:4, samples=80] plot (\x, {ln(\x)});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+
+          <p>
+            <strong>Graph 6:</strong> <fillin characters="6"/><br/>
+            Domain: <fillin characters="14"/><br/>
+            Range: <fillin characters="14"/>
+          </p>
+          <image>
+            <shortdescription>
+              Graph of a smooth periodic wave peaking at (0,1), crossing zero at (-pi/2, 0) and (pi/2, 0), and reaching a minimum at (-pi, -1) and (pi, -1).
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.38]
+                \draw[very thin, gray!30] (-3.5,-1.5) grid (3.5,1.5);
+                \draw[->, thick] (-3.8,0) -- (3.8,0) node[right, font=\scriptsize] {$x$};
+                \draw[->, thick] (0,-1.9) -- (0,1.9) node[above, font=\scriptsize] {$y$};
+                \draw (1.57,0.12) -- (1.57,-0.12) node[below, font=\tiny] {$\frac{\pi}{2}$};
+                \draw (3.14,0.12) -- (3.14,-0.12) node[below, font=\tiny] {$\pi$};
+                \draw (-1.57,0.12) -- (-1.57,-0.12) node[below, font=\tiny] {$-\frac{\pi}{2}$};
+                \draw (-3.14,0.12) -- (-3.14,-0.12) node[below, font=\tiny] {$-\pi$};
+                \foreach \y in {-1,1} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+                \draw[very thick, blue!80!black, domain=-3.5:3.5, samples=80] plot (\x, {cos(\x r)});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </stack>
+
+        <!-- Right Column: Graphs 4 & 7 -->
+        <stack>
+          <p>
+            <strong>Graph 4:</strong> <fillin characters="6"/><br/>
+            Domain: <fillin characters="14"/><br/>
+            Range: <fillin characters="14"/>
+          </p>
+          <image>
+            <shortdescription>
+              Graph of a V-shaped curve with a sharp corner at the origin (0,0), consisting of two rays of slope -1 for negative x and slope 1 for positive x.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.38]
+                \draw[very thin, gray!30] (-3,-1) grid (3,4);
+                \draw[->, thick] (-3.3,0) -- (3.3,0) node[right, font=\scriptsize] {$x$};
+                \draw[->, thick] (0,-1.3) -- (0,4.4) node[above, font=\scriptsize] {$y$};
+                \foreach \x in {-2,-1,1,2} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+                \foreach \y in {1,2,3,4} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+                \draw[very thick, blue!80!black, domain=-3:3, samples=60] plot (\x, {abs(\x)});
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+
+          <p>
+            <strong>Graph 7:</strong> <fillin characters="6"/><br/>
+            Domain: <fillin characters="14"/><br/>
+            Range: <fillin characters="14"/>
+          </p>
+          <image>
+            <shortdescription>
+              Graph of a concave-down increasing curve starting at a solid endpoint at the origin (0,0) and passing through (1,1) and (4,2) in the first quadrant.
+            </shortdescription>
+            <latex-image>
+              \begin{tikzpicture}[scale=0.38]
+                \draw[very thin, gray!30] (-1,-1) grid (5,3);
+                \draw[->, thick] (-1.3,0) -- (5.4,0) node[right, font=\scriptsize] {$x$};
+                \draw[->, thick] (0,-1.3) -- (0,3.4) node[above, font=\scriptsize] {$y$};
+                \foreach \x in {1,2,3,4,5} \draw (\x,0.12) -- (\x,-0.12) node[below, font=\tiny] {$\x$};
+                \foreach \y in {1,2,3} \draw (0.12,\y) -- (-0.12,\y) node[left, font=\tiny] {$\y$};
+                \draw[very thick, blue!80!black, domain=0:5, samples=80] plot (\x, {sqrt(\x)});
+                \fill[blue!80!black] (0,0) circle (3pt);
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+        </stack>
+      </sidebyside>
+    </paragraphs>
 
     <paragraphs xml:id="checkpoint-sketch-piecewise">
       <title>Problem 3</title>
@@ -422,7 +411,7 @@
             Blank Cartesian coordinate grid with x-axis from -4 to 5 and y-axis from -4 to 3, labeled with integer tick marks.
           </shortdescription>
           <latex-image>
-            \begin{tikzpicture}[scale=0.65]
+            \begin{tikzpicture}[scale=0.5]
               \draw[very thin, gray!35] (-4,-4) grid (5,3);
               \draw[->, thick] (-4.3,0) -- (5.4,0) node[right] {$x$};
               \draw[->, thick] (0,-4.3) -- (0,3.4) node[above] {$y$};
@@ -435,8 +424,10 @@
         </image>
       </sidebyside>
     </paragraphs>
+    <p workspace="stretch"/>
   </page>
 
+  <!-- PAGE 6 -->
   <page>
     <paragraphs xml:id="p-function-transformations">
       <title>(Self-Review) Function Transformations</title>
@@ -517,8 +508,10 @@
         </ol>
       </sidebyside>
     </paragraphs>
+    <p workspace="stretch"/>
   </page>
 
+  <!-- PAGE 7 -->
   <page>
     <paragraphs xml:id="p-function-composition">
       <title>Function Composition</title>
